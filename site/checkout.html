@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement Sécurisé & Livraison Immédiate - AUTO-INCOME AI</title>
+    <style>
+        :root {
+            --bg: #090d16;
+            --surface: #111827;
+            --surface-hover: #1f2937;
+            --border: #334155;
+            --primary: #f0b90b; /* Binance Gold */
+            --primary-dark: #d9a406;
+            --accent: #10b981;
+            --text: #f9fafb;
+            --text-muted: #9ca3af;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            max-width: 520px;
+            width: 100%;
+            padding: 32px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .badge {
+            background: rgba(240, 185, 11, 0.15);
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 1.4rem;
+            color: var(--text);
+            margin-bottom: 6px;
+        }
+        p.subtitle {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .order-summary {
+            background: #090d16;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 24px;
+        }
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        .summary-row:last-child {
+            margin-bottom: 0;
+            font-weight: 700;
+            font-size: 1.05rem;
+            border-top: 1px solid var(--border);
+            padding-top: 8px;
+            color: var(--primary);
+        }
+        .payment-box {
+            background: rgba(240, 185, 11, 0.05);
+            border: 2px dashed var(--primary);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .payment-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+        .binance-uid {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: 2px;
+            font-family: monospace;
+            margin: 4px 0 12px;
+            user-select: all;
+        }
+        .btn-copy {
+            background: var(--primary);
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-copy:hover {
+            background: var(--primary-dark);
+        }
+        .steps {
+            background: #090d16;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 24px;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+        .steps ol {
+            padding-left: 20px;
+            color: var(--text-muted);
+        }
+        .steps ol li {
+            margin-bottom: 6px;
+        }
+        .steps strong {
+            color: var(--text);
+        }
+        .contact-seller {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+            padding-top: 16px;
+        }
+        .contact-seller a {
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="badge">PAIEMENT SÉCURISÉ EN 1 CLIC</span>
+            <h1>Règlement via Binance Pay</h1>
+            <p class="subtitle">0% de frais intermédiaires • Validation instantanée</p>
+        </div>
+
+        <div class="order-summary">
+            <div class="summary-row">
+                <span>Vendeur certifié :</span>
+                <span><strong>Jean</strong></span>
+            </div>
+            <div class="summary-row">
+                <span>Contact direct :</span>
+                <span>compte.amidy001@gmail.com</span>
+            </div>
+            <div class="summary-row">
+                <span>Mode de transfert :</span>
+                <span>Binance Pay (Sans commission)</span>
+            </div>
+            <div class="summary-row">
+                <span>Statut :</span>
+                <span>Actif Prêt à la Livraison</span>
+            </div>
+        </div>
+
+        <div class="payment-box">
+            <div class="payment-label">Identifiant Binance UID du Vendeur :</div>
+            <div class="binance-uid" id="uidDisplay">254779310</div>
+            <button class="btn-copy" onclick="copyUID()">📋 Copier le Binance UID</button>
+        </div>
+
+        <div class="steps">
+            <strong>Procédure de paiement :</strong>
+            <ol>
+                <li>Ouvrez votre application <strong>Binance</strong> sur mobile ou PC.</li>
+                <li>Cliquez sur l'icône <strong>Pay</strong> (ou <em>Envoyer</em>).</li>
+                <li>Sélectionnez <strong>Envoyer via Pay ID / Binance UID</strong>.</li>
+                <li>Collez l'UID : <strong>254779310</strong> et confirmez le montant.</li>
+                <li>Votre commande sera validée immédiatement par Jean.</li>
+            </ol>
+        </div>
+
+        <div class="contact-seller">
+            Besoin d'assistance ou confirmation de paiement ?<br>
+            Écrivez directement à : <a href="mailto:compte.amidy001@gmail.com?subject=Confirmation%20Paiement%20Binance%20UID%20254779310">compte.amidy001@gmail.com</a>
+        </div>
+    </div>
+
+    <script>
+        function copyUID() {
+            navigator.clipboard.writeText("254779310");
+            alert("Binance UID (254779310) copié dans le presse-papiers !");
+        }
+    </script>
+</body>
+</html>

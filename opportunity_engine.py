@@ -218,8 +218,8 @@ class OpportunityEngine:
                     feed_items = self.fetch_rss_feed(src)
                     raw_items.extend(feed_items)
 
-        # If offline or low online items, seamlessly incorporate baseline demo opportunities
-        if len(raw_items) < 3 or force_simulation or self.config.get("execution", {}).get("allow_offline_fallback", True):
+        # Mode simulation / fallback : UNIQUEMENT si explicitement activé
+        if force_simulation or (self.config.get("execution", {}).get("allow_offline_fallback", False) and len(raw_items) < 2):
             for demo_opp in self.DEMO_DATASET:
                 raw_items.append(dict(demo_opp))
 

@@ -82,8 +82,9 @@ class ReportGenerator:
                 <div class="cashout-box">
                     <strong>🇲🇬 Encaissement Mada :</strong> {mon.get('local_cashout', 'P2P / Virement international')}
                 </div>
-                <div class="action-row">
-                    <a href="{d.get('relative_path')}" class="btn-primary" target="_blank">Consulter l'Actif</a>
+                <div class="action-row" style="display:flex; gap:8px; margin-top:12px;">
+                    <a href="{d.get('relative_path')}" class="btn-primary" style="flex:1; background:#1e293b; border:1px solid #334155; text-align:center;" target="_blank">📄 Voir Actif</a>
+                    <a href="checkout.html" class="btn-primary" style="flex:1.2; background:#f0b90b; color:#000; font-weight:700; text-align:center;" target="_blank">⚡ Payer Binance</a>
                 </div>
             </div>
             """
@@ -299,9 +300,12 @@ class ReportGenerator:
     <header>
         <div class="header-title">
             <h1>🤖 AUTO-INCOME AI</h1>
-            <span class="status-badge">● SYSTÈME AUTONOME ACTIF</span>
+            <span class="status-badge">● SYSTÈME AUTONOME ACTIF (MODE RÉEL)</span>
         </div>
-        <div style="font-size: 0.8rem; color: var(--text-muted);">
+        <div style="font-size: 0.85rem; color: #f0b90b; background: rgba(240, 185, 11, 0.1); padding: 6px 12px; border-radius: 8px; border: 1px solid rgba(240, 185, 11, 0.3); margin-top: 8px;">
+            👤 Vendeur : <strong>Jean</strong> | 📧 <strong>compte.amidy001@gmail.com</strong> | ⚡ Binance Pay UID : <strong>254779310</strong>
+        </div>
+        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 6px;">
             Dernière mise à jour : <strong>{stats.get('updated_at', '')}</strong>
         </div>
     </header>

@@ -142,9 +142,12 @@ Il a été conçu pour résoudre un problème opérationnel direct : **{opp.get(
 
 ---
 
-## 💰 5. Instructions de Vente pour l'Acheteur
-Vous détenez les droits d'usage personnel et commercial de ce guide.  
-Pour toute question ou demande de personnalisation, contactez le support via notre page officielle.
+## 💰 5. Instructions de Vente & Règlement
+- **Vendeur officiel** : Jean
+- **Email de contact / support** : compte.amidy001@gmail.com
+- **Règlement direct 0 frais** : **Binance Pay (UID : 254779310)**
+- **Encaissement à Madagascar** : Conversion P2P directe vers MVola ou Orange Money.
+- Vous détenez les droits d'usage personnel et commercial de ce guide.
 """
         return content, "md"
 
@@ -430,7 +433,7 @@ Votre Partenaire Automatisation
         </div>
 
         <div class="monetization-badge">
-            ☕ Vous aimez cet outil ? <a href="https://ko-fi.com" target="_blank">Soutenez le projet sur Ko-fi</a> ou découvrez nos guides premium.
+            ⚡ <strong>Paiement direct & Soutien :</strong> Binance Pay UID : <code>254779310</code> | Contact : <a href="mailto:compte.amidy001@gmail.com">compte.amidy001@gmail.com</a>
         </div>
     </div>
 

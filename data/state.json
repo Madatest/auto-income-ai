@@ -1,195 +1,58 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 2,
-    "total_opportunities": 11,
-    "total_deliverables": 2,
+    "total_executions": 3,
+    "total_opportunities": 6,
+    "total_deliverables": 1,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 55.0,
+    "projected_pipeline_usd": 12.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 2,
-      "timestamp": "2026-10-10T15:00:44.653689+00:00",
+      "id": 3,
+      "timestamp": "2026-10-10T15:15:24.543543+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 5,
+      "opportunities_found": 0,
       "deliverables_created": 1,
-      "duration_seconds": 5.36,
-      "notes": "Selected 'Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection'"
+      "duration_seconds": 5.89,
+      "notes": "Selected 'As the year wraps up: what’s the project you’re most proud of building and why?'"
     },
-    "updated_at": "2026-10-10T15:00:44.660725+00:00"
+    "updated_at": "2026-10-10T15:15:24.551131+00:00"
   },
   "recent_deliverables": [
     {
-      "id": 2,
-      "opportunity_hash": "2945ebb8c2ed8c3d150883b7273133010b55e5731258dcf76349aa85da4ba0b6",
-      "category": "b2b_prospects",
-      "title": "Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection",
-      "file_path": "site/deliverables/20261010_150044_base_qualifiée_b2b_100_agences_web_e_commerces_fra.csv",
-      "relative_path": "deliverables/20261010_150044_base_qualifiée_b2b_100_agences_web_e_commerces_fra.csv",
-      "monetization_channel": "comeup",
-      "price_usd": 30.0,
+      "id": 3,
+      "opportunity_hash": "f1a7eab810f466f384d2471a8e3debfd4a00ac7f02e2a09d64512ae212c61985",
+      "category": "digital_product",
+      "title": "As the year wraps up: what’s the project you’re most proud of building and why?",
+      "file_path": "site/deliverables/20261010_151524_as_the_year_wraps_up_whats_the_project_youre_most_.md",
+      "relative_path": "deliverables/20261010_151524_as_the_year_wraps_up_whats_the_project_youre_most_.md",
+      "monetization_channel": "binance_pay",
+      "price_usd": 12.0,
       "quality_score": 100.0,
       "metadata": {
         "qa_notes": "Volume textuel optimal",
         "monetization": {
-          "category": "b2b_prospects",
-          "target_client": "Startups et agences commerciales recherchant des leads B2B ciblés",
-          "acquisition_channel": "Offre directe aux agences de prospection ou freelances",
-          "delivery_process": "Fichier CSV / Excel nettoyé contenant données publiques conformes",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 30.0,
-          "fee_usd": 6.0,
-          "net_revenue_usd": 24.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
+          "category": "digital_product",
+          "target_client": "Professionnels indépendants, créateurs et étudiants internationaux",
+          "acquisition_channel": "GitHub Pages, réseaux sociaux professionnels, forums thématiques",
+          "delivery_process": "Téléchargement immédiat sécurisé après confirmation de paiement",
+          "recommended_channel": "binance_pay",
+          "channel_name": "Binance Pay Direct (UID : 254779310)",
+          "price_usd": 12.0,
+          "fee_usd": 0.0,
+          "net_revenue_usd": 12.0,
+          "madagascar_readiness_score": 20.0,
+          "local_cashout": "Conversion P2P directe vers MVola ou Orange Money à Madagascar en 5 minutes",
+          "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)",
+          "payout_delay_days": 0
         },
-        "file_size_bytes": 2191,
-        "extension": "csv"
-      },
-      "created_at": "2026-10-10T15:00:44.638259+00:00"
-    },
-    {
-      "id": 1,
-      "opportunity_hash": "5573ea143401962f2e99f83f9173b3ff47f8a91e5b7f47243e43d064d8a4ad83",
-      "category": "microservice_gig",
-      "title": "Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook",
-      "file_path": "site/deliverables/20261010_150025_service_clé_en_main_configuration_de_bot_messenger.md",
-      "relative_path": "deliverables/20261010_150025_service_clé_en_main_configuration_de_bot_messenger.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 1974,
+        "file_size_bytes": 2314,
         "extension": "md"
       },
-      "created_at": "2026-10-10T15:00:25.465427+00:00"
+      "created_at": "2026-10-10T15:15:24.528238+00:00"
     }
   ],
   "top_opportunities": [
-    {
-      "id": 8,
-      "hash": "5573ea143401962f2e99f83f9173b3ff47f8a91e5b7f47243e43d064d8a4ad83",
-      "title": "Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook",
-      "category": "microservice_gig",
-      "description": "Offre prête à l'emploi pour boutiques en ligne : configuration d'assistant automatique pour réponses instantanées et commandes.",
-      "source_id": "demo_freelance_gigs",
-      "source_url": "https://comeup.com/categories/marketing",
-      "score": 96.0,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 19.0,
-        "technical_feasibility": 13.0,
-        "madagascar_payment_readiness": 19.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 1,
-      "created_at": "2026-10-10T15:00:25.438677+00:00"
-    },
-    {
-      "id": 10,
-      "hash": "2945ebb8c2ed8c3d150883b7273133010b55e5731258dcf76349aa85da4ba0b6",
-      "title": "Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection",
-      "category": "b2b_prospects",
-      "description": "Données publiques d'entreprises cibles (site, activité, email de contact public) avec proposition personnalisée sans spam.",
-      "source_id": "demo_b2b_leads",
-      "source_url": "https://www.societe.com",
-      "score": 94.5,
-      "score_breakdown": {
-        "observable_demand": 24.5,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 18.0,
-        "technical_feasibility": 13.0,
-        "madagascar_payment_readiness": 19.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 1,
-      "created_at": "2026-10-10T15:00:25.449645+00:00"
-    },
-    {
-      "id": 7,
-      "hash": "d1f4b823e18a0d0731978069960e1bfd89a79ff635e1a8723353c91df33e6a34",
-      "title": "Modèle Excel & Guide Pratique : Suivi de Trésorerie pour Freelances & PME",
-      "category": "digital_product",
-      "description": "Fichier Excel/Sheets automatisé pour le suivi des entrées/sorties et prévisionnel financier, prêt à la vente sur Gumroad/Ko-fi.",
-      "source_id": "demo_digital_products",
-      "source_url": "https://gumroad.com/discover/finance",
-      "score": 91.5,
-      "score_breakdown": {
-        "observable_demand": 23.5,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 18.0,
-        "technical_feasibility": 14.0,
-        "madagascar_payment_readiness": 16.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 1,
-      "created_at": "2026-10-10T15:00:25.433707+00:00"
-    },
-    {
-      "id": 9,
-      "hash": "1a4e16916c4c01e45afa1c09b7c93021ffbd96f6fbaf1c393dc3bbd71528fbcb",
-      "title": "Guide SEO & Article Pilier : Top 7 Outils Gratuits d'Automatisation en 2026",
-      "category": "seo_content",
-      "description": "Article approfondi à fort potentiel de trafic de recherche et affiliation logicielle, structuré avec balises H2/H3 et CTA.",
-      "source_id": "demo_content_marketing",
-      "source_url": "https://trends.google.com",
-      "score": 89.5,
-      "score_breakdown": {
-        "observable_demand": 21.5,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 15.0,
-        "technical_feasibility": 14.0,
-        "madagascar_payment_readiness": 19.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 1,
-      "created_at": "2026-10-10T15:00:25.444215+00:00"
-    },
-    {
-      "id": 11,
-      "hash": "da424996d7f4cba6d5239291dbe6232c74e4232b846650cc9e10f831b7f06b53",
-      "title": "Micro-Outil Web : Simulateur de Taux Horaire et Marges Freelance Autonome",
-      "category": "micro_tool",
-      "description": "Mini-application interactive HTML/JS autonome hébergeable sur GitHub Pages avec bouton de don Ko-fi et pack payant.",
-      "source_id": "demo_micro_tools",
-      "source_url": "https://news.ycombinator.com/showrss",
-      "score": 88.5,
-      "score_breakdown": {
-        "observable_demand": 22.5,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 16.0,
-        "technical_feasibility": 12.0,
-        "madagascar_payment_readiness": 18.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 1,
-      "created_at": "2026-10-10T15:00:25.454783+00:00"
-    },
     {
       "id": 6,
       "hash": "f3656640a5eb7b4cca3e73603c13a78466227edf89cff6f6f81b419f2cbc5ecb",
@@ -294,7 +157,28 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-10T15:00:25.393140+00:00"
+    },
+    {
+      "id": 1,
+      "hash": "f1a7eab810f466f384d2471a8e3debfd4a00ac7f02e2a09d64512ae212c61985",
+      "title": "As the year wraps up: what’s the project you’re most proud of building and why?",
+      "category": "digital_product",
+      "description": "Opportunité issue d'un flux public temps réel.",
+      "source_id": "reddit_sideproject",
+      "source_url": "https://www.reddit.com/r/SideProject/comments/1ppr6gh/as_the_year_wraps_up_whats_the_project_youre_most/",
+      "score": 85.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 17.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 16.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T15:00:25.376471+00:00"
     }
   ],
-  "exported_at": "2026-10-10T15:00:44.666067+00:00"
+  "exported_at": "2026-10-10T15:15:24.555450+00:00"
 }

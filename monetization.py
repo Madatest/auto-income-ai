@@ -13,6 +13,18 @@ class MonetizationAdvisor:
     """Evaluates payment infrastructure, fees, and actionable cash-out for Madagascar."""
 
     CHANNELS: Dict[str, Dict[str, Any]] = {
+        "binance_pay": {
+            "name": "Binance Pay Direct (UID : 254779310)",
+            "supports_madagascar": True,
+            "readiness_score": 20.0,  # Max 20 points (0% frais, instantané)
+            "fee_percent": 0.0,
+            "min_payout_usd": 1.0,
+            "payout_delay_days": 0,
+            "binance_uid": "254779310",
+            "seller_email": "compte.amidy001@gmail.com",
+            "local_cashout": "Conversion P2P directe vers MVola ou Orange Money à Madagascar en 5 minutes",
+            "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)"
+        },
         "crypto_usdt": {
             "name": "Crypto USDT (Binance P2P / Mobile Money)",
             "supports_madagascar": True,
@@ -70,7 +82,7 @@ class MonetizationAdvisor:
             "target_client": "Professionnels indépendants, créateurs et étudiants internationaux",
             "acquisition_channel": "GitHub Pages, réseaux sociaux professionnels, forums thématiques",
             "delivery_process": "Téléchargement immédiat sécurisé après confirmation de paiement",
-            "recommended_channel": "gumroad",
+            "recommended_channel": "binance_pay",
             "backup_channel": "crypto_usdt",
             "benchmark_price_usd": 12.0
         },
@@ -79,7 +91,7 @@ class MonetizationAdvisor:
             "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
             "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
             "recommended_channel": "comeup",
-            "backup_channel": "payoneer",
+            "backup_channel": "binance_pay",
             "benchmark_price_usd": 25.0
         },
         "seo_content": {
@@ -87,7 +99,7 @@ class MonetizationAdvisor:
             "acquisition_channel": "Plateformes de rédaction ou vente directe aux éditeurs",
             "delivery_process": "Envoi du fichier Markdown optimisé avec métadonnées",
             "recommended_channel": "comeup",
-            "backup_channel": "crypto_usdt",
+            "backup_channel": "binance_pay",
             "benchmark_price_usd": 15.0
         },
         "b2b_prospects": {
@@ -95,16 +107,16 @@ class MonetizationAdvisor:
             "acquisition_channel": "Offre directe aux agences de prospection ou freelances",
             "delivery_process": "Fichier CSV / Excel nettoyé contenant données publiques conformes",
             "recommended_channel": "comeup",
-            "backup_channel": "crypto_usdt",
+            "backup_channel": "binance_pay",
             "benchmark_price_usd": 30.0
         },
         "micro_tool": {
             "target_client": "Développeurs, marketeurs et utilisateurs recherchant un outil simple",
             "acquisition_channel": "Hébergement gratuit sur GitHub Pages, diffusion sur forums tech",
             "delivery_process": "Application web 100% autonome accessible sans inscription",
-            "recommended_channel": "kofi",
-            "backup_channel": "crypto_usdt",
-            "benchmark_price_usd": 0.0  # Gratuit avec micro-dons ou upsell de produit payant
+            "recommended_channel": "binance_pay",
+            "backup_channel": "kofi",
+            "benchmark_price_usd": 0.0  # Gratuit avec dons / versions pro
         }
     }
 
@@ -146,9 +158,17 @@ class MonetizationAdvisor:
         channel = deliverable.get("monetization_channel", "crypto_usdt")
         ch_data = cls.CHANNELS.get(channel, cls.CHANNELS["crypto_usdt"])
 
+        if channel == "binance_pay":
+            return [
+                "1. Votre compte Binance Pay est déjà configuré : UID 254779310 (compte.amidy001@gmail.com).",
+                f"2. Vos clients peuvent envoyer directement {deliverable.get('price_usd', 0.0)} $ sans aucuns frais sur votre Binance UID.",
+                f"3. Encaissement immédiat à Madagascar : {ch_data['local_cashout']}.",
+                "4. Les fonds reçus sont instantanément disponibles dans votre portefeuille Funding Binance."
+            ]
+
         return [
-            f"1. Ouvrez un compte gratuit sur {ch_data['name']} (0 Ar d'investissement).",
+            f"1. Canal de vente : {ch_data['name']} (Email vendeur : compte.amidy001@gmail.com).",
             f"2. Déposez ou publiez l'actif généré : '{deliverable.get('title')}' au prix suggéré de {deliverable.get('price_usd', 0.0)} $.",
             f"3. Mode d'encaissement à Madagascar : {ch_data['local_cashout']}.",
-            "4. Zéro frais fixes : la plateforme ne prélève sa commission qu'au moment d'une vente confirmée."
+            "4. Règle du coût zéro : aucune commission n'est prélevée avant une vente confirmée."
         ]

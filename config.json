@@ -5,7 +5,14 @@
     "target_market": "international",
     "user_location": "Madagascar",
     "default_currency": "USD",
-    "max_budget_usd": 0.0
+    "max_budget_usd": 0.0,
+    "seller_profile": {
+      "name": "Jean",
+      "email": "compte.amidy001@gmail.com",
+      "binance_uid": "254779310",
+      "payment_method": "Binance Pay",
+      "cashout_target": "MVola / Orange Money Madagascar"
+    }
   },
   "scoring": {
     "weights": {
@@ -48,6 +55,15 @@
     }
   ],
   "monetization_channels": {
+    "binance_pay": {
+      "label": "Binance Pay Direct (UID: 254779310)",
+      "fees_percent": 0.0,
+      "payout_speed_days": 0,
+      "supports_madagascar": true,
+      "type": "instant_crypto_p2p",
+      "min_payout_usd": 1.0,
+      "binance_uid": "254779310"
+    },
     "crypto_usdt": {
       "label": "Crypto USDT (Binance P2P / Mobile Money)",
       "fees_percent": 0.5,
@@ -117,10 +133,10 @@
     }
   },
   "execution": {
-    "max_opportunities_per_run": 8,
+    "max_opportunities_per_run": 10,
     "max_deliverables_per_run": 1,
-    "request_timeout_seconds": 6,
+    "request_timeout_seconds": 8,
     "simulation_mode": false,
-    "allow_offline_fallback": true
+    "allow_offline_fallback": false
   }
 }

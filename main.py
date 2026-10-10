@@ -26,6 +26,7 @@ from content_factory import ContentFactory
 from report import ReportGenerator
 from monetization import MonetizationAdvisor
 from payment_verifier import PaymentVerifier
+from wolf_supervisor import WolfSupervisor
 
 
 # Setup logging
@@ -80,6 +81,9 @@ class AutoIncomeAgent:
             binance_uid=seller_profile.get("binance_uid", "254779310")
         )
 
+        # WOLF: Autonomous Supervisor & Performance Enforcer
+        self.supervisor = WolfSupervisor(db_path=storage_cfg.get("sqlite_db", "data/income_ai.db"))
+
     # -------------------------------------------------------------------------
     # PHASE A — ANALYSE RAPIDE
     # -------------------------------------------------------------------------
@@ -87,6 +91,12 @@ class AutoIncomeAgent:
         """Loads state, inspects previous cycle blockers, and selects top international opportunity."""
         logger.info("=== [PHASE A] Analyse Rapide & Découverte Internationale ===")
         send_lemur_hud("Phase A: Analyse des opportunités internationales...")
+
+        # Check active supervisor directive from WOLF
+        active_directive = self.supervisor.get_active_directive()
+        if active_directive:
+            logger.info(f"🐺 [WOLF SUPERVISOR DIRECTIVE ACTIVE] {active_directive.get('primary_directive')}")
+            send_lemur_hud(f"WOLF Directive: {active_directive.get('primary_directive')[:35]}...")
 
         stats = self.storage.get_summary_stats()
         latest_cycle = self.storage.get_latest_cycle_report()
@@ -107,7 +117,8 @@ class AutoIncomeAgent:
             "blockers_identified": blockers,
             "opportunities_found": len(scored_opps),
             "top_score": scored_opps[0]["score"] if scored_opps else 0.0,
-            "selected_opportunity": top_opp
+            "selected_opportunity": top_opp,
+            "wolf_directive": active_directive
         }
 
     # -------------------------------------------------------------------------
@@ -316,9 +327,15 @@ class AutoIncomeAgent:
                 "next_scheduled_action": "Cycle suivant dans 1 heure (ou déclenchement immédiat)"
             }
 
-            # Persist cycle report
+            # -----------------------------------------------------------------
+            # WOLF SUPERVISION AUDIT & DIRECTIVE DISPATCH
+            # -----------------------------------------------------------------
+            wolf_review = self.supervisor.review_cycle(cycle_report)
+            cycle_report["wolf_supervision"] = wolf_review
+
+            # Persist cycle report with supervisor review
             report_file = self.storage.save_cycle_report(cycle_report)
-            logger.info(f"Rapport de cycle complet sauvegardé à : {report_file}")
+            logger.info(f"Rapport de cycle complet avec supervision WOLF sauvegardé à : {report_file}")
 
             # Update dashboards
             self.reporter.build_html_dashboard()
@@ -326,8 +343,9 @@ class AutoIncomeAgent:
                 exec_id, duration, phase_a["opportunities_found"], deliverable_rec
             )
             print("\n" + console_report + "\n")
+            print("\n" + self.supervisor.format_console_verdict(wolf_review) + "\n")
 
-            hud_msg = f"Auto-Income AI: Cycle #{exec_id} terminé en {duration}s (0$ dépense)"
+            hud_msg = f"Auto-Income AI + WOLF: Cycle #{exec_id} (Score: {wolf_review.get('decision_score')}/100)"
             send_lemur_hud(hud_msg)
 
             return cycle_report
@@ -343,18 +361,29 @@ def main():
     parser.add_argument("--simulate", action="store_true", help="Run with demonstration dataset")
     parser.add_argument("--report", action="store_true", help="Regenerate HTML dashboard and print summary")
     parser.add_argument("--status", action="store_true", help="Display current system KPIs and payment status")
+    parser.add_argument("--wolf", action="store_true", help="Display WOLF Supervisor latest audit and active directives")
     args = parser.parse_args()
 
     agent = AutoIncomeAgent(simulation_mode=args.simulate)
+
+    if args.wolf:
+        active_dir = agent.supervisor.get_active_directive()
+        if active_dir:
+            print("\n" + agent.supervisor.format_console_verdict(active_dir) + "\n")
+        else:
+            print("Aucune directive WOLF active pour l'instant.")
+        sys.exit(0)
 
     if args.status:
         stats = agent.storage.get_summary_stats()
         latest = agent.storage.get_latest_cycle_report()
         verif = agent.payment_verifier.get_verification_status()
+        active_wolf = agent.supervisor.get_active_directive()
         output = {
             "stats": stats,
             "latest_cycle_report": latest,
-            "payment_verification": verif
+            "payment_verification": verif,
+            "wolf_supervision": active_wolf
         }
         print(json.dumps(output, indent=2, ensure_ascii=False))
         sys.exit(0)

@@ -102,6 +102,34 @@ class ReportGenerator:
             </tr>
             """
 
+        # WOLF Supervision banner
+        wolf_card_html = ""
+        wolf_dir_path = "data/wolf_directives.json"
+        if os.path.exists(wolf_dir_path):
+            try:
+                with open(wolf_dir_path, "r", encoding="utf-8") as f:
+                    wolf_data = json.load(f)
+                score = wolf_data.get("decision_score", 0.0)
+                primary_dir = wolf_data.get("primary_directive", "")
+                task = wolf_data.get("assigned_task", "")
+                motto = wolf_data.get("motto", "")
+                wolf_card_html = f"""
+                <div class="card" style="background:#131b2e; border:1px solid #3b82f6; border-radius:12px; padding:20px; margin-bottom:28px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                        <span style="font-weight:700; color:#60a5fa; font-size:1.1rem;">🐺 WOLF — SUPERVISEUR & DIRECTEUR DE PERFORMANCE</span>
+                        <span style="background:rgba(59,130,246,0.2); color:#60a5fa; border:1px solid #3b82f6; padding:3px 10px; border-radius:9999px; font-weight:700; font-size:0.85rem;">Score Qualité Décision : {score}/100</span>
+                    </div>
+                    <p style="margin:10px 0; font-style:italic; color:#9ca3af; font-size:0.85rem;">« {motto} »</p>
+                    <div style="background:#0b1120; border-radius:8px; padding:12px; margin-top:10px; border-left:4px solid #3b82f6;">
+                        <div style="font-size:0.85rem; color:#f8fafc; font-weight:600;">🎯 Directive Opérationnelle Active :</div>
+                        <div style="font-size:0.85rem; color:#cbd5e1; margin-top:4px;">{primary_dir}</div>
+                        <div style="font-size:0.8rem; color:#94a3b8; margin-top:6px;"><strong>Mission assignée :</strong> {task}</div>
+                    </div>
+                </div>
+                """
+            except Exception:
+                pass
+
         html_content = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -333,6 +361,8 @@ class ReportGenerator:
                 <div class="kpi-subtext">Surveillance 24/7 sans interruption</div>
             </div>
         </div>
+
+        {wolf_card_html}
 
         <h2>📦 Actifs Monétisables Disponibles</h2>
         <div class="deliverables-grid">

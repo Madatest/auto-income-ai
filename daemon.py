@@ -31,7 +31,7 @@ logging.basicConfig(
 logger = logging.getLogger("AutoIncomeAI.Daemon")
 
 RUNNING = True
-INTERVAL_SECONDS = 6 * 3600  # 6 heures entre chaque cycle autonome
+INTERVAL_SECONDS = 3600  # 1 heure entre chaque cycle autonome (conforme Objectif_per_hour.txt)
 HTTP_PORT = 8080
 
 

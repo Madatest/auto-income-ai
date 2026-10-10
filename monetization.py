@@ -18,7 +18,7 @@ class MonetizationAdvisor:
             "supports_madagascar": True,
             "readiness_score": 20.0,  # Max 20 points (0% frais, instantané)
             "fee_percent": 0.0,
-            "min_payout_usd": 1.0,
+            "min_payout_usd": 0.01,
             "payout_delay_days": 0,
             "binance_uid": "254779310",
             "seller_email": "compte.amidy001@gmail.com",

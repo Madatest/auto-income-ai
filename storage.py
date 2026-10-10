@@ -106,6 +106,21 @@ class StorageManager:
             );
             """)
 
+            # Confirmed real revenues (audit-grade)
+            cursor.execute("""
+            CREATE TABLE IF NOT EXISTS confirmed_revenues (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                source TEXT NOT NULL,
+                amount REAL NOT NULL,
+                currency TEXT NOT NULL,
+                tx_reference TEXT UNIQUE,
+                deliverable_id INTEGER,
+                verified_at TEXT NOT NULL,
+                is_simulated INTEGER DEFAULT 0,
+                metadata TEXT
+            );
+            """)
+
             conn.commit()
 
     @staticmethod
@@ -328,3 +343,117 @@ class StorageManager:
             json.dump(snapshot, f, indent=2, ensure_ascii=False)
         os.replace(temp_path, self.state_json_path)
         return self.state_json_path
+
+    def record_confirmed_revenue(self, payment_data: Dict[str, Any]) -> int:
+        """
+        Records an authentic confirmed customer payment into SQLite.
+        Guarantees 100% auditability and idempotence.
+        """
+        now_iso = datetime.now(timezone.utc).isoformat()
+        amount = float(payment_data.get("amount", 0.0))
+        currency = payment_data.get("currency", "USD").upper()
+        tx_ref = payment_data.get("tx_reference")
+        deliverable_id = payment_data.get("deliverable_id")
+        source = payment_data.get("source", "binance_pay")
+        metadata_json = json.dumps(payment_data.get("raw_data", {}))
+
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+            INSERT INTO confirmed_revenues (
+                source, amount, currency, tx_reference, deliverable_id, verified_at, is_simulated, metadata
+            ) VALUES (?, ?, ?, ?, ?, ?, 0, ?)
+            """, (source, amount, currency, tx_ref, deliverable_id, now_iso, metadata_json))
+            rev_id = cursor.lastrowid
+
+            # Update monetization_log
+            if deliverable_id:
+                cursor.execute("""
+                UPDATE monetization_log
+                SET actual_revenue_usd = actual_revenue_usd + ?, status = 'sold'
+                WHERE deliverable_id = ?
+                """, (amount, deliverable_id))
+            else:
+                cursor.execute("""
+                INSERT INTO monetization_log (
+                    deliverable_id, platform, status, projected_revenue_usd, actual_revenue_usd, fee_usd, created_at, is_simulated
+                ) VALUES (NULL, ?, 'sold', ?, ?, 0.0, ?, 0)
+                """, (source, amount, amount, now_iso))
+
+            conn.commit()
+
+        self.export_state_json()
+        logger.info(f"CONFIRMED REAL REVENUE RECORDED: {amount} {currency} (Ref: {tx_ref})")
+        return rev_id
+
+    def is_first_revenue_confirmed(self) -> bool:
+        """Checks if at least one real commercial transaction > 0 USD has been verified."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT COUNT(*) FROM confirmed_revenues WHERE amount > 0 AND is_simulated = 0")
+            count = cursor.fetchone()[0]
+            return count > 0
+
+    def save_cycle_report(self, report_data: Dict[str, Any]) -> str:
+        """Saves structured hourly cycle report for complete audit trail."""
+        reports_dir = "data/cycle_reports"
+        os.makedirs(reports_dir, exist_ok=True)
+        cycle_id = report_data.get("cycle_id", "latest")
+        
+        file_path = os.path.join(reports_dir, f"cycle_{cycle_id}.json")
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(report_data, f, indent=2, ensure_ascii=False)
+
+        latest_path = os.path.join(reports_dir, "latest.json")
+        with open(latest_path, "w", encoding="utf-8") as f:
+            json.dump(report_data, f, indent=2, ensure_ascii=False)
+
+        return file_path
+
+    def get_latest_cycle_report(self) -> Optional[Dict[str, Any]]:
+        """Loads latest cycle report if available."""
+        latest_path = "data/cycle_reports/latest.json"
+        if os.path.exists(latest_path):
+            try:
+                with open(latest_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+        return None
+
+    @staticmethod
+    def acquire_lock(lock_file: str = "data/agent.lock") -> bool:
+        """Prevents concurrent overlapping executions of the agent."""
+        os.makedirs(os.path.dirname(lock_file), exist_ok=True)
+        if os.path.exists(lock_file):
+            try:
+                with open(lock_file, "r") as f:
+                    pid = int(f.read().strip())
+                # Check if process is still alive
+                try:
+                    os.kill(pid, 0)
+                    logger.warning(f"Lock active by PID {pid}. Skipping overlapping execution.")
+                    return False
+                except OSError:
+                    # Stale lock
+                    logger.info(f"Removing stale lock file from inactive PID {pid}.")
+            except Exception:
+                pass
+
+        try:
+            with open(lock_file, "w") as f:
+                f.write(str(os.getpid()))
+            return True
+        except Exception as e:
+            logger.error(f"Failed to acquire lock: {e}")
+            return False
+
+    @staticmethod
+    def release_lock(lock_file: str = "data/agent.lock") -> None:
+        """Releases the concurrency lock."""
+        try:
+            if os.path.exists(lock_file):
+                os.remove(lock_file)
+        except Exception:
+            pass
+

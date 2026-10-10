@@ -54,7 +54,7 @@ class ReportGenerator:
 
         lines.extend([
             "🧭 PROCHAINE ACTION AUTONOME :",
-            "  Le système se déclenchera selon le planning GitHub Actions (toutes les 6h).",
+            "  Le système se déclenchera selon le planning autonome horaire (1 heure).",
             "  Pour consulter le rapport visuel sur mobile : ouvrir site/index.html",
             "=" * 64
         ])

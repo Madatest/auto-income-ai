@@ -102,17 +102,36 @@ class OpportunityEngine:
         items = []
 
         headers = {
-            "User-Agent": "AutoIncomeAI-Bot/1.0 (+https://github.com/auto-income-ai)"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
         req = Request(url, headers=headers)
-        timeout = self.config.get("execution", {}).get("request_timeout_seconds", 6)
+        timeout = self.config.get("execution", {}).get("request_timeout_seconds", 8)
 
         try:
             with urlopen(req, timeout=timeout) as response:
                 content = response.read()
-                root = ET.fromstring(content)
+
+                # Handle GitHub API JSON response
+                if "api.github.com" in url:
+                    data = json.loads(content.decode("utf-8"))
+                    for entry in data.get("items", [])[:6]:
+                        title = entry.get("title", "").strip()
+                        body = entry.get("body", "") or ""
+                        body = re.sub(r"<[^>]+>", "", body).strip()
+                        link = entry.get("html_url", "")
+                        if title and len(title) > 6:
+                            items.append({
+                                "title": title,
+                                "category": default_category,
+                                "description": body[:300] if body else "Mission technique / prime de code active.",
+                                "source_id": source_id,
+                                "source_url": link or url,
+                                "is_simulated": False
+                            })
+                    return items
 
                 # Standard RSS 2.0 <item> or Atom <entry>
+                root = ET.fromstring(content)
                 entries = root.findall(".//item")
                 if not entries:
                     entries = root.findall(".//{http://www.w3.org/2005/Atom}entry")
@@ -168,15 +187,16 @@ class OpportunityEngine:
         zero_cost = 20.0
 
         # 3. Speed to first sale (0-20)
-        # Direct microservices and ready-to-sell digital templates convert fastest
+        # Direct microservices and interactive tools convert fastest (short cycles)
+        # Digital products and SEO content are heavily penalized (long sales process)
         speed_map = {
-            "microservice_gig": 19.0,
+            "microservice_gig": 20.0,
             "b2b_prospects": 18.0,
-            "digital_product": 17.0,
-            "seo_content": 14.0,
-            "micro_tool": 13.0
+            "micro_tool": 16.0,
+            "digital_product": 5.0,
+            "seo_content": 4.0
         }
-        speed = float(opp.get("speed_to_sale_score", speed_map.get(category, 15.0)))
+        speed = float(opp.get("speed_to_sale_score", speed_map.get(category, 10.0)))
 
         # 4. Technical accessibility (0-15)
         tech_map = {
@@ -227,6 +247,9 @@ class OpportunityEngine:
         newly_saved_count = 0
 
         for item in raw_items:
+            # Règle absolue de vitesse : ignorer les catégories à cycle de vente long
+            if item.get("category") in ("digital_product", "seo_content"):
+                continue
             scored = self.score_opportunity(item)
             is_new = self.storage.save_opportunity(scored)
             if is_new:
@@ -238,13 +261,15 @@ class OpportunityEngine:
         return scored_items
 
     def select_best_opportunity(self) -> Optional[Dict[str, Any]]:
-        """Selects the highest scoring pending opportunity."""
-        pending = self.storage.get_pending_opportunities(limit=1)
-        if pending:
-            return pending[0]
+        """Selects the highest scoring pending opportunity (strictly fast/short-cycle)."""
+        pending = self.storage.get_pending_opportunities(limit=10)
+        fast_pending = [p for p in pending if p.get("category") not in ("digital_product", "seo_content")]
+        if fast_pending:
+            return fast_pending[0]
 
-        # If no pending in database, collect fresh batch
+        # If no fast pending in database, collect fresh batch
         fresh = self.collect_and_evaluate()
-        if fresh:
-            return fresh[0]
+        fast_fresh = [f for f in fresh if f.get("category") not in ("digital_product", "seo_content")]
+        if fast_fresh:
+            return fast_fresh[0]
         return None

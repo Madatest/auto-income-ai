@@ -1,24 +1,88 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 7,
-    "total_opportunities": 6,
-    "total_deliverables": 5,
+    "total_executions": 10,
+    "total_opportunities": 12,
+    "total_deliverables": 7,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 60.0,
+    "projected_pipeline_usd": 97.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 7,
-      "timestamp": "2026-10-10T18:24:17.613661+00:00",
+      "id": 10,
+      "timestamp": "2026-10-10T18:43:01.950319+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 0,
+      "opportunities_found": 6,
       "deliverables_created": 1,
-      "duration_seconds": 7.43,
-      "notes": "Produit 'I built an interactive world map after a random question about Australia. RealSize.World'"
+      "duration_seconds": 6.77,
+      "notes": "Produit '[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty'"
     },
-    "updated_at": "2026-10-10T18:24:17.624919+00:00"
+    "updated_at": "2026-10-10T18:43:01.967135+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 9,
+      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
+      "category": "microservice_gig",
+      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+      "file_path": "site/deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "relative_path": "deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 2028,
+        "extension": "md"
+      },
+      "created_at": "2026-10-10T18:43:01.631512+00:00"
+    },
+    {
+      "id": 8,
+      "opportunity_hash": "f3656640a5eb7b4cca3e73603c13a78466227edf89cff6f6f81b419f2cbc5ecb",
+      "category": "digital_product",
+      "title": "I keep losing useful work I create with AI, so I’m building something for it",
+      "file_path": "site/deliverables/20261010_184035_i_keep_losing_useful_work_i_create_with_ai_so_im_b.md",
+      "relative_path": "deliverables/20261010_184035_i_keep_losing_useful_work_i_create_with_ai_so_im_b.md",
+      "monetization_channel": "binance_pay",
+      "price_usd": 12.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "digital_product",
+          "target_client": "Professionnels indépendants, créateurs et étudiants internationaux",
+          "acquisition_channel": "GitHub Pages, réseaux sociaux professionnels, forums thématiques",
+          "delivery_process": "Téléchargement immédiat sécurisé après confirmation de paiement",
+          "recommended_channel": "binance_pay",
+          "channel_name": "Binance Pay Direct (UID : 254779310)",
+          "price_usd": 12.0,
+          "fee_usd": 0.0,
+          "net_revenue_usd": 12.0,
+          "madagascar_readiness_score": 20.0,
+          "local_cashout": "Conversion P2P directe vers MVola (038 75 318 15) à Madagascar en 5 minutes",
+          "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)",
+          "payout_delay_days": 0
+        },
+        "file_size_bytes": 2309,
+        "extension": "md"
+      },
+      "created_at": "2026-10-10T18:40:35.851398+00:00"
+    },
     {
       "id": 7,
       "opportunity_hash": "cd9428f742c9131bedd6dccfeef87426b3ce79f5ad8d8447ff0941f9673e9f66",
@@ -182,6 +246,132 @@
   ],
   "top_opportunities": [
     {
+      "id": 17,
+      "hash": "854fd94d83ecf360cab5c59fe003edd76c0548867e680fc63929f697a5131146",
+      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+      "category": "microservice_gig",
+      "description": "# 📝 Background\n\nThis is a community-suggested bounty that we have reviewed and assigned to [@samiyadev786](https://github.com/samiyadev786).\n\n`ttnn.sampling` is used for on-device non-greedy token sampling in the shared sampling path used by `tt-transformers` and other model integrations. The operat",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/59732",
+      "score": 90.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 13.5,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T18:42:47.863178+00:00"
+    },
+    {
+      "id": 16,
+      "hash": "365acf0e4844ee10f8ad8d2f2d818a4406ff6709863b2dbfb1ff965cce1a466d",
+      "title": "[Bounty] [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th",
+      "category": "microservice_gig",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/tenstorrent/tt-metal/issues/59732\n\n### 漏洞描述 / Description\n[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold\n\n# 📝 Background\n\nThis is a community-suggested bounty that we have reviewed and assig",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1836",
+      "score": 90.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 13.5,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T18:42:47.851716+00:00"
+    },
+    {
+      "id": 15,
+      "hash": "f36a73c6ed65e051557e77ed4e46a88a9f2c2c3d7686b2e5e89ef9109a7fe387",
+      "title": "[BOUNTY] Suggestion #1268",
+      "category": "microservice_gig",
+      "description": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nMake the gas analyzer function like the plant analyzer does. Open a UI window that is dynamically updated so we don't have to spam the dumb canister we are working on constantly while drowning out every other message in chat.\n\n**Reason:*",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1291",
+      "score": 90.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 13.5,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T18:42:47.840411+00:00"
+    },
+    {
+      "id": 14,
+      "hash": "e726f532909d5129c746dbb8e501cb85207b2c790318604170ef41d7af9b8cfe",
+      "title": "[BOUNTY] Suggestion #1259",
+      "category": "microservice_gig",
+      "description": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nAllow Borgs to turn off all comms. Sometimes the traffic gets very annoying. Especially during RP/ERP, bleeding out the text in short order when shit is going down. If we're having a conversation or in active play, it makes it extremely ",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1292",
+      "score": 90.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 13.5,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T18:42:47.827595+00:00"
+    },
+    {
+      "id": 13,
+      "hash": "a0e306062c28b0277532360e69d01f1fab77f0b0eb8fa37775ff46a50dcf93a4",
+      "title": "[radar] SN open bounty 2026-10-10T12:22",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1592079\tStacker_Sports\t3\t2632\t2100\t10\t20.8\t232181\t4315\trecent@Stacker_Sports|top@Stacker_Sports\tOPEN_BOUNTY,HOT,SELF_POST_OPP\tWeekly Random Sports Pick 'em\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1269",
+      "score": 90.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 13.5,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T18:42:47.815500+00:00"
+    },
+    {
+      "id": 12,
+      "hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
+      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+      "category": "microservice_gig",
+      "description": "## Canonical bounty discovery\n\nYou already maintain or regularly contribute to an established open-source project. Get that project to fund a real Agent Bounties bounty on one of its existing issues, so independent demand enters the marketplace. Your existing standing in the project is the point: do",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
+      "score": 90.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 13.5,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T18:42:47.791368+00:00"
+    },
+    {
       "id": 6,
       "hash": "f3656640a5eb7b4cca3e73603c13a78466227edf89cff6f6f81b419f2cbc5ecb",
       "title": "I keep losing useful work I create with AI, so I’m building something for it",
@@ -198,7 +388,7 @@
         "madagascar_payment_readiness": 16.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-10T15:00:25.428537+00:00"
     },
@@ -264,49 +454,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-10T15:00:25.403278+00:00"
-    },
-    {
-      "id": 2,
-      "hash": "4933120f133a685dab1f86c7b51cbe8cd3b062bfd82fc7b54caa6d66a5f4a1e1",
-      "title": "Share your ***Not-AI*** projects",
-      "category": "digital_product",
-      "description": "Opportunité issue d'un flux public temps réel.",
-      "source_id": "reddit_sideproject",
-      "source_url": "https://www.reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/",
-      "score": 85.5,
-      "score_breakdown": {
-        "observable_demand": 18.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 17.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 16.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-10T15:00:25.393140+00:00"
-    },
-    {
-      "id": 1,
-      "hash": "f1a7eab810f466f384d2471a8e3debfd4a00ac7f02e2a09d64512ae212c61985",
-      "title": "As the year wraps up: what’s the project you’re most proud of building and why?",
-      "category": "digital_product",
-      "description": "Opportunité issue d'un flux public temps réel.",
-      "source_id": "reddit_sideproject",
-      "source_url": "https://www.reddit.com/r/SideProject/comments/1ppr6gh/as_the_year_wraps_up_whats_the_project_youre_most/",
-      "score": 85.5,
-      "score_breakdown": {
-        "observable_demand": 18.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 17.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 16.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-10T15:00:25.376471+00:00"
     }
   ],
-  "exported_at": "2026-10-10T18:24:17.627329+00:00"
+  "exported_at": "2026-10-10T18:43:01.978816+00:00"
 }

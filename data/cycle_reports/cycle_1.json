@@ -2,17 +2,17 @@
   "cycle_id": 1,
   "execution_id": 1,
   "status": "SUCCESS",
-  "start_time": "2026-10-10T16:53:35.606494+00:00",
-  "end_time": "2026-10-10T16:53:35.956202+00:00",
+  "start_time": "2026-10-10T18:41:05.932499+00:00",
+  "end_time": "2026-10-10T18:41:06.281001+00:00",
   "duration_seconds": 0.35,
   "duration_sec": 0.35,
-  "opportunities_scanned": 5,
+  "opportunities_scanned": 3,
   "deliverable": {
     "opportunity_hash": "5573ea143401962f2e99f83f9173b3ff47f8a91e5b7f47243e43d064d8a4ad83",
     "category": "microservice_gig",
     "title": "Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook",
-    "file_path": "/data/data/com.termux/files/usr/tmp/tmpeyh3w9m5/site/deliverables/20261010_165335_service_clé_en_main_configuration_de_bot_messenger.md",
-    "relative_path": "deliverables/20261010_165335_service_clé_en_main_configuration_de_bot_messenger.md",
+    "file_path": "/data/data/com.termux/files/usr/tmp/tmpcqd0qjs9/site/deliverables/20261010_184106_service_clé_en_main_configuration_de_bot_messenger.md",
+    "relative_path": "deliverables/20261010_184106_service_clé_en_main_configuration_de_bot_messenger.md",
     "monetization_channel": "comeup",
     "price_usd": 25.0,
     "quality_score": 100.0,
@@ -43,7 +43,7 @@
   "first_real_revenue": false,
   "phases": {
     "phase_a_analysis": {
-      "opportunities_scanned": 5,
+      "opportunities_scanned": 3,
       "blockers": [
         "Aucun actif commercial encore produit pour générer des ventes."
       ],
@@ -51,7 +51,7 @@
     },
     "phase_b_execution": {
       "deliverable_created": "Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook",
-      "file_path": "/data/data/com.termux/files/usr/tmp/tmpeyh3w9m5/site/deliverables/20261010_165335_service_clé_en_main_configuration_de_bot_messenger.md",
+      "file_path": "/data/data/com.termux/files/usr/tmp/tmpcqd0qjs9/site/deliverables/20261010_184106_service_clé_en_main_configuration_de_bot_messenger.md",
       "price_usd": 25.0,
       "monetization_channel": "comeup"
     },
@@ -60,9 +60,9 @@
         "Actif commercial #1 produit et prêt à la vente."
       ],
       "observed_facts": [
-        "Opportunités scannées : 5",
+        "Opportunités scannées : 3",
         "Dépense financière : 0.00 USD",
-        "Fichier actif physique créé : /data/data/com.termux/files/usr/tmp/tmpeyh3w9m5/site/deliverables/20261010_165335_service_clé_en_main_configuration_de_bot_messenger.md"
+        "Fichier actif physique créé : /data/data/com.termux/files/usr/tmp/tmpcqd0qjs9/site/deliverables/20261010_184106_service_clé_en_main_configuration_de_bot_messenger.md"
       ],
       "working_hypotheses": [
         "La visibilité sur GitHub Pages et Binance Pay convertit prioritairement les acheteurs anglophones et crypto."

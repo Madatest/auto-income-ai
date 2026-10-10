@@ -1,68 +1,68 @@
 {
-  "cycle_id": 7,
-  "execution_id": 7,
+  "cycle_id": 10,
+  "execution_id": 10,
   "status": "SUCCESS",
-  "start_time": "2026-10-10T18:24:10.186054+00:00",
-  "end_time": "2026-10-10T18:24:17.613527+00:00",
-  "duration_seconds": 7.43,
-  "duration_sec": 7.43,
-  "opportunities_scanned": 0,
+  "start_time": "2026-10-10T18:42:55.182232+00:00",
+  "end_time": "2026-10-10T18:43:01.950163+00:00",
+  "duration_seconds": 6.77,
+  "duration_sec": 6.77,
+  "opportunities_scanned": 6,
   "deliverable": {
-    "opportunity_hash": "cd9428f742c9131bedd6dccfeef87426b3ce79f5ad8d8447ff0941f9673e9f66",
-    "category": "digital_product",
-    "title": "I built an interactive world map after a random question about Australia. RealSize.World",
-    "file_path": "site/deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md",
-    "relative_path": "deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md",
-    "monetization_channel": "binance_pay",
-    "price_usd": 12.0,
+    "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
+    "category": "microservice_gig",
+    "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+    "file_path": "site/deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md",
+    "relative_path": "deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md",
+    "monetization_channel": "comeup",
+    "price_usd": 25.0,
     "quality_score": 100.0,
     "is_simulated": 0,
     "metadata": {
       "qa_notes": "Volume textuel optimal",
       "monetization": {
-        "category": "digital_product",
-        "target_client": "Professionnels indépendants, créateurs et étudiants internationaux",
-        "acquisition_channel": "GitHub Pages, réseaux sociaux professionnels, forums thématiques",
-        "delivery_process": "Téléchargement immédiat sécurisé après confirmation de paiement",
-        "recommended_channel": "binance_pay",
-        "channel_name": "Binance Pay Direct (UID : 254779310)",
-        "price_usd": 12.0,
-        "fee_usd": 0.0,
-        "net_revenue_usd": 12.0,
-        "madagascar_readiness_score": 20.0,
-        "local_cashout": "Conversion P2P directe vers MVola (038 75 318 15) à Madagascar en 5 minutes",
-        "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)",
-        "payout_delay_days": 0
+        "category": "microservice_gig",
+        "target_client": "Agences web, e-commerçants francophones et PME européennes",
+        "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+        "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+        "recommended_channel": "comeup",
+        "channel_name": "ComeUp (ex-5euros) Microservices",
+        "price_usd": 25.0,
+        "fee_usd": 5.0,
+        "net_revenue_usd": 20.0,
+        "madagascar_readiness_score": 19.0,
+        "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+        "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+        "payout_delay_days": 5
       },
-      "file_size_bytes": 2319,
+      "file_size_bytes": 2028,
       "extension": "md"
     },
-    "id": 7
+    "id": 9
   },
   "costs_incurred_usd": 0.0,
   "first_real_revenue": false,
   "phases": {
     "phase_a_analysis": {
-      "opportunities_scanned": 0,
+      "opportunities_scanned": 6,
       "blockers": [
         "Actifs publiés mais trafic/conversion direct en cours d'amorçage international."
       ],
-      "selected_opportunity": "I built an interactive world map after a random question about Australia. RealSize.World"
+      "selected_opportunity": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty"
     },
     "phase_b_execution": {
-      "deliverable_created": "I built an interactive world map after a random question about Australia. RealSize.World",
-      "file_path": "site/deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md",
-      "price_usd": 12.0,
-      "monetization_channel": "binance_pay"
+      "deliverable_created": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+      "file_path": "site/deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "price_usd": 25.0,
+      "monetization_channel": "comeup"
     },
     "phase_c_evaluation": {
       "actions_executed": [
-        "Actif commercial #7 produit et prêt à la vente."
+        "Actif commercial #9 produit et prêt à la vente."
       ],
       "observed_facts": [
-        "Opportunités scannées : 0",
+        "Opportunités scannées : 6",
         "Dépense financière : 0.00 USD",
-        "Fichier actif physique créé : site/deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md"
+        "Fichier actif physique créé : site/deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md"
       ],
       "working_hypotheses": [
         "La visibilité sur GitHub Pages et Binance Pay convertit prioritairement les acheteurs anglophones et crypto."
@@ -109,7 +109,7 @@
     }
   },
   "tasks_completed": [
-    "Actif commercial #7 produit et prêt à la vente."
+    "Actif commercial #9 produit et prêt à la vente."
   ],
   "tasks_failed": [],
   "tasks_pending": [

@@ -46,12 +46,26 @@
       "name": "Hacker News Ask HN",
       "url": "https://hnrss.org/ask",
       "category": "digital_product",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "wwr_remote",
       "name": "WeWorkRemotely Freelance",
       "url": "https://weworkremotely.com/categories/all-other-remote-jobs.rss",
+      "category": "microservice_gig",
+      "enabled": true
+    },
+    {
+      "id": "wwr_dev",
+      "name": "WeWorkRemotely Dev Gigs",
+      "url": "https://weworkremotely.com/categories/remote-programming-jobs.rss",
+      "category": "microservice_gig",
+      "enabled": true
+    },
+    {
+      "id": "github_bounties",
+      "name": "GitHub Active Bounties",
+      "url": "https://api.github.com/search/issues?q=is:open+is:issue+label:bounty&sort=created&order=desc&per_page=6",
       "category": "microservice_gig",
       "enabled": true
     }

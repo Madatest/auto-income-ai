@@ -1,0 +1,126 @@
+{
+  "agent": {
+    "name": "AUTO-INCOME AI",
+    "version": "1.0.0",
+    "target_market": "international",
+    "user_location": "Madagascar",
+    "default_currency": "USD",
+    "max_budget_usd": 0.0
+  },
+  "scoring": {
+    "weights": {
+      "observable_demand": 25,
+      "zero_start_cost": 20,
+      "speed_to_first_sale": 20,
+      "technical_feasibility": 15,
+      "madagascar_payment_readiness": 20
+    },
+    "min_viability_score": 60.0
+  },
+  "storage": {
+    "sqlite_db": "data/income_ai.db",
+    "state_json": "data/state.json",
+    "history_json": "data/history.json",
+    "deliverables_dir": "site/deliverables",
+    "site_dir": "site"
+  },
+  "sources": [
+    {
+      "id": "hn_show",
+      "name": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/showrss",
+      "category": "micro_tool",
+      "enabled": true
+    },
+    {
+      "id": "hn_ask",
+      "name": "Hacker News Ask HN",
+      "url": "https://news.ycombinator.com/askrss",
+      "category": "digital_product",
+      "enabled": true
+    },
+    {
+      "id": "wwr_remote",
+      "name": "WeWorkRemotely Freelance",
+      "url": "https://weworkremotely.com/categories/all-other-remote-jobs.rss",
+      "category": "microservice_gig",
+      "enabled": true
+    }
+  ],
+  "monetization_channels": {
+    "crypto_usdt": {
+      "label": "Crypto USDT (Binance P2P / Mobile Money)",
+      "fees_percent": 0.5,
+      "payout_speed_days": 0,
+      "supports_madagascar": true,
+      "type": "p2p_mobile_money",
+      "min_payout_usd": 5.0
+    },
+    "payoneer": {
+      "label": "Payoneer (Coordonnées US/EU & Carte)",
+      "fees_percent": 2.0,
+      "payout_speed_days": 2,
+      "supports_madagascar": true,
+      "type": "international_bank_wire",
+      "min_payout_usd": 20.0
+    },
+    "comeup": {
+      "label": "ComeUp / 5euros (Microservices Freelance)",
+      "fees_percent": 20.0,
+      "payout_speed_days": 5,
+      "supports_madagascar": true,
+      "type": "freelance_platform",
+      "min_payout_usd": 10.0
+    },
+    "gumroad": {
+      "label": "Gumroad / Payhip (Vente de Produits Digitaux)",
+      "fees_percent": 10.0,
+      "payout_speed_days": 7,
+      "supports_madagascar": true,
+      "type": "digital_product",
+      "min_payout_usd": 10.0
+    },
+    "kofi": {
+      "label": "Ko-fi Shop (0% de commission sur tips)",
+      "fees_percent": 5.0,
+      "payout_speed_days": 1,
+      "supports_madagascar": true,
+      "type": "donation_and_shop",
+      "min_payout_usd": 1.0
+    }
+  },
+  "strategies": {
+    "digital_product": {
+      "enabled": true,
+      "description": "Guides, modèles de documents, checklists et bundles de ressources téléchargeables",
+      "avg_price_usd": 12.0
+    },
+    "microservice_gig": {
+      "enabled": true,
+      "description": "Offres de micro-services prêtes pour ComeUp, Fiverr ou prospection directe",
+      "avg_price_usd": 25.0
+    },
+    "seo_content": {
+      "enabled": true,
+      "description": "Articles spécialisés SEO avec appels à l'action et affiliation autorisée",
+      "avg_price_usd": 15.0
+    },
+    "b2b_prospects": {
+      "enabled": true,
+      "description": "Listes de prospects qualifiés d'entreprises cibles avec propositions personnalisées éthiques",
+      "avg_price_usd": 30.0
+    },
+    "micro_tool": {
+      "enabled": true,
+      "description": "Petits outils logiciels web autonomes répondant à un besoin récurrent",
+      "avg_price_usd": 0.0
+    }
+  },
+  "execution": {
+    "max_opportunities_per_run": 8,
+    "max_deliverables_per_run": 1,
+    "request_timeout_seconds": 6,
+    "simulation_mode": false,
+    "allow_offline_fallback": true
+  }
+}

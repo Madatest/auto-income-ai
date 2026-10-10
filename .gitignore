@@ -1,0 +1,60 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environnement et Secrets
+.env
+*.local
+*.key
+*.pem
+
+# Logs locaux
+logs/*.log
+*.log
+
+# Caches du système et Termux spécifiques
+.agents/
+.agy/
+.gemini/
+.termux/
+.android_sdk/
+.antigravity/
+.cache/
+.config/
+.local/
+.npm/
+lemur_app/
+VIRTU_local/
+downloads/
+storage/
+BUSINESS/
+*.mp3
+*.wav
+*.m4a
+*.xml
+*.txt.bak
+.bash_history
+.bashrc
+.python_history
+.messenger_last_chat.txt
+.fast_action_calibration.json
+.ssh/
+GEMINI.md
+live_transcript.txt
+chess_play.py
+fast_chess.py
+fast_action_engine.py
+roi_engine.py
+messenger_turbo.py
+jack_bot.py
+pr.py
+predict_history.json
+adaptive_history.json
+
+# Données générées locales (laisser le schema ou les démos traçables)
+data/*.db-journal

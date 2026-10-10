@@ -1,0 +1,300 @@
+{
+  "system": "AUTO-INCOME AI",
+  "stats": {
+    "total_executions": 2,
+    "total_opportunities": 11,
+    "total_deliverables": 2,
+    "total_confirmed_revenue_usd": 0.0,
+    "projected_pipeline_usd": 55.0,
+    "total_costs_usd": 0.0,
+    "last_execution": {
+      "id": 2,
+      "timestamp": "2026-10-10T15:00:44.653689+00:00",
+      "status": "SUCCESS",
+      "opportunities_found": 5,
+      "deliverables_created": 1,
+      "duration_seconds": 5.36,
+      "notes": "Selected 'Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection'"
+    },
+    "updated_at": "2026-10-10T15:00:44.660725+00:00"
+  },
+  "recent_deliverables": [
+    {
+      "id": 2,
+      "opportunity_hash": "2945ebb8c2ed8c3d150883b7273133010b55e5731258dcf76349aa85da4ba0b6",
+      "category": "b2b_prospects",
+      "title": "Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection",
+      "file_path": "site/deliverables/20261010_150044_base_qualifiée_b2b_100_agences_web_e_commerces_fra.csv",
+      "relative_path": "deliverables/20261010_150044_base_qualifiée_b2b_100_agences_web_e_commerces_fra.csv",
+      "monetization_channel": "comeup",
+      "price_usd": 30.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "b2b_prospects",
+          "target_client": "Startups et agences commerciales recherchant des leads B2B ciblés",
+          "acquisition_channel": "Offre directe aux agences de prospection ou freelances",
+          "delivery_process": "Fichier CSV / Excel nettoyé contenant données publiques conformes",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 30.0,
+          "fee_usd": 6.0,
+          "net_revenue_usd": 24.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 2191,
+        "extension": "csv"
+      },
+      "created_at": "2026-10-10T15:00:44.638259+00:00"
+    },
+    {
+      "id": 1,
+      "opportunity_hash": "5573ea143401962f2e99f83f9173b3ff47f8a91e5b7f47243e43d064d8a4ad83",
+      "category": "microservice_gig",
+      "title": "Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook",
+      "file_path": "site/deliverables/20261010_150025_service_clé_en_main_configuration_de_bot_messenger.md",
+      "relative_path": "deliverables/20261010_150025_service_clé_en_main_configuration_de_bot_messenger.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 1974,
+        "extension": "md"
+      },
+      "created_at": "2026-10-10T15:00:25.465427+00:00"
+    }
+  ],
+  "top_opportunities": [
+    {
+      "id": 8,
+      "hash": "5573ea143401962f2e99f83f9173b3ff47f8a91e5b7f47243e43d064d8a4ad83",
+      "title": "Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook",
+      "category": "microservice_gig",
+      "description": "Offre prête à l'emploi pour boutiques en ligne : configuration d'assistant automatique pour réponses instantanées et commandes.",
+      "source_id": "demo_freelance_gigs",
+      "source_url": "https://comeup.com/categories/marketing",
+      "score": 96.0,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 19.0,
+        "technical_feasibility": 13.0,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 1,
+      "created_at": "2026-10-10T15:00:25.438677+00:00"
+    },
+    {
+      "id": 10,
+      "hash": "2945ebb8c2ed8c3d150883b7273133010b55e5731258dcf76349aa85da4ba0b6",
+      "title": "Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection",
+      "category": "b2b_prospects",
+      "description": "Données publiques d'entreprises cibles (site, activité, email de contact public) avec proposition personnalisée sans spam.",
+      "source_id": "demo_b2b_leads",
+      "source_url": "https://www.societe.com",
+      "score": 94.5,
+      "score_breakdown": {
+        "observable_demand": 24.5,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 18.0,
+        "technical_feasibility": 13.0,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 1,
+      "created_at": "2026-10-10T15:00:25.449645+00:00"
+    },
+    {
+      "id": 7,
+      "hash": "d1f4b823e18a0d0731978069960e1bfd89a79ff635e1a8723353c91df33e6a34",
+      "title": "Modèle Excel & Guide Pratique : Suivi de Trésorerie pour Freelances & PME",
+      "category": "digital_product",
+      "description": "Fichier Excel/Sheets automatisé pour le suivi des entrées/sorties et prévisionnel financier, prêt à la vente sur Gumroad/Ko-fi.",
+      "source_id": "demo_digital_products",
+      "source_url": "https://gumroad.com/discover/finance",
+      "score": 91.5,
+      "score_breakdown": {
+        "observable_demand": 23.5,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 18.0,
+        "technical_feasibility": 14.0,
+        "madagascar_payment_readiness": 16.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 1,
+      "created_at": "2026-10-10T15:00:25.433707+00:00"
+    },
+    {
+      "id": 9,
+      "hash": "1a4e16916c4c01e45afa1c09b7c93021ffbd96f6fbaf1c393dc3bbd71528fbcb",
+      "title": "Guide SEO & Article Pilier : Top 7 Outils Gratuits d'Automatisation en 2026",
+      "category": "seo_content",
+      "description": "Article approfondi à fort potentiel de trafic de recherche et affiliation logicielle, structuré avec balises H2/H3 et CTA.",
+      "source_id": "demo_content_marketing",
+      "source_url": "https://trends.google.com",
+      "score": 89.5,
+      "score_breakdown": {
+        "observable_demand": 21.5,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 15.0,
+        "technical_feasibility": 14.0,
+        "madagascar_payment_readiness": 19.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 1,
+      "created_at": "2026-10-10T15:00:25.444215+00:00"
+    },
+    {
+      "id": 11,
+      "hash": "da424996d7f4cba6d5239291dbe6232c74e4232b846650cc9e10f831b7f06b53",
+      "title": "Micro-Outil Web : Simulateur de Taux Horaire et Marges Freelance Autonome",
+      "category": "micro_tool",
+      "description": "Mini-application interactive HTML/JS autonome hébergeable sur GitHub Pages avec bouton de don Ko-fi et pack payant.",
+      "source_id": "demo_micro_tools",
+      "source_url": "https://news.ycombinator.com/showrss",
+      "score": 88.5,
+      "score_breakdown": {
+        "observable_demand": 22.5,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 16.0,
+        "technical_feasibility": 12.0,
+        "madagascar_payment_readiness": 18.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 1,
+      "created_at": "2026-10-10T15:00:25.454783+00:00"
+    },
+    {
+      "id": 6,
+      "hash": "f3656640a5eb7b4cca3e73603c13a78466227edf89cff6f6f81b419f2cbc5ecb",
+      "title": "I keep losing useful work I create with AI, so I’m building something for it",
+      "category": "digital_product",
+      "description": "Opportunité issue d'un flux public temps réel.",
+      "source_id": "reddit_sideproject",
+      "source_url": "https://www.reddit.com/r/SideProject/comments/1x293sx/i_keep_losing_useful_work_i_create_with_ai_so_im/",
+      "score": 85.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 17.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 16.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T15:00:25.428537+00:00"
+    },
+    {
+      "id": 5,
+      "hash": "cd9428f742c9131bedd6dccfeef87426b3ce79f5ad8d8447ff0941f9673e9f66",
+      "title": "I built an interactive world map after a random question about Australia. RealSize.World",
+      "category": "digital_product",
+      "description": "Opportunité issue d'un flux public temps réel.",
+      "source_id": "reddit_sideproject",
+      "source_url": "https://www.reddit.com/r/SideProject/comments/1x29owx/i_built_an_interactive_world_map_after_a_random/",
+      "score": 85.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 17.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 16.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T15:00:25.423420+00:00"
+    },
+    {
+      "id": 4,
+      "hash": "b1034f7f0251ee256b644a48ef84dc25b1703f738e1600cfb63fe87928e8f92e",
+      "title": "I've been working on a golf ball finder. Thoughts?",
+      "category": "digital_product",
+      "description": "Opportunité issue d'un flux public temps réel.",
+      "source_id": "reddit_sideproject",
+      "source_url": "https://www.reddit.com/r/SideProject/comments/1x2ff86/ive_been_working_on_a_golf_ball_finder_thoughts/",
+      "score": 85.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 17.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 16.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T15:00:25.413593+00:00"
+    },
+    {
+      "id": 3,
+      "hash": "4be4e8d96d3353bdc22e3cc0eb99e23a2078013a4ce02c305ff1fa61f63853b5",
+      "title": "Testing whether a changeable photo magnet solves a real problem",
+      "category": "digital_product",
+      "description": "Opportunité issue d'un flux public temps réel.",
+      "source_id": "reddit_sideproject",
+      "source_url": "https://www.reddit.com/r/SideProject/comments/1x2bfmo/testing_whether_a_changeable_photo_magnet_solves/",
+      "score": 85.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 17.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 16.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T15:00:25.403278+00:00"
+    },
+    {
+      "id": 2,
+      "hash": "4933120f133a685dab1f86c7b51cbe8cd3b062bfd82fc7b54caa6d66a5f4a1e1",
+      "title": "Share your ***Not-AI*** projects",
+      "category": "digital_product",
+      "description": "Opportunité issue d'un flux public temps réel.",
+      "source_id": "reddit_sideproject",
+      "source_url": "https://www.reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/",
+      "score": 85.5,
+      "score_breakdown": {
+        "observable_demand": 18.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 17.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 16.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-10T15:00:25.393140+00:00"
+    }
+  ],
+  "exported_at": "2026-10-10T15:00:44.666067+00:00"
+}

@@ -1,0 +1,79 @@
+name: Auto-Income AI Autonomous Cloud Engine
+
+on:
+  schedule:
+    # Exécution planifiée automatique toutes les 6 heures (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # Déclenchement manuel en 1 clic depuis GitHub web ou l'application mobile GitHub
+    inputs:
+      simulation_mode:
+        description: 'Exécuter en mode simulation (démo)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  run-autonomous-agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📥 Récupération du Code Source (Checkout)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Configuration de l'Environnement Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Installation des Dépendances
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: 🧪 Exécution de la Suite de Tests Unitaires
+        run: |
+          python -m unittest discover -s tests -p "test_*.py"
+
+      - name: 🚀 Lancement du Cycle Autonome AUTO-INCOME AI
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.simulation_mode }}" = "true" ]; then
+            python main.py --simulate
+          else
+            python main.py --run
+          fi
+
+      - name: 💾 Persistance de l'État et des Livrables dans le Dépôt
+        run: |
+          git config --global user.name "AutoIncomeAI-Bot"
+          git config --global user.email "bot@auto-income-ai.local"
+          git add data/state.json site/ logs/ config.json
+          if git diff --staged --quiet; then
+            echo "Aucune modification d'état à sauvegarder pour ce cycle."
+          else
+            git commit -m "chore(autonomous): synchronisation état et nouveaux livrables [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
+
+      - name: 📤 Sauvegarde des Artefacts d'Exécution (Logs & Livrables)
+        uses: actions/upload-artifact@v4
+        with:
+          name: auto-income-run-artifacts
+          path: |
+            logs/
+            data/state.json
+            site/
+          retention-days: 14

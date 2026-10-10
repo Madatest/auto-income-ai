@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO-INCOME AI - Tableau de Bord Exécutif</title>
+    <style>
+        :root {
+            --bg: #090d16;
+            --surface: #111827;
+            --surface-hover: #1f2937;
+            --border: #1f2937;
+            --primary: #3b82f6;
+            --primary-gradient: linear-gradient(135deg, #2563eb, #1d4ed8);
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --text: #f9fafb;
+            --text-muted: #9ca3af;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 16px;
+            max-width: 1100px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 0 16px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 24px;
+            gap: 12px;
+        }
+        .header-title h1 {
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .status-badge {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        /* KPI Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+        .kpi-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .kpi-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+        .kpi-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+        .kpi-subtext {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+        .highlight-green { color: var(--accent); }
+        .highlight-blue { color: var(--primary); }
+
+        /* Section Layout */
+        h2 {
+            font-size: 1.3rem;
+            margin: 28px 0 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .deliverables-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 16px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-badge {
+            font-size: 0.7rem;
+            background: #1e3a8a;
+            color: #93c5fd;
+            padding: 2px 8px;
+            border-radius: 4px;
+            width: fit-content;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        .meta-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            color: #d1d5db;
+        }
+        .cashout-box {
+            background: #090d16;
+            border-left: 3px solid var(--accent);
+            padding: 10px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin: 12px 0 16px;
+        }
+        .cashout-box strong { color: var(--text); }
+        .btn-primary {
+            display: block;
+            text-align: center;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        .btn-primary:hover { background: #2563eb; }
+
+        /* Table */
+        .table-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.85rem;
+        }
+        th, td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        .tag-live { color: var(--accent); font-weight: 700; font-size: 0.75rem; margin-right: 4px; }
+        .tag-demo { color: var(--warning); font-weight: 700; font-size: 0.75rem; margin-right: 4px; }
+        .cat-pill { background: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; }
+        .status-pill { padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
+        .status-processed { background: rgba(16, 185, 129, 0.2); color: var(--accent); }
+        .status-pending { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            padding: 24px;
+            border-top: 1px solid var(--border);
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <h1>🤖 AUTO-INCOME AI</h1>
+            <span class="status-badge">● SYSTÈME AUTONOME ACTIF</span>
+        </div>
+        <div style="font-size: 0.8rem; color: var(--text-muted);">
+            Dernière mise à jour : <strong>2026-10-10T15:00:44.675501+00:00</strong>
+        </div>
+    </header>
+
+    <main>
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-label">Budget & Coûts Engagés</div>
+                <div class="kpi-value highlight-green">0,00 $</div>
+                <div class="kpi-subtext">Règle 0 USD respectée à 100%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Actifs Monétisables Créés</div>
+                <div class="kpi-value highlight-blue">2</div>
+                <div class="kpi-subtext">Prêts pour diffusion internationale</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Pipeline de Valeur Généré</div>
+                <div class="kpi-value">55.0 $</div>
+                <div class="kpi-subtext">~247,500 Ar au cours actuel</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Cycles Cloud Exécutés</div>
+                <div class="kpi-value">2</div>
+                <div class="kpi-subtext">Surveillance 24/7 sans interruption</div>
+            </div>
+        </div>
+
+        <h2>📦 Actifs Monétisables Disponibles</h2>
+        <div class="deliverables-grid">
+            
+            <div class="card deliverable-card">
+                <div class="card-badge">B2B PROSPECTS</div>
+                <h3>Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection</h3>
+                <div class="meta-row">
+                    <span>💰 <strong>30.0 $</strong> (~135,000 Ar)</span>
+                    <span>⭐ QA : <strong>100.0/100</strong></span>
+                </div>
+                <p class="description"><strong>Canal :</strong> ComeUp (ex-5euros) Microservices</p>
+                <div class="cashout-box">
+                    <strong>🇲🇬 Encaissement Mada :</strong> Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar
+                </div>
+                <div class="action-row">
+                    <a href="deliverables/20261010_150044_base_qualifiée_b2b_100_agences_web_e_commerces_fra.csv" class="btn-primary" target="_blank">Consulter l'Actif</a>
+                </div>
+            </div>
+            
+            <div class="card deliverable-card">
+                <div class="card-badge">MICROSERVICE GIG</div>
+                <h3>Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook</h3>
+                <div class="meta-row">
+                    <span>💰 <strong>25.0 $</strong> (~112,500 Ar)</span>
+                    <span>⭐ QA : <strong>100.0/100</strong></span>
+                </div>
+                <p class="description"><strong>Canal :</strong> ComeUp (ex-5euros) Microservices</p>
+                <div class="cashout-box">
+                    <strong>🇲🇬 Encaissement Mada :</strong> Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar
+                </div>
+                <div class="action-row">
+                    <a href="deliverables/20261010_150025_service_clé_en_main_configuration_de_bot_messenger.md" class="btn-primary" target="_blank">Consulter l'Actif</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2>🔍 Opportunités Détectées & Scannées</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Opportunité & Source</th>
+                        <th>Modèle</th>
+                        <th>Score Global</th>
+                        <th>Statut</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+            <tr>
+                <td><span class="tag-demo">[DEMO]</span> Service Clé en Main : Configuration de Bot Messenger & FAQ pour Vendeurs Facebook</td>
+                <td><span class="cat-pill">microservice_gig</span></td>
+                <td><strong>96.0 / 100</strong></td>
+                <td><span class="status-pill status-processed">processed</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-demo">[DEMO]</span> Base Qualifiée B2B : 100 Agences Web & E-commerces Francophones pour Prospection</td>
+                <td><span class="cat-pill">b2b_prospects</span></td>
+                <td><strong>94.5 / 100</strong></td>
+                <td><span class="status-pill status-processed">processed</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-demo">[DEMO]</span> Modèle Excel & Guide Pratique : Suivi de Trésorerie pour Freelances & PME</td>
+                <td><span class="cat-pill">digital_product</span></td>
+                <td><strong>91.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-demo">[DEMO]</span> Guide SEO & Article Pilier : Top 7 Outils Gratuits d'Automatisation en 2026</td>
+                <td><span class="cat-pill">seo_content</span></td>
+                <td><strong>89.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-demo">[DEMO]</span> Micro-Outil Web : Simulateur de Taux Horaire et Marges Freelance Autonome</td>
+                <td><span class="cat-pill">micro_tool</span></td>
+                <td><strong>88.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-live">[LIVE]</span> I keep losing useful work I create with AI, so I’m building something for it</td>
+                <td><span class="cat-pill">digital_product</span></td>
+                <td><strong>85.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-live">[LIVE]</span> I built an interactive world map after a random question about Australia. RealSize.World</td>
+                <td><span class="cat-pill">digital_product</span></td>
+                <td><strong>85.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-live">[LIVE]</span> I've been working on a golf ball finder. Thoughts?</td>
+                <td><span class="cat-pill">digital_product</span></td>
+                <td><strong>85.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-live">[LIVE]</span> Testing whether a changeable photo magnet solves a real problem</td>
+                <td><span class="cat-pill">digital_product</span></td>
+                <td><strong>85.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-live">[LIVE]</span> Share your ***Not-AI*** projects</td>
+                <td><span class="cat-pill">digital_product</span></td>
+                <td><strong>85.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+            <tr>
+                <td><span class="tag-live">[LIVE]</span> As the year wraps up: what’s the project you’re most proud of building and why?</td>
+                <td><span class="cat-pill">digital_product</span></td>
+                <td><strong>85.5 / 100</strong></td>
+                <td><span class="status-pill status-pending">pending</span></td>
+            </tr>
+            
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>AUTO-INCOME AI</strong> • Architecture autonome pour créateurs basés à Madagascar • Conforme aux règles éthiques internationales.</p>
+        <p style="margin-top:6px;">Exécuté 24h/24 via GitHub Actions • Compatible mobile Android Termux.</p>
+    </footer>
+</body>
+</html>

@@ -1,24 +1,56 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 6,
+    "total_executions": 7,
     "total_opportunities": 6,
-    "total_deliverables": 4,
+    "total_deliverables": 5,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 48.0,
+    "projected_pipeline_usd": 60.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 6,
-      "timestamp": "2026-10-10T16:56:25.992270+00:00",
+      "id": 7,
+      "timestamp": "2026-10-10T18:24:17.613661+00:00",
       "status": "SUCCESS",
       "opportunities_found": 0,
       "deliverables_created": 1,
-      "duration_seconds": 8.08,
-      "notes": "Produit 'I've been working on a golf ball finder. Thoughts?'"
+      "duration_seconds": 7.43,
+      "notes": "Produit 'I built an interactive world map after a random question about Australia. RealSize.World'"
     },
-    "updated_at": "2026-10-10T16:56:26.004039+00:00"
+    "updated_at": "2026-10-10T18:24:17.624919+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 7,
+      "opportunity_hash": "cd9428f742c9131bedd6dccfeef87426b3ce79f5ad8d8447ff0941f9673e9f66",
+      "category": "digital_product",
+      "title": "I built an interactive world map after a random question about Australia. RealSize.World",
+      "file_path": "site/deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md",
+      "relative_path": "deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md",
+      "monetization_channel": "binance_pay",
+      "price_usd": 12.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "digital_product",
+          "target_client": "Professionnels indépendants, créateurs et étudiants internationaux",
+          "acquisition_channel": "GitHub Pages, réseaux sociaux professionnels, forums thématiques",
+          "delivery_process": "Téléchargement immédiat sécurisé après confirmation de paiement",
+          "recommended_channel": "binance_pay",
+          "channel_name": "Binance Pay Direct (UID : 254779310)",
+          "price_usd": 12.0,
+          "fee_usd": 0.0,
+          "net_revenue_usd": 12.0,
+          "madagascar_readiness_score": 20.0,
+          "local_cashout": "Conversion P2P directe vers MVola (038 75 318 15) à Madagascar en 5 minutes",
+          "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)",
+          "payout_delay_days": 0
+        },
+        "file_size_bytes": 2319,
+        "extension": "md"
+      },
+      "created_at": "2026-10-10T18:24:16.611806+00:00"
+    },
     {
       "id": 6,
       "opportunity_hash": "b1034f7f0251ee256b644a48ef84dc25b1703f738e1600cfb63fe87928e8f92e",
@@ -187,7 +219,7 @@
         "madagascar_payment_readiness": 16.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-10T15:00:25.423420+00:00"
     },
@@ -276,5 +308,5 @@
       "created_at": "2026-10-10T15:00:25.376471+00:00"
     }
   ],
-  "exported_at": "2026-10-10T16:56:26.010298+00:00"
+  "exported_at": "2026-10-10T18:24:17.627329+00:00"
 }

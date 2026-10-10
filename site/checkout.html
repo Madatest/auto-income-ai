@@ -169,8 +169,12 @@
                 <span>compte.amidy001@gmail.com</span>
             </div>
             <div class="summary-row">
-                <span>Mode de transfert :</span>
-                <span>Binance Pay (Sans commission)</span>
+                <span>Téléphone / MVola :</span>
+                <span><strong>038 75 318 15</strong></span>
+            </div>
+            <div class="summary-row">
+                <span>Modes acceptés :</span>
+                <span>Binance Pay & MVola Direct</span>
             </div>
             <div class="summary-row">
                 <span>Statut :</span>
@@ -179,25 +183,29 @@
         </div>
 
         <div class="payment-box">
-            <div class="payment-label">Identifiant Binance UID du Vendeur :</div>
+            <div class="payment-label">Option 1 : Binance Pay (Clients Internationaux - 0% frais)</div>
             <div class="binance-uid" id="uidDisplay">254779310</div>
             <button class="btn-copy" onclick="copyUID()">📋 Copier le Binance UID</button>
+        </div>
+
+        <div class="payment-box" style="border-color:#10b981; background:rgba(16,185,129,0.05); margin-top:-10px;">
+            <div class="payment-label" style="color:#10b981;">Option 2 : MVola Madagascar (Paiement Direct en Ariary)</div>
+            <div class="binance-uid" style="color:#10b981;" id="mvolaDisplay">038 75 318 15</div>
+            <button class="btn-copy" style="background:#10b981; color:#fff;" onclick="copyMVola()">🇲🇬 Copier le Numéro MVola</button>
         </div>
 
         <div class="steps">
             <strong>Procédure de paiement :</strong>
             <ol>
-                <li>Ouvrez votre application <strong>Binance</strong> sur mobile ou PC.</li>
-                <li>Cliquez sur l'icône <strong>Pay</strong> (ou <em>Envoyer</em>).</li>
-                <li>Sélectionnez <strong>Envoyer via Pay ID / Binance UID</strong>.</li>
-                <li>Collez l'UID : <strong>254779310</strong> et confirmez le montant.</li>
-                <li>Votre commande sera validée immédiatement par Jean.</li>
+                <li><strong>Via Binance Pay (International) :</strong> Ouvrez Binance > Pay > Envoyer via Binance UID > <strong>254779310</strong>.</li>
+                <li><strong>Via MVola (Madagascar) :</strong> Tapez #111*1*2# ou utilisez l'app MVola vers le <strong>038 75 318 15</strong> (Jean).</li>
+                <li>Votre commande est confirmée et livrée immédiatement.</li>
             </ol>
         </div>
 
         <div class="contact-seller">
             Besoin d'assistance ou confirmation de paiement ?<br>
-            Écrivez directement à : <a href="mailto:compte.amidy001@gmail.com?subject=Confirmation%20Paiement%20Binance%20UID%20254779310">compte.amidy001@gmail.com</a>
+            Écrivez directement à : <a href="mailto:compte.amidy001@gmail.com?subject=Confirmation%20Paiement">compte.amidy001@gmail.com</a>
         </div>
     </div>
 
@@ -205,6 +213,10 @@
         function copyUID() {
             navigator.clipboard.writeText("254779310");
             alert("Binance UID (254779310) copié dans le presse-papiers !");
+        }
+        function copyMVola() {
+            navigator.clipboard.writeText("0387531815");
+            alert("Numéro MVola (038 75 318 15) copié dans le presse-papiers !");
         }
     </script>
 </body>

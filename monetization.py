@@ -22,8 +22,19 @@ class MonetizationAdvisor:
             "payout_delay_days": 0,
             "binance_uid": "254779310",
             "seller_email": "compte.amidy001@gmail.com",
-            "local_cashout": "Conversion P2P directe vers MVola ou Orange Money à Madagascar en 5 minutes",
+            "local_cashout": "Conversion P2P directe vers MVola (038 75 318 15) à Madagascar en 5 minutes",
             "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)"
+        },
+        "mvola_direct": {
+            "name": "MVola Direct Madagascar (038 75 318 15)",
+            "supports_madagascar": True,
+            "readiness_score": 20.0,
+            "fee_percent": 0.0,
+            "min_payout_usd": 1.0,
+            "payout_delay_days": 0,
+            "phone_number": "0387531815",
+            "local_cashout": "Réception directe sur votre compte MVola 038 75 318 15",
+            "required_setup": "Compte Telma MVola 038 75 318 15 (Jean)"
         },
         "crypto_usdt": {
             "name": "Crypto USDT (Binance P2P / Mobile Money)",

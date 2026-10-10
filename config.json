@@ -9,9 +9,11 @@
     "seller_profile": {
       "name": "Jean",
       "email": "compte.amidy001@gmail.com",
+      "phone": "0387531815",
+      "mvola_number": "0387531815",
       "binance_uid": "254779310",
-      "payment_method": "Binance Pay",
-      "cashout_target": "MVola / Orange Money Madagascar"
+      "payment_method": "Binance Pay / MVola",
+      "cashout_target": "MVola (038 75 318 15)"
     }
   },
   "scoring": {
@@ -63,6 +65,15 @@
       "type": "instant_crypto_p2p",
       "min_payout_usd": 1.0,
       "binance_uid": "254779310"
+    },
+    "mvola_direct": {
+      "label": "MVola Madagascar Direct (038 75 318 15)",
+      "fees_percent": 0.0,
+      "payout_speed_days": 0,
+      "supports_madagascar": true,
+      "type": "local_mobile_money",
+      "min_payout_usd": 1.0,
+      "phone_number": "0387531815"
     },
     "crypto_usdt": {
       "label": "Crypto USDT (Binance P2P / Mobile Money)",

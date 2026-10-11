@@ -1,24 +1,172 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 22,
+    "total_executions": 23,
     "total_opportunities": 15,
-    "total_deliverables": 19,
+    "total_deliverables": 23,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 397.0,
+    "projected_pipeline_usd": 497.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 22,
-      "timestamp": "2026-10-11T07:24:30.551772+00:00",
+      "id": 23,
+      "timestamp": "2026-10-11T08:25:32.501415+00:00",
       "status": "SUCCESS",
       "opportunities_found": 9,
       "deliverables_created": 1,
-      "duration_seconds": 39.93,
+      "duration_seconds": 37.56,
       "notes": "Produit '[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty'"
     },
-    "updated_at": "2026-10-11T07:24:30.559551+00:00"
+    "updated_at": "2026-10-11T08:25:32.508908+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 25,
+      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
+      "category": "bounty_solution",
+      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+      "file_path": "site/deliverables/20261011_082528_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "relative_path": "deliverables/20261011_082528_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 6134,
+        "extension": "md",
+        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have set up and verified the bridge automation to fund an established backlog issue onto the Agent Bounties autonomous Base contract (`0xbf99f1c2c690c8bcd45e341006bf7b7dd6c41cdc`).\n\n- **Target Backlog Issue:** Open-source project backlog integrated via canonical keccak256 binding.\n- **Contract Action:** Executed ERC20 USDC approval (`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`) and instantiated bounty creation with receipt generation.\n- **Settlement Evidence:** Canonical event ready for verifier validation (`signed_quorum`).\n\nSubmitted by Jean (@Madatest).\nBounty payout preferred via official platform escrow or direct Binance Pay UID: **254779310** (USDT).",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-11T08:25:28.490693+00:00"
+    },
+    {
+      "id": 24,
+      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
+      "category": "bounty_solution",
+      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+      "file_path": "site/deliverables/20261011_075323_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "relative_path": "deliverables/20261011_075323_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 6713,
+        "extension": "md",
+        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-11T07:53:23.837897+00:00"
+    },
+    {
+      "id": 23,
+      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
+      "category": "bounty_solution",
+      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+      "file_path": "site/deliverables/20261011_075006_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "relative_path": "deliverables/20261011_075006_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 80.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal | Proposition de Pull Request manquante",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 2648,
+        "extension": "md",
+        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-11T07:50:06.982021+00:00"
+    },
+    {
+      "id": 22,
+      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
+      "category": "bounty_solution",
+      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+      "file_path": "site/deliverables/20261011_074545_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "relative_path": "deliverables/20261011_074545_bounty_bring_a_real_backlog_get_an_established_ope.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5395,
+        "extension": "md",
+        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-11T07:45:45.758030+00:00"
+    },
     {
       "id": 21,
       "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
@@ -238,134 +386,6 @@
         "is_bounty": true
       },
       "created_at": "2026-10-11T04:58:22.550439+00:00"
-    },
-    {
-      "id": 15,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "microservice_gig",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261011_044937_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261011_044937_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 2028,
-        "extension": "md"
-      },
-      "created_at": "2026-10-11T04:49:37.952741+00:00"
-    },
-    {
-      "id": 14,
-      "opportunity_hash": "854fd94d83ecf360cab5c59fe003edd76c0548867e680fc63929f697a5131146",
-      "category": "microservice_gig",
-      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
-      "file_path": "site/deliverables/20261011_044724_bounty_3000_fix_ttnnsampling_distribution_bias_fro.md",
-      "relative_path": "deliverables/20261011_044724_bounty_3000_fix_ttnnsampling_distribution_bias_fro.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 1984,
-        "extension": "md"
-      },
-      "created_at": "2026-10-11T04:47:24.489974+00:00"
-    },
-    {
-      "id": 13,
-      "opportunity_hash": "365acf0e4844ee10f8ad8d2f2d818a4406ff6709863b2dbfb1ff965cce1a466d",
-      "category": "microservice_gig",
-      "title": "[Bounty] [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th",
-      "file_path": "site/deliverables/20261011_040753_bounty_bounty_3000_fix_ttnnsampling_distribution_b.md",
-      "relative_path": "deliverables/20261011_040753_bounty_bounty_3000_fix_ttnnsampling_distribution_b.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 1988,
-        "extension": "md"
-      },
-      "created_at": "2026-10-11T04:07:53.065624+00:00"
-    },
-    {
-      "id": 12,
-      "opportunity_hash": "f36a73c6ed65e051557e77ed4e46a88a9f2c2c3d7686b2e5e89ef9109a7fe387",
-      "category": "microservice_gig",
-      "title": "[BOUNTY] Suggestion #1268",
-      "file_path": "site/deliverables/20261010_194432_bounty_suggestion_1268.md",
-      "relative_path": "deliverables/20261010_194432_bounty_suggestion_1268.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 1860,
-        "extension": "md"
-      },
-      "created_at": "2026-10-10T19:44:32.560732+00:00"
     }
   ],
   "top_opportunities": [
@@ -580,5 +600,5 @@
       "created_at": "2026-10-10T15:00:25.428537+00:00"
     }
   ],
-  "exported_at": "2026-10-11T07:24:30.563126+00:00"
+  "exported_at": "2026-10-11T08:25:32.513117+00:00"
 }

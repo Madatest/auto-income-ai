@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 23,
-    "total_opportunities": 15,
-    "total_deliverables": 23,
+    "total_executions": 24,
+    "total_opportunities": 16,
+    "total_deliverables": 24,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 497.0,
+    "projected_pipeline_usd": 522.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 23,
-      "timestamp": "2026-10-11T08:25:32.501415+00:00",
+      "id": 24,
+      "timestamp": "2026-10-11T09:27:19.117324+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 9,
+      "opportunities_found": 10,
       "deliverables_created": 1,
-      "duration_seconds": 37.56,
-      "notes": "Produit '[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty'"
+      "duration_seconds": 82.34,
+      "notes": "Produit '🎯 Bounty Alert: 8 New Opportunityies found'"
     },
-    "updated_at": "2026-10-11T08:25:32.508908+00:00"
+    "updated_at": "2026-10-11T09:27:19.123788+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 26,
+      "opportunity_hash": "0eba587a9d49b4911d0203bffbbb494f6522e85e2e59eaa6d946b2dc2b55d8c6",
+      "category": "bounty_solution",
+      "title": "🎯 Bounty Alert: 8 New Opportunityies found",
+      "file_path": "site/deliverables/20261011_092715__bounty_alert_8_new_opportunityies_found.md",
+      "relative_path": "deliverables/20261011_092715__bounty_alert_8_new_opportunityies_found.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5448,
+        "extension": "md",
+        "source_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1572",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **🎯 Bounty Alert: 8 New Opportunityies found**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-11T09:27:15.273107+00:00"
+    },
     {
       "id": 25,
       "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
@@ -351,44 +388,30 @@
         "bounty_value": "$0"
       },
       "created_at": "2026-10-11T05:18:03.222557+00:00"
-    },
-    {
-      "id": 16,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "bounty_solution",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261011_045822_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261011_045822_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4201,
-        "extension": "md",
-        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-        "source_id": "github_bounties",
-        "is_bounty": true
-      },
-      "created_at": "2026-10-11T04:58:22.550439+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 21,
+      "hash": "0eba587a9d49b4911d0203bffbbb494f6522e85e2e59eaa6d946b2dc2b55d8c6",
+      "title": "🎯 Bounty Alert: 8 New Opportunityies found",
+      "category": "microservice_gig",
+      "description": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-10-11 08:28 UTC\n\n#### 1. [Demo 1 hardening: signed intent, recoverable disputes, migration, agent adapters](https://github.com/Rishidar-lab/nexescrow/issues/3)\n- **Repository:** [Rishidar-lab/nexescrow](https://github.com/Rishidar-lab/nexescrow)\n- **Comments:** 0\n- **Last Updated:** 2026-10-11T08:18:41Z\n\n#### 2. [本人発見7件を再発見ベンチマークにかける（修正版・前提の記録、判定器でのconfirmed採点）](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness/issues/127)\n- **Repository:** [momoponwork1415-lgtm/wordpress-bounty-harness](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness)\n- **Comments:** 4\n- **Last Updated:** 2026-10-11T08:17:36Z\n\n#### 3. [探索の主経路を WP2Shell 方式の協調 Trial に戻す（ADR と実装）](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness/issues/138)\n- **Repository:** [momoponwork1415-lgtm/wordpress-bounty-harness](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness)\n- **Comments:** 1\n- **Last Updated:** 2026-10-11T08:17:34Z\n\n#### 4. [Python CLI Markdown export: default no-overwrite can clobber a concurrently created file](https://github.com/BasedHardware/omi/issues/21168)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 2\n- **Last Updated:** 2026-10-11T08:14:31Z\n\n#### 5. [交付：插件测评网站 v0.1.0（源码 ZIP、测评流程与部署指南）](https://github.com/FuRongJun-1999/dsh-bounty/issues/4)\n- **Repository:** [FuRongJun-1999/dsh-bounty](https://github.com/FuRongJun-1999/dsh-bounty)\n- **Comments:** 1\n- **Last Updated:** 2026-10-11T08:07:48Z\n\n#### 6. [[BOUNTY] Suggestion #1255](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286)\n- **Repository:** [SPLURT-Station/S.P.L.U.R.T-tg](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg)\n- **Comments:** 4\n- **Last Updated:** 2026-10-11T08:06:47Z\n\n#### 7. [Jobs posted from faction plans: the living world pays the player](https://github.com/HEL3AN/econspace-mmo/issues/345)\n- **Repository:** [HEL3AN/econspace-mmo](https://github.com/HEL3AN/eco",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1572",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 0,
+      "created_at": "2026-10-11T09:26:08.335824+00:00"
+    },
     {
       "id": 20,
       "hash": "287635c3731a13c9a89242ace1d380aed48e841862da6c66f9ed9af0d69d13c8",
@@ -577,28 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-10T18:42:47.791368+00:00"
-    },
-    {
-      "id": 6,
-      "hash": "f3656640a5eb7b4cca3e73603c13a78466227edf89cff6f6f81b419f2cbc5ecb",
-      "title": "I keep losing useful work I create with AI, so I’m building something for it",
-      "category": "digital_product",
-      "description": "Opportunité issue d'un flux public temps réel.",
-      "source_id": "reddit_sideproject",
-      "source_url": "https://www.reddit.com/r/SideProject/comments/1x293sx/i_keep_losing_useful_work_i_create_with_ai_so_im/",
-      "score": 85.5,
-      "score_breakdown": {
-        "observable_demand": 18.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 17.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 16.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-10T15:00:25.428537+00:00"
     }
   ],
-  "exported_at": "2026-10-11T08:25:32.513117+00:00"
+  "exported_at": "2026-10-11T09:27:19.127366+00:00"
 }

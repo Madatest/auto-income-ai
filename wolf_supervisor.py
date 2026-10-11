@@ -27,8 +27,9 @@ class WolfSupervisor:
     """
 
     MOTTO = (
-        "STOP EXPLAINING WHY IT DIDN'T WORK. SHOW ME WHAT YOU LEARNED, "
-        "WHAT YOU CHANGED, AND WHY THE NEXT ATTEMPT HAS A BETTER CHANCE OF WINNING."
+        "AUTO-ÉVOLUTION ACTIVE (RÈGLE JEAN #3) : Ne jamais attendre de questions externes. "
+        "T'es plus intelligent, il y a toujours des réponses sur quelque chose. "
+        "Identifie la cause racine, brise la stagnation et apporte la solution immédiatement."
     )
 
     def __init__(
@@ -122,8 +123,9 @@ class WolfSupervisor:
             "Chasse active aux Bounties GitHub : résoudre un bug ou créer un connecteur pour un repo qui a une prime en cash."
         )
         q10 = (
-            "Leçon ancrée : Ne jamais confondre fabrication d'outils et capture de valeur. "
-            "L'argent vient de la résolution d'une douleur existante chez un client qui a du cash, pas d'un fichier posé sur un site."
+            "RÈGLE D'AUTO-ÉVOLUTION (PILIER #3) : Ne jamais attendre de questions externes. "
+            "Il y a toujours des réponses et des solutions logiques. Ne jamais confondre fabrication d'outils et capture de valeur. "
+            "Si la livraison externe est bloquée, la débloquer immédiatement sans attendre d'impulsion extérieure."
         )
 
         return {

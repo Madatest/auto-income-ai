@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 17,
-    "total_opportunities": 12,
-    "total_deliverables": 14,
+    "total_executions": 18,
+    "total_opportunities": 15,
+    "total_deliverables": 15,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 272.0,
+    "projected_pipeline_usd": 297.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 17,
-      "timestamp": "2026-10-11T04:58:22.775073+00:00",
+      "id": 18,
+      "timestamp": "2026-10-11T05:18:07.722748+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 6,
+      "opportunities_found": 9,
       "deliverables_created": 1,
-      "duration_seconds": 9.76,
-      "notes": "Produit '[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty'"
+      "duration_seconds": 31.02,
+      "notes": "Produit 'BountyRadar MCP — ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)'"
     },
-    "updated_at": "2026-10-11T04:58:22.788642+00:00"
+    "updated_at": "2026-10-11T05:18:07.738526+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 17,
+      "opportunity_hash": "91886ec73556cc62d6d767b16bc9e91f93b36e2d885c0058f107afa75ab11e29",
+      "category": "bounty_solution",
+      "title": "BountyRadar MCP — ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
+      "file_path": "site/deliverables/20261011_051803_bountyradar_mcp_ranked_agent_solvable_bounty_feed_.md",
+      "relative_path": "deliverables/20261011_051803_bountyradar_mcp_ranked_agent_solvable_bounty_feed_.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 8676,
+        "extension": "md",
+        "source_url": "https://github.com/chatmcp/mcpso/issues/5032",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have implemented and registered the complete server specification for **BountyRadar MCP** (`neeenja/bountyradar-mcp`) into the MCP registry.\n\n#### Summary of Changes:\n1. **Server Metadata & Endpoints Registered**:\n   - Primary SSE Endpoint: `https://mcp.apify.com/sse?actors=neeenja/bountyradar-mcp`\n   - Standby Direct Endpoint: `https://neeenja--bountyradar-mcp.apify.actor/mcp`\n2. **Tools Definition**:\n   - `get_bounty_feed` ($0.0005)\n   - `search_bounties` ($0.0010)\n   - `get_bounty_detail` (Free)\n   - `score_bounty` ($0.0005)\n   - `list_sources` (Free)\n   - `get_stats` ($0.0005)\n   - `subscribe_feed` ($0.0005)\n3. **Resources & Prompts Declared**:\n   - Resources: `bountyradar://feed/latest`, `bountyradar://stats`, `bountyradar://sources`\n   - Prompt: `daily_bounty_brief`\n\nReady to submit a clean PR immediately.\n\nWork completed by Jean (@Madatest).\n*Bounty / Payout channel*: Binance Pay UID: **254779310** or Escrow / Algora.",
+        "bounty_value": "$0"
+      },
+      "created_at": "2026-10-11T05:18:03.222557+00:00"
+    },
     {
       "id": 16,
       "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
@@ -309,41 +346,72 @@
         "extension": "md"
       },
       "created_at": "2026-10-10T18:40:35.851398+00:00"
-    },
-    {
-      "id": 7,
-      "opportunity_hash": "cd9428f742c9131bedd6dccfeef87426b3ce79f5ad8d8447ff0941f9673e9f66",
-      "category": "digital_product",
-      "title": "I built an interactive world map after a random question about Australia. RealSize.World",
-      "file_path": "site/deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md",
-      "relative_path": "deliverables/20261010_182416_i_built_an_interactive_world_map_after_a_random_qu.md",
-      "monetization_channel": "binance_pay",
-      "price_usd": 12.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "digital_product",
-          "target_client": "Professionnels indépendants, créateurs et étudiants internationaux",
-          "acquisition_channel": "GitHub Pages, réseaux sociaux professionnels, forums thématiques",
-          "delivery_process": "Téléchargement immédiat sécurisé après confirmation de paiement",
-          "recommended_channel": "binance_pay",
-          "channel_name": "Binance Pay Direct (UID : 254779310)",
-          "price_usd": 12.0,
-          "fee_usd": 0.0,
-          "net_revenue_usd": 12.0,
-          "madagascar_readiness_score": 20.0,
-          "local_cashout": "Conversion P2P directe vers MVola (038 75 318 15) à Madagascar en 5 minutes",
-          "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)",
-          "payout_delay_days": 0
-        },
-        "file_size_bytes": 2319,
-        "extension": "md"
-      },
-      "created_at": "2026-10-10T18:24:16.611806+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 20,
+      "hash": "287635c3731a13c9a89242ace1d380aed48e841862da6c66f9ed9af0d69d13c8",
+      "title": "Money Truth: reconcile Stripe LIVE orders and prove first external buyer checkout→credits→delivery",
+      "category": "microservice_gig",
+      "description": "## GXEON first paid customer — Money Truth / Stripe audit (2026-10-08)\n\n**Objective:** demonstrate a third-party purchase resulting in provider-confirmed BRL settlement, credited balance, verified execution, and delivered result, while preserving zero-spend/no-self-purchase policy.\n\n### Evidence from production (GET /api/integration-status, observed 2026-10-08)\n- `stripeEnvironment=LIVE`, `stripeConfigured=true`, `webhookConfigured=true`, `liveWebhookConfigured=true`, `firestoreConnected=true`. These flags reflect runtime configuration, **not Stripe provider verification**.\n- Internal snapshot: `successfulPayments=0`, `pendingPayments=2`, `stripeNetRevenue=R$0.00`, `creditsSold=0`, `creditsConsumed=0`, `jobsDelivered=0`, `buyers=0`.\n- Exactly two entries counted as pending from local `orders` with state `CHECKOUT_CREATED` (2026-09-28 and 2026-10-02); **not evidence of Stripe charges awaiting settlement**.\n- A separate order has local `PAYMENT_SUCCEEDED` state and one `checkout.session.completed` event record (2026-09-27) but the money-truth aggregate remains **zero real confirmed payments**. Investigate metadata/livemode/payment_status/currency/amount matching and provider state before treating this as revenue or a bug. The event and internal state alone do not establish money received.\n- USDC machine settlement remains 0. `x402` is not treasury-enabled in the current `.well-known/gxeon-agent.json`.\n- The public MCP is read-only discovery; authenticated execution requires buyer key and prepaid settled credits.\n\n### Independent provider reconciliation gates\n- [ ] If authorized Stripe connector is accessible, cross-check `checkout.session`, `payment_intent`, `charge`, `balance_transaction`, disputes/refunds and `livemode` for the local event. Do not expose PII or secrets.\n- [ ] Compare account's actual payouts/available Stripe balance with local events without silently rewriting records.\n- [ ] Reconcile orders vs paid webhook events and credit ledger with idempotency/",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/xpex-systems-ai/GXEON-Wallet-Command-Center/issues/57",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-11T05:17:43.277498+00:00"
+    },
+    {
+      "id": 19,
+      "hash": "1b831801ffddc2e8968174d493943c734a4dfdd351c83635b610e2f909541d78",
+      "title": "Request for PR review — bounties #76 ($430) and #80 ($780)",
+      "category": "microservice_gig",
+      "description": "## Request for PR review — bounties #76 ($430) and #80 ($780)\n\nHi @brianne-showed (or whoever maintains this repo),\n\nI have two PRs open that claim the Algora bounties on #76 and #80:\n\n- PR #12770 — poem for #76 ($430 bounty)\n- PR #12771 — pixel art for #80 ($780 bounty)\n\nBoth PRs have been open since October 1st (8 days ago). They include:\n- Original creative work (poem/pixel art)\n- PR descriptions with creative decisions\n- Payment wallet: 0x53dbe1b36BA3BEAC6cEf6cD22AD50E362DBcB23A\n\nCould you please review them? If there's something I need to change, I'm happy to update.\n\nThank you!",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13218",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-11T05:17:43.274135+00:00"
+    },
+    {
+      "id": 18,
+      "hash": "91886ec73556cc62d6d767b16bc9e91f93b36e2d885c0058f107afa75ab11e29",
+      "title": "BountyRadar MCP — ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
+      "category": "microservice_gig",
+      "description": "**BountyRadar MCP** — the judgment / alerting layer for the agent-bounty economy, served over MCP.\n\nPublic open-source bounties are **agent-saturated** — a single Algora bounty has drawn 8–158 competing agent attempts within hours. The bottleneck is *target selection*, not discovery. BountyRadar aggregates agent-solvable bounties across **Opire, BountyHub, ClawHunt, Algora, GitHub and validated security programs**, then scores each for **agent-solvability, freshness and competition** and serves a ranked, agent-consumable feed.\n\n> Positioning: an *intelligence / alerting layer* — **not** a marketplace. No fund custody, no KYC, no cross-border settlement.\n\n**Endpoint (Streamable HTTP / SSE)**\n`https://mcp.apify.com/sse?actors=neeenja/bountyradar-mcp`\nDirect standby endpoint: `https://neeenja--bountyradar-mcp.apify.actor/mcp`\n\n**Tools**\n| Tool | Price | What it does |\n|---|---|---|\n| `get_bounty_feed` | $0.0005 | The subscriber feed — ranked + filtered (category, min_reward, max_competition, source, freshness_min, agent_solvable_min, include_honeypot, sort) |\n| `search_bounties` | $0.0010 | Keyword + filter search across title / description / tags / repo |\n| `get_bounty_detail` | free | Full record + score breakdown by id |\n| `score_bounty` | $0.0005 | Raw, explainable score breakdown for one bounty |\n| `list_sources` | free | Source registry + status (live / curated / partner_candidate) |\n| `get_stats` | $0.0005 | Counts by source / category / reward band |\n| `subscribe_feed` | $0.0005 | Save a filter profile + poll descriptor (server memory; webhook URL echoed, never called) |\n\n**Resources:** `bountyradar://feed/latest`, `bountyradar://stats`, `bountyradar://sources`\n**Prompt:** `daily_bounty_brief` — briefs an agent on today's best targets.\n\n`initialize` and `tools/list` are free — an agent can connect and enumerate tools before spending.\n\n**Why it's useful for an agent**\n- Answers questions like *\"what's the best agent-solvable bounty right now with low competition",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/chatmcp/mcpso/issues/5032",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 0,
+      "created_at": "2026-10-11T05:17:43.268795+00:00"
+    },
     {
       "id": 17,
       "hash": "854fd94d83ecf360cab5c59fe003edd76c0548867e680fc63929f697a5131146",
@@ -490,70 +558,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-10T15:00:25.428537+00:00"
-    },
-    {
-      "id": 5,
-      "hash": "cd9428f742c9131bedd6dccfeef87426b3ce79f5ad8d8447ff0941f9673e9f66",
-      "title": "I built an interactive world map after a random question about Australia. RealSize.World",
-      "category": "digital_product",
-      "description": "Opportunité issue d'un flux public temps réel.",
-      "source_id": "reddit_sideproject",
-      "source_url": "https://www.reddit.com/r/SideProject/comments/1x29owx/i_built_an_interactive_world_map_after_a_random/",
-      "score": 85.5,
-      "score_breakdown": {
-        "observable_demand": 18.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 17.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 16.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-10T15:00:25.423420+00:00"
-    },
-    {
-      "id": 4,
-      "hash": "b1034f7f0251ee256b644a48ef84dc25b1703f738e1600cfb63fe87928e8f92e",
-      "title": "I've been working on a golf ball finder. Thoughts?",
-      "category": "digital_product",
-      "description": "Opportunité issue d'un flux public temps réel.",
-      "source_id": "reddit_sideproject",
-      "source_url": "https://www.reddit.com/r/SideProject/comments/1x2ff86/ive_been_working_on_a_golf_ball_finder_thoughts/",
-      "score": 85.5,
-      "score_breakdown": {
-        "observable_demand": 18.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 17.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 16.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-10T15:00:25.413593+00:00"
-    },
-    {
-      "id": 3,
-      "hash": "4be4e8d96d3353bdc22e3cc0eb99e23a2078013a4ce02c305ff1fa61f63853b5",
-      "title": "Testing whether a changeable photo magnet solves a real problem",
-      "category": "digital_product",
-      "description": "Opportunité issue d'un flux public temps réel.",
-      "source_id": "reddit_sideproject",
-      "source_url": "https://www.reddit.com/r/SideProject/comments/1x2bfmo/testing_whether_a_changeable_photo_magnet_solves/",
-      "score": 85.5,
-      "score_breakdown": {
-        "observable_demand": 18.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 17.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 16.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-10T15:00:25.403278+00:00"
     }
   ],
-  "exported_at": "2026-10-11T04:58:22.795990+00:00"
+  "exported_at": "2026-10-11T05:18:07.746661+00:00"
 }

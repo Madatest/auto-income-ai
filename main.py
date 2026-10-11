@@ -42,10 +42,14 @@ logging.basicConfig(
 logger = logging.getLogger("AutoIncomeAI.Main")
 
 
-def send_lemur_hud(message: str) -> None:
-    """Sends discreet visual HUD telemetry via Lemur widget or CLI if present."""
+def send_lemur_hud(message: str, mode: Optional[str] = None) -> None:
+    """Sends discreet visual HUD telemetry via Lemur widget and on-screen Toast."""
     try:
-        subprocess.run(["lemur", message], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=1)
+        cmd = ["lemur"]
+        if mode:
+            cmd.append(f"--{mode}")
+        cmd.append(message)
+        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=2)
     except Exception:
         pass
 
@@ -60,6 +64,7 @@ def safe_git_sync(logger_inst=None, cycle_id: Optional[int] = None) -> bool:
     - Completely non-blocking on network errors (works offline without crashing)
     """
     log = logger_inst or logger
+    send_lemur_hud("Synchronisation GitHub Cloud...", mode="active")
     if not os.path.exists(".git"):
         return False
 
@@ -165,13 +170,13 @@ class AutoIncomeAgent:
     def phase_a_analysis(self) -> Dict[str, Any]:
         """Loads state, inspects previous cycle blockers, and selects top international opportunity."""
         logger.info("=== [PHASE A] Analyse Rapide & Découverte Internationale ===")
-        send_lemur_hud("Phase A: Analyse des opportunités internationales...")
+        send_lemur_hud("Phase A: Analyse des opportunités internationales...", mode="active")
 
         # Check active supervisor directive from WOLF
         active_directive = self.supervisor.get_active_directive()
         if active_directive:
             logger.info(f"🐺 [WOLF SUPERVISOR DIRECTIVE ACTIVE] {active_directive.get('primary_directive')}")
-            send_lemur_hud(f"WOLF Directive: {active_directive.get('primary_directive')[:35]}...")
+            send_lemur_hud(f"WOLF Directive: {active_directive.get('primary_directive')[:35]}...", mode="active")
 
         stats = self.storage.get_summary_stats()
         latest_cycle = self.storage.get_latest_cycle_report()
@@ -202,7 +207,7 @@ class AutoIncomeAgent:
     def phase_b_execution(self, selected_opp: Optional[Dict[str, Any]]) -> Dict[str, Any]:
         """Produces a concrete monetizable deliverable at strict 0 USD cost."""
         logger.info("=== [PHASE B] Exécution Commerciale & Production d'Actif ===")
-        send_lemur_hud("Phase B: Production d'un actif commercial 0 USD...")
+        send_lemur_hud("Phase B: Production d'un actif commercial 0 USD...", mode="active")
 
         deliverable_data: Optional[Dict[str, Any]] = None
         if selected_opp:
@@ -228,7 +233,7 @@ class AutoIncomeAgent:
                     submission_res = OutboundSubmitter.submit_issue_comment(source_url, proposal_text)
                     if submission_res.get("success"):
                         logger.info(f"🚀 [SOUMISSION AUTONOME EN DIRECT] Proposition postée automatiquement sur {source_url}!")
-                        send_lemur_hud(f"🚀 Prime soumise automatiquement sur GitHub !")
+                        send_lemur_hud(f"🚀 Prime soumise automatiquement sur GitHub !", mode="active")
                         gemini_say_path = os.path.expanduser("~/.local/bin/gemini-say")
                         if os.path.exists(gemini_say_path):
                             try:
@@ -240,9 +245,9 @@ class AutoIncomeAgent:
 
             if not submission_res or not submission_res.get("success"):
                 if is_bounty:
-                    send_lemur_hud(f"🎯 Bounty prête : {title_short} (${price})")
+                    send_lemur_hud(f"🎯 Bounty prête : {title_short} (${price})", mode="active")
                 else:
-                    send_lemur_hud(f"📦 Actif prêt : {title_short} (${price})")
+                    send_lemur_hud(f"📦 Actif prêt : {title_short} (${price})", mode="active")
         else:
             logger.warning("Aucune nouvelle opportunité à convertir pour ce cycle.")
 
@@ -258,6 +263,7 @@ class AutoIncomeAgent:
     def phase_c_evaluation(self, phase_a_res: Dict[str, Any], phase_b_res: Dict[str, Any]) -> Dict[str, Any]:
         """Objectively measures results, separating observed facts from hypotheses."""
         logger.info("=== [PHASE C] Évaluation des Résultats Réels ===")
+        send_lemur_hud("Phase C: Évaluation & métriques d'impact...", mode="active")
 
         actions_executed = []
         if phase_b_res.get("verifiable_output_created"):
@@ -288,6 +294,7 @@ class AutoIncomeAgent:
     def phase_d_self_improvement(self, is_revenue_confirmed: bool) -> Dict[str, Any]:
         """Applies adaptive strategy refinements if no sale has confirmed yet."""
         logger.info("=== [PHASE D] Auto-Amélioration & Ajustement Stratégique ===")
+        send_lemur_hud("Phase D: Optimisation stratégique & auto-ajustement...", mode="active")
 
         improvements_applied = []
         if not is_revenue_confirmed:
@@ -308,7 +315,7 @@ class AutoIncomeAgent:
     def phase_e_revenue_verification(self) -> Dict[str, Any]:
         """Searches and verifies authentic received commercial payments without fabrication."""
         logger.info("=== [PHASE E] Vérification des Paiements & Audit du Premier Revenu ===")
-        send_lemur_hud("Phase E: Vérification des transactions réelles...")
+        send_lemur_hud("Phase E: Audit des transactions Binance UID 254779310...", mode="active")
 
         payment_found = self.payment_verifier.check_for_payments()
         verification_channels = self.payment_verifier.get_verification_status()
@@ -321,7 +328,7 @@ class AutoIncomeAgent:
 
             # Persist confirmed revenue
             rev_id = self.storage.record_confirmed_revenue(payment_found)
-            send_lemur_hud(f"VICTOIRE: {amount} {cur} reçu sur Binance !")
+            send_lemur_hud(f"🎉 VICTOIRE: {amount} {cur} reçu sur Binance !", mode="idle")
             
             return {
                 "first_real_revenue_achieved": True,
@@ -362,7 +369,7 @@ class AutoIncomeAgent:
         start_time = time.time()
         start_iso = datetime.now(timezone.utc).isoformat()
         logger.info(f"=== [CYCLE AUTONOME D'UNE HEURE DÉMARRÉ à {start_iso}] ===")
-        send_lemur_hud("Auto-Income AI: Cycle 1h démarré...")
+        send_lemur_hud("Cycle 1h en cours... Ne pas toucher l'écran", mode="active")
 
         try:
             # 1. Phase A: Analysis
@@ -451,8 +458,8 @@ class AutoIncomeAgent:
             print("\n" + console_report + "\n")
             print("\n" + self.supervisor.format_console_verdict(wolf_review) + "\n")
 
-            hud_msg = f"Auto-Income AI + WOLF: Cycle #{exec_id} (Score: {wolf_review.get('decision_score')}/100)"
-            send_lemur_hud(hud_msg)
+            hud_msg = f"Cycle #{exec_id} terminé avec succès (Score: {wolf_review.get('decision_score')}/100). En veille."
+            send_lemur_hud(hud_msg, mode="idle")
 
             return cycle_report
 

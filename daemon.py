@@ -85,14 +85,17 @@ def main():
     while RUNNING:
         try:
             logger.info("Synchronisation préalable avec GitHub...")
+            send_lemur_hud("Synchronisation GitHub en cours... Ne pas toucher l'écran", mode="active")
             safe_git_sync(logger)
 
             logger.info("Exécution du cycle autonome planifié...")
             cycle_result = agent.run_cycle()
-            logger.info(f"Cycle terminé avec succès (ID #{cycle_result.get('execution_id')}).")
+            exec_id = cycle_result.get('execution_id')
+            logger.info(f"Cycle terminé avec succès (ID #{exec_id}).")
+            send_lemur_hud(f"Cycle #{exec_id} terminé. Prochain cycle dans 1h.", mode="idle")
         except Exception as err:
             logger.error(f"Erreur lors de l'exécution du cycle : {err}", exc_info=True)
-            send_lemur_hud(f"Auto-Income AI: Avertissement - {err}")
+            send_lemur_hud(f"Avertissement cycle : {err}", mode="alert")
 
         # Attente jusqu'au prochain cycle avec vérifications régulières
         logger.info(f"Mise en veille active pour {INTERVAL_SECONDS // 3600} heures...")

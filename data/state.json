@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 19,
+    "total_executions": 20,
     "total_opportunities": 15,
-    "total_deliverables": 16,
+    "total_deliverables": 17,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 322.0,
+    "projected_pipeline_usd": 347.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 19,
-      "timestamp": "2026-10-11T05:20:52.296953+00:00",
+      "id": 20,
+      "timestamp": "2026-10-11T06:13:40.989697+00:00",
       "status": "SUCCESS",
       "opportunities_found": 9,
       "deliverables_created": 1,
-      "duration_seconds": 25.3,
-      "notes": "Produit 'Request for PR review — bounties #76 ($430) and #80 ($780)'"
+      "duration_seconds": 6.86,
+      "notes": "Produit 'Money Truth: reconcile Stripe LIVE orders and prove first external buyer checkout→credits→delivery'"
     },
-    "updated_at": "2026-10-11T05:20:52.311238+00:00"
+    "updated_at": "2026-10-11T06:13:41.002200+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 19,
+      "opportunity_hash": "287635c3731a13c9a89242ace1d380aed48e841862da6c66f9ed9af0d69d13c8",
+      "category": "microservice_gig",
+      "title": "Money Truth: reconcile Stripe LIVE orders and prove first external buyer checkout→credits→delivery",
+      "file_path": "site/deliverables/20261011_061340_money_truth_reconcile_stripe_live_orders_and_prove.md",
+      "relative_path": "deliverables/20261011_061340_money_truth_reconcile_stripe_live_orders_and_prove.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 2573,
+        "extension": "md",
+        "source_url": "https://github.com/xpex-systems-ai/GXEON-Wallet-Command-Center/issues/57",
+        "source_id": "algora_bounties",
+        "is_bounty": false,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Money Truth: reconcile Stripe LIVE orders and prove first external buyer checkout→credits→delivery**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "$0"
+      },
+      "created_at": "2026-10-11T06:13:40.677665+00:00"
+    },
     {
       "id": 18,
       "opportunity_hash": "1b831801ffddc2e8968174d493943c734a4dfdd351c83635b610e2f909541d78",
@@ -319,38 +356,6 @@
         "extension": "md"
       },
       "created_at": "2026-10-10T18:44:24.544812+00:00"
-    },
-    {
-      "id": 9,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "microservice_gig",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261010_184301_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 2028,
-        "extension": "md"
-      },
-      "created_at": "2026-10-10T18:43:01.631512+00:00"
     }
   ],
   "top_opportunities": [
@@ -371,7 +376,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-11T05:17:43.277498+00:00"
     },
@@ -565,5 +570,5 @@
       "created_at": "2026-10-10T15:00:25.428537+00:00"
     }
   ],
-  "exported_at": "2026-10-11T05:20:52.319588+00:00"
+  "exported_at": "2026-10-11T06:13:41.012983+00:00"
 }

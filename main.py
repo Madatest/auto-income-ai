@@ -213,23 +213,36 @@ class AutoIncomeAgent:
             deliverable_data["id"] = deliverable_id
             logger.info(f"Actif enregistré avec succès #{deliverable_id} ({deliverable_data['file_path']})")
 
-            # Outbound Telemetry for high-priority Action
+            # Outbound Telemetry & Autonomous Submission (Zero Human Intervention)
             is_bounty = deliverable_data.get("category") == "bounty_solution" or "bounty" in selected_opp.get("title", "").lower()
             price = deliverable_data.get("price_usd", 0.0)
             title_short = selected_opp["title"][:32]
-            if is_bounty:
-                send_lemur_hud(f"🎯 Bounty prête : {title_short} (${price})")
-                gemini_say_path = os.path.expanduser("~/.local/bin/gemini-say")
-                if os.path.exists(gemini_say_path):
-                    try:
-                        subprocess.run(
-                            [gemini_say_path, f"Nouvelle prime identifiée : {price} dollars. La solution technique est prête sur le tableau de bord."],
-                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=8
-                        )
-                    except Exception:
-                        pass
-            else:
-                send_lemur_hud(f"📦 Actif prêt : {title_short} (${price})")
+            source_url = selected_opp.get("source_url", "")
+            proposal_text = deliverable_data.get("metadata", {}).get("proposal_snippet", "")
+
+            # Attempt autonomous remote submission if target is a GitHub issue
+            submission_res = None
+            if is_bounty and source_url and "github.com" in source_url and proposal_text:
+                try:
+                    from outbound_agent import OutboundSubmitter
+                    submission_res = OutboundSubmitter.submit_issue_comment(source_url, proposal_text)
+                    if submission_res.get("success"):
+                        logger.info(f"🚀 [SOUMISSION AUTONOME EN DIRECT] Proposition postée automatiquement sur {source_url}!")
+                        send_lemur_hud(f"🚀 Prime soumise automatiquement sur GitHub !")
+                        gemini_say_path = os.path.expanduser("~/.local/bin/gemini-say")
+                        if os.path.exists(gemini_say_path):
+                            try:
+                                subprocess.run([gemini_say_path, "Proposition technique soumise automatiquement sur GitHub."], stdout=subprocess.DEVNULL, timeout=8)
+                            except Exception:
+                                pass
+                except Exception as sub_err:
+                    logger.warning(f"Erreur tentative soumission autonome: {sub_err}")
+
+            if not submission_res or not submission_res.get("success"):
+                if is_bounty:
+                    send_lemur_hud(f"🎯 Bounty prête : {title_short} (${price})")
+                else:
+                    send_lemur_hud(f"📦 Actif prêt : {title_short} (${price})")
         else:
             logger.warning("Aucune nouvelle opportunité à convertir pour ce cycle.")
 

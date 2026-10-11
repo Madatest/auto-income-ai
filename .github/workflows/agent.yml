@@ -47,7 +47,7 @@ jobs:
 
       - name: 🧪 Exécution de la Suite de Tests Unitaires
         run: |
-          python -m unittest discover -s tests -p "test_*.py"
+          PYTHONPATH=. python -m unittest discover -s tests -t . -p "test_*.py"
 
       - name: 🚀 Lancement du Cycle Autonome AUTO-INCOME AI (Phase A à E)
         env:
@@ -64,7 +64,7 @@ jobs:
         run: |
           git config --global user.name "AutoIncomeAI-Bot"
           git config --global user.email "bot@auto-income-ai.local"
-          git pull --rebase origin ${{ github.ref_name }} || true
+          git pull --rebase -X theirs origin ${{ github.ref_name }} || true
           git add data/ site/ logs/ config.json
           if git diff --staged --quiet; then
             echo "Aucune modification d'état à sauvegarder pour ce cycle."

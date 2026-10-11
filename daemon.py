@@ -80,8 +80,13 @@ def main():
 
     agent = AutoIncomeAgent(config_path="config.json", simulation_mode=False)
 
+    from main import safe_git_sync
+
     while RUNNING:
         try:
+            logger.info("Synchronisation préalable avec GitHub...")
+            safe_git_sync(logger)
+
             logger.info("Exécution du cycle autonome planifié...")
             cycle_result = agent.run_cycle()
             logger.info(f"Cycle terminé avec succès (ID #{cycle_result.get('execution_id')}).")

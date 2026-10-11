@@ -50,6 +50,76 @@ def send_lemur_hud(message: str) -> None:
         pass
 
 
+def safe_git_sync(logger_inst=None, cycle_id: Optional[int] = None) -> bool:
+    """
+    Resilient bidirectional Git sync between local Termux and remote GitHub.
+    - Purges stale .git/index.lock if left by an ungraceful exit
+    - Stages deliverables, database state and configuration
+    - Pulls with auto-rebase (-X theirs) to absorb remote changes
+    - Pushes to remote origin
+    - Completely non-blocking on network errors (works offline without crashing)
+    """
+    log = logger_inst or logger
+    if not os.path.exists(".git"):
+        return False
+
+    try:
+        # 1. Clean stale git lock if older than 30s
+        lock_path = ".git/index.lock"
+        if os.path.exists(lock_path):
+            try:
+                if (time.time() - os.path.getmtime(lock_path)) > 30:
+                    os.remove(lock_path)
+                    log.info("Verrou orphelin .git/index.lock purgé.")
+            except Exception:
+                pass
+
+        # 2. Check remote
+        res_remote = subprocess.run(["git", "remote"], capture_output=True, text=True, timeout=5)
+        if "origin" not in res_remote.stdout:
+            return False
+
+        # 3. Stage relevant files
+        subprocess.run(
+            ["git", "add", "data/", "site/", "logs/", "config.json"],
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=10
+        )
+
+        # 4. Commit if changes exist
+        diff_check = subprocess.run(["git", "diff", "--staged", "--quiet"], timeout=5)
+        if diff_check.returncode != 0:
+            msg = f"chore(autonomous): synchronisation cycle #{cycle_id} supervisé par WOLF [skip ci]" if cycle_id else "chore(autonomous): synchronisation état et livrables [skip ci]"
+            subprocess.run(
+                ["git", "commit", "-m", msg],
+                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=10
+            )
+            log.info("Modifications locales commitées pour synchronisation.")
+
+        # 5. Pull with rebase (resolve in favor of current cycle or theirs)
+        pull_res = subprocess.run(
+            ["git", "pull", "--rebase", "-X", "theirs", "origin", "main"],
+            capture_output=True, text=True, timeout=20
+        )
+        if pull_res.returncode != 0:
+            # Abort rebase if stuck
+            subprocess.run(["git", "rebase", "--abort"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=5)
+
+        # 6. Push to remote
+        push_res = subprocess.run(
+            ["git", "push", "origin", "main"],
+            capture_output=True, text=True, timeout=25
+        )
+        if push_res.returncode == 0:
+            log.info("☁️ Synchronisation Cloud réussie : Dépôt GitHub à jour avec les derniers cycles.")
+            return True
+        else:
+            log.warning(f"Git push non abouti (mode hors-ligne ou réseau instable) : {push_res.stderr.strip()}")
+            return False
+    except Exception as err:
+        log.warning(f"Synchronisation Git différée : {err}")
+        return False
+
+
 def load_config(config_path: str = "config.json") -> Dict[str, Any]:
     """Loads configuration with safe defaults."""
     if not os.path.exists(config_path):
@@ -67,9 +137,11 @@ class AutoIncomeAgent:
         
         # Initialize core components
         storage_cfg = self.config.get("storage", {})
+        self.lock_file = storage_cfg.get("lock_file", "data/agent.lock")
         self.storage = StorageManager(
             db_path=storage_cfg.get("sqlite_db", "data/income_ai.db"),
-            state_json_path=storage_cfg.get("state_json", "data/state.json")
+            state_json_path=storage_cfg.get("state_json", "data/state.json"),
+            reports_dir=storage_cfg.get("reports_dir", "data/cycle_reports")
         )
         self.opp_engine = OpportunityEngine(self.config, self.storage)
         self.content_factory = ContentFactory(output_dir=storage_cfg.get("deliverables_dir", "site/deliverables"))
@@ -77,12 +149,15 @@ class AutoIncomeAgent:
         
         seller_profile = self.config.get("agent", {}).get("seller_profile", {})
         self.payment_verifier = PaymentVerifier(
-            receipts_file="data/payment_receipts.json",
+            receipts_file=storage_cfg.get("receipts_file", "data/payment_receipts.json"),
             binance_uid=seller_profile.get("binance_uid", "254779310")
         )
 
         # WOLF: Autonomous Supervisor & Performance Enforcer
-        self.supervisor = WolfSupervisor(db_path=storage_cfg.get("sqlite_db", "data/income_ai.db"))
+        self.supervisor = WolfSupervisor(
+            db_path=storage_cfg.get("sqlite_db", "data/income_ai.db"),
+            directives_file=storage_cfg.get("wolf_directives", "data/wolf_directives.json")
+        )
 
     # -------------------------------------------------------------------------
     # PHASE A — ANALYSE RAPIDE
@@ -249,7 +324,7 @@ class AutoIncomeAgent:
         Executes a complete 1-hour autonomous cycle through all 5 phases with lock protection.
         """
         # Guard against overlapping runs
-        if not StorageManager.acquire_lock():
+        if not StorageManager.acquire_lock(self.lock_file):
             logger.warning("Agent execution already in progress (lock held). Aborting duplicate run.")
             return {"status": "LOCKED", "message": "Execution already running"}
 
@@ -351,8 +426,10 @@ class AutoIncomeAgent:
             return cycle_report
 
         finally:
-            StorageManager.release_lock()
+            StorageManager.release_lock(self.lock_file)
             logger.info("=== [CYCLE TERMINÉ ET VERROU LIBÉRÉ] ===")
+            if not self.simulation_mode:
+                safe_git_sync(logger, cycle_id=exec_id if 'exec_id' in locals() else None)
 
 
 def main():
@@ -362,7 +439,12 @@ def main():
     parser.add_argument("--report", action="store_true", help="Regenerate HTML dashboard and print summary")
     parser.add_argument("--status", action="store_true", help="Display current system KPIs and payment status")
     parser.add_argument("--wolf", action="store_true", help="Display WOLF Supervisor latest audit and active directives")
+    parser.add_argument("--sync", action="store_true", help="Synchronize local state and deliverables with GitHub")
     args = parser.parse_args()
+
+    if args.sync:
+        res = safe_git_sync(logger)
+        sys.exit(0 if res else 1)
 
     agent = AutoIncomeAgent(simulation_mode=args.simulate)
 

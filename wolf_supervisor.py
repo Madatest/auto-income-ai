@@ -40,8 +40,12 @@ class WolfSupervisor:
         self.db_path = db_path
         self.directives_file = directives_file
         self.history_file = history_file
-        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
-        os.makedirs(os.path.dirname(self.directives_file), exist_ok=True)
+        db_dir = os.path.dirname(self.db_path)
+        if db_dir:
+            os.makedirs(db_dir, exist_ok=True)
+        dir_dir = os.path.dirname(self.directives_file)
+        if dir_dir:
+            os.makedirs(dir_dir, exist_ok=True)
         self._init_db()
 
     def _init_db(self) -> None:
@@ -335,8 +339,13 @@ class WolfSupervisor:
     def _save_directive(self, directive: Dict[str, Any]) -> None:
         """Saves directive to JSON file and SQLite database."""
         try:
-            with open(self.directives_file, "w", encoding="utf-8") as f:
+            dir_name = os.path.dirname(self.directives_file)
+            if dir_name:
+                os.makedirs(dir_name, exist_ok=True)
+            tmp_file = f"{self.directives_file}.tmp.{os.getpid()}"
+            with open(tmp_file, "w", encoding="utf-8") as f:
                 json.dump(directive, f, indent=2, ensure_ascii=False)
+            os.replace(tmp_file, self.directives_file)
 
             conn = sqlite3.connect(self.db_path)
             try:

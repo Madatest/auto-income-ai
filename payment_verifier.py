@@ -32,10 +32,14 @@ class PaymentVerifier:
     def __init__(self, receipts_file: str = "data/payment_receipts.json", binance_uid: str = "254779310"):
         self.receipts_file = receipts_file
         self.binance_uid = binance_uid
-        os.makedirs(os.path.dirname(self.receipts_file), exist_ok=True)
+        receipts_dir = os.path.dirname(self.receipts_file)
+        if receipts_dir:
+            os.makedirs(receipts_dir, exist_ok=True)
         if not os.path.exists(self.receipts_file):
-            with open(self.receipts_file, "w", encoding="utf-8") as f:
+            tmp_init = f"{self.receipts_file}.tmp.{os.getpid()}"
+            with open(tmp_init, "w", encoding="utf-8") as f:
                 json.dump([], f, indent=2)
+            os.replace(tmp_init, self.receipts_file)
 
     def get_verification_status(self) -> Dict[str, Any]:
         """Returns the status and health of all verification channels."""
@@ -107,8 +111,10 @@ class PaymentVerifier:
         receipt["verified"] = True
         receipts.append(receipt)
 
-        with open(self.receipts_file, "w", encoding="utf-8") as f:
+        tmp_file = f"{self.receipts_file}.tmp.{os.getpid()}"
+        with open(tmp_file, "w", encoding="utf-8") as f:
             json.dump(receipts, f, indent=2, ensure_ascii=False)
+        os.replace(tmp_file, self.receipts_file)
         logger.info(f"Successfully registered verified receipt {tx_id} for {amount} {receipt.get('currency', 'USD')}")
         return True
 

@@ -7,6 +7,7 @@ Provides deduplication, execution auditing, and idempotence.
 """
 
 import os
+import time
 import json
 import sqlite3
 import hashlib
@@ -21,12 +22,41 @@ logger = logging.getLogger("AutoIncomeAI.Storage")
 class StorageManager:
     """Handles SQLite persistence and JSON state synchronization."""
 
-    def __init__(self, db_path: str = "data/income_ai.db", state_json_path: str = "data/state.json"):
+    def __init__(
+        self,
+        db_path: str = "data/income_ai.db",
+        state_json_path: str = "data/state.json",
+        reports_dir: str = "data/cycle_reports"
+    ):
         self.db_path = db_path
         self.state_json_path = state_json_path
-        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
-        os.makedirs(os.path.dirname(self.state_json_path), exist_ok=True)
+        self.reports_dir = reports_dir
+        if os.path.dirname(self.db_path):
+            os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+        if os.path.dirname(self.state_json_path):
+            os.makedirs(os.path.dirname(self.state_json_path), exist_ok=True)
+        if self.reports_dir:
+            os.makedirs(self.reports_dir, exist_ok=True)
         self._init_db()
+
+    @staticmethod
+    def atomic_write_json(file_path: str, data: Any) -> None:
+        """Atomically writes JSON using a temporary file and atomic replace."""
+        dir_name = os.path.dirname(file_path)
+        if dir_name:
+            os.makedirs(dir_name, exist_ok=True)
+        tmp_path = f"{file_path}.tmp.{os.getpid()}"
+        try:
+            with open(tmp_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            os.replace(tmp_path, file_path)
+        except Exception:
+            if os.path.exists(tmp_path):
+                try:
+                    os.remove(tmp_path)
+                except Exception:
+                    pass
+            raise
 
     @contextmanager
     def _get_connection(self) -> Generator[sqlite3.Connection, None, None]:
@@ -38,9 +68,14 @@ class StorageManager:
             conn.close()
 
     def _init_db(self) -> None:
-        """Creates the required tables if they do not exist."""
+        """Creates the required tables if they do not exist, and enables WAL mode."""
         with self._get_connection() as conn:
             cursor = conn.cursor()
+            try:
+                cursor.execute("PRAGMA journal_mode=WAL;")
+                cursor.execute("PRAGMA synchronous=NORMAL;")
+            except Exception:
+                pass
             
             # Executions audit log
             cursor.execute("""
@@ -395,24 +430,23 @@ class StorageManager:
             return count > 0
 
     def save_cycle_report(self, report_data: Dict[str, Any]) -> str:
-        """Saves structured hourly cycle report for complete audit trail."""
-        reports_dir = "data/cycle_reports"
-        os.makedirs(reports_dir, exist_ok=True)
+        """Saves structured hourly cycle report atomically for complete audit trail."""
+        reports_dir = self.reports_dir
+        if reports_dir:
+            os.makedirs(reports_dir, exist_ok=True)
         cycle_id = report_data.get("cycle_id", "latest")
         
         file_path = os.path.join(reports_dir, f"cycle_{cycle_id}.json")
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(report_data, f, indent=2, ensure_ascii=False)
+        self.atomic_write_json(file_path, report_data)
 
         latest_path = os.path.join(reports_dir, "latest.json")
-        with open(latest_path, "w", encoding="utf-8") as f:
-            json.dump(report_data, f, indent=2, ensure_ascii=False)
+        self.atomic_write_json(latest_path, report_data)
 
         return file_path
 
     def get_latest_cycle_report(self) -> Optional[Dict[str, Any]]:
         """Loads latest cycle report if available."""
-        latest_path = "data/cycle_reports/latest.json"
+        latest_path = os.path.join(self.reports_dir, "latest.json")
         if os.path.exists(latest_path):
             try:
                 with open(latest_path, "r", encoding="utf-8") as f:
@@ -422,27 +456,76 @@ class StorageManager:
         return None
 
     @staticmethod
-    def acquire_lock(lock_file: str = "data/agent.lock") -> bool:
-        """Prevents concurrent overlapping executions of the agent."""
-        os.makedirs(os.path.dirname(lock_file), exist_ok=True)
+    def acquire_lock(lock_file: str = "data/agent.lock", max_age_seconds: int = 300) -> bool:
+        """
+        Prevents concurrent overlapping executions of the agent.
+        Auto-recovers from crashes, unexpected battery cuts, SIGKILL, or stale locks.
+        """
+        dir_name = os.path.dirname(lock_file)
+        if dir_name:
+            os.makedirs(dir_name, exist_ok=True)
+
+        current_host = os.uname().nodename if hasattr(os, "uname") else "localhost"
+        now = time.time()
+
         if os.path.exists(lock_file):
+            stale = False
+            lock_pid = None
             try:
-                with open(lock_file, "r") as f:
-                    pid = int(f.read().strip())
-                # Check if process is still alive
+                with open(lock_file, "r", encoding="utf-8") as f:
+                    content = f.read().strip()
+                if content.startswith("{"):
+                    data = json.loads(content)
+                    lock_pid = data.get("pid")
+                    lock_time = data.get("timestamp", 0)
+                    lock_host = data.get("host", current_host)
+                    # Check age
+                    if (now - lock_time) > max_age_seconds:
+                        logger.warning(f"Lock expiré ({round(now - lock_time)}s > {max_age_seconds}s). Purge du verrou obsolète.")
+                        stale = True
+                    elif lock_host == current_host and lock_pid:
+                        try:
+                            os.kill(int(lock_pid), 0)
+                            logger.warning(f"Verrou actif par PID {lock_pid} sur {lock_host}. Exécution simultanée évitée.")
+                            return False
+                        except OSError:
+                            stale = True
+                    elif lock_host != current_host:
+                        # Différent hôte (ex: Termux vs GitHub Actions runner)
+                        # Si le verrou a moins de 5 min sur une autre machine, on respecte
+                        logger.warning(f"Verrou actif sur hôte distant {lock_host}. Attente...")
+                        return False
+                else:
+                    # Ancien format (PID brut)
+                    lock_pid = int(content)
+                    try:
+                        os.kill(lock_pid, 0)
+                        file_age = now - os.path.getmtime(lock_file)
+                        if file_age > max_age_seconds:
+                            stale = True
+                        else:
+                            logger.warning(f"Lock active by PID {lock_pid}. Skipping overlapping execution.")
+                            return False
+                    except OSError:
+                        stale = True
+            except Exception as e:
+                logger.warning(f"Erreur de lecture du verrou ({e}). Réinitialisation.")
+                stale = True
+
+            if stale:
                 try:
-                    os.kill(pid, 0)
-                    logger.warning(f"Lock active by PID {pid}. Skipping overlapping execution.")
-                    return False
-                except OSError:
-                    # Stale lock
-                    logger.info(f"Removing stale lock file from inactive PID {pid}.")
-            except Exception:
-                pass
+                    os.remove(lock_file)
+                    logger.info("Verrou orphelin purgé avec succès.")
+                except Exception:
+                    pass
 
         try:
-            with open(lock_file, "w") as f:
-                f.write(str(os.getpid()))
+            lock_info = {
+                "pid": os.getpid(),
+                "timestamp": now,
+                "host": current_host
+            }
+            StorageManager.atomic_write_json(lock_file, lock_info)
             return True
         except Exception as e:
             logger.error(f"Failed to acquire lock: {e}")
@@ -450,7 +533,7 @@ class StorageManager:
 
     @staticmethod
     def release_lock(lock_file: str = "data/agent.lock") -> None:
-        """Releases the concurrency lock."""
+        """Releases the concurrency lock safely."""
         try:
             if os.path.exists(lock_file):
                 os.remove(lock_file)

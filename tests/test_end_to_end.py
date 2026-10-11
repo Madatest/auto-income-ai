@@ -16,6 +16,10 @@ class TestEndToEndCycle(unittest.TestCase):
         self.json_path = os.path.join(self.test_dir, "state.json")
         self.site_dir = os.path.join(self.test_dir, "site")
         self.deliverables_dir = os.path.join(self.site_dir, "deliverables")
+        self.directives_file = os.path.join(self.test_dir, "wolf_directives.json")
+        self.receipts_file = os.path.join(self.test_dir, "receipts.json")
+        self.reports_dir = os.path.join(self.test_dir, "cycle_reports")
+        self.lock_file = os.path.join(self.test_dir, "agent.lock")
 
         test_config = {
             "agent": {
@@ -35,7 +39,11 @@ class TestEndToEndCycle(unittest.TestCase):
                 "sqlite_db": self.db_path,
                 "state_json": self.json_path,
                 "site_dir": self.site_dir,
-                "deliverables_dir": self.deliverables_dir
+                "deliverables_dir": self.deliverables_dir,
+                "wolf_directives": self.directives_file,
+                "receipts_file": self.receipts_file,
+                "reports_dir": self.reports_dir,
+                "lock_file": self.lock_file
             },
             "sources": [],
             "execution": {

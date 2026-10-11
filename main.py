@@ -212,6 +212,24 @@ class AutoIncomeAgent:
             self.storage.mark_opportunity_processed(selected_opp.get("hash", ""))
             deliverable_data["id"] = deliverable_id
             logger.info(f"Actif enregistré avec succès #{deliverable_id} ({deliverable_data['file_path']})")
+
+            # Outbound Telemetry for high-priority Action
+            is_bounty = deliverable_data.get("category") == "bounty_solution" or "bounty" in selected_opp.get("title", "").lower()
+            price = deliverable_data.get("price_usd", 0.0)
+            title_short = selected_opp["title"][:32]
+            if is_bounty:
+                send_lemur_hud(f"🎯 Bounty prête : {title_short} (${price})")
+                gemini_say_path = os.path.expanduser("~/.local/bin/gemini-say")
+                if os.path.exists(gemini_say_path):
+                    try:
+                        subprocess.run(
+                            [gemini_say_path, f"Nouvelle prime identifiée : {price} dollars. La solution technique est prête sur le tableau de bord."],
+                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=8
+                        )
+                    except Exception:
+                        pass
+            else:
+                send_lemur_hud(f"📦 Actif prêt : {title_short} (${price})")
         else:
             logger.warning("Aucune nouvelle opportunité à convertir pour ce cycle.")
 

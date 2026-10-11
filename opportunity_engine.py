@@ -117,13 +117,15 @@ class OpportunityEngine:
                     for entry in data.get("items", [])[:6]:
                         title = entry.get("title", "").strip()
                         body = entry.get("body", "") or ""
+                        # Strip HTML comments and tags to extract real requirements
+                        body = re.sub(r"<!--.*?-->", "", body, flags=re.DOTALL)
                         body = re.sub(r"<[^>]+>", "", body).strip()
                         link = entry.get("html_url", "")
                         if title and len(title) > 6:
                             items.append({
                                 "title": title,
                                 "category": default_category,
-                                "description": body[:300] if body else "Mission technique / prime de code active.",
+                                "description": body[:2000] if body else "Mission technique / prime de code active.",
                                 "source_id": source_id,
                                 "source_url": link or url,
                                 "is_simulated": False
@@ -174,43 +176,55 @@ class OpportunityEngine:
         5. Madagascar payment readiness (0-20)
         """
         category = opp.get("category", "digital_product")
-        
-        # 1. Observable demand (0-25)
-        demand = float(opp.get("observable_demand_score", 18.0))
-        # Boost if contains high-intent words
         title_lower = opp.get("title", "").lower()
-        if any(w in title_lower for w in ["bot", "guide", "template", "lead", "prospect", "outil", "service", "argent", "vente"]):
-            demand = min(25.0, demand + 2.5)
+        desc_lower = (opp.get("description") or "").lower()
+        is_bounty = "bounty" in title_lower or opp.get("source_id") in ("github_bounties", "algora_bounties") or "bounty" in desc_lower
+
+        # 1. Observable demand (0-25)
+        if is_bounty:
+            demand = 25.0
+        else:
+            demand = float(opp.get("observable_demand_score", 18.0))
+            if any(w in title_lower for w in ["bot", "guide", "template", "lead", "prospect", "outil", "service", "argent", "vente"]):
+                demand = min(25.0, demand + 2.5)
 
         # 2. Zero startup cost (0-20)
         # By architecture, our engine only builds zero-capital solutions
         zero_cost = 20.0
 
         # 3. Speed to first sale (0-20)
-        # Direct microservices and interactive tools convert fastest (short cycles)
-        # Digital products and SEO content are heavily penalized (long sales process)
-        speed_map = {
-            "microservice_gig": 20.0,
-            "b2b_prospects": 18.0,
-            "micro_tool": 16.0,
-            "digital_product": 5.0,
-            "seo_content": 4.0
-        }
-        speed = float(opp.get("speed_to_sale_score", speed_map.get(category, 10.0)))
+        # Bounties with funded rewards convert fastest upon PR merge
+        if is_bounty:
+            speed = 20.0
+        else:
+            speed_map = {
+                "microservice_gig": 20.0,
+                "b2b_prospects": 18.0,
+                "micro_tool": 16.0,
+                "digital_product": 5.0,
+                "seo_content": 4.0
+            }
+            speed = float(opp.get("speed_to_sale_score", speed_map.get(category, 10.0)))
 
         # 4. Technical accessibility (0-15)
-        tech_map = {
-            "digital_product": 14.5,
-            "seo_content": 14.0,
-            "microservice_gig": 13.5,
-            "b2b_prospects": 13.0,
-            "micro_tool": 12.0
-        }
-        tech = float(opp.get("technical_difficulty_score", tech_map.get(category, 13.0)))
+        if is_bounty:
+            tech = 14.5
+        else:
+            tech_map = {
+                "digital_product": 14.5,
+                "seo_content": 14.0,
+                "microservice_gig": 13.5,
+                "b2b_prospects": 13.0,
+                "micro_tool": 12.0
+            }
+            tech = float(opp.get("technical_difficulty_score", tech_map.get(category, 13.0)))
 
         # 5. Madagascar payment readiness (0-20)
-        monetization_info = MonetizationAdvisor.evaluate_opportunity_monetization(category)
-        payment_readiness = monetization_info.get("madagascar_readiness_score", 18.0)
+        if is_bounty:
+            payment_readiness = 20.0  # USDT P2P / Binance Pay UID 254779310
+        else:
+            monetization_info = MonetizationAdvisor.evaluate_opportunity_monetization(category)
+            payment_readiness = monetization_info.get("madagascar_readiness_score", 18.0)
 
         total_score = round(demand + zero_cost + speed + tech + payment_readiness, 1)
 

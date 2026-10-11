@@ -130,6 +130,61 @@ class ReportGenerator:
             except Exception:
                 pass
 
+        # Action Center for Immediate Outbound Bounties & Gigs
+        actionable_cards_html = ""
+        actionable_deliverables = [
+            d for d in deliverables
+            if d.get("metadata", {}).get("source_url") or d.get("category") == "bounty_solution"
+        ]
+
+        for idx, d in enumerate(actionable_deliverables[:4]):
+            meta = d.get("metadata", {})
+            bounty_val = meta.get("bounty_value") or f"${d.get('price_usd', 0.0)} USD"
+            source_url = meta.get("source_url", "")
+            proposal = meta.get("proposal_snippet", "")
+            prop_id = f"proposal_text_{d.get('id', idx)}"
+            escaped_proposal = (proposal or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', '&quot;')
+
+            issue_btn_html = f'<a href="{source_url}" target="_blank" style="flex:1.2; background:#2563eb; color:#fff; font-weight:700; text-decoration:none; padding:10px; border-radius:8px; text-align:center;">🎯 Ouvrir l&#39;Issue sur GitHub</a>' if source_url else ""
+
+            actionable_cards_html += f"""
+            <div class="card" style="background:#0f172a; border:2px solid #3b82f6; border-radius:12px; padding:18px; margin-bottom:14px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                    <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #{idx+1}</span>
+                    <span style="font-weight:700; color:#10b981; font-size:1.1rem;">Prime : {bounty_val}</span>
+                </div>
+                <h3 style="margin:10px 0 6px; font-size:1.05rem; color:#f8fafc;">{d.get('title')}</h3>
+                <p style="font-size:0.85rem; color:#94a3b8; margin-bottom:12px;">
+                    ✅ Dossier technique et proposition PR prêts. Soumettez directement pour réserver la prime.
+                </p>
+                <div id="{prop_id}" style="display:none;">{escaped_proposal}</div>
+                <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                    <button onclick="copyActionProposal('{prop_id}', this)" style="flex:1; background:#10b981; color:#000; font-weight:700; border:none; padding:10px; border-radius:8px; cursor:pointer;">
+                        📋 Copier la Proposition PR
+                    </button>
+                    {issue_btn_html}
+                    <a href="{d.get('relative_path')}" target="_blank" style="flex:0.8; background:#1e293b; color:#cbd5e1; border:1px solid #334155; text-decoration:none; padding:10px; border-radius:8px; text-align:center;">
+                        📄 Voir Dossier
+                    </a>
+                </div>
+            </div>
+            """
+
+        action_center_html = ""
+        if actionable_cards_html:
+            action_center_html = f"""
+            <div style="margin:24px 0;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <h2 style="color:#60a5fa; margin:0;">⚡ CENTRE D'ACTION IMMÉDIATE (OUTBOUND)</h2>
+                    <span style="color:#10b981; font-size:0.85rem; font-weight:600;">{len(actionable_deliverables)} primes/gigs prêts</span>
+                </div>
+                <p style="font-size:0.85rem; color:#94a3b8; margin-bottom:14px;">
+                    Cliquez sur <strong>Copier la Proposition PR</strong> puis sur <strong>Ouvrir l'Issue sur GitHub</strong> pour réserver la prime. Payout vers Binance Pay UID <code>254779310</code>.
+                </p>
+                {actionable_cards_html}
+            </div>
+            """
+
         html_content = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -362,6 +417,8 @@ class ReportGenerator:
             </div>
         </div>
 
+        {action_center_html}
+
         {wolf_card_html}
 
         <h2>📦 Actifs Monétisables Disponibles</h2>
@@ -391,6 +448,25 @@ class ReportGenerator:
         <p><strong>AUTO-INCOME AI</strong> • Architecture autonome pour créateurs basés à Madagascar • Conforme aux règles éthiques internationales.</p>
         <p style="margin-top:6px;">Exécuté 24h/24 via GitHub Actions • Compatible mobile Android Termux.</p>
     </footer>
+
+    <script>
+    function copyActionProposal(elemId, btn) {{
+        const el = document.getElementById(elemId);
+        if (!el) return;
+        const text = el.innerText || el.textContent;
+        navigator.clipboard.writeText(text).then(() => {{
+            const orig = btn.innerText;
+            btn.innerText = "✅ Proposition Copiée !";
+            btn.style.background = "#34d399";
+            setTimeout(() => {{
+                btn.innerText = orig;
+                btn.style.background = "#10b981";
+            }}, 2500);
+        }}).catch(err => {{
+            prompt("Copiez manuellement la proposition :", text);
+        }});
+    }}
+    </script>
 </body>
 </html>
 """

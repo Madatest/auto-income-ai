@@ -40,6 +40,33 @@ class TestContentFactory(unittest.TestCase):
         self.assertLess(score, 60.0)
         self.assertIn("Longueur insuffisante", notes)
 
+    def test_bounty_solution_generation(self):
+        bounty_opp = {
+            "title": "[Bounty $50] Fix authentication bug on Telegram bot",
+            "category": "microservice_gig",
+            "description": "The bot fails to validate auth tokens from user message payload. Needs immediate fix and unit tests.",
+            "source_id": "github_bounties",
+            "source_url": "https://github.com/example/bot/issues/42",
+            "hash": "test_bounty_hash_1"
+        }
+        deliverable = self.factory.build_deliverable(bounty_opp)
+        self.assertEqual(deliverable["category"], "bounty_solution")
+        self.assertTrue(deliverable["metadata"]["is_bounty"])
+        self.assertTrue(os.path.exists(deliverable["file_path"]))
+        self.assertIn("proposal_snippet", deliverable["metadata"])
+        self.assertGreater(len(deliverable["metadata"]["proposal_snippet"]), 50)
+        self.assertGreaterEqual(deliverable["quality_score"], 80.0)
+
+        with open(deliverable["file_path"], "r", encoding="utf-8") as f:
+            content = f.read()
+        self.assertTrue("Proposed Solution" in content or "Pull Request" in content or "Modèle" in content or "Bounty" in content)
+        self.assertIn("254779310", content)
+
+    def test_qa_flags_pass_placeholder_in_bounty(self):
+        fake_content = "# 🎯 GITHUB BOUNTY RESOLUTION DOSSIER : Test\n\ndef execute_resolution_fix():\n    pass\n\n## 5. Modèle\n254779310"
+        score, notes = self.factory._audit_quality(fake_content, "bounty_solution")
+        self.assertIn("Pénalité QA", notes)
+
 
 if __name__ == "__main__":
     unittest.main()

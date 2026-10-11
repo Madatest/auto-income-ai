@@ -83,8 +83,8 @@ class ReportGenerator:
                     <strong>🇲🇬 Encaissement Mada :</strong> {mon.get('local_cashout', 'P2P / Virement international')}
                 </div>
                 <div class="action-row" style="display:flex; gap:8px; margin-top:12px;">
-                    <a href="{d.get('relative_path')}" class="btn-primary" style="flex:1; background:#1e293b; border:1px solid #334155; text-align:center;" target="_blank">📄 Voir Actif</a>
-                    <a href="checkout.html" class="btn-primary" style="flex:1.2; background:#f0b90b; color:#000; font-weight:700; text-align:center;" target="_blank">⚡ Payer Binance</a>
+                    <a href="{d.get('relative_path')}" class="btn-primary" style="flex:1; background:#1e293b; border:1px solid #334155; text-align:center;" target="_blank">📄 Voir Dossier</a>
+                    {'<a href="' + meta.get('source_url', '') + '" class="btn-primary" style="flex:1.2; background:#2563eb; color:#fff; font-weight:700; text-align:center;" target="_blank">🎯 Ouvrir Issue</a>' if meta.get('source_url') else '<a href="checkout.html" class="btn-primary" style="flex:1.2; background:#f0b90b; color:#000; font-weight:700; text-align:center;" target="_blank">⚡ Payer Binance</a>'}
                 </div>
             </div>
             """

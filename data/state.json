@@ -1,24 +1,88 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 12,
+    "total_executions": 14,
     "total_opportunities": 12,
-    "total_deliverables": 9,
+    "total_deliverables": 11,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 147.0,
+    "projected_pipeline_usd": 197.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 12,
-      "timestamp": "2026-10-10T19:09:11.551453+00:00",
+      "id": 14,
+      "timestamp": "2026-10-11T04:07:53.226698+00:00",
       "status": "SUCCESS",
       "opportunities_found": 6,
       "deliverables_created": 1,
-      "duration_seconds": 14.88,
-      "notes": "Produit '[BOUNTY] Suggestion #1259'"
+      "duration_seconds": 5.37,
+      "notes": "Produit '[Bounty] [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th'"
     },
-    "updated_at": "2026-10-10T19:09:11.564361+00:00"
+    "updated_at": "2026-10-11T04:07:53.234974+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 13,
+      "opportunity_hash": "365acf0e4844ee10f8ad8d2f2d818a4406ff6709863b2dbfb1ff965cce1a466d",
+      "category": "microservice_gig",
+      "title": "[Bounty] [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th",
+      "file_path": "site/deliverables/20261011_040753_bounty_bounty_3000_fix_ttnnsampling_distribution_b.md",
+      "relative_path": "deliverables/20261011_040753_bounty_bounty_3000_fix_ttnnsampling_distribution_b.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 1988,
+        "extension": "md"
+      },
+      "created_at": "2026-10-11T04:07:53.065624+00:00"
+    },
+    {
+      "id": 12,
+      "opportunity_hash": "f36a73c6ed65e051557e77ed4e46a88a9f2c2c3d7686b2e5e89ef9109a7fe387",
+      "category": "microservice_gig",
+      "title": "[BOUNTY] Suggestion #1268",
+      "file_path": "site/deliverables/20261010_194432_bounty_suggestion_1268.md",
+      "relative_path": "deliverables/20261010_194432_bounty_suggestion_1268.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 1860,
+        "extension": "md"
+      },
+      "created_at": "2026-10-10T19:44:32.560732+00:00"
+    },
     {
       "id": 11,
       "opportunity_hash": "e726f532909d5129c746dbb8e501cb85207b2c790318604170ef41d7af9b8cfe",
@@ -274,38 +338,6 @@
         "extension": "md"
       },
       "created_at": "2026-10-10T16:00:10.596736+00:00"
-    },
-    {
-      "id": 3,
-      "opportunity_hash": "f1a7eab810f466f384d2471a8e3debfd4a00ac7f02e2a09d64512ae212c61985",
-      "category": "digital_product",
-      "title": "As the year wraps up: what’s the project you’re most proud of building and why?",
-      "file_path": "site/deliverables/20261010_151524_as_the_year_wraps_up_whats_the_project_youre_most_.md",
-      "relative_path": "deliverables/20261010_151524_as_the_year_wraps_up_whats_the_project_youre_most_.md",
-      "monetization_channel": "binance_pay",
-      "price_usd": 12.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "digital_product",
-          "target_client": "Professionnels indépendants, créateurs et étudiants internationaux",
-          "acquisition_channel": "GitHub Pages, réseaux sociaux professionnels, forums thématiques",
-          "delivery_process": "Téléchargement immédiat sécurisé après confirmation de paiement",
-          "recommended_channel": "binance_pay",
-          "channel_name": "Binance Pay Direct (UID : 254779310)",
-          "price_usd": 12.0,
-          "fee_usd": 0.0,
-          "net_revenue_usd": 12.0,
-          "madagascar_readiness_score": 20.0,
-          "local_cashout": "Conversion P2P directe vers MVola ou Orange Money à Madagascar en 5 minutes",
-          "required_setup": "Binance UID actif : 254779310 (Réception instantanée 0 frais)",
-          "payout_delay_days": 0
-        },
-        "file_size_bytes": 2314,
-        "extension": "md"
-      },
-      "created_at": "2026-10-10T15:15:24.528238+00:00"
     }
   ],
   "top_opportunities": [
@@ -347,7 +379,7 @@
         "madagascar_payment_readiness": 19.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-10T18:42:47.851716+00:00"
     },
@@ -368,7 +400,7 @@
         "madagascar_payment_readiness": 19.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-10T18:42:47.840411+00:00"
     },
@@ -520,5 +552,5 @@
       "created_at": "2026-10-10T15:00:25.403278+00:00"
     }
   ],
-  "exported_at": "2026-10-10T19:09:11.570511+00:00"
+  "exported_at": "2026-10-11T04:07:53.240968+00:00"
 }

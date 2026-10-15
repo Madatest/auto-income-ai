@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 38,
-    "total_opportunities": 30,
-    "total_deliverables": 44,
+    "total_executions": 39,
+    "total_opportunities": 31,
+    "total_deliverables": 45,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1022.0,
+    "projected_pipeline_usd": 1047.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 38,
-      "timestamp": "2026-10-15T14:14:22.693083+00:00",
+      "id": 39,
+      "timestamp": "2026-10-15T15:15:52.566611+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 12,
+      "opportunities_found": 6,
       "deliverables_created": 1,
-      "duration_seconds": 108.94,
-      "notes": "Produit 'Implement timing-safe HMAC signature verification in webhook handler'"
+      "duration_seconds": 63.42,
+      "notes": "Produit 'Add custom asset trustline creation quick-action modal in wallet selector'"
     },
-    "updated_at": "2026-10-15T14:14:22.724169+00:00"
+    "updated_at": "2026-10-15T15:15:52.591247+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 47,
+      "opportunity_hash": "2d6f2038f3080cd8bf063d240d7976c973ddc0de3719c9126b9bb30bf75f3a9f",
+      "category": "bounty_solution",
+      "title": "Add custom asset trustline creation quick-action modal in wallet selector",
+      "file_path": "site/deliverables/20261015_151542_add_custom_asset_trustline_creation_quick_action_m.md",
+      "relative_path": "deliverables/20261015_151542_add_custom_asset_trustline_creation_quick_action_m.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4639,
+        "extension": "md",
+        "source_url": "https://github.com/OphirPay/OphirPay/issues/1384",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Add custom asset trustline creation quick-action modal in wallet selector**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-15T15:15:43.000487+00:00"
+    },
     {
       "id": 46,
       "opportunity_hash": "f2e9dc5a6eae39a7589f9b6362e4b87616f953cf616220e612169991742ac334",
@@ -351,46 +388,30 @@
         "bounty_value": "$70"
       },
       "created_at": "2026-10-11T11:19:38.569103+00:00"
-    },
-    {
-      "id": 37,
-      "opportunity_hash": "09fe76d82ab976aae1cd07607894ea2c75df622530ef6e04f498d17fc1f97de5",
-      "category": "bounty_solution",
-      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
-      "file_path": "site/deliverables/20261011_111938__bounty_alert_13_new_opportunityies_found.md",
-      "relative_path": "deliverables/20261011_111938__bounty_alert_13_new_opportunityies_found.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5408,
-        "extension": "md",
-        "source_url": "https://github.com/freedom-winds/BountyScout/issues/1233",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **🎯 Bounty Alert: 13 New Opportunityies found**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$70"
-      },
-      "created_at": "2026-10-11T11:19:38.385977+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 36,
+      "hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
+      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
+      "category": "microservice_gig",
+      "description": "## Problem\n\n`_get_shell_driver` fails on minimal systems (e.g. containers which have only `/bin/sh`):\n\n*   `SHELL` is not set: it warns and assumes `bash` (via `shutil.which(\"bash\")`),\n    then hits `assert shell_abs_path is not None` when `bash` is not in `PATH`.\n*   `SHELL=/bin/sh`: it raises `ValueError` (unknown shell).\n\nOnly `ShellType.shell_bash` / `ShellType.shell_zsh` (with `ShellDriverBash` / `ShellDriverZsh`) exist today.\n\nBackground and design notes: [`doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md`](https://github.com/uvsmtid/protoprimer/blob/main/doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md)\n\n## Scope\n\n*   **Fallback:** when `SHELL` is not set, `_get_shell_driver` returns `ShellDriverSh` (using `/bin/sh`).\n    It no longer assumes `bash` (the `which(\"bash\")` lookup and its `assert` are removed).\n*   **Recognition:** when `SHELL` has the basename `sh` (e.g. `SHELL=/bin/sh`), `_get_shell_driver` returns `ShellDriverSh`.\n*   **Other unknown shells** (e.g. `/bin/fish`) still raise `ValueError`.\n*   **`ShellDriverSh` is POSIX-only:**\n    *   It must work with any `sh` implementation (`dash`, `busybox ash`, `bash` in `sh` mode, etc.).\n    *   It must not use extensions of any specific implementation (e.g. `source`, `[[ ]]`, `echo -e`, `local`, arrays, `$'...'`, `which`).\n    *   POSIX `sh` has no `--init-file`: pass the init file via the `ENV` variable (read only by interactive shells).\n*   The change is applied to the stand-alone `proto_kernel.py` copy too (keep it in sync).\n\n## Acceptance criteria\n\n1.  Unit tests (mocked) cover:\n    *   no `SHELL` returns `ShellDriverSh` (replaces `test_get_shell_driver_no_shell_env_no_bash`, which currently expects `AssertionError`);\n    *   `SHELL=/bin/sh` returns `ShellDriverSh`;\n    *   `SHELL=/bin/fish` still raises `ValueError`;\n    *   `ShellDriverSh` builds the expected command line and env (the init file is passed via `ENV`, no `--init-file`);\n    *   `bash` and `zsh` behavior has no r",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/uvsmtid/protoprimer/issues/143",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T15:15:11.005488+00:00"
+    },
     {
       "id": 35,
       "hash": "0c6e4039cce27ac6bf4e95df84bb3dab09c507cad2b07463fd4e9c8072bfb310",
@@ -555,7 +576,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-15T11:43:18.478307+00:00"
     },
@@ -579,28 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-15T11:43:18.471651+00:00"
-    },
-    {
-      "id": 26,
-      "hash": "0d57136ca5d6693f9ce4d671514002024128ecc09514dfd26c0fc4d98c2cbfa7",
-      "title": "Add session re-authentication check on critical administrative actions",
-      "category": "microservice_gig",
-      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nSensitive actions such as updating fee configuration (`src/app/api/fee-config/route.ts`), rotating organization master keys, or modifying RBAC role assignments rely solely on existing session cookies. If a user's browser is temporarily unattended, an attacker could perform high-impact admin mutations without wallet signature re-verification.\n\n## Proposed Solution\n\n1. Implement a \"sudo mode\" challenge middleware in `src/lib/session-sudo.ts`.\n2. Require a fresh wallet challenge signature if the active session's last cryptographic verification was older than 15 minutes.\n3. Return HTTP 403 `SUDO_REQUIRED` with a challenge payload when re-authentication is required.\n4. Add frontend modal prompting quick Freighter re-signing before continuing.\n\n## Acceptance Criteria\n\n- [ ] Critical admin operations require cryptographic wallet signature if session verification is older than 15m\n- [ ] Non-critical read and standard operations proceed without interruption\n- [ ] E2E security test in `e2e/admin-rbac.spec.ts` verifies re-auth enforcement\n\n## Files to Modify\n- src/lib/session-sudo.ts\n- src/app/api/fee-config/route.ts\n- src/app/api/rbac/route.ts\n- e2e/admin-rbac.spec.ts\n\n---\n\n**Target Branch: integration/staging**",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.464998+00:00"
     }
   ],
-  "exported_at": "2026-10-15T14:14:22.729374+00:00"
+  "exported_at": "2026-10-15T15:15:52.607371+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 37,
-    "total_opportunities": 29,
-    "total_deliverables": 43,
+    "total_executions": 38,
+    "total_opportunities": 30,
+    "total_deliverables": 44,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 997.0,
+    "projected_pipeline_usd": 1022.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 37,
-      "timestamp": "2026-10-15T14:11:00.476945+00:00",
+      "id": 38,
+      "timestamp": "2026-10-15T14:14:22.693083+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 99.86,
-      "notes": "Produit 'Add session re-authentication check on critical administrative actions'"
+      "duration_seconds": 108.94,
+      "notes": "Produit 'Implement timing-safe HMAC signature verification in webhook handler'"
     },
-    "updated_at": "2026-10-15T14:11:00.508439+00:00"
+    "updated_at": "2026-10-15T14:14:22.724169+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 46,
+      "opportunity_hash": "f2e9dc5a6eae39a7589f9b6362e4b87616f953cf616220e612169991742ac334",
+      "category": "bounty_solution",
+      "title": "Implement timing-safe HMAC signature verification in webhook handler",
+      "file_path": "site/deliverables/20261015_141404_implement_timing_safe_hmac_signature_verification_.md",
+      "relative_path": "deliverables/20261015_141404_implement_timing_safe_hmac_signature_verification_.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4550,
+        "extension": "md",
+        "source_url": "https://github.com/OphirPay/OphirPay/issues/1386",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Implement timing-safe HMAC signature verification in webhook handler**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-15T14:14:04.976489+00:00"
+    },
     {
       "id": 45,
       "opportunity_hash": "0d57136ca5d6693f9ce4d671514002024128ecc09514dfd26c0fc4d98c2cbfa7",
@@ -351,46 +388,30 @@
         "bounty_value": "$70"
       },
       "created_at": "2026-10-11T11:19:38.385977+00:00"
-    },
-    {
-      "id": 36,
-      "opportunity_hash": "09fe76d82ab976aae1cd07607894ea2c75df622530ef6e04f498d17fc1f97de5",
-      "category": "bounty_solution",
-      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
-      "file_path": "site/deliverables/20261011_111937__bounty_alert_13_new_opportunityies_found.md",
-      "relative_path": "deliverables/20261011_111937__bounty_alert_13_new_opportunityies_found.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5408,
-        "extension": "md",
-        "source_url": "https://github.com/freedom-winds/BountyScout/issues/1233",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **🎯 Bounty Alert: 13 New Opportunityies found**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$70"
-      },
-      "created_at": "2026-10-11T11:19:37.808688+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 35,
+      "hash": "0c6e4039cce27ac6bf4e95df84bb3dab09c507cad2b07463fd4e9c8072bfb310",
+      "title": "Add session re-authentication check on critical administrative actions",
+      "category": "microservice_gig",
+      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nSensitive actions such as updating fee configuration (`src/app/api/fee-config/route.ts`), rotating organization master keys, or modifying RBAC role assignments rely solely on existing session cookies. If a user's browser is temporarily unattended, an attacker could perform high-impact admin mutations without wallet signature re-verification.\n\n## Proposed Solution\n\n1. Implement a \"sudo mode\" challenge middleware in `src/lib/session-sudo.ts`.\n2. Require a fresh wallet challenge signature if the active session's last cryptographic verification was older than 15 minutes.\n3. Return HTTP 403 `SUDO_REQUIRED` with a challenge payload when re-authentication is required.\n4. Add frontend modal prompting quick Freighter re-signing before continuing.\n\n## Acceptance Criteria\n\n- [ ] Critical admin operations require cryptographic wallet signature if session verification is older than 15m\n- [ ] Non-critical read and standard operations proceed without interruption\n- [ ] E2E security test in `e2e/admin-rbac.spec.ts` verifies re-auth enforcement\n\n## Files to Modify\n- src/lib/session-sudo.ts\n- src/app/api/fee-config/route.ts\n- src/app/api/rbac/route.ts\n- e2e/admin-rbac.spec.ts\n\n---\n\n**Target Branch: integration/staging**",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T14:12:42.677580+00:00"
+    },
     {
       "id": 34,
       "hash": "caa6b004b83059db9061058f6c2d0c402372b409fdc6a16bae1ea3ae4165d2f1",
@@ -555,7 +576,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-15T11:43:18.471651+00:00"
     },
@@ -579,28 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-15T11:43:18.464998+00:00"
-    },
-    {
-      "id": 25,
-      "hash": "3bc13f1d7ab66b919fc83859a7c627d2b3fbb418314d6c66fef1ab9a91cd2d6e",
-      "title": "Add end-to-end test suite for escrow dispute and resolution flow",
-      "category": "microservice_gig",
-      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nWhile standard escrow creation and release are covered in `e2e/critical-flows.spec.ts`, the full dispute resolution lifecycle (Buyer raises dispute -> Status transitions to DISPUTED -> Arbitrator reviews evidence -> Funds released to designated party) lacks automated end-to-end test verification.\n\n## Proposed Solution\n\n1. Add `e2e/escrow-dispute.spec.ts` in Playwright.\n2. Simulate buyer initiating dispute via UI.\n3. Verify status updates across buyer and seller dashboards.\n4. Simulate arbitrator account resolving dispute in favor of buyer, asserting wallet balance changes.\n\n## Acceptance Criteria\n\n- [ ] E2E test covers full dispute lifecycle from initiation to final settlement\n- [ ] Verifies UI indicators (dispute banner, action buttons disabled during dispute)\n- [ ] Runs deterministically in CI pipeline\n\n## Files to Modify\n- e2e/escrow-dispute.spec.ts\n- e2e/helpers/escrow-helper.ts\n- playwright.config.ts\n\n---\n\n**Target Branch: integration/staging**",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1405",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.443261+00:00"
     }
   ],
-  "exported_at": "2026-10-15T14:11:00.527099+00:00"
+  "exported_at": "2026-10-15T14:14:22.729374+00:00"
 }

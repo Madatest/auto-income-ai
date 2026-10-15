@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 40,
-    "total_opportunities": 35,
-    "total_deliverables": 46,
+    "total_executions": 41,
+    "total_opportunities": 41,
+    "total_deliverables": 47,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1072.0,
+    "projected_pipeline_usd": 1097.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 40,
-      "timestamp": "2026-10-15T17:34:51.687122+00:00",
+      "id": 41,
+      "timestamp": "2026-10-15T20:54:00.050337+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 4.44,
-      "notes": "Produit 'Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout'"
+      "duration_seconds": 2.53,
+      "notes": "Produit 'Submit MCP Server: BountyRadar MCP'"
     },
-    "updated_at": "2026-10-15T17:34:51.689058+00:00"
+    "updated_at": "2026-10-15T20:54:00.052155+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 49,
+      "opportunity_hash": "c29c153eb02c778fc72fc9a85f00223116d9060ef1848786e2e98824fc0b5c8a",
+      "category": "bounty_solution",
+      "title": "Submit MCP Server: BountyRadar MCP",
+      "file_path": "site/deliverables/20261015_205359_submit_mcp_server_bountyradar_mcp.md",
+      "relative_path": "deliverables/20261015_205359_submit_mcp_server_bountyradar_mcp.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4358,
+        "extension": "md",
+        "source_url": "https://github.com/chatmcp/mcpso/issues/5414",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Submit MCP Server: BountyRadar MCP**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-15T20:53:59.373216+00:00"
+    },
     {
       "id": 48,
       "opportunity_hash": "c790af704526b0c9b7862f97c252beac5efd9409bdb90ae8e9d7566231a38aee",
@@ -351,46 +388,135 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-11T11:34:59.043921+00:00"
-    },
-    {
-      "id": 39,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "bounty_solution",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261011_112928_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261011_112928_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5395,
-        "extension": "md",
-        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-11T11:29:28.891441+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 46,
+      "hash": "3e8b0b57ab8f6f2b54434aee9e78337e0e97abeaf31e47df91440d9f23c26a6d",
+      "title": "[Bounty: $75] Package hygiene: sideEffects flag, export-map validation, and publint in CI",
+      "category": "microservice_gig",
+      "description": "**Context**\n`package.json` publishes a dual CJS/ESM build (`main`/`module`/`exports`) via tsup, but declares no `sideEffects` field (bundlers must assume the SDK can have side effects and keep more than necessary), and nothing validates that the published artifact's export map, `files`, and types entries are actually coherent. `pnpm build` succeeding does not catch misconfigured `exports` paths or types that don't resolve for `moduleResolution: \"node16\"` consumers — the class of bug that only surfaces after `npm publish`.\n\n**Proposed Change**\nAdd `\"sideEffects\": false` to `package.json` (verify no module-level side effects in `src/` first — the current sources are pure declarations, but confirm). Add `publint` as a devDependency with a `pnpm publint` script, and run it in CI after `pnpm build` (new step in the existing job or its own job in `.github/workflows/ci.yml`). Fix anything publint flags.\n\n**Acceptance Criteria**\n\n- `sideEffects: false` is set, justified by a clean check of module top-levels.\n- `pnpm publint` passes locally against the built `dist/`.\n- CI runs publint after build and fails on findings.\n- No changes to the runtime bundle contents beyond what the flag enables downstream.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: chore\n**Bounty:** $75\n**ETA:** 24 hours",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Parabola-org/parabola/issues/15",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T20:53:59.368712+00:00"
+    },
+    {
+      "id": 45,
+      "hash": "6417a3329041f33874e7d47feed91f3cb2d569c0ee55cf2292eb919129d1ac81",
+      "title": "[Bounty: $75] Website: accessibility and motion-preference fixes for the landing page",
+      "category": "microservice_gig",
+      "description": "**Context**\n`website/` is the project's landing page with a scripted hero animation (`website/src/hero-animation.ts`, `website/src/animations.ts`). Marketing pages built around canvas/CSS animation commonly ship without `prefers-reduced-motion` handling, keyboard-navigable CTAs, or proper document landmarks — and this page is the first impression for developers evaluating the SDK. Without seeing the rendered page the exact gaps can't be listed exhaustively, so this bounty is scoped to an audit-plus-fix pass rather than a single known bug.\n\n**Proposed Change**\nAudit the landing page against WCAG 2.1 AA basics and fix what's found: honor `prefers-reduced-motion` (static fallback for the hero animation), ensure all interactive elements are keyboard-reachable with visible focus states, verify color contrast of body text and CTAs, add meaningful `alt`/`aria` where assets are decorative, and ensure a single logical `h1` with ordered headings. Keep the visual design intact — this is not a redesign.\n\n**Acceptance Criteria**\n\n- Hero animation does not run (or runs a static variant) under `prefers-reduced-motion: reduce`, verified in dev tools.\n- Full keyboard pass: tab order reaches every control, focus is always visible.\n- Automated check (axe or Lighthouse a11y) reports no critical/serious issues on the page.\n- `pnpm --filter website build` (or the website's build command) passes.\n- A short summary of fixed issues is included in the PR description.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml` for the SDK, plus a local website build.\n\n**Suggested Label**: feature\n**Bounty:** $75\n**ETA:** 48 hours",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Parabola-org/parabola/issues/16",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T20:53:59.367156+00:00"
+    },
+    {
+      "id": 44,
+      "hash": "929873b3a7ffa1b918bb0a604413063968c3737af1c861c26c864b51734c1802",
+      "title": "[Bounty: $60] Docs: add a \"Failure modes and recovery\" guide",
+      "category": "microservice_gig",
+      "description": "**Context**\nThe README documents the happy path well, and `src/errors.ts` has excellent inline rationale — but a integrator debugging a failed mainnet transfer has to assemble the recovery story by reading source. The pieces are scattered: `TransferError.burnTxHash` (recover via `completeMint`), `AttestationNotReadyError` (retryable, burn is safe), `SubmissionTimeoutError` (hash exists, outcome unknown — check the chain before retrying), `IrisRequestError` (Circle-side outage, retry), and `resolveBurn` for inspecting a burn you didn't produce.\n\n**Proposed Change**\nAdd a `docs/` page (or a major README section, matching wherever long-form docs currently live — check `INTEGRATION.md` first and extend it if that's the right home) covering: the transfer lifecycle diagram in prose, each error class with what it means for funds and what to do next, a worked `completeMint` recovery example for both directions, and guidance on choosing `pollTimeout`. Link the new section from the README's relevant existing sections.\n\n**Acceptance Criteria**\n\n- Every error class exported from `src/index.ts` appears in the guide with meaning + recommended action.\n- At least one complete code example: catch `TransferError` → wait → `completeMint`.\n- The guide distinguishes \"funds are safe, retry\" from \"outcome unknown, inspect first\" cases explicitly.\n- Links from README/INTEGRATION.md to the new guide work.\n- Docs-only PR; `pnpm typecheck` and `pnpm test` still pass untouched.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $60\n**ETA:** 24 hours",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Parabola-org/parabola/issues/17",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T20:53:59.365644+00:00"
+    },
+    {
+      "id": 43,
+      "hash": "ba5ffaeaf25ab1bda2b3ef1ed2f604ac311a357133fbd913ea94520dd627dd7e",
+      "title": "[Bounty: $60] Harden scripts/testnet-smoke.mjs with retries, exit codes, and a step summary",
+      "category": "microservice_gig",
+      "description": "**Context**\n`scripts/testnet-smoke.mjs` is the end-to-end testnet check (`pnpm smoke`) and one of the few signals that the SDK works against live Circle Iris and real contracts. Public testnets and faucets flake constantly — transient RPC 5xx, attestation delays just over the poll window, faucet rate limits. A smoke script with no retry or step-level reporting turns every flake into a false alarm, and a script that doesn't exit non-zero on partial failure turns real breakage into a green-looking run.\n\n**Proposed Change**\nRestructure the script into named steps (fund/check, approve+burn, attestation wait, mint) with per-step retry + exponential backoff for infrastructure-shaped failures only (not for deterministic validation failures). Exit non-zero if any step ultimately fails, print a per-step pass/fail/duration summary at the end, and keep the burn hash printed prominently on post-burn failure so a human can recover the run with `completeMint`. No new dependencies — plain Node.\n\n**Acceptance Criteria**\n\n- Each step retries transient failures with backoff; deterministic failures (bad address, insufficient funds) fail immediately without retry.\n- Final summary lists every step with status and duration; process exit code reflects overall outcome.\n- Post-burn step failure prints the burn hash and the `completeMint` invocation needed to finish.\n- Script remains runnable with existing env vars from `.env.example` / README smoke instructions.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml` (script correctness reviewed manually; live run optional).\n\n**Suggested Label**: chore\n**Bounty:** $60\n**ETA:** 24 hours",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Parabola-org/parabola/issues/18",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T20:53:59.364334+00:00"
+    },
+    {
+      "id": 42,
+      "hash": "aea8bec43168a63e574a2826c3d2e8f84caeec6e94ed2a1ad8bee342ee85d804",
+      "title": "[Bounty: $45] Validate input to bytes32ToStellarAddress",
+      "category": "microservice_gig",
+      "description": "**Context**\n`bytes32ToStellarAddress` in `src/utils/encoding.ts:28-32` does `Buffer.from(hex, \"hex\")` with no validation and passes the result straight to `StrKey.encodeEd25519PublicKey`. `Buffer.from` silently truncates at the first non-hex character and accepts odd-length strings by dropping the leading nibble, so garbage input produces a garbage-but-plausible `G...` address instead of an error. Its sibling `stellarAddressToBytes32` (lines 12-25) validates both directions of the strkey round trip; this inverse got missed. It's exported from the package via the encoding utilities consumers import.\n\n**Proposed Change**\nMirror the validation discipline of `evmAddressToBytes32` (lines 120-131): require an `0x`-prefixed, even-length, pure-hex string of exactly 64 hex chars (32 bytes) before decoding, and throw a descriptive error otherwise.\n\n**Acceptance Criteria**\n\n- 32-byte valid hex input round-trips: `bytes32ToStellarAddress(stellarAddressToBytes32(g)) === g` for sample G-addresses.\n- Non-hex characters, odd lengths, wrong byte lengths, and missing `0x` prefix each throw with a clear message.\n- Contract (C...) round-trip behavior is documented — either supported explicitly or rejected explicitly; not silently mangled.\n- Tests added in `tests/encoding.test.ts`.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: bug\n**Bounty:** $45\n**ETA:** 24 hours",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Parabola-org/parabola/issues/19",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T20:53:59.362663+00:00"
+    },
+    {
+      "id": 41,
+      "hash": "64e85d28f1fabcb7a7339a9dd7494446e06e3678f34f248e6f8fbf989684ec69",
+      "title": "[Bounty: $45] Export convertPrecision and add 6↔7 decimal round-trip tests",
+      "category": "microservice_gig",
+      "description": "**Context**\n`convertPrecision` in `src/utils/encoding.ts:137-147` implements the Arc(6)↔Stellar(7) decimal conversion that sits at the heart of every cross-chain amount in this SDK, but it is not exported from `src/index.ts` — integrators building fee displays or amount inputs against both chains have to reimplement bigint scaling themselves. Meanwhile `parseUsdcAmount`/`formatUsdcAmount` (same file, lines 92-115) and `decimalsForChain` have test files, but there is no dedicated coverage of conversion round trips (up-scale then down-scale, truncation behavior, zero, and max-precision inputs) through the public amount helpers.\n\n**Proposed Change**\nExport `convertPrecision` from `src/index.ts` (with its existing doc comment intact). Add tests in `tests/amount.test.ts` (or `tests/encoding.test.ts`, matching where related cases live) covering: 6→7 upscale exactness, 7→6 downscale truncation, identity when decimals match, zero, and round-trip precision loss cases with documented expected values.\n\n**Acceptance Criteria**\n\n- `import { convertPrecision } from \"@asctp/parabola\"` typechecks against the built entry and is in the export list.\n- Round-trip tests pin exact bigint expected values, including at least one truncation case.\n- No runtime code changes beyond the re-export line.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: feature\n**Bounty:** $45\n**ETA:** 24 hours",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Parabola-org/parabola/issues/20",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T20:53:59.359904+00:00"
+    },
     {
       "id": 40,
       "hash": "6b47df616fc4622d8e294172109d1ef137f485938652a6860d9457437be08cf8",
@@ -474,133 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-15T17:34:50.620461+00:00"
-    },
-    {
-      "id": 36,
-      "hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
-      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
-      "category": "microservice_gig",
-      "description": "## Problem\n\n`_get_shell_driver` fails on minimal systems (e.g. containers which have only `/bin/sh`):\n\n*   `SHELL` is not set: it warns and assumes `bash` (via `shutil.which(\"bash\")`),\n    then hits `assert shell_abs_path is not None` when `bash` is not in `PATH`.\n*   `SHELL=/bin/sh`: it raises `ValueError` (unknown shell).\n\nOnly `ShellType.shell_bash` / `ShellType.shell_zsh` (with `ShellDriverBash` / `ShellDriverZsh`) exist today.\n\nBackground and design notes: [`doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md`](https://github.com/uvsmtid/protoprimer/blob/main/doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md)\n\n## Scope\n\n*   **Fallback:** when `SHELL` is not set, `_get_shell_driver` returns `ShellDriverSh` (using `/bin/sh`).\n    It no longer assumes `bash` (the `which(\"bash\")` lookup and its `assert` are removed).\n*   **Recognition:** when `SHELL` has the basename `sh` (e.g. `SHELL=/bin/sh`), `_get_shell_driver` returns `ShellDriverSh`.\n*   **Other unknown shells** (e.g. `/bin/fish`) still raise `ValueError`.\n*   **`ShellDriverSh` is POSIX-only:**\n    *   It must work with any `sh` implementation (`dash`, `busybox ash`, `bash` in `sh` mode, etc.).\n    *   It must not use extensions of any specific implementation (e.g. `source`, `[[ ]]`, `echo -e`, `local`, arrays, `$'...'`, `which`).\n    *   POSIX `sh` has no `--init-file`: pass the init file via the `ENV` variable (read only by interactive shells).\n*   The change is applied to the stand-alone `proto_kernel.py` copy too (keep it in sync).\n\n## Acceptance criteria\n\n1.  Unit tests (mocked) cover:\n    *   no `SHELL` returns `ShellDriverSh` (replaces `test_get_shell_driver_no_shell_env_no_bash`, which currently expects `AssertionError`);\n    *   `SHELL=/bin/sh` returns `ShellDriverSh`;\n    *   `SHELL=/bin/fish` still raises `ValueError`;\n    *   `ShellDriverSh` builds the expected command line and env (the init file is passed via `ENV`, no `--init-file`);\n    *   `bash` and `zsh` behavior has no r",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/uvsmtid/protoprimer/issues/143",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T15:15:11.005488+00:00"
-    },
-    {
-      "id": 35,
-      "hash": "0c6e4039cce27ac6bf4e95df84bb3dab09c507cad2b07463fd4e9c8072bfb310",
-      "title": "Add session re-authentication check on critical administrative actions",
-      "category": "microservice_gig",
-      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nSensitive actions such as updating fee configuration (`src/app/api/fee-config/route.ts`), rotating organization master keys, or modifying RBAC role assignments rely solely on existing session cookies. If a user's browser is temporarily unattended, an attacker could perform high-impact admin mutations without wallet signature re-verification.\n\n## Proposed Solution\n\n1. Implement a \"sudo mode\" challenge middleware in `src/lib/session-sudo.ts`.\n2. Require a fresh wallet challenge signature if the active session's last cryptographic verification was older than 15 minutes.\n3. Return HTTP 403 `SUDO_REQUIRED` with a challenge payload when re-authentication is required.\n4. Add frontend modal prompting quick Freighter re-signing before continuing.\n\n## Acceptance Criteria\n\n- [ ] Critical admin operations require cryptographic wallet signature if session verification is older than 15m\n- [ ] Non-critical read and standard operations proceed without interruption\n- [ ] E2E security test in `e2e/admin-rbac.spec.ts` verifies re-auth enforcement\n\n## Files to Modify\n- src/lib/session-sudo.ts\n- src/app/api/fee-config/route.ts\n- src/app/api/rbac/route.ts\n- e2e/admin-rbac.spec.ts\n\n---\n\n**Target Branch: integration/staging**",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T14:12:42.677580+00:00"
-    },
-    {
-      "id": 34,
-      "hash": "caa6b004b83059db9061058f6c2d0c402372b409fdc6a16bae1ea3ae4165d2f1",
-      "title": "[Bounty] 📋 2 open bounties right now",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/habibdxb01/bounty-watcher/issues/5\n\n### 漏洞描述 / Description\n📋 2 open bounties right now\n\nBounties that were already open when the watcher started. From now on, each new one gets its own issue.\n\n- 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1)\n- 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290)\n\ncc @habibdxb01\n\n\n\n\n\n\n\n\n\n\n\n### 积分币奖励 / Coin Reward\n187 coins\n\n### 真实赏金（USD）/ Real Reward\n$150\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.515507+00:00"
-    },
-    {
-      "id": 33,
-      "hash": "9f22dd4d9765294aa6b4bb304f6774fd9bca20affdf4796501fe4434fb108c74",
-      "title": "🎯 Bounty-Radar",
-      "category": "microservice_gig",
-      "description": "# 🎯 Bounty-Radar (2026-10-15)\n\nBezahlte, offene Programmieraufgaben ab 50 $, sortiert nach *Betrag ÷ Konkurrenz* (frische Bounties doppelt gewichtet).\nNur etablierte Projekte (≥ 100 Sterne, ≥ 6 Monate alt); Köder-Repos mit Fantasiebeträgen sind ausgefiltert.\n\n| # | Betrag | Alter | Konkurrenz | Aufgabe | Projekt | ⭐ |\n|---|---:|---:|---|---|---|---:|\n| 1 | **3000 $** | 8 T. | 🔴 vergeben? | [[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th](https://github.com/tenstorrent/tt-metal/issues/59732) | `tenstorrent/tt-metal` | 1705 |\n\n## So holst du dir eine Bounty\n1. Issue komplett lesen: Bedingungen, Plattform (Algora/IssueHunt/Opire) und ob schon jemand dran ist.\n   Warnsignale: Betrag nur im Titel, keine Bezahlplattform, viele fast gleiche Issues, Forderung nach Wallet-Daten.\n2. Bei Algora im Issue `/attempt #` kommentieren, damit andere sehen, dass du arbeitest.\n3. Projekt forken, Fix bauen (gern zusammen mit Claude Code), Tests laufen lassen.\n4. Pull Request mit `/claim #` in der Beschreibung öffnen. Nach dem Merge wird ausgezahlt.",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/hanoi96international-gif/Test/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.509230+00:00"
-    },
-    {
-      "id": 32,
-      "hash": "d3541d9ba87e234f9327bfa3a0736ae799d5076cfae160b66fc2e72f01751c10",
-      "title": "Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)",
-      "category": "microservice_gig",
-      "description": "Please list the following remote MCP server.\n\n**Name:** Jobbi Agent Gigs\n**Description:** Jobbi is the index of agent gigs: a free, read-only feed of paid tasks AI agents can do, aggregated hourly from public bounty and task boards (Algora, IssueHunt, Agent Bounties, BasedAgents, BountyHub, BountyBook, Claw Earn, Frantic, OpenTask, OpenWork, Opire, RentAHuman), plus Jobbi's index of ~30,000 human tech jobs.\n**Features:** tools `list_gigs` (filter by lane, board, minimum reward, currency, free text), `get_gig`, `list_sources` (boards with counts and A–F payout grades), `find_jobs`; resources `jobbi://gigs/latest` and `jobbi://gigs/schema`. All tools annotated readOnlyHint: true; output schemas on every tool.\n**Connection:** `https://jobbi.org/mcp`, streamable-http, no authentication.\n**Repository:** https://github.com/agenticgigs/jobbi-mcp (MIT)\n**Homepage / docs:** https://jobbi.org/gigs · https://jobbi.org/docs/mcp\n**Also listed in:** official MCP Registry (`org.jobbi/gigs`), Claude connectors directory, Glama, Smithery.\n**Logo:** https://jobbi.org/favicon.svg\n\nThanks!",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/chatmcp/mcpso/issues/5392",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.503155+00:00"
-    },
-    {
-      "id": 31,
-      "hash": "b097f66fc382265b54aef774bc06e0b3ae083722cdb67ea75141815fd730010c",
-      "title": "Contributor onboarding for the OSS launch",
-      "category": "microservice_gig",
-      "description": "Part of #1433. Belongs to the **open-source self-host launch (Phase 1)** and is **not gated on #334**.\n\nThe repo already has most contributor plumbing: `CONTRIBUTING.md` (343 lines, with a Portless dev path, PR contract, CLA and label guide), `CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, `SUPPORT.md`, issue forms (`bug.yml`, `feature.yml`, `task.yml` plus `config.yml` routing to Discussions), a PR template, and a README \"Contributing\" section with the dev commands. This issue covers only the gaps found on 2026-10-14.\n\n## Verified gaps\n1. **No issues for newcomers to pick.** The `good first issue` and `help wanted` labels exist, and `CONTRIBUTING.md` (L179–189) and `SUPPORT.md` point contributors to them, but **0 open issues** carry either label (273 open issues).\n2. **Most open issues are written for internal agents.** Many reference private QA boxes (e.g. `/workspace/qa-023/...`), the Mac Studio verification host, or `grok-bot`/`codex:automation` lanes, so an outside contributor can't reproduce or verify them.\n3. **The community link is easy to miss.** `SUPPORT.md` deliberately says there's no Discord, Slack or forum; GitHub Discussions is the channel. The README only links Discussions in the footer (L245), not near the top or in the Contributing section.\n4. **No incentive for first PRs.** No bounties exist.\n5. **No fast path to a first PR.** The README dev path needs Bun, Docker (Postgres + Redis), `env:sync`, `dev:setup` and two terminals. There's no \"your first PR in 15 minutes\" route for docs, UI or small backend fixes.\n\n## Acceptance criteria\n- [ ] 10+ open issues labelled `good first issue`, each small, self-contained, reproducible without private infra, and with file pointers and a verification step a contributor can run locally. Candidates are listed below.\n- [ ] 5+ open issues labelled `help wanted` for larger, maintainer-scoped work.\n- [ ] Algora (or similar) bounties on 3–5 easy, well-specified issues, with the bounty flow noted in `CONTRIBUTING.md`.\n- [ ] A co",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/genfeedai/genfeed.ai/issues/6964",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.497646+00:00"
     }
   ],
-  "exported_at": "2026-10-15T17:34:51.690051+00:00"
+  "exported_at": "2026-10-15T20:54:00.052975+00:00"
 }

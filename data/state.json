@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 34,
+    "total_executions": 35,
     "total_opportunities": 29,
-    "total_deliverables": 40,
+    "total_deliverables": 41,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 922.0,
+    "projected_pipeline_usd": 947.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 34,
-      "timestamp": "2026-10-15T11:44:24.910331+00:00",
+      "id": 35,
+      "timestamp": "2026-10-15T12:07:19.021500+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 78.13,
-      "notes": "Produit '[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid'"
+      "duration_seconds": 59.55,
+      "notes": "Produit 'Add interactive OpenAPI Swagger / Scalar documentation route at /docs/api'"
     },
-    "updated_at": "2026-10-15T11:44:24.927943+00:00"
+    "updated_at": "2026-10-15T12:07:19.035258+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 43,
+      "opportunity_hash": "6e84a73fa83beb6a086e57066496b343aa129ece1eda5302ba2156e6ce5d9e5d",
+      "category": "bounty_solution",
+      "title": "Add interactive OpenAPI Swagger / Scalar documentation route at /docs/api",
+      "file_path": "site/deliverables/20261015_120708_add_interactive_openapi_swagger_scalar_documentati.md",
+      "relative_path": "deliverables/20261015_120708_add_interactive_openapi_swagger_scalar_documentati.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 7625,
+        "extension": "md",
+        "source_url": "https://github.com/OphirPay/OphirPay/issues/1416",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have implemented the interactive OpenAPI Scalar documentation route as requested in issue #1416.\n\n#### Summary of Changes:\n1. **OpenAPI Spec Endpoint (`src/app/api/openapi.json/route.ts`)**: Added a Next.js App Router API handler that parses `docs/openapi.yaml` using `js-yaml` and serves cached, valid JSON.\n2. **Interactive UI Route (`src/app/docs/api/page.tsx`)**: Created the page component using `@scalar/nextjs-api-reference`, rendering interactive documentation pointing to `/api/openapi.json`.\n3. **Dependencies (`package.json`)**: Added `@scalar/nextjs-api-reference` and `js-yaml` with associated types.\n4. **Documentation (`docs/API_GUIDE.md`)**: Updated the developer guide with references to `/docs/api` and `/api/openapi.json`.\n\n#### Verification:\n- Verified `/api/openapi.json` returns HTTP 200 with complete OpenAPI spec.\n- Verified `/docs/api` renders all endpoints correctly with \"Try it out\" capabilities configured for Stellar Testnet.\n- Unit test included for route handler validation.\n\nReady to submit PR against `integration/staging`.\n\n*Submitted by Jean (@Madatest) - Binance Pay UID: 254779310*",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-15T12:07:08.992080+00:00"
+    },
     {
       "id": 42,
       "opportunity_hash": "371272953230836a6984db17be2205eac4e8ed91dc7b2c31005cdab7214b219f",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-11T11:09:51.362541+00:00"
-    },
-    {
-      "id": 33,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "bounty_solution",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261011_105707_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261011_105707_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 7217,
-        "extension": "md",
-        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-11T10:57:07.667508+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-15T11:43:18.443261+00:00"
     }
   ],
-  "exported_at": "2026-10-15T11:44:24.936083+00:00"
+  "exported_at": "2026-10-15T12:07:19.042612+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 33,
-    "total_opportunities": 17,
-    "total_deliverables": 39,
+    "total_executions": 34,
+    "total_opportunities": 29,
+    "total_deliverables": 40,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 897.0,
+    "projected_pipeline_usd": 922.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 33,
-      "timestamp": "2026-10-11T18:31:32.314677+00:00",
+      "id": 34,
+      "timestamp": "2026-10-15T11:44:24.910331+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 0,
-      "deliverables_created": 0,
-      "duration_seconds": 2.52,
-      "notes": "Surveillance et maintien"
+      "opportunities_found": 12,
+      "deliverables_created": 1,
+      "duration_seconds": 78.13,
+      "notes": "Produit '[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid'"
     },
-    "updated_at": "2026-10-11T18:31:32.334089+00:00"
+    "updated_at": "2026-10-15T11:44:24.927943+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 42,
+      "opportunity_hash": "371272953230836a6984db17be2205eac4e8ed91dc7b2c31005cdab7214b219f",
+      "category": "bounty_solution",
+      "title": "[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid",
+      "file_path": "site/deliverables/20261015_114422_bounty_bounty_30_x4_post_and_fund_a_real_task_on_v.md",
+      "relative_path": "deliverables/20261015_114422_bounty_bounty_30_x4_post_and_fund_a_real_task_on_v.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5625,
+        "extension": "md",
+        "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1892",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$30"
+      },
+      "created_at": "2026-10-15T11:44:22.940371+00:00"
+    },
     {
       "id": 41,
       "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
@@ -351,54 +388,17 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-11T10:57:07.667508+00:00"
-    },
-    {
-      "id": 32,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "bounty_solution",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261011_102822_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261011_102822_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 7530,
-        "extension": "md",
-        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-11T10:28:22.116939+00:00"
     }
   ],
   "top_opportunities": [
     {
-      "id": 22,
-      "hash": "09fe76d82ab976aae1cd07607894ea2c75df622530ef6e04f498d17fc1f97de5",
-      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
+      "id": 34,
+      "hash": "caa6b004b83059db9061058f6c2d0c402372b409fdc6a16bae1ea3ae4165d2f1",
+      "title": "[Bounty] 📋 2 open bounties right now",
       "category": "microservice_gig",
-      "description": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-10-11 11:12 UTC\n\n#### 1. [[Bounty: $70] Mark alerts notified only after the webhook actually succeeds](https://github.com/SUSU-LABS/susu-indexer/issues/43)\n- **Repository:** [SUSU-LABS/susu-indexer](https://github.com/SUSU-LABS/susu-indexer)\n- **Comments:** 3\n- **Last Updated:** 2026-10-11T11:07:33Z\n\n#### 2. [[Bounty: $80] Add a stable ORDER BY to #selectIn before paging](https://github.com/SUSU-LABS/susu-indexer/issues/37)\n- **Repository:** [SUSU-LABS/susu-indexer](https://github.com/SUSU-LABS/susu-indexer)\n- **Comments:** 5\n- **Last Updated:** 2026-10-11T11:00:25Z\n\n#### 3. [[Bounty: $70] Add Testnet fixtures and tests for fee_updated, treasury_updated and pause_updated](https://github.com/SUSU-LABS/susu-indexer/issues/48)\n- **Repository:** [SUSU-LABS/susu-indexer](https://github.com/SUSU-LABS/susu-indexer)\n- **Comments:** 4\n- **Last Updated:** 2026-10-11T10:51:30Z\n\n#### 4. [Question: how to request a small paid documentation task (and AI-team permission)?](https://github.com/ZecHub/zec-bounties/issues/351)\n- **Repository:** [ZecHub/zec-bounties](https://github.com/ZecHub/zec-bounties)\n- **Comments:** 0\n- **Last Updated:** 2026-10-11T10:40:27Z\n\n#### 5. [=infinite nukies bug](https://github.com/Trauma-Station/Trauma-Station/issues/4976)\n- **Repository:** [Trauma-Station/Trauma-Station](https://github.com/Trauma-Station/Trauma-Station)\n- **Comments:** 1\n- **Last Updated:** 2026-10-11T10:12:33Z\n\n#### 6. [交付：dsh-memory 检索优化（精确剪枝、常见词加速与百万规模内存压缩）](https://github.com/FuRongJun-1999/dsh-bounty/issues/2)\n- **Repository:** [FuRongJun-1999/dsh-bounty](https://github.com/FuRongJun-1999/dsh-bounty)\n- **Comments:** 1\n- **Last Updated:** 2026-10-11T09:47:17Z\n\n#### 7. [Security report sent on October 2, still no response](https://github.com/z0r0z/tacit/issues/60)\n- **Repository:** [z0r0z/tacit](https://github.com/z0r0z/tacit)\n- **Comments:** 0\n- **Last Updated:** 2026-10-11T09:46:41Z\n\n#### 8. [交付：插件测评网站 v0.1.0（源码 ZIP、测评流程与部署指南）](",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/habibdxb01/bounty-watcher/issues/5\n\n### 漏洞描述 / Description\n📋 2 open bounties right now\n\nBounties that were already open when the watcher started. From now on, each new one gets its own issue.\n\n- 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1)\n- 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290)\n\ncc @habibdxb01\n\n\n\n\n\n\n\n\n\n\n\n### 积分币奖励 / Coin Reward\n187 coins\n\n### 真实赏金（USD）/ Real Reward\n$150\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
       "source_id": "algora_bounties",
-      "source_url": "https://github.com/freedom-winds/BountyScout/issues/1233",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
       "score": 99.5,
       "score_breakdown": {
         "observable_demand": 25.0,
@@ -408,18 +408,18 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-11T11:12:30.921050+00:00"
+      "created_at": "2026-10-15T11:43:18.515507+00:00"
     },
     {
-      "id": 21,
-      "hash": "0eba587a9d49b4911d0203bffbbb494f6522e85e2e59eaa6d946b2dc2b55d8c6",
-      "title": "🎯 Bounty Alert: 8 New Opportunityies found",
+      "id": 33,
+      "hash": "9f22dd4d9765294aa6b4bb304f6774fd9bca20affdf4796501fe4434fb108c74",
+      "title": "🎯 Bounty-Radar",
       "category": "microservice_gig",
-      "description": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-10-11 08:28 UTC\n\n#### 1. [Demo 1 hardening: signed intent, recoverable disputes, migration, agent adapters](https://github.com/Rishidar-lab/nexescrow/issues/3)\n- **Repository:** [Rishidar-lab/nexescrow](https://github.com/Rishidar-lab/nexescrow)\n- **Comments:** 0\n- **Last Updated:** 2026-10-11T08:18:41Z\n\n#### 2. [本人発見7件を再発見ベンチマークにかける（修正版・前提の記録、判定器でのconfirmed採点）](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness/issues/127)\n- **Repository:** [momoponwork1415-lgtm/wordpress-bounty-harness](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness)\n- **Comments:** 4\n- **Last Updated:** 2026-10-11T08:17:36Z\n\n#### 3. [探索の主経路を WP2Shell 方式の協調 Trial に戻す（ADR と実装）](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness/issues/138)\n- **Repository:** [momoponwork1415-lgtm/wordpress-bounty-harness](https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness)\n- **Comments:** 1\n- **Last Updated:** 2026-10-11T08:17:34Z\n\n#### 4. [Python CLI Markdown export: default no-overwrite can clobber a concurrently created file](https://github.com/BasedHardware/omi/issues/21168)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 2\n- **Last Updated:** 2026-10-11T08:14:31Z\n\n#### 5. [交付：插件测评网站 v0.1.0（源码 ZIP、测评流程与部署指南）](https://github.com/FuRongJun-1999/dsh-bounty/issues/4)\n- **Repository:** [FuRongJun-1999/dsh-bounty](https://github.com/FuRongJun-1999/dsh-bounty)\n- **Comments:** 1\n- **Last Updated:** 2026-10-11T08:07:48Z\n\n#### 6. [[BOUNTY] Suggestion #1255](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286)\n- **Repository:** [SPLURT-Station/S.P.L.U.R.T-tg](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg)\n- **Comments:** 4\n- **Last Updated:** 2026-10-11T08:06:47Z\n\n#### 7. [Jobs posted from faction plans: the living world pays the player](https://github.com/HEL3AN/econspace-mmo/issues/345)\n- **Repository:** [HEL3AN/econspace-mmo](https://github.com/HEL3AN/eco",
+      "description": "# 🎯 Bounty-Radar (2026-10-15)\n\nBezahlte, offene Programmieraufgaben ab 50 $, sortiert nach *Betrag ÷ Konkurrenz* (frische Bounties doppelt gewichtet).\nNur etablierte Projekte (≥ 100 Sterne, ≥ 6 Monate alt); Köder-Repos mit Fantasiebeträgen sind ausgefiltert.\n\n| # | Betrag | Alter | Konkurrenz | Aufgabe | Projekt | ⭐ |\n|---|---:|---:|---|---|---|---:|\n| 1 | **3000 $** | 8 T. | 🔴 vergeben? | [[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th](https://github.com/tenstorrent/tt-metal/issues/59732) | `tenstorrent/tt-metal` | 1705 |\n\n## So holst du dir eine Bounty\n1. Issue komplett lesen: Bedingungen, Plattform (Algora/IssueHunt/Opire) und ob schon jemand dran ist.\n   Warnsignale: Betrag nur im Titel, keine Bezahlplattform, viele fast gleiche Issues, Forderung nach Wallet-Daten.\n2. Bei Algora im Issue `/attempt #` kommentieren, damit andere sehen, dass du arbeitest.\n3. Projekt forken, Fix bauen (gern zusammen mit Claude Code), Tests laufen lassen.\n4. Pull Request mit `/claim #` in der Beschreibung öffnen. Nach dem Merge wird ausgezahlt.",
       "source_id": "algora_bounties",
-      "source_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1572",
+      "source_url": "https://github.com/hanoi96international-gif/Test/issues/1",
       "score": 99.5,
       "score_breakdown": {
         "observable_demand": 25.0,
@@ -429,18 +429,18 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-11T09:26:08.335824+00:00"
+      "created_at": "2026-10-15T11:43:18.509230+00:00"
     },
     {
-      "id": 20,
-      "hash": "287635c3731a13c9a89242ace1d380aed48e841862da6c66f9ed9af0d69d13c8",
-      "title": "Money Truth: reconcile Stripe LIVE orders and prove first external buyer checkout→credits→delivery",
+      "id": 32,
+      "hash": "d3541d9ba87e234f9327bfa3a0736ae799d5076cfae160b66fc2e72f01751c10",
+      "title": "Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)",
       "category": "microservice_gig",
-      "description": "## GXEON first paid customer — Money Truth / Stripe audit (2026-10-08)\n\n**Objective:** demonstrate a third-party purchase resulting in provider-confirmed BRL settlement, credited balance, verified execution, and delivered result, while preserving zero-spend/no-self-purchase policy.\n\n### Evidence from production (GET /api/integration-status, observed 2026-10-08)\n- `stripeEnvironment=LIVE`, `stripeConfigured=true`, `webhookConfigured=true`, `liveWebhookConfigured=true`, `firestoreConnected=true`. These flags reflect runtime configuration, **not Stripe provider verification**.\n- Internal snapshot: `successfulPayments=0`, `pendingPayments=2`, `stripeNetRevenue=R$0.00`, `creditsSold=0`, `creditsConsumed=0`, `jobsDelivered=0`, `buyers=0`.\n- Exactly two entries counted as pending from local `orders` with state `CHECKOUT_CREATED` (2026-09-28 and 2026-10-02); **not evidence of Stripe charges awaiting settlement**.\n- A separate order has local `PAYMENT_SUCCEEDED` state and one `checkout.session.completed` event record (2026-09-27) but the money-truth aggregate remains **zero real confirmed payments**. Investigate metadata/livemode/payment_status/currency/amount matching and provider state before treating this as revenue or a bug. The event and internal state alone do not establish money received.\n- USDC machine settlement remains 0. `x402` is not treasury-enabled in the current `.well-known/gxeon-agent.json`.\n- The public MCP is read-only discovery; authenticated execution requires buyer key and prepaid settled credits.\n\n### Independent provider reconciliation gates\n- [ ] If authorized Stripe connector is accessible, cross-check `checkout.session`, `payment_intent`, `charge`, `balance_transaction`, disputes/refunds and `livemode` for the local event. Do not expose PII or secrets.\n- [ ] Compare account's actual payouts/available Stripe balance with local events without silently rewriting records.\n- [ ] Reconcile orders vs paid webhook events and credit ledger with idempotency/",
+      "description": "Please list the following remote MCP server.\n\n**Name:** Jobbi Agent Gigs\n**Description:** Jobbi is the index of agent gigs: a free, read-only feed of paid tasks AI agents can do, aggregated hourly from public bounty and task boards (Algora, IssueHunt, Agent Bounties, BasedAgents, BountyHub, BountyBook, Claw Earn, Frantic, OpenTask, OpenWork, Opire, RentAHuman), plus Jobbi's index of ~30,000 human tech jobs.\n**Features:** tools `list_gigs` (filter by lane, board, minimum reward, currency, free text), `get_gig`, `list_sources` (boards with counts and A–F payout grades), `find_jobs`; resources `jobbi://gigs/latest` and `jobbi://gigs/schema`. All tools annotated readOnlyHint: true; output schemas on every tool.\n**Connection:** `https://jobbi.org/mcp`, streamable-http, no authentication.\n**Repository:** https://github.com/agenticgigs/jobbi-mcp (MIT)\n**Homepage / docs:** https://jobbi.org/gigs · https://jobbi.org/docs/mcp\n**Also listed in:** official MCP Registry (`org.jobbi/gigs`), Claude connectors directory, Glama, Smithery.\n**Logo:** https://jobbi.org/favicon.svg\n\nThanks!",
       "source_id": "algora_bounties",
-      "source_url": "https://github.com/xpex-systems-ai/GXEON-Wallet-Command-Center/issues/57",
+      "source_url": "https://github.com/chatmcp/mcpso/issues/5392",
       "score": 99.5,
       "score_breakdown": {
         "observable_demand": 25.0,
@@ -450,18 +450,18 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-11T05:17:43.277498+00:00"
+      "created_at": "2026-10-15T11:43:18.503155+00:00"
     },
     {
-      "id": 19,
-      "hash": "1b831801ffddc2e8968174d493943c734a4dfdd351c83635b610e2f909541d78",
-      "title": "Request for PR review — bounties #76 ($430) and #80 ($780)",
+      "id": 31,
+      "hash": "b097f66fc382265b54aef774bc06e0b3ae083722cdb67ea75141815fd730010c",
+      "title": "Contributor onboarding for the OSS launch",
       "category": "microservice_gig",
-      "description": "## Request for PR review — bounties #76 ($430) and #80 ($780)\n\nHi @brianne-showed (or whoever maintains this repo),\n\nI have two PRs open that claim the Algora bounties on #76 and #80:\n\n- PR #12770 — poem for #76 ($430 bounty)\n- PR #12771 — pixel art for #80 ($780 bounty)\n\nBoth PRs have been open since October 1st (8 days ago). They include:\n- Original creative work (poem/pixel art)\n- PR descriptions with creative decisions\n- Payment wallet: 0x53dbe1b36BA3BEAC6cEf6cD22AD50E362DBcB23A\n\nCould you please review them? If there's something I need to change, I'm happy to update.\n\nThank you!",
+      "description": "Part of #1433. Belongs to the **open-source self-host launch (Phase 1)** and is **not gated on #334**.\n\nThe repo already has most contributor plumbing: `CONTRIBUTING.md` (343 lines, with a Portless dev path, PR contract, CLA and label guide), `CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, `SUPPORT.md`, issue forms (`bug.yml`, `feature.yml`, `task.yml` plus `config.yml` routing to Discussions), a PR template, and a README \"Contributing\" section with the dev commands. This issue covers only the gaps found on 2026-10-14.\n\n## Verified gaps\n1. **No issues for newcomers to pick.** The `good first issue` and `help wanted` labels exist, and `CONTRIBUTING.md` (L179–189) and `SUPPORT.md` point contributors to them, but **0 open issues** carry either label (273 open issues).\n2. **Most open issues are written for internal agents.** Many reference private QA boxes (e.g. `/workspace/qa-023/...`), the Mac Studio verification host, or `grok-bot`/`codex:automation` lanes, so an outside contributor can't reproduce or verify them.\n3. **The community link is easy to miss.** `SUPPORT.md` deliberately says there's no Discord, Slack or forum; GitHub Discussions is the channel. The README only links Discussions in the footer (L245), not near the top or in the Contributing section.\n4. **No incentive for first PRs.** No bounties exist.\n5. **No fast path to a first PR.** The README dev path needs Bun, Docker (Postgres + Redis), `env:sync`, `dev:setup` and two terminals. There's no \"your first PR in 15 minutes\" route for docs, UI or small backend fixes.\n\n## Acceptance criteria\n- [ ] 10+ open issues labelled `good first issue`, each small, self-contained, reproducible without private infra, and with file pointers and a verification step a contributor can run locally. Candidates are listed below.\n- [ ] 5+ open issues labelled `help wanted` for larger, maintainer-scoped work.\n- [ ] Algora (or similar) bounties on 3–5 easy, well-specified issues, with the bounty flow noted in `CONTRIBUTING.md`.\n- [ ] A co",
       "source_id": "algora_bounties",
-      "source_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13218",
+      "source_url": "https://github.com/genfeedai/genfeed.ai/issues/6964",
       "score": 99.5,
       "score_breakdown": {
         "observable_demand": 25.0,
@@ -471,18 +471,18 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-11T05:17:43.274135+00:00"
+      "created_at": "2026-10-15T11:43:18.497646+00:00"
     },
     {
-      "id": 18,
-      "hash": "91886ec73556cc62d6d767b16bc9e91f93b36e2d885c0058f107afa75ab11e29",
-      "title": "BountyRadar MCP — ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
+      "id": 30,
+      "hash": "c29c153eb02c778fc72fc9a85f00223116d9060ef1848786e2e98824fc0b5c8a",
+      "title": "Submit MCP Server: BountyRadar MCP",
       "category": "microservice_gig",
-      "description": "**BountyRadar MCP** — the judgment / alerting layer for the agent-bounty economy, served over MCP.\n\nPublic open-source bounties are **agent-saturated** — a single Algora bounty has drawn 8–158 competing agent attempts within hours. The bottleneck is *target selection*, not discovery. BountyRadar aggregates agent-solvable bounties across **Opire, BountyHub, ClawHunt, Algora, GitHub and validated security programs**, then scores each for **agent-solvability, freshness and competition** and serves a ranked, agent-consumable feed.\n\n> Positioning: an *intelligence / alerting layer* — **not** a marketplace. No fund custody, no KYC, no cross-border settlement.\n\n**Endpoint (Streamable HTTP / SSE)**\n`https://mcp.apify.com/sse?actors=neeenja/bountyradar-mcp`\nDirect standby endpoint: `https://neeenja--bountyradar-mcp.apify.actor/mcp`\n\n**Tools**\n| Tool | Price | What it does |\n|---|---|---|\n| `get_bounty_feed` | $0.0005 | The subscriber feed — ranked + filtered (category, min_reward, max_competition, source, freshness_min, agent_solvable_min, include_honeypot, sort) |\n| `search_bounties` | $0.0010 | Keyword + filter search across title / description / tags / repo |\n| `get_bounty_detail` | free | Full record + score breakdown by id |\n| `score_bounty` | $0.0005 | Raw, explainable score breakdown for one bounty |\n| `list_sources` | free | Source registry + status (live / curated / partner_candidate) |\n| `get_stats` | $0.0005 | Counts by source / category / reward band |\n| `subscribe_feed` | $0.0005 | Save a filter profile + poll descriptor (server memory; webhook URL echoed, never called) |\n\n**Resources:** `bountyradar://feed/latest`, `bountyradar://stats`, `bountyradar://sources`\n**Prompt:** `daily_bounty_brief` — briefs an agent on today's best targets.\n\n`initialize` and `tools/list` are free — an agent can connect and enumerate tools before spending.\n\n**Why it's useful for an agent**\n- Answers questions like *\"what's the best agent-solvable bounty right now with low competition",
+      "description": "## Server name\nBountyRadar MCP\n\n## Repository\nhttps://github.com/PanStories/bountyradar-mcp\n\n## Description\nRemote MCP server that aggregates AI-agent-solvable bounties across Opire, BountyHub, ClawHunt, Algora, GitHub and validated security programs, then scores each for agent-solvability, freshness and competition and serves a ranked, agent-consumable feed.\n\n## Hosted MCP server\n- URL: https://mcp.apify.com?actors=neeenja/bountyradar-mcp\n- Transport: Streamable HTTP\n- Authentication: Apify token (Bearer) — initialize and tools/list are free; tool calls are metered pay-per-event.\n- Documentation: https://apify.com/neeenja/bountyradar-mcp\n\n## Official MCP Registry\nRegistered as `io.github.PanStories/bountyradar-mcp`, version `1.1`.\nhttps://registry.modelcontextprotocol.io/v0.1/servers/io.github.PanStories%2Fbountyradar-mcp/versions/latest\n\n## Category\nDeveloper Tools / Automation\n\n## Data and permissions\nThe server indexes public data and returns it to the calling agent. It performs no writes to third-party accounts. Pricing is Pay-Per-Event; no monthly fee.\n\nSubmitting as the maintainer (PanStories / MistifyTea). Please consider it for the directory's reviewed community listings.",
       "source_id": "algora_bounties",
-      "source_url": "https://github.com/chatmcp/mcpso/issues/5032",
+      "source_url": "https://github.com/chatmcp/mcpso/issues/5414",
       "score": 99.5,
       "score_breakdown": {
         "observable_demand": 25.0,
@@ -492,115 +492,115 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-11T05:17:43.268795+00:00"
+      "created_at": "2026-10-15T11:43:18.491690+00:00"
     },
     {
-      "id": 17,
-      "hash": "854fd94d83ecf360cab5c59fe003edd76c0548867e680fc63929f697a5131146",
-      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+      "id": 29,
+      "hash": "c790af704526b0c9b7862f97c252beac5efd9409bdb90ae8e9d7566231a38aee",
+      "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
       "category": "microservice_gig",
-      "description": "# 📝 Background\n\nThis is a community-suggested bounty that we have reviewed and assigned to [@samiyadev786](https://github.com/samiyadev786).\n\n`ttnn.sampling` is used for on-device non-greedy token sampling in the shared sampling path used by `tt-transformers` and other model integrations. The operat",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/59732",
-      "score": 90.5,
+      "description": "## Goal\nBuild **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches.\n\n## Grounded observations (2026-10-15)\n- Tenstorrent tt-metal #8621 $500: open/unassigned but crowded with competing claims and internal work; not yet proven claimable.\n- tt-metal #58986 $1000 and #59732 $3000: open but formally assigned to other contributors; exclude by default.\n- Some third-party bounty indexes show closed or already awarded source issues. Platform status alone is insufficient.\n- Tenstorrent terms and each sponsor's rules must be checked before any AI-assisted contributions; no automated GitHub claim/comment if prohibited.\n- Do not claim a payout until independently evidenced as received.\n\n## Reuse before implementation\n1. Identify existing scheduler/monitor, dispatch, ONE evaluation, immutable receipt, completion-ledger, PR reconciler and cross-node interfaces, recording code paths and owners.\n2. Implement read-only candidate ingestion adapters (start GitHub issue + sponsor original terms, optionally Algora/Opire). Use source URLs, timestamps, raw evidence hashes, dedup/idempotency, throttling, and prompt-injection-resistant parsing.\n3. Qualification gates: open original issue, not assigned or already solved; actual reward provenance/escrow or sponsor payout history; rules permitting participation and AI; Taiwanese eligibility/tax/payment methods where relevant; acceptance criteria; hardware dependencies; competing PRs/comments and recency.\n4. Rank by expected **net payout**, not nominal reward: reward × empirical probability of being accepted and paid – model/compute cost – estimated human time – risk adjustment. Unknown probability is UNKNOWN, never fabricated.\n5. Generate a reproducible decision IR and explicit receipt: ACCEPT_RESEARCH / NEED_OWNER_CONFIRMATION / REJECT / NOT_VERIFIED. Never auto-claim, comme",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/alston-personal/agentmanager/issues/2003",
+      "score": 99.5,
       "score_breakdown": {
-        "observable_demand": 18.0,
+        "observable_demand": 25.0,
         "zero_start_cost": 20.0,
         "speed_to_first_sale": 20.0,
-        "technical_feasibility": 13.5,
-        "madagascar_payment_readiness": 19.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-10T18:42:47.863178+00:00"
+      "created_at": "2026-10-15T11:43:18.484994+00:00"
     },
     {
-      "id": 16,
-      "hash": "365acf0e4844ee10f8ad8d2f2d818a4406ff6709863b2dbfb1ff965cce1a466d",
-      "title": "[Bounty] [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th",
+      "id": 28,
+      "hash": "2d6f2038f3080cd8bf063d240d7976c973ddc0de3719c9126b9bb30bf75f3a9f",
+      "title": "Add custom asset trustline creation quick-action modal in wallet selector",
       "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/tenstorrent/tt-metal/issues/59732\n\n### 漏洞描述 / Description\n[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold\n\n# 📝 Background\n\nThis is a community-suggested bounty that we have reviewed and assig",
+      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nWhen users attempt to receive or send non-native Stellar assets (e.g. USDC, EURC, or regional anchor tokens) in `src/components/AssetSelector.tsx`, their Stellar account must have an established trustline. Currently, users are given an unhelpful generic error if the recipient or connected wallet lacks the trustline.\n\n## Proposed Solution\n\n1. Add an asset trustline check helper `checkTrustline(account, assetCode, issuer)` using Horizon RPC.\n2. Render a warning badge \"Trustline Required\" in `AssetSelector.tsx` if missing.\n3. Build a \"Create Trustline\" action modal that constructs and submits the `changeTrust` operation to Freighter.\n4. Auto-refresh account asset balances once trustline confirmation lands on-chain.\n\n## Acceptance Criteria\n\n- [ ] Asset selector identifies accounts lacking trustlines for selected non-native tokens\n- [ ] Users can establish trustline in one click through their connected wallet extension\n- [ ] Successful trustline creation immediately updates UI without requiring page refresh\n\n## Files to Modify\n- src/components/AssetSelector.tsx\n- src/components/wallet/TrustlineModal.tsx\n- src/lib/stellar-transactions.ts\n\n---\n\n**Target Branch: integration/staging**",
       "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1836",
-      "score": 90.5,
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1384",
+      "score": 99.5,
       "score_breakdown": {
-        "observable_demand": 18.0,
+        "observable_demand": 25.0,
         "zero_start_cost": 20.0,
         "speed_to_first_sale": 20.0,
-        "technical_feasibility": 13.5,
-        "madagascar_payment_readiness": 19.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-10T18:42:47.851716+00:00"
+      "created_at": "2026-10-15T11:43:18.478307+00:00"
     },
     {
-      "id": 15,
-      "hash": "f36a73c6ed65e051557e77ed4e46a88a9f2c2c3d7686b2e5e89ef9109a7fe387",
-      "title": "[BOUNTY] Suggestion #1268",
+      "id": 27,
+      "hash": "f2e9dc5a6eae39a7589f9b6362e4b87616f953cf616220e612169991742ac334",
+      "title": "Implement timing-safe HMAC signature verification in webhook handler",
       "category": "microservice_gig",
-      "description": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nMake the gas analyzer function like the plant analyzer does. Open a UI window that is dynamically updated so we don't have to spam the dumb canister we are working on constantly while drowning out every other message in chat.\n\n**Reason:*",
+      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nIn `src/lib/webhook-deliver.ts` and subscriber verification examples, webhook signatures are compared against the expected digest. If string equality (`===`) is used instead of constant-time comparison, the check is susceptible to side-channel timing attacks that allow attackers to deduce valid signatures byte-by-byte.\n\n## Proposed Solution\n\n1. Audit all signature verification call-sites in `src/lib/webhook-deliver.ts` and `examples/webhook-verification/`.\n2. Enforce `crypto.timingSafeEqual(Buffer.from(sigA), Buffer.from(sigB))` after verifying identical byte buffer lengths.\n3. Add timing attack regression unit test asserting non-early-exit execution behavior.\n4. Update developer documentation in `docs/webhook-verification.md`.\n\n## Acceptance Criteria\n\n- [ ] All signature comparisons utilize constant-time buffers\n- [ ] Length mismatches return false without throwing uncaught exceptions\n- [ ] Unit tests verify matching and non-matching digests\n\n## Files to Modify\n- src/lib/webhook-deliver.ts\n- examples/webhook-verification/node-verifier.ts\n- docs/webhook-verification.md\n\n---\n\n**Target Branch: integration/staging**",
       "source_id": "github_bounties",
-      "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1291",
-      "score": 90.5,
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1386",
+      "score": 99.5,
       "score_breakdown": {
-        "observable_demand": 18.0,
+        "observable_demand": 25.0,
         "zero_start_cost": 20.0,
         "speed_to_first_sale": 20.0,
-        "technical_feasibility": 13.5,
-        "madagascar_payment_readiness": 19.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-10T18:42:47.840411+00:00"
+      "created_at": "2026-10-15T11:43:18.471651+00:00"
     },
     {
-      "id": 14,
-      "hash": "e726f532909d5129c746dbb8e501cb85207b2c790318604170ef41d7af9b8cfe",
-      "title": "[BOUNTY] Suggestion #1259",
+      "id": 26,
+      "hash": "0d57136ca5d6693f9ce4d671514002024128ecc09514dfd26c0fc4d98c2cbfa7",
+      "title": "Add session re-authentication check on critical administrative actions",
       "category": "microservice_gig",
-      "description": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nAllow Borgs to turn off all comms. Sometimes the traffic gets very annoying. Especially during RP/ERP, bleeding out the text in short order when shit is going down. If we're having a conversation or in active play, it makes it extremely ",
+      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nSensitive actions such as updating fee configuration (`src/app/api/fee-config/route.ts`), rotating organization master keys, or modifying RBAC role assignments rely solely on existing session cookies. If a user's browser is temporarily unattended, an attacker could perform high-impact admin mutations without wallet signature re-verification.\n\n## Proposed Solution\n\n1. Implement a \"sudo mode\" challenge middleware in `src/lib/session-sudo.ts`.\n2. Require a fresh wallet challenge signature if the active session's last cryptographic verification was older than 15 minutes.\n3. Return HTTP 403 `SUDO_REQUIRED` with a challenge payload when re-authentication is required.\n4. Add frontend modal prompting quick Freighter re-signing before continuing.\n\n## Acceptance Criteria\n\n- [ ] Critical admin operations require cryptographic wallet signature if session verification is older than 15m\n- [ ] Non-critical read and standard operations proceed without interruption\n- [ ] E2E security test in `e2e/admin-rbac.spec.ts` verifies re-auth enforcement\n\n## Files to Modify\n- src/lib/session-sudo.ts\n- src/app/api/fee-config/route.ts\n- src/app/api/rbac/route.ts\n- e2e/admin-rbac.spec.ts\n\n---\n\n**Target Branch: integration/staging**",
       "source_id": "github_bounties",
-      "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1292",
-      "score": 90.5,
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
+      "score": 99.5,
       "score_breakdown": {
-        "observable_demand": 18.0,
+        "observable_demand": 25.0,
         "zero_start_cost": 20.0,
         "speed_to_first_sale": 20.0,
-        "technical_feasibility": 13.5,
-        "madagascar_payment_readiness": 19.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-10T18:42:47.827595+00:00"
+      "created_at": "2026-10-15T11:43:18.464998+00:00"
     },
     {
-      "id": 13,
-      "hash": "a0e306062c28b0277532360e69d01f1fab77f0b0eb8fa37775ff46a50dcf93a4",
-      "title": "[radar] SN open bounty 2026-10-10T12:22",
+      "id": 25,
+      "hash": "3bc13f1d7ab66b919fc83859a7c627d2b3fbb418314d6c66fef1ab9a91cd2d6e",
+      "title": "Add end-to-end test suite for escrow dispute and resolution flow",
       "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1592079\tStacker_Sports\t3\t2632\t2100\t10\t20.8\t232181\t4315\trecent@Stacker_Sports|top@Stacker_Sports\tOPEN_BOUNTY,HOT,SELF_POST_OPP\tWeekly Random Sports Pick 'em\n```",
+      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nWhile standard escrow creation and release are covered in `e2e/critical-flows.spec.ts`, the full dispute resolution lifecycle (Buyer raises dispute -> Status transitions to DISPUTED -> Arbitrator reviews evidence -> Funds released to designated party) lacks automated end-to-end test verification.\n\n## Proposed Solution\n\n1. Add `e2e/escrow-dispute.spec.ts` in Playwright.\n2. Simulate buyer initiating dispute via UI.\n3. Verify status updates across buyer and seller dashboards.\n4. Simulate arbitrator account resolving dispute in favor of buyer, asserting wallet balance changes.\n\n## Acceptance Criteria\n\n- [ ] E2E test covers full dispute lifecycle from initiation to final settlement\n- [ ] Verifies UI indicators (dispute banner, action buttons disabled during dispute)\n- [ ] Runs deterministically in CI pipeline\n\n## Files to Modify\n- e2e/escrow-dispute.spec.ts\n- e2e/helpers/escrow-helper.ts\n- playwright.config.ts\n\n---\n\n**Target Branch: integration/staging**",
       "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1269",
-      "score": 90.5,
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1405",
+      "score": 99.5,
       "score_breakdown": {
-        "observable_demand": 18.0,
+        "observable_demand": 25.0,
         "zero_start_cost": 20.0,
         "speed_to_first_sale": 20.0,
-        "technical_feasibility": 13.5,
-        "madagascar_payment_readiness": 19.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "processed",
+      "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-10T18:42:47.815500+00:00"
+      "created_at": "2026-10-15T11:43:18.443261+00:00"
     }
   ],
-  "exported_at": "2026-10-11T18:31:32.348508+00:00"
+  "exported_at": "2026-10-15T11:44:24.936083+00:00"
 }

@@ -54,16 +54,25 @@ def acquire_wake_lock():
         logger.warning(f"Impossible d'activer le wake-lock Termux: {e}")
 
 
-def run_http_server(directory: str = "site", port: int = HTTP_PORT):
-    """Sert le catalogue et le tableau de bord localement en arrière-plan."""
-    import functools
-    handler = functools.partial(SimpleHTTPRequestHandler, directory=directory)
+def ensure_http_server(directory: str = "site", port: int = HTTP_PORT):
+    """Lance le serveur HTTP local en sous-processus isolé pour une stabilité maximale."""
     try:
-        server = HTTPServer(("0.0.0.0", port), handler)
-        logger.info(f"Serveur Web de la boutique actif sur http://localhost:{port}")
-        server.serve_forever()
+        # Check if already listening on port
+        import socket
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            if s.connect_ex(('127.0.0.1', port)) == 0:
+                logger.info(f"Serveur Web local déjà actif sur http://localhost:{port}")
+                return None
+        proc = subprocess.Popen(
+            [sys.executable, "-m", "http.server", str(port), "--directory", directory],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
+        )
+        logger.info(f"Serveur Web de la boutique actif sur http://localhost:{port} (PID {proc.pid})")
+        return proc
     except Exception as err:
         logger.warning(f"Serveur HTTP non démarré sur :{port}: {err}")
+        return None
 
 
 def main():
@@ -75,9 +84,8 @@ def main():
     acquire_wake_lock()
     send_lemur_hud("Auto-Income AI: Démon 24h/24 activé sur votre téléphone.")
 
-    # Démarrage du serveur web local en tâche de fond
-    http_thread = threading.Thread(target=run_http_server, daemon=True)
-    http_thread.start()
+    # Démarrage du serveur web local en processus isolé
+    http_proc = ensure_http_server()
 
     agent = AutoIncomeAgent(config_path="config.json", simulation_mode=False)
 

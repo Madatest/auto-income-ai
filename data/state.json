@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 39,
-    "total_opportunities": 31,
-    "total_deliverables": 45,
+    "total_executions": 40,
+    "total_opportunities": 35,
+    "total_deliverables": 46,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1047.0,
+    "projected_pipeline_usd": 1072.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 39,
-      "timestamp": "2026-10-15T15:15:52.566611+00:00",
+      "id": 40,
+      "timestamp": "2026-10-15T17:34:51.687122+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 6,
+      "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 63.42,
-      "notes": "Produit 'Add custom asset trustline creation quick-action modal in wallet selector'"
+      "duration_seconds": 4.44,
+      "notes": "Produit 'Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout'"
     },
-    "updated_at": "2026-10-15T15:15:52.591247+00:00"
+    "updated_at": "2026-10-15T17:34:51.689058+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 48,
+      "opportunity_hash": "c790af704526b0c9b7862f97c252beac5efd9409bdb90ae8e9d7566231a38aee",
+      "category": "bounty_solution",
+      "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
+      "file_path": "site/deliverables/20261015_173450_bounty_golden_path_v1_qualified_paid_issue_discove.md",
+      "relative_path": "deliverables/20261015_173450_bounty_golden_path_v1_qualified_paid_issue_discove.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5590,
+        "extension": "md",
+        "source_url": "https://github.com/alston-personal/agentmanager/issues/2003",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$500"
+      },
+      "created_at": "2026-10-15T17:34:50.632851+00:00"
+    },
     {
       "id": 47,
       "opportunity_hash": "2d6f2038f3080cd8bf063d240d7976c973ddc0de3719c9126b9bb30bf75f3a9f",
@@ -351,46 +388,93 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-11T11:29:28.891441+00:00"
-    },
-    {
-      "id": 38,
-      "opportunity_hash": "09fe76d82ab976aae1cd07607894ea2c75df622530ef6e04f498d17fc1f97de5",
-      "category": "bounty_solution",
-      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
-      "file_path": "site/deliverables/20261011_111938__bounty_alert_13_new_opportunityies_found.md",
-      "relative_path": "deliverables/20261011_111938__bounty_alert_13_new_opportunityies_found.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5408,
-        "extension": "md",
-        "source_url": "https://github.com/freedom-winds/BountyScout/issues/1233",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **🎯 Bounty Alert: 13 New Opportunityies found**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$70"
-      },
-      "created_at": "2026-10-11T11:19:38.569103+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 40,
+      "hash": "6b47df616fc4622d8e294172109d1ef137f485938652a6860d9457437be08cf8",
+      "title": "[P0][RESEARCH] Validate real maintainer/developer demand and first pilot targets",
+      "category": "microservice_gig",
+      "description": "> **Milestone:** Foundation / eligibility · **Priority:** P0 · **Type:** RESEARCH\n\n## Why this matters\nA technical protocol without maintainers willing to fund bounties and developers willing to submit fixes is not a finished product.\n\n## Implementation scope\n- Interview at least 3 maintainers/sponsors and 3 potential paid contributors; document existing payout frictions and how they verify a fix today.\n- Identify at least 2 real open-source repositories with reproducible, safe bug fixes (not manufactured showcase issues).\n- Test willingness to accept an immutable test policy, privacy constraints, waiting periods, and non-custodial funding/refunds.\n- Compare with GitReward, Opire, GitHub Sponsors, GitHub Actions attestations and explain why CertiFiks is differentiated.\n\n## Definition of done\n- [ ] Recorded anonymized interviews/feedback and a prioritised problem-validation summary.\n- [ ] At least one maintainer consents to a small no-real-value end-to-end pilot and defines an actual acceptance test.\n- [ ] Product workflow refined based on observed objections, not assumptions.\n- [ ] If no credible pilot demand, product claim and scoring assumptions revised.\n\n## Dependencies\nProduct charter\n\n## Required evidence\ndocs/research/PILOTS.md with consent-safe evidence and gap matrix.\n\n**Release rule:** No issue is complete merely because a page renders or a happy-path mock passes. Include reproducible tests, a reviewed PR and linked evidence where applicable.",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/EcstaceeLOR/CertiFiks/issues/7",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T17:34:50.628039+00:00"
+    },
+    {
+      "id": 39,
+      "hash": "a21d82a1d15117b4a6b1141a71a5a3742871579dfb18232a8728c4fc35ec4fe7",
+      "title": "Implement paid bounty slots, alpha fee confirmation, and submission deadlines",
+      "category": "microservice_gig",
+      "description": "## Outcome\n\nImplement the Platform/API and miner CLI path for the paid-slot build-bounty model in parent epic #2054. Extend usable claim infrastructure rather than introducing a second claim authority.\n\n## Required behavior\n\n- Publish immutable bounty revisions containing the build contract, alpha fee/reward terms, three-attempt round cap, reviewer, and claim/review windows. Existing signed claims retain their original terms.\n- Gate paid claims on the verified identity link (#2871) and applicable CLA (#2872). Bind the claim to the bounty revision, contributor, recorded payee, and fee receipt.\n- Enforce the three-attempt cap and one slot per verified contributor/payee atomically. Prevent two contributors being charged for the same available slot. A payment arriving too late or without a valid allocation must be recoverable, not silently forfeited.\n- Verify finalized incoming alpha fees, bind each receipt once, and make repeated delivery/retries idempotent. Pending or unmatched payment is distinct from an active paid claim.\n- Start each delivery window when Platform confirms the paid claim. Default five days; no automatic renewals. A timely exact-commit submission retains the slot through review. Missed deadlines do not automatically reopen slots.\n- Allow reopening only through a recorded authorized team action; preserve the previous attempt and its financial outcome.\n- Later code revisions require a recorded reviewer request and signed exact-commit resubmission. Publish any rework deadline; it cannot silently extend the initial delivery window.\n- Expose claim/payment/deadline/submission status through CLI and public reads for #2047; expose operator actions to the #2943.\n\n## Existing contract reconciliation\n\nhttps://github.com/ditto-assistant/ditto-subnet/blob/main/docs/bounty-claims.md is marked proposed and describes TAO reward ranges, exclusive reservations, and renewals. Update it and related interface documentation to distinguish new alpha paid-slot rounds from a",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2942",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T17:34:50.625383+00:00"
+    },
+    {
+      "id": 38,
+      "hash": "962d158184426eb0e505fc15a16383590760e1fc19ea504e3af58591def04679",
+      "title": "Add bounty operator controls and gate funded activation",
+      "category": "microservice_gig",
+      "description": "## Outcome\n\nGive maintainers an audited way to operate scoped build bounties while keeping funded actions gated. Parent: #2054. Internal implementation/activation owner: [SN-33](https://omniaura-team.atlassian.net/browse/SN-33).\n\n## Required controls\n\n- Draft and publish revisioned bounty specifications; refuse publication until fee, fixed alpha reward pool, named reviewer, funding configuration, and public build contract are explicit.\n- Review queue with exact submissions, claim deadlines, seven-day review targets, overdue flags and reassignment/escalation. Delay by reviewers never forfeits contributor fees.\n- Record accept/reject decisions, attribution and shared-award reasons; authorized cancellation, appeal resolution, and explicit reopening of slots. Reviewer-requested rework must have a recorded deadline.\n- Pause new claims without hiding existing submissions or preventing reconciliation/refunds.\n- Present fees, retained amounts, refund obligations, award obligations, approvals, failed/uncertain transfers, and confirmed receipts from #2046. Keep reward and refund records distinct.\n- Preserve bearer-principal authorization, recorded payees, conflicts, policy revisions, and audit history. Labels or issue edits cannot authorize a payment.\n- Provide Backroom reads and supported operator actions for the above; do not bypass existing treasury authorization controls.\n\n## Acceptance and rollout\n\n- [ ] Unauthorized actor, wrong policy/revision, conflicted review, pause/resume, cancellation, reopening and appeal paths are tested.\n- [ ] A publication gate refuses incomplete configuration.\n- [ ] Overdue reviews are visible and cannot become contributor forfeiture.\n- [ ] Dry-run rehearsal covers all financial outcomes without moving funds.\n- [ ] Operator runbook lists capped pilot configuration, explicit activation authority, stop/rollback steps and reconciliation checks.\n- [ ] Manual transfers remain individually approved; automation cannot start funded dispatch.\n\nExistin",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2943",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T17:34:50.623789+00:00"
+    },
+    {
+      "id": 37,
+      "hash": "e696ab904d38e8a5fd5e446e726786fd9b15edfe81b6cc0fce438b7ead299654",
+      "title": "Evaluate one scoped build-bounty pilot against an internal build",
+      "category": "microservice_gig",
+      "description": "## Outcome\n\nComplete one useful open-source build through the paid-slot system in #2054 and decide whether it saves team effort and produces sufficient product value.\n\n## Pilot sequence\n\n1. Rehearse the complete flow without funds: publication, three claims, a timely submission, missed deadline, rejection, shared award, full winner fee refund, team cancellation/system-fault refund, appeal, and transfer reconciliation.\n2. Select a bounded team-defined build with a public interface, reproducible acceptance evidence, named reviewer, documented internal-build estimate, fee and fixed alpha reward pool.\n3. Record separate operator authorization for the capped funded pilot, including the approved funding source and wallet configuration. This issue itself is not that authorization.\n4. Run one round under the published terms: at most three attempts, five-day default delivery window per paid claim, seven-day review target, human acceptance and manual awards/refunds.\n5. Deliver one useful accepted build. Track later integration and production adoption separately; they are not prerequisites for earned awards.\n6. Publish a source-safe report comparing usable output, turnaround, reviewer time, integration effort, reward spend, retained/refunded fees, and total operator effort with the internal-build estimate. Record expand/revise/stop and reasons.\n\n## Acceptance\n\n- [ ] A contributor can complete discovery, identity/CLA, claim, submission, review, and payment-status tracking using public information without Jira access or private DMs.\n- [ ] One useful accepted build is linked to exact commits, attribution, award/refund decisions, and confirmed transfer receipts.\n- [ ] Cost and effort measurements distinguish actuals from estimates; integration/adoption status is explicit.\n- [ ] The evaluation contains an explicit expand/revise/stop decision; an unsuccessful round is reported rather than called successful.\n- [ ] No additional rounds or emissions changes are activated by this issue.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2944",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T17:34:50.620461+00:00"
+    },
     {
       "id": 36,
       "hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
@@ -516,91 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-15T11:43:18.497646+00:00"
-    },
-    {
-      "id": 30,
-      "hash": "c29c153eb02c778fc72fc9a85f00223116d9060ef1848786e2e98824fc0b5c8a",
-      "title": "Submit MCP Server: BountyRadar MCP",
-      "category": "microservice_gig",
-      "description": "## Server name\nBountyRadar MCP\n\n## Repository\nhttps://github.com/PanStories/bountyradar-mcp\n\n## Description\nRemote MCP server that aggregates AI-agent-solvable bounties across Opire, BountyHub, ClawHunt, Algora, GitHub and validated security programs, then scores each for agent-solvability, freshness and competition and serves a ranked, agent-consumable feed.\n\n## Hosted MCP server\n- URL: https://mcp.apify.com?actors=neeenja/bountyradar-mcp\n- Transport: Streamable HTTP\n- Authentication: Apify token (Bearer) — initialize and tools/list are free; tool calls are metered pay-per-event.\n- Documentation: https://apify.com/neeenja/bountyradar-mcp\n\n## Official MCP Registry\nRegistered as `io.github.PanStories/bountyradar-mcp`, version `1.1`.\nhttps://registry.modelcontextprotocol.io/v0.1/servers/io.github.PanStories%2Fbountyradar-mcp/versions/latest\n\n## Category\nDeveloper Tools / Automation\n\n## Data and permissions\nThe server indexes public data and returns it to the calling agent. It performs no writes to third-party accounts. Pricing is Pay-Per-Event; no monthly fee.\n\nSubmitting as the maintainer (PanStories / MistifyTea). Please consider it for the directory's reviewed community listings.",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/chatmcp/mcpso/issues/5414",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.491690+00:00"
-    },
-    {
-      "id": 29,
-      "hash": "c790af704526b0c9b7862f97c252beac5efd9409bdb90ae8e9d7566231a38aee",
-      "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
-      "category": "microservice_gig",
-      "description": "## Goal\nBuild **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches.\n\n## Grounded observations (2026-10-15)\n- Tenstorrent tt-metal #8621 $500: open/unassigned but crowded with competing claims and internal work; not yet proven claimable.\n- tt-metal #58986 $1000 and #59732 $3000: open but formally assigned to other contributors; exclude by default.\n- Some third-party bounty indexes show closed or already awarded source issues. Platform status alone is insufficient.\n- Tenstorrent terms and each sponsor's rules must be checked before any AI-assisted contributions; no automated GitHub claim/comment if prohibited.\n- Do not claim a payout until independently evidenced as received.\n\n## Reuse before implementation\n1. Identify existing scheduler/monitor, dispatch, ONE evaluation, immutable receipt, completion-ledger, PR reconciler and cross-node interfaces, recording code paths and owners.\n2. Implement read-only candidate ingestion adapters (start GitHub issue + sponsor original terms, optionally Algora/Opire). Use source URLs, timestamps, raw evidence hashes, dedup/idempotency, throttling, and prompt-injection-resistant parsing.\n3. Qualification gates: open original issue, not assigned or already solved; actual reward provenance/escrow or sponsor payout history; rules permitting participation and AI; Taiwanese eligibility/tax/payment methods where relevant; acceptance criteria; hardware dependencies; competing PRs/comments and recency.\n4. Rank by expected **net payout**, not nominal reward: reward × empirical probability of being accepted and paid – model/compute cost – estimated human time – risk adjustment. Unknown probability is UNKNOWN, never fabricated.\n5. Generate a reproducible decision IR and explicit receipt: ACCEPT_RESEARCH / NEED_OWNER_CONFIRMATION / REJECT / NOT_VERIFIED. Never auto-claim, comme",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/alston-personal/agentmanager/issues/2003",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.484994+00:00"
-    },
-    {
-      "id": 28,
-      "hash": "2d6f2038f3080cd8bf063d240d7976c973ddc0de3719c9126b9bb30bf75f3a9f",
-      "title": "Add custom asset trustline creation quick-action modal in wallet selector",
-      "category": "microservice_gig",
-      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nWhen users attempt to receive or send non-native Stellar assets (e.g. USDC, EURC, or regional anchor tokens) in `src/components/AssetSelector.tsx`, their Stellar account must have an established trustline. Currently, users are given an unhelpful generic error if the recipient or connected wallet lacks the trustline.\n\n## Proposed Solution\n\n1. Add an asset trustline check helper `checkTrustline(account, assetCode, issuer)` using Horizon RPC.\n2. Render a warning badge \"Trustline Required\" in `AssetSelector.tsx` if missing.\n3. Build a \"Create Trustline\" action modal that constructs and submits the `changeTrust` operation to Freighter.\n4. Auto-refresh account asset balances once trustline confirmation lands on-chain.\n\n## Acceptance Criteria\n\n- [ ] Asset selector identifies accounts lacking trustlines for selected non-native tokens\n- [ ] Users can establish trustline in one click through their connected wallet extension\n- [ ] Successful trustline creation immediately updates UI without requiring page refresh\n\n## Files to Modify\n- src/components/AssetSelector.tsx\n- src/components/wallet/TrustlineModal.tsx\n- src/lib/stellar-transactions.ts\n\n---\n\n**Target Branch: integration/staging**",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1384",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.478307+00:00"
-    },
-    {
-      "id": 27,
-      "hash": "f2e9dc5a6eae39a7589f9b6362e4b87616f953cf616220e612169991742ac334",
-      "title": "Implement timing-safe HMAC signature verification in webhook handler",
-      "category": "microservice_gig",
-      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nIn `src/lib/webhook-deliver.ts` and subscriber verification examples, webhook signatures are compared against the expected digest. If string equality (`===`) is used instead of constant-time comparison, the check is susceptible to side-channel timing attacks that allow attackers to deduce valid signatures byte-by-byte.\n\n## Proposed Solution\n\n1. Audit all signature verification call-sites in `src/lib/webhook-deliver.ts` and `examples/webhook-verification/`.\n2. Enforce `crypto.timingSafeEqual(Buffer.from(sigA), Buffer.from(sigB))` after verifying identical byte buffer lengths.\n3. Add timing attack regression unit test asserting non-early-exit execution behavior.\n4. Update developer documentation in `docs/webhook-verification.md`.\n\n## Acceptance Criteria\n\n- [ ] All signature comparisons utilize constant-time buffers\n- [ ] Length mismatches return false without throwing uncaught exceptions\n- [ ] Unit tests verify matching and non-matching digests\n\n## Files to Modify\n- src/lib/webhook-deliver.ts\n- examples/webhook-verification/node-verifier.ts\n- docs/webhook-verification.md\n\n---\n\n**Target Branch: integration/staging**",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1386",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.471651+00:00"
     }
   ],
-  "exported_at": "2026-10-15T15:15:52.607371+00:00"
+  "exported_at": "2026-10-15T17:34:51.690051+00:00"
 }

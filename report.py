@@ -423,7 +423,7 @@ class ReportGenerator:
 
         <h2>📦 Actifs Monétisables Disponibles</h2>
         <div class="deliverables-grid">
-            {deliverables_cards_html if deliverables_cards_html else '<p style="color:var(--text-muted); padding:16px;">Aucun livrable généré pour l\'instant. Lancez un cycle.</p>'}
+            {deliverables_cards_html if deliverables_cards_html else '<p style="color:var(--text-muted); padding:16px;">Aucun livrable généré pour le moment. Lancez un cycle.</p>'}
         </div>
 
         <h2>🔍 Opportunités Détectées & Scannées</h2>

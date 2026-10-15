@@ -125,6 +125,28 @@ def safe_git_sync(logger_inst=None, cycle_id: Optional[int] = None) -> bool:
         return False
 
 
+def load_env_file(filepath: str = ".env") -> None:
+    """Loads environment variables from .env if present and not already set."""
+    if not os.path.isabs(filepath):
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        cand = os.path.join(base_dir, filepath)
+        if os.path.exists(cand):
+            filepath = cand
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        k = k.strip()
+                        v = v.strip().strip("'\"")
+                        if k and k not in os.environ:
+                            os.environ[k] = v
+        except Exception:
+            pass
+
+
 def load_config(config_path: str = "config.json") -> Dict[str, Any]:
     """Loads configuration with safe defaults."""
     if not os.path.exists(config_path):
@@ -137,6 +159,7 @@ class AutoIncomeAgent:
     """The Autonomous 1-Hour Cycle Income Generation Engine."""
 
     def __init__(self, config_path: str = "config.json", simulation_mode: bool = False):
+        load_env_file()
         self.config = load_config(config_path)
         self.simulation_mode = simulation_mode or self.config.get("execution", {}).get("simulation_mode", False)
         
@@ -471,6 +494,7 @@ class AutoIncomeAgent:
 
 
 def main():
+    load_env_file()
     parser = argparse.ArgumentParser(description="AUTO-INCOME AI — Autonomous First-Revenue Engine")
     parser.add_argument("--run", action="store_true", help="Execute one autonomous 1-hour cycle")
     parser.add_argument("--simulate", action="store_true", help="Run with demonstration dataset")

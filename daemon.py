@@ -16,7 +16,7 @@ import subprocess
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from datetime import datetime, timezone
 
-from main import AutoIncomeAgent, send_lemur_hud
+from main import AutoIncomeAgent, send_lemur_hud, load_env_file
 
 # Setup logging
 os.makedirs("logs", exist_ok=True)
@@ -67,6 +67,7 @@ def run_http_server(directory: str = "site", port: int = HTTP_PORT):
 
 
 def main():
+    load_env_file()
     logger.info("=======================================================")
     logger.info("🚀 DÉMARRAGE DU DÉMON AUTONOME 24H/24 AUTO-INCOME AI")
     logger.info("=======================================================")

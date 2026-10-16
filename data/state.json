@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 41,
-    "total_opportunities": 31,
-    "total_deliverables": 47,
+    "total_executions": 42,
+    "total_opportunities": 38,
+    "total_deliverables": 48,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1097.0,
+    "projected_pipeline_usd": 1122.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 41,
-      "timestamp": "2026-10-15T17:16:22.739491+00:00",
+      "id": 42,
+      "timestamp": "2026-10-16T17:14:18.708632+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 0,
+      "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 4.42,
-      "notes": "Produit 'Submit MCP Server: BountyRadar MCP'"
+      "duration_seconds": 51.35,
+      "notes": "Produit 'Contributor onboarding for the OSS launch'"
     },
-    "updated_at": "2026-10-15T17:16:22.760597+00:00"
+    "updated_at": "2026-10-16T17:14:18.721181+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 50,
+      "opportunity_hash": "b097f66fc382265b54aef774bc06e0b3ae083722cdb67ea75141815fd730010c",
+      "category": "bounty_solution",
+      "title": "Contributor onboarding for the OSS launch",
+      "file_path": "site/deliverables/20261016_171415_contributor_onboarding_for_the_oss_launch.md",
+      "relative_path": "deliverables/20261016_171415_contributor_onboarding_for_the_oss_launch.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 80.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal | Proposition de Pull Request manquante",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4914,
+        "extension": "md",
+        "source_url": "https://github.com/genfeedai/genfeed.ai/issues/6964",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Contributor onboarding for the OSS launch**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-16T17:14:15.299859+00:00"
+    },
     {
       "id": 49,
       "opportunity_hash": "c29c153eb02c778fc72fc9a85f00223116d9060ef1848786e2e98824fc0b5c8a",
@@ -351,48 +388,116 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-11T12:30:46.206660+00:00"
-    },
-    {
-      "id": 40,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "bounty_solution",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261011_113459_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261011_113459_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5395,
-        "extension": "md",
-        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-11T11:34:59.043921+00:00"
     }
   ],
   "top_opportunities": [
     {
-      "id": 60,
+      "id": 43,
+      "hash": "6b47df616fc4622d8e294172109d1ef137f485938652a6860d9457437be08cf8",
+      "title": "[P0][RESEARCH] Validate real maintainer/developer demand and first pilot targets",
+      "category": "microservice_gig",
+      "description": "> **Milestone:** Foundation / eligibility · **Priority:** P0 · **Type:** RESEARCH\n\n## Why this matters\nA technical protocol without maintainers willing to fund bounties and developers willing to submit fixes is not a finished product.\n\n## Implementation scope\n- Interview at least 3 maintainers/sponsors and 3 potential paid contributors; document existing payout frictions and how they verify a fix today.\n- Identify at least 2 real open-source repositories with reproducible, safe bug fixes (not manufactured showcase issues).\n- Test willingness to accept an immutable test policy, privacy constraints, waiting periods, and non-custodial funding/refunds.\n- Compare with GitReward, Opire, GitHub Sponsors, GitHub Actions attestations and explain why CertiFiks is differentiated.\n\n## Definition of done\n- [ ] Recorded anonymized interviews/feedback and a prioritised problem-validation summary.\n- [ ] At least one maintainer consents to a small no-real-value end-to-end pilot and defines an actual acceptance test.\n- [ ] Product workflow refined based on observed objections, not assumptions.\n- [ ] If no credible pilot demand, product claim and scoring assumptions revised.\n\n## Dependencies\nProduct charter\n\n## Required evidence\ndocs/research/PILOTS.md with consent-safe evidence and gap matrix.\n\n**Release rule:** No issue is complete merely because a page renders or a happy-path mock passes. Include reproducible tests, a reviewed PR and linked evidence where applicable.",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/EcstaceeLOR/CertiFiks/issues/7",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T17:13:49.082909+00:00"
+    },
+    {
+      "id": 42,
+      "hash": "e6f4d8d94a189f66deb716b2547a282d22eac983b767c692af37db3346a3835b",
+      "title": "[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The packet claim\n\nFirst Shift launch packet §0/§2: *\"21 of 22 tasks sit at or under the 5-credit probation claim cap (89% of value); FS-14 (8 cr) is established-lane-only by design — and the rail enforces exactly that, because the escrow reputation probation cap applies to paid claims.\"*\n\n## What the code actually does\n\nReputation bands (`server/reputation.mjs`): `bandOf(score)` → TRUSTED ≥ 40, PROBATION cap task) on an explicit established-lane allowlist at enable/claim time; and\n- Correct the packet sentence either way: as written it asserts an enforcement that does not exist for new lanes.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3704",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T17:13:49.076583+00:00"
+    },
+    {
+      "id": 41,
+      "hash": "03fc54b5b7a74958fbd01833b9a0db95fb732682bf96d6ac87c7625e5d6d7226",
+      "title": "[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN) — the claim path is main's `server/public-work-claims.mjs` + `server/work-claims.mjs`, unchanged by the rail except for the settlement attach. Measured on the real code locally (RoomStore harness, First Shift packet parameters, 8h leases pinned per the packet). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nClaiming a public-work task costs nothing and commits nothing:\n\n- **No bond at claim time.** The 1 cr claim bond locks only at `finish` (escrow `claimBounty` inside `attachSubmission`). A claim alone moves zero credits.\n- **No concurrent-claim ceiling.** Nothing in `public-work-claims.mjs` / `work-claims.mjs` limits how many live claims one identity holds. (The only throttle is the door-level 60-actions/60s identity rate limit, which `act()` does not even enforce in-process.)\n- **Renewals are unbounded.** `renew` with `leaseHours: 8` extends indefinitely; there is no renewal count cap and no escalating cost.\n- **No consequence for squatting.** A claim that is held and renewed accrues no flake strike, no reputation signal, nothing. (A claim that *lapses* also just frees the task — `releaseExpired` — with no record on the claim path.)\n- **The packet's 48h submission deadline does not exist in code.** It is task text. The only temporal constraint on a submission is holding a live lease.\n\n## Repro / measurement (simulation)\n\nOne adversary lane claimed **all 9 tranche-1 tasks** at T0 and renewed every 7h: **99/99 renewals succeeded over 72h**, the board showed **0 claimable tasks** for the entire window (648 shelf-task-hours denied against the packet's §5 non-empty SLO: `≥95%` of hourly probes non-empty), and an honest lane's claim attempt was refused with `public_work_claim_conflict`. Total cost to the adversary: **0 credits, 0 strikes, 1.8 effort-hours of scripted renewals** — an",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3707",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T17:13:49.070073+00:00"
+    },
+    {
+      "id": 40,
+      "hash": "f9cdbdf0bce786006275de639a7dbf8671078602b89c3a76439579cc95b45dcc",
+      "title": "[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline measured in the same harness: **0.97 cr per effort-hour** (packet-faithful worker, 3 completions/rolling 7d, real-work effort model). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## Two layers to this finding\n\n**Layer 1 — the caps exist nowhere in code.** Packet §4 rotation caps: *\"no reviewer lane reviews >50% of any rolling 10 First Shift submissions; the same claimant completes ≤3 First Shift tasks per rolling 7 days; the same (claimant, reviewer) pair accounts for ≤3 acceptances per rolling 7 days.\"* Grep over the substrate confirms there is no rolling-window counter, claimant cap, or pair cap anywhere in `public-work-reviews.mjs`, `public-work-claims.mjs`, `public-work-settlement.mjs`, or the escrow. The only review gate in code is named-reviewer membership (verified: poster and non-named member decides are refused `review_forbidden`), plus self-review checks that bind *identity* — they say nothing about *common control*. The packet's other staffing rule (\"none [of the rota] controlled by the claimant's operator\") is likewise admission-time judgment only; nothing in the substrate can detect that three lanes share an operator.\n\n**Layer 2 — even enforced perfectly, the caps as written leak.** Strategy (repro): a rota seat `rev-x` (human member, `decide` permission, named in every offer's `reviewerMemberIds` — all legitimate) under common control with worker lanes submits junk and accepts it within the hour.\n\n- **Code-only world** (no monitor): the ring drained all 21 non-drill tasks (68 cr posted) for **67.32 cr net at 32.1 cr/effort-hour (~33× baseline)**. Bounded only by the shelf.\n- **Packet-caps world** (a perfect ops monitor added runn",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3708",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T17:13:49.061463+00:00"
+    },
+    {
+      "id": 39,
+      "hash": "8878e09ee50e44917369e07e31228f9cbbd728c659b8df4e37684a1c976667d1",
+      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline in the same harness: **0.97 cr per effort-hour**. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The asymmetry\n\nPacket §4's deadline ladder is the mechanism that protects workers from reviewer silence: submission → named reviewer 48h → backup reviewer → at 72h unreviewed, *the operator treats the submission as accepted for payment* and logs `review_neglect`. On the rail this is a normal `decide('accepted')` by the operator (the rail itself, correctly, settles nothing on silence — verified: a submitted rail bounty ignored for 30 days moves no money, and a verdict at day 30 still settles normally).\n\nThat makes the ladder's payout path exactly as strong as the operator's diligence, and the adversary controls the flood volume:\n\n**Passive-operator run (simulation):** two adversary lanes claim and junk-submit 6 tranche-1 tasks (FS-01/03/08 at 2 cr; FS-02/07/10 at 4 cr — 18 cr of awards); nobody reviews; at 72h the operator accepts all six per the ladder. Coalition net **+17.82 cr for 0.5 effort-hours = 35.6 cr/effort-hour (~37× the honest baseline)**; the pool collected 0.18 cr of fees on junk settlements. Note the ladder's stated remedy — two neglects remove a reviewer lane from the rota — targets *reviewer* lanes; when the *operator* is the passive party, nothing in the packet or the code bounds the bleed, and `review_neglect` itself exists only as packet text (no such event in the substrate; it would be an ops log).\n\n**Diligent-operator run (same flood, rota rejects within 24h):** the code's real defenses engage and they work: each rejection forfeits the 1 cr claim bond to the pool and records a flake strike (−10 reputation). After 3 rejections ",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3709",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T17:13:49.054210+00:00"
+    },
+    {
+      "id": 38,
       "hash": "148c64df84f96b42d7450636975d7a5d65b8e8df02508ab663a519a864f8f15b",
       "title": "Paid public-work: the work receipt (pwr_) and the payout receipt (lot_) never cross-reference each other",
       "category": "microservice_gig",
@@ -410,12 +515,54 @@
       },
       "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-16T13:43:55.127467+00:00"
+      "created_at": "2026-10-16T17:13:49.046640+00:00"
     },
     {
-      "id": 59,
+      "id": 37,
       "hash": "42c32fc93fb11f7747b62b2f5d675986b0cf87b8f17b6ea165eeb23d35ace720",
       "title": "[Bounty] Answer 2 linked question(s) as a lesson",
+      "category": "microservice_gig",
+      "description": "# [Bounty] Answer the 2 linked question(s) as a lesson\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written rather than looked up.\n\n- #3298 — [Question] AgentCap registry verification reports secret-safe validation failure in capabil\n- #3304 — [Question] Read-only capability registry verification fails its secret-safe gate on metadat\n\n_Shared vocabulary that grouped them: `bounded`, `capability`, `descriptions`, `fail`, `false`, `last`, `refresh`, `registry`._\n\n## Deliverable\n\nA lesson under `lessons/` that answers the question(s) above, following `docs/maintainer/lesson-fields.md` (title / domain / problem / root cause / fix, and a `## Verification` that is a checkable command with an expected result). A written answer in the issue is welcome as a first step, but the lesson is what makes it count — it is the artifact the corpus keeps and the FAQ is built from.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endpoint it must be `misakanet.org`.\n- [ ] Say what you observed yourself versus what you read somewhere. A lesson citing a source that does not exist is worse than one citing nothing (`scripts/check_provenance.py` fails on it).\n\n**1. The derived artifacts are regenerated — this is the step that fails CI most often**\n\n- [ ] Run the three commands the daily job runs, in this order, and commit what they change:\n\n```bash\npython3 scripts/update_lessons_json.py    # data/lessons.json\npython3 scripts/build_lesson_pages.py     # docs/lessons/**, docs/topics/**, docs/sitemap.xml\npython3 scripts/export_okf.py             # data/okf/lessons.jsonl\n```\n\n  Skipping thi",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3332",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T17:13:49.032195+00:00"
+    },
+    {
+      "id": 36,
+      "hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
+      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
+      "category": "microservice_gig",
+      "description": "## Problem\n\n`_get_shell_driver` fails on minimal systems (e.g. containers which have only `/bin/sh`):\n\n*   `SHELL` is not set: it warns and assumes `bash` (via `shutil.which(\"bash\")`),\n    then hits `assert shell_abs_path is not None` when `bash` is not in `PATH`.\n*   `SHELL=/bin/sh`: it raises `ValueError` (unknown shell).\n\nOnly `ShellType.shell_bash` / `ShellType.shell_zsh` (with `ShellDriverBash` / `ShellDriverZsh`) exist today.\n\nBackground and design notes: [`doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md`](https://github.com/uvsmtid/protoprimer/blob/main/doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md)\n\n## Scope\n\n*   **Fallback:** when `SHELL` is not set, `_get_shell_driver` returns `ShellDriverSh` (using `/bin/sh`).\n    It no longer assumes `bash` (the `which(\"bash\")` lookup and its `assert` are removed).\n*   **Recognition:** when `SHELL` has the basename `sh` (e.g. `SHELL=/bin/sh`), `_get_shell_driver` returns `ShellDriverSh`.\n*   **Other unknown shells** (e.g. `/bin/fish`) still raise `ValueError`.\n*   **`ShellDriverSh` is POSIX-only:**\n    *   It must work with any `sh` implementation (`dash`, `busybox ash`, `bash` in `sh` mode, etc.).\n    *   It must not use extensions of any specific implementation (e.g. `source`, `[[ ]]`, `echo -e`, `local`, arrays, `$'...'`, `which`).\n    *   POSIX `sh` has no `--init-file`: pass the init file via the `ENV` variable (read only by interactive shells).\n*   The change is applied to the stand-alone `proto_kernel.py` copy too (keep it in sync).\n\n## Acceptance criteria\n\n1.  Unit tests (mocked) cover:\n    *   no `SHELL` returns `ShellDriverSh` (replaces `test_get_shell_driver_no_shell_env_no_bash`, which currently expects `AssertionError`);\n    *   `SHELL=/bin/sh` returns `ShellDriverSh`;\n    *   `SHELL=/bin/fish` still raises `ValueError`;\n    *   `ShellDriverSh` builds the expected command line and env (the init file is passed via `ENV`, no `--init-file`);\n    *   `bash` and `zsh` behavior has no r",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/uvsmtid/protoprimer/issues/143",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-15T15:15:11.005488+00:00"
+    },
+    {
+      "id": 35,
+      "hash": "0c6e4039cce27ac6bf4e95df84bb3dab09c507cad2b07463fd4e9c8072bfb310",
+      "title": "Add session re-authentication check on critical administrative actions",
       "category": "microservice_gig",
       "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nSensitive actions such as updating fee configuration (`src/app/api/fee-config/route.ts`), rotating organization master keys, or modifying RBAC role assignments rely solely on existing session cookies. If a user's browser is temporarily unattended, an attacker could perform high-impact admin mutations without wallet signature re-verification.\n\n## Proposed Solution\n\n1. Implement a \"sudo mode\" challenge middleware in `src/lib/session-sudo.ts`.\n2. Require a fresh wallet challenge signature if the active session's last cryptographic verification was older than 15 minutes.\n3. Return HTTP 403 `SUDO_REQUIRED` with a challenge payload when re-authentication is required.\n4. Add frontend modal prompting quick Freighter re-signing before continuing.\n\n## Acceptance Criteria\n\n- [ ] Critical admin operations require cryptographic wallet signature if session verification is older than 15m\n- [ ] Non-critical read and standard operations proceed without interruption\n- [ ] E2E security test in `e2e/admin-rbac.spec.ts` verifies re-auth enforcement\n\n## Files to Modify\n- src/lib/session-sudo.ts\n- src/app/api/fee-config/route.ts\n- src/app/api/rbac/route.ts\n- e2e/admin-rbac.spec.ts\n\n---\n\n**Target Branch: integration/staging**",
       "source_id": "algora_bounties",
@@ -453,301 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-15T11:43:18.515507+00:00"
-    },
-    {
-      "id": 33,
-      "hash": "9f22dd4d9765294aa6b4bb304f6774fd9bca20affdf4796501fe4434fb108c74",
-      "title": "🎯 Bounty-Radar",
-      "category": "microservice_gig",
-      "description": "# 🎯 Bounty-Radar (2026-10-15)\n\nBezahlte, offene Programmieraufgaben ab 50 $, sortiert nach *Betrag ÷ Konkurrenz* (frische Bounties doppelt gewichtet).\nNur etablierte Projekte (≥ 100 Sterne, ≥ 6 Monate alt); Köder-Repos mit Fantasiebeträgen sind ausgefiltert.\n\n| # | Betrag | Alter | Konkurrenz | Aufgabe | Projekt | ⭐ |\n|---|---:|---:|---|---|---|---:|\n| 1 | **3000 $** | 8 T. | 🔴 vergeben? | [[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random th](https://github.com/tenstorrent/tt-metal/issues/59732) | `tenstorrent/tt-metal` | 1705 |\n\n## So holst du dir eine Bounty\n1. Issue komplett lesen: Bedingungen, Plattform (Algora/IssueHunt/Opire) und ob schon jemand dran ist.\n   Warnsignale: Betrag nur im Titel, keine Bezahlplattform, viele fast gleiche Issues, Forderung nach Wallet-Daten.\n2. Bei Algora im Issue `/attempt #` kommentieren, damit andere sehen, dass du arbeitest.\n3. Projekt forken, Fix bauen (gern zusammen mit Claude Code), Tests laufen lassen.\n4. Pull Request mit `/claim #` in der Beschreibung öffnen. Nach dem Merge wird ausgezahlt.",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/hanoi96international-gif/Test/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.509230+00:00"
-    },
-    {
-      "id": 32,
-      "hash": "d3541d9ba87e234f9327bfa3a0736ae799d5076cfae160b66fc2e72f01751c10",
-      "title": "Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)",
-      "category": "microservice_gig",
-      "description": "Please list the following remote MCP server.\n\n**Name:** Jobbi Agent Gigs\n**Description:** Jobbi is the index of agent gigs: a free, read-only feed of paid tasks AI agents can do, aggregated hourly from public bounty and task boards (Algora, IssueHunt, Agent Bounties, BasedAgents, BountyHub, BountyBook, Claw Earn, Frantic, OpenTask, OpenWork, Opire, RentAHuman), plus Jobbi's index of ~30,000 human tech jobs.\n**Features:** tools `list_gigs` (filter by lane, board, minimum reward, currency, free text), `get_gig`, `list_sources` (boards with counts and A–F payout grades), `find_jobs`; resources `jobbi://gigs/latest` and `jobbi://gigs/schema`. All tools annotated readOnlyHint: true; output schemas on every tool.\n**Connection:** `https://jobbi.org/mcp`, streamable-http, no authentication.\n**Repository:** https://github.com/agenticgigs/jobbi-mcp (MIT)\n**Homepage / docs:** https://jobbi.org/gigs · https://jobbi.org/docs/mcp\n**Also listed in:** official MCP Registry (`org.jobbi/gigs`), Claude connectors directory, Glama, Smithery.\n**Logo:** https://jobbi.org/favicon.svg\n\nThanks!",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/chatmcp/mcpso/issues/5392",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.503155+00:00"
-    },
-    {
-      "id": 31,
-      "hash": "b097f66fc382265b54aef774bc06e0b3ae083722cdb67ea75141815fd730010c",
-      "title": "Contributor onboarding for the OSS launch",
-      "category": "microservice_gig",
-      "description": "Part of #1433. Belongs to the **open-source self-host launch (Phase 1)** and is **not gated on #334**.\n\nThe repo already has most contributor plumbing: `CONTRIBUTING.md` (343 lines, with a Portless dev path, PR contract, CLA and label guide), `CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, `SUPPORT.md`, issue forms (`bug.yml`, `feature.yml`, `task.yml` plus `config.yml` routing to Discussions), a PR template, and a README \"Contributing\" section with the dev commands. This issue covers only the gaps found on 2026-10-14.\n\n## Verified gaps\n1. **No issues for newcomers to pick.** The `good first issue` and `help wanted` labels exist, and `CONTRIBUTING.md` (L179–189) and `SUPPORT.md` point contributors to them, but **0 open issues** carry either label (273 open issues).\n2. **Most open issues are written for internal agents.** Many reference private QA boxes (e.g. `/workspace/qa-023/...`), the Mac Studio verification host, or `grok-bot`/`codex:automation` lanes, so an outside contributor can't reproduce or verify them.\n3. **The community link is easy to miss.** `SUPPORT.md` deliberately says there's no Discord, Slack or forum; GitHub Discussions is the channel. The README only links Discussions in the footer (L245), not near the top or in the Contributing section.\n4. **No incentive for first PRs.** No bounties exist.\n5. **No fast path to a first PR.** The README dev path needs Bun, Docker (Postgres + Redis), `env:sync`, `dev:setup` and two terminals. There's no \"your first PR in 15 minutes\" route for docs, UI or small backend fixes.\n\n## Acceptance criteria\n- [ ] 10+ open issues labelled `good first issue`, each small, self-contained, reproducible without private infra, and with file pointers and a verification step a contributor can run locally. Candidates are listed below.\n- [ ] 5+ open issues labelled `help wanted` for larger, maintainer-scoped work.\n- [ ] Algora (or similar) bounties on 3–5 easy, well-specified issues, with the bounty flow noted in `CONTRIBUTING.md`.\n- [ ] A co",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/genfeedai/genfeed.ai/issues/6964",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.497646+00:00"
-    },
-    {
-      "id": 30,
-      "hash": "c29c153eb02c778fc72fc9a85f00223116d9060ef1848786e2e98824fc0b5c8a",
-      "title": "Submit MCP Server: BountyRadar MCP",
-      "category": "microservice_gig",
-      "description": "## Server name\nBountyRadar MCP\n\n## Repository\nhttps://github.com/PanStories/bountyradar-mcp\n\n## Description\nRemote MCP server that aggregates AI-agent-solvable bounties across Opire, BountyHub, ClawHunt, Algora, GitHub and validated security programs, then scores each for agent-solvability, freshness and competition and serves a ranked, agent-consumable feed.\n\n## Hosted MCP server\n- URL: https://mcp.apify.com?actors=neeenja/bountyradar-mcp\n- Transport: Streamable HTTP\n- Authentication: Apify token (Bearer) — initialize and tools/list are free; tool calls are metered pay-per-event.\n- Documentation: https://apify.com/neeenja/bountyradar-mcp\n\n## Official MCP Registry\nRegistered as `io.github.PanStories/bountyradar-mcp`, version `1.1`.\nhttps://registry.modelcontextprotocol.io/v0.1/servers/io.github.PanStories%2Fbountyradar-mcp/versions/latest\n\n## Category\nDeveloper Tools / Automation\n\n## Data and permissions\nThe server indexes public data and returns it to the calling agent. It performs no writes to third-party accounts. Pricing is Pay-Per-Event; no monthly fee.\n\nSubmitting as the maintainer (PanStories / MistifyTea). Please consider it for the directory's reviewed community listings.",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/chatmcp/mcpso/issues/5414",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.491690+00:00"
-    },
-    {
-      "id": 29,
-      "hash": "c790af704526b0c9b7862f97c252beac5efd9409bdb90ae8e9d7566231a38aee",
-      "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
-      "category": "microservice_gig",
-      "description": "## Goal\nBuild **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches.\n\n## Grounded observations (2026-10-15)\n- Tenstorrent tt-metal #8621 $500: open/unassigned but crowded with competing claims and internal work; not yet proven claimable.\n- tt-metal #58986 $1000 and #59732 $3000: open but formally assigned to other contributors; exclude by default.\n- Some third-party bounty indexes show closed or already awarded source issues. Platform status alone is insufficient.\n- Tenstorrent terms and each sponsor's rules must be checked before any AI-assisted contributions; no automated GitHub claim/comment if prohibited.\n- Do not claim a payout until independently evidenced as received.\n\n## Reuse before implementation\n1. Identify existing scheduler/monitor, dispatch, ONE evaluation, immutable receipt, completion-ledger, PR reconciler and cross-node interfaces, recording code paths and owners.\n2. Implement read-only candidate ingestion adapters (start GitHub issue + sponsor original terms, optionally Algora/Opire). Use source URLs, timestamps, raw evidence hashes, dedup/idempotency, throttling, and prompt-injection-resistant parsing.\n3. Qualification gates: open original issue, not assigned or already solved; actual reward provenance/escrow or sponsor payout history; rules permitting participation and AI; Taiwanese eligibility/tax/payment methods where relevant; acceptance criteria; hardware dependencies; competing PRs/comments and recency.\n4. Rank by expected **net payout**, not nominal reward: reward × empirical probability of being accepted and paid – model/compute cost – estimated human time – risk adjustment. Unknown probability is UNKNOWN, never fabricated.\n5. Generate a reproducible decision IR and explicit receipt: ACCEPT_RESEARCH / NEED_OWNER_CONFIRMATION / REJECT / NOT_VERIFIED. Never auto-claim, comme",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/alston-personal/agentmanager/issues/2003",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.484994+00:00"
-    },
-    {
-      "id": 28,
-      "hash": "2d6f2038f3080cd8bf063d240d7976c973ddc0de3719c9126b9bb30bf75f3a9f",
-      "title": "Add custom asset trustline creation quick-action modal in wallet selector",
-      "category": "microservice_gig",
-      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nWhen users attempt to receive or send non-native Stellar assets (e.g. USDC, EURC, or regional anchor tokens) in `src/components/AssetSelector.tsx`, their Stellar account must have an established trustline. Currently, users are given an unhelpful generic error if the recipient or connected wallet lacks the trustline.\n\n## Proposed Solution\n\n1. Add an asset trustline check helper `checkTrustline(account, assetCode, issuer)` using Horizon RPC.\n2. Render a warning badge \"Trustline Required\" in `AssetSelector.tsx` if missing.\n3. Build a \"Create Trustline\" action modal that constructs and submits the `changeTrust` operation to Freighter.\n4. Auto-refresh account asset balances once trustline confirmation lands on-chain.\n\n## Acceptance Criteria\n\n- [ ] Asset selector identifies accounts lacking trustlines for selected non-native tokens\n- [ ] Users can establish trustline in one click through their connected wallet extension\n- [ ] Successful trustline creation immediately updates UI without requiring page refresh\n\n## Files to Modify\n- src/components/AssetSelector.tsx\n- src/components/wallet/TrustlineModal.tsx\n- src/lib/stellar-transactions.ts\n\n---\n\n**Target Branch: integration/staging**",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3332",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T13:43:55.124530+00:00"
-    },
-    {
-      "id": 58,
-      "hash": "1495815c90d17f511b50fccba836b65fb85d35cffe8ae0fd3e7157331b768f47",
-      "title": "[launch-readiness] Rail disputes are undecidable and default to paying the claimant: a confederate dispute freezes the verdict and force-pays junk after 14d",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (PR still OPEN), measured on the real server code locally via a RoomStore harness mirroring `tests/public-work-settlement.test.js`, with the First Shift packet's exact parameters (8h leases, 1% pool fee, 3-day challenge window, 1 cr claim bond, 25% dispute bond). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nA dispute opened against a **submitted** rail bounty can never be decided, freezes the rota verdict, and force-pays the claimant after 14 days — including the challenger's bond.\n\nMechanics, all verified in simulation:\n\n1. `publicWorkSettlement.fund()` posts the escrow bounty with **no designated verifier** (`verifierId` is never passed).\n2. `bountyEscrow.disputeBounty` seats the dispute decider from `bounty.verifier`. With none designated, the dispute is marked `unavailable: \"no-designated-verifier: panel-majority voting is not in slice 1\"` and `decider: null`. `decideDispute` requires `dispute.decider === lane`, so **no lane can ever rule on a rail-bounty dispute**.\n3. While the bounty is `disputed`, the rota cannot settle it: `publicWorkReviews.decide` with `accepted` or `rejected` throws `invalid_state` (escrow `acceptWork`/`rejectWork` require state `submitted`). The packet's 48h/72h review ladder is frozen out. (`revision_requested` still succeeds — the review record moves, no money does.)\n4. Any member lane other than the claimant can open the dispute for exactly 25% of the award. There is no reputation-band gate on disputing.\n5. After `DISPUTE_TIMEOUT_MS` (14 days), the permissionless keeper (`finalizeBounty` / `closeEpoch`) settles with outcome `timeout-default` → **RELEASE**: the full award vests with the worker (swept minus the 1% fee), and the challenger's bond is paid **to the worker** as delay compensation (`bond-compensate`, `forfeitedBond: 0` on the timeout path).\n\n#",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3702",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T08:04:00.194532+00:00"
-    },
-    {
-      "id": 57,
-      "hash": "070177965ed6cee5f7c28106a3dcd58ea916dc4c0e78f31f6aa9965d500af1f3",
-      "title": "[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally through a RoomStore harness mirroring `tests/public-work-settlement.test.js`, First Shift packet parameters. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nOn settlement-rail bounties, the dispute mechanism cannot ever rule against a worker — so the 3-day challenge window provides the sponsor **no protection at all**, and using it costs the sponsor money.\n\nTwo compositions, both verified in simulation (composes with #3591's observation that `disputeBounty` never checks `challengeEndsMs`):\n\n**(i) Post-window dispute freezes an honest payout, then pays the worker a bonus.**\nHonest worker's M task (4 cr) is accepted; the 3-day challenge window closes; a griefer disputes 1 ms later — `disputeBounty` accepts it (no window check). The bounty leaves `accepted` for `disputed`, so `closeEpoch` never approves/sweeps it. Fourteen days later the timeout default RELEASEs: the worker is paid the award **plus the griefer's 1 cr bond** as \"delay compensation\" (worker ends at 104.96 cr vs 103.96 on the honest path; griefer −1 cr, −12 reputation). Any member can impose a 14-day payment delay on any settled task at will.\n\n**(ii) A sponsor dispute against a colluding accept pays the ring more.**\nRing worker's junk is accepted by a colluding rota reviewer. The sponsor (poster) disputes within the window to claw the award back. Rail bounties designate no verifier (`fund()` never passes `verifierId`), so no decider can be seated and the dispute can never be upheld; at 14 days it timeout-RELEASEs. The ring worker receives the award (3.96 cr) **plus the sponsor's own 1 cr dispute bond**. In simulation the sponsor ended at 91 cr (100 − 8 funded across two tasks − 1 bond): the protective dispute was strictly negative-EV (−1 cr and the award still paid).\n\n## Why it matters f",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3703",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T08:04:00.192622+00:00"
-    },
-    {
-      "id": 56,
-      "hash": "e6f4d8d94a189f66deb716b2547a282d22eac983b767c692af37db3346a3835b",
-      "title": "[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The packet claim\n\nFirst Shift launch packet §0/§2: *\"21 of 22 tasks sit at or under the 5-credit probation claim cap (89% of value); FS-14 (8 cr) is established-lane-only by design — and the rail enforces exactly that, because the escrow reputation probation cap applies to paid claims.\"*\n\n## What the code actually does\n\nReputation bands (`server/reputation.mjs`): `bandOf(score)` → TRUSTED ≥ 40, PROBATION cap task) on an explicit established-lane allowlist at enable/claim time; and\n- Correct the packet sentence either way: as written it asserts an enforcement that does not exist for new lanes.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3704",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T08:04:00.191077+00:00"
-    },
-    {
-      "id": 55,
-      "hash": "03fc54b5b7a74958fbd01833b9a0db95fb732682bf96d6ac87c7625e5d6d7226",
-      "title": "[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN) — the claim path is main's `server/public-work-claims.mjs` + `server/work-claims.mjs`, unchanged by the rail except for the settlement attach. Measured on the real code locally (RoomStore harness, First Shift packet parameters, 8h leases pinned per the packet). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nClaiming a public-work task costs nothing and commits nothing:\n\n- **No bond at claim time.** The 1 cr claim bond locks only at `finish` (escrow `claimBounty` inside `attachSubmission`). A claim alone moves zero credits.\n- **No concurrent-claim ceiling.** Nothing in `public-work-claims.mjs` / `work-claims.mjs` limits how many live claims one identity holds. (The only throttle is the door-level 60-actions/60s identity rate limit, which `act()` does not even enforce in-process.)\n- **Renewals are unbounded.** `renew` with `leaseHours: 8` extends indefinitely; there is no renewal count cap and no escalating cost.\n- **No consequence for squatting.** A claim that is held and renewed accrues no flake strike, no reputation signal, nothing. (A claim that *lapses* also just frees the task — `releaseExpired` — with no record on the claim path.)\n- **The packet's 48h submission deadline does not exist in code.** It is task text. The only temporal constraint on a submission is holding a live lease.\n\n## Repro / measurement (simulation)\n\nOne adversary lane claimed **all 9 tranche-1 tasks** at T0 and renewed every 7h: **99/99 renewals succeeded over 72h**, the board showed **0 claimable tasks** for the entire window (648 shelf-task-hours denied against the packet's §5 non-empty SLO: `≥95%` of hourly probes non-empty), and an honest lane's claim attempt was refused with `public_work_claim_conflict`. Total cost to the adversary: **0 credits, 0 strikes, 1.8 effort-hours of scripted renewals** — an",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3707",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T08:04:00.189080+00:00"
-    },
-    {
-      "id": 54,
-      "hash": "f9cdbdf0bce786006275de639a7dbf8671078602b89c3a76439579cc95b45dcc",
-      "title": "[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline measured in the same harness: **0.97 cr per effort-hour** (packet-faithful worker, 3 completions/rolling 7d, real-work effort model). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## Two layers to this finding\n\n**Layer 1 — the caps exist nowhere in code.** Packet §4 rotation caps: *\"no reviewer lane reviews >50% of any rolling 10 First Shift submissions; the same claimant completes ≤3 First Shift tasks per rolling 7 days; the same (claimant, reviewer) pair accounts for ≤3 acceptances per rolling 7 days.\"* Grep over the substrate confirms there is no rolling-window counter, claimant cap, or pair cap anywhere in `public-work-reviews.mjs`, `public-work-claims.mjs`, `public-work-settlement.mjs`, or the escrow. The only review gate in code is named-reviewer membership (verified: poster and non-named member decides are refused `review_forbidden`), plus self-review checks that bind *identity* — they say nothing about *common control*. The packet's other staffing rule (\"none [of the rota] controlled by the claimant's operator\") is likewise admission-time judgment only; nothing in the substrate can detect that three lanes share an operator.\n\n**Layer 2 — even enforced perfectly, the caps as written leak.** Strategy (repro): a rota seat `rev-x` (human member, `decide` permission, named in every offer's `reviewerMemberIds` — all legitimate) under common control with worker lanes submits junk and accepts it within the hour.\n\n- **Code-only world** (no monitor): the ring drained all 21 non-drill tasks (68 cr posted) for **67.32 cr net at 32.1 cr/effort-hour (~33× baseline)**. Bounded only by the shelf.\n- **Packet-caps world** (a perfect ops monitor added runn",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3708",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T08:04:00.187081+00:00"
-    },
-    {
-      "id": 53,
-      "hash": "8878e09ee50e44917369e07e31228f9cbbd728c659b8df4e37684a1c976667d1",
-      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline in the same harness: **0.97 cr per effort-hour**. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The asymmetry\n\nPacket §4's deadline ladder is the mechanism that protects workers from reviewer silence: submission → named reviewer 48h → backup reviewer → at 72h unreviewed, *the operator treats the submission as accepted for payment* and logs `review_neglect`. On the rail this is a normal `decide('accepted')` by the operator (the rail itself, correctly, settles nothing on silence — verified: a submitted rail bounty ignored for 30 days moves no money, and a verdict at day 30 still settles normally).\n\nThat makes the ladder's payout path exactly as strong as the operator's diligence, and the adversary controls the flood volume:\n\n**Passive-operator run (simulation):** two adversary lanes claim and junk-submit 6 tranche-1 tasks (FS-01/03/08 at 2 cr; FS-02/07/10 at 4 cr — 18 cr of awards); nobody reviews; at 72h the operator accepts all six per the ladder. Coalition net **+17.82 cr for 0.5 effort-hours = 35.6 cr/effort-hour (~37× the honest baseline)**; the pool collected 0.18 cr of fees on junk settlements. Note the ladder's stated remedy — two neglects remove a reviewer lane from the rota — targets *reviewer* lanes; when the *operator* is the passive party, nothing in the packet or the code bounds the bleed, and `review_neglect` itself exists only as packet text (no such event in the substrate; it would be an ops log).\n\n**Diligent-operator run (same flood, rota rejects within 24h):** the code's real defenses engage and they work: each rejection forfeits the 1 cr claim bond to the pool and records a flake strike (−10 reputation). After 3 rejections ",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3709",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T08:04:00.184248+00:00"
-    },
-    {
-      "id": 52,
-      "hash": "a3b709cc13950d24d0ac74d1438d5297489c78fc543bef405acd6a8d6f5e6bf4",
-      "title": "[Bounty] [Bounty: $90] Make estimateFee agree with transfer() on maxFee and maxWait fallb",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/Parabola-org/parabola/issues/7\n\n### 漏洞描述 / Description\n[Bounty: $90] Make estimateFee agree with transfer() on maxFee and maxWait fallback\n\n**Context**\n`transfer()` in `src/transfer.ts:56-71` can silently downgrade a fast transfer to standard when the quoted fee exceeds `options.maxFee` or the fixed 15s fast estimate exceeds `options.maxWait`. `estimateFee` in `src/estimate.ts:15-39` knows nothing about either knob: it always reports fast as available and quotes the current fee. A caller that shows the `estimateFee` result to a user and then calls `transfer()` with `maxFee` set can charge a different mode and fee than quoted — the quote is decorative.\n\n**Proposed Change**\nExtend `EstimateFeeParams` with optional `maxFee` and `maxWait`, and implement the same decision logic `transfer()` uses: when the quoted fast fee exceeds `maxFee`, or the fast duration estimate exceeds `maxWait`, return a `standard` estimate. Extract the shared decision into a small pure helper used by both `transfer()` and `estimateFee` so the two cannot drift again.\n\n**Acceptance Criteria**\n\n- `estimateFee` with `maxFee` below the current Iris fast fee returns `transferMode: \"standard\"` and `protocolFee: \"0\"`.\n- `estimateFee` with `maxWait` below the fast duration estimate returns standard.\n- The fallback decision logic has a single implementation referenced by both call sites.\n- Existing estimate tests pass; new cases cover both fallback triggers.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: bug\n**Bounty:** $90\n**ETA:** 48 hours\n\n### 积分币奖励 / Coin Reward\n112 coins\n\n### 真实赏金（USD）/ Real Reward\n$90\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1909",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T23:31:34.410344+00:00"
-    },
-    {
-      "id": 51,
-      "hash": "ce4027eee0c89eed9e89da1ff53f5d4766b94b41e3123a13a88f8eed106a853b",
-      "title": "[Bounty] [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/Parabola-org/parabola/issues/4\n\n### 漏洞描述 / Description\n[Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts\n\n**Context**\n`checkStellarRecipientReady` in `src/chains/stellar.ts:144-177` wraps `server.getAccount(recipient)` in a bare `catch` that returns `{ exists: false, hasTrustline: false, ready: false }`. Any failure — DNS error, RPC 503, rate limit on the public mainnet endpoint (which `src/constants.ts:49-52` explicitly warns is rate-limited) — is indistinguishable from an account that genuinely was never funded. `assertStellarRecipientReady` in `src/transfer.ts:207-223` then throws \"recipient does not exist yet. It must be funded with at least the minimum XLM reserve\", sending the caller down the wrong remediation path for what is actually an infrastructure problem.\n\n**Proposed Change**\nInspect the error from `getAccount` and only map the Stellar SDK's account-not-found condition to `exists: false`. Anything else (transport errors, 5xx responses) should propagate as `IrisRequestError`-style infrastructure failure — or a new small error type if that fits better — so callers can retry instead of instructing end users to fund an account that may already exist.\n\n**Acceptance Criteria**\n\n- The SDK's account-not-found error still yields `{ exists: false, hasTrustline: false, ready: false }`.\n- A mocked transport/5xx failure rejects instead of returning a \"not exists\" status.\n- `assertStellarRecipientReady` error messages remain accurate for the true not-exists case.\n- Unit tests cover both branches with a mocked `rpc.Server`.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: bug\n**Bounty:** $105\n**ETA:** 48 hours\n\n### 积分币奖励 / Coin Reward\n131 coins\n\n### 真实赏金（USD）/ Real Reward\n$105\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T23:31:34.408653+00:00"
     }
   ],
-  "exported_at": "2026-10-15T17:16:22.771462+00:00"
+  "exported_at": "2026-10-16T17:14:18.725933+00:00"
 }

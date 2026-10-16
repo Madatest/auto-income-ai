@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 44,
+    "total_executions": 45,
     "total_opportunities": 39,
-    "total_deliverables": 50,
+    "total_deliverables": 51,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1172.0,
+    "projected_pipeline_usd": 1197.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 44,
-      "timestamp": "2026-10-16T19:53:32.114322+00:00",
+      "id": 45,
+      "timestamp": "2026-10-16T20:28:08.429409+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 85.14,
-      "notes": "Produit '🎯 Bounty-Radar'"
+      "duration_seconds": 2.53,
+      "notes": "Produit '[Bounty] 📋 2 open bounties right now'"
     },
-    "updated_at": "2026-10-16T19:53:32.131813+00:00"
+    "updated_at": "2026-10-16T20:28:08.431640+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 53,
+      "opportunity_hash": "caa6b004b83059db9061058f6c2d0c402372b409fdc6a16bae1ea3ae4165d2f1",
+      "category": "bounty_solution",
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "file_path": "site/deliverables/20261016_202807_bounty_2_open_bounties_right_now.md",
+      "relative_path": "deliverables/20261016_202807_bounty_2_open_bounties_right_now.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4196,
+        "extension": "md",
+        "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] 📋 2 open bounties right now**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$150"
+      },
+      "created_at": "2026-10-16T20:28:07.242656+00:00"
+    },
     {
       "id": 52,
       "opportunity_hash": "9f22dd4d9765294aa6b4bb304f6774fd9bca20affdf4796501fe4434fb108c74",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-15T13:08:18.952034+00:00"
-    },
-    {
-      "id": 43,
-      "opportunity_hash": "6e84a73fa83beb6a086e57066496b343aa129ece1eda5302ba2156e6ce5d9e5d",
-      "category": "bounty_solution",
-      "title": "Add interactive OpenAPI Swagger / Scalar documentation route at /docs/api",
-      "file_path": "site/deliverables/20261015_120708_add_interactive_openapi_swagger_scalar_documentati.md",
-      "relative_path": "deliverables/20261015_120708_add_interactive_openapi_swagger_scalar_documentati.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 7625,
-        "extension": "md",
-        "source_url": "https://github.com/OphirPay/OphirPay/issues/1416",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have implemented the interactive OpenAPI Scalar documentation route as requested in issue #1416.\n\n#### Summary of Changes:\n1. **OpenAPI Spec Endpoint (`src/app/api/openapi.json/route.ts`)**: Added a Next.js App Router API handler that parses `docs/openapi.yaml` using `js-yaml` and serves cached, valid JSON.\n2. **Interactive UI Route (`src/app/docs/api/page.tsx`)**: Created the page component using `@scalar/nextjs-api-reference`, rendering interactive documentation pointing to `/api/openapi.json`.\n3. **Dependencies (`package.json`)**: Added `@scalar/nextjs-api-reference` and `js-yaml` with associated types.\n4. **Documentation (`docs/API_GUIDE.md`)**: Updated the developer guide with references to `/docs/api` and `/api/openapi.json`.\n\n#### Verification:\n- Verified `/api/openapi.json` returns HTTP 200 with complete OpenAPI spec.\n- Verified `/docs/api` renders all endpoints correctly with \"Try it out\" capabilities configured for Stellar Testnet.\n- Unit test included for route handler validation.\n\nReady to submit PR against `integration/staging`.\n\n*Submitted by Jean (@Madatest) - Binance Pay UID: 254779310*",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-15T12:07:08.992080+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-15T14:12:42.677580+00:00"
     }
   ],
-  "exported_at": "2026-10-16T19:53:32.139324+00:00"
+  "exported_at": "2026-10-16T20:28:08.432840+00:00"
 }

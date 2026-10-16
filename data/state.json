@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 42,
+    "total_executions": 43,
     "total_opportunities": 47,
-    "total_deliverables": 48,
+    "total_deliverables": 49,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1122.0,
+    "projected_pipeline_usd": 1147.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 42,
-      "timestamp": "2026-10-15T23:31:35.598100+00:00",
+      "id": 43,
+      "timestamp": "2026-10-16T02:59:39.059585+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.62,
-      "notes": "Produit 'Contributor onboarding for the OSS launch'"
+      "duration_seconds": 2.32,
+      "notes": "Produit 'Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)'"
     },
-    "updated_at": "2026-10-15T23:31:35.600435+00:00"
+    "updated_at": "2026-10-16T02:59:39.062185+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 51,
+      "opportunity_hash": "d3541d9ba87e234f9327bfa3a0736ae799d5076cfae160b66fc2e72f01751c10",
+      "category": "bounty_solution",
+      "title": "Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)",
+      "file_path": "site/deliverables/20261016_025938_add_remote_server_jobbi_agent_gigs_httpsjobbiorgmc.md",
+      "relative_path": "deliverables/20261016_025938_add_remote_server_jobbi_agent_gigs_httpsjobbiorgmc.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4371,
+        "extension": "md",
+        "source_url": "https://github.com/chatmcp/mcpso/issues/5392",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-16T02:59:38.234689+00:00"
+    },
     {
       "id": 50,
       "opportunity_hash": "b097f66fc382265b54aef774bc06e0b3ae083722cdb67ea75141815fd730010c",
@@ -351,43 +388,6 @@
         "bounty_value": "$30"
       },
       "created_at": "2026-10-15T11:44:22.940371+00:00"
-    },
-    {
-      "id": 41,
-      "opportunity_hash": "3c8c0c1b76a285f6263ab30580ae17f5269f8a0b4f7e43af5bbdeca7fb120d70",
-      "category": "bounty_solution",
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "file_path": "site/deliverables/20261011_123046_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "relative_path": "deliverables/20261011_123046_bounty_bring_a_real_backlog_get_an_established_ope.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 80.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal | Proposition de Pull Request manquante",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 1993,
-        "extension": "md",
-        "source_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-11T12:30:46.206660+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-15T20:53:59.364334+00:00"
     }
   ],
-  "exported_at": "2026-10-15T23:31:35.601708+00:00"
+  "exported_at": "2026-10-16T02:59:39.063487+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 43,
-    "total_opportunities": 38,
-    "total_deliverables": 49,
+    "total_executions": 44,
+    "total_opportunities": 39,
+    "total_deliverables": 50,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1147.0,
+    "projected_pipeline_usd": 1172.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 43,
-      "timestamp": "2026-10-16T18:51:33.554831+00:00",
+      "id": 44,
+      "timestamp": "2026-10-16T19:53:32.114322+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 0,
+      "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 720.37,
-      "notes": "Produit 'Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)'"
+      "duration_seconds": 85.14,
+      "notes": "Produit '🎯 Bounty-Radar'"
     },
-    "updated_at": "2026-10-16T18:51:33.582674+00:00"
+    "updated_at": "2026-10-16T19:53:32.131813+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 52,
+      "opportunity_hash": "9f22dd4d9765294aa6b4bb304f6774fd9bca20affdf4796501fe4434fb108c74",
+      "category": "bounty_solution",
+      "title": "🎯 Bounty-Radar",
+      "file_path": "site/deliverables/20261016_195324__bounty_radar.md",
+      "relative_path": "deliverables/20261016_195324__bounty_radar.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4261,
+        "extension": "md",
+        "source_url": "https://github.com/hanoi96international-gif/Test/issues/1",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **🎯 Bounty-Radar**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$,"
+      },
+      "created_at": "2026-10-16T19:53:24.674511+00:00"
+    },
     {
       "id": 51,
       "opportunity_hash": "d3541d9ba87e234f9327bfa3a0736ae799d5076cfae160b66fc2e72f01751c10",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-15T12:07:08.992080+00:00"
-    },
-    {
-      "id": 42,
-      "opportunity_hash": "371272953230836a6984db17be2205eac4e8ed91dc7b2c31005cdab7214b219f",
-      "category": "bounty_solution",
-      "title": "[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid",
-      "file_path": "site/deliverables/20261015_114422_bounty_bounty_30_x4_post_and_fund_a_real_task_on_v.md",
-      "relative_path": "deliverables/20261015_114422_bounty_bounty_30_x4_post_and_fund_a_real_task_on_v.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5625,
-        "extension": "md",
-        "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1892",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$30"
-      },
-      "created_at": "2026-10-15T11:44:22.940371+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 44,
+      "hash": "f1cc567ab525c7b6fd029e6da003444d49697c8bf26e6ad04c772ca06d9f6ec7",
+      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
+      "category": "microservice_gig",
+      "description": "## Payment address for completed / pending work\n\nOpen delivery PRs on this repository:\n\n| Bounty | Face | PR |\n|---|---|---|\n| Original pixel art (Owl Auditor) | $780 | #13322 |\n| Original technical poem | $430 | #13324 |\n| Upload endpoint rejects missing file | $780 | #13326 |\n| CORS restricted to allowlist | $780 | #13327 |\n\nEach PR closes its own reference issue (#13323 upload, #13325 CORS) created under the repo's \"issues first\" rule, and is limited to me as issue creator.\n\nAll four are ready for review: tests included where applicable, no conflicts, no CI blockers reported.\n\n### Wallet (USDC on Base / eip155:8453)\n```\n0x1B686cc6E8D6ed99fFE41b480867D712A78aD00b\n```\n\nNo custodian. Direct Base USDC.\n\n/cc maintainers",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T19:52:16.118262+00:00"
+    },
     {
       "id": 43,
       "hash": "6b47df616fc4622d8e294172109d1ef137f485938652a6860d9457437be08cf8",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-15T14:12:42.677580+00:00"
-    },
-    {
-      "id": 34,
-      "hash": "caa6b004b83059db9061058f6c2d0c402372b409fdc6a16bae1ea3ae4165d2f1",
-      "title": "[Bounty] 📋 2 open bounties right now",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/habibdxb01/bounty-watcher/issues/5\n\n### 漏洞描述 / Description\n📋 2 open bounties right now\n\nBounties that were already open when the watcher started. From now on, each new one gets its own issue.\n\n- 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1)\n- 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290)\n\ncc @habibdxb01\n\n\n\n\n\n\n\n\n\n\n\n### 积分币奖励 / Coin Reward\n187 coins\n\n### 真实赏金（USD）/ Real Reward\n$150\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T11:43:18.515507+00:00"
     }
   ],
-  "exported_at": "2026-10-16T18:51:33.593819+00:00"
+  "exported_at": "2026-10-16T19:53:32.139324+00:00"
 }

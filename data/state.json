@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 44,
-    "total_opportunities": 53,
-    "total_deliverables": 50,
+    "total_executions": 45,
+    "total_opportunities": 55,
+    "total_deliverables": 51,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1172.0,
+    "projected_pipeline_usd": 1197.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 44,
-      "timestamp": "2026-10-16T08:04:00.854807+00:00",
+      "id": 45,
+      "timestamp": "2026-10-16T13:43:55.877110+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.13,
-      "notes": "Produit '🎯 Bounty-Radar'"
+      "duration_seconds": 2.6,
+      "notes": "Produit '[Bounty] 📋 2 open bounties right now'"
     },
-    "updated_at": "2026-10-16T08:04:00.857480+00:00"
+    "updated_at": "2026-10-16T13:43:55.882507+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 53,
+      "opportunity_hash": "caa6b004b83059db9061058f6c2d0c402372b409fdc6a16bae1ea3ae4165d2f1",
+      "category": "bounty_solution",
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "file_path": "site/deliverables/20261016_134355_bounty_2_open_bounties_right_now.md",
+      "relative_path": "deliverables/20261016_134355_bounty_2_open_bounties_right_now.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4196,
+        "extension": "md",
+        "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] 📋 2 open bounties right now**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$150"
+      },
+      "created_at": "2026-10-16T13:43:55.135948+00:00"
+    },
     {
       "id": 52,
       "opportunity_hash": "9f22dd4d9765294aa6b4bb304f6774fd9bca20affdf4796501fe4434fb108c74",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-15T13:08:18.952034+00:00"
-    },
-    {
-      "id": 43,
-      "opportunity_hash": "6e84a73fa83beb6a086e57066496b343aa129ece1eda5302ba2156e6ce5d9e5d",
-      "category": "bounty_solution",
-      "title": "Add interactive OpenAPI Swagger / Scalar documentation route at /docs/api",
-      "file_path": "site/deliverables/20261015_120708_add_interactive_openapi_swagger_scalar_documentati.md",
-      "relative_path": "deliverables/20261015_120708_add_interactive_openapi_swagger_scalar_documentati.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 7625,
-        "extension": "md",
-        "source_url": "https://github.com/OphirPay/OphirPay/issues/1416",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have implemented the interactive OpenAPI Scalar documentation route as requested in issue #1416.\n\n#### Summary of Changes:\n1. **OpenAPI Spec Endpoint (`src/app/api/openapi.json/route.ts`)**: Added a Next.js App Router API handler that parses `docs/openapi.yaml` using `js-yaml` and serves cached, valid JSON.\n2. **Interactive UI Route (`src/app/docs/api/page.tsx`)**: Created the page component using `@scalar/nextjs-api-reference`, rendering interactive documentation pointing to `/api/openapi.json`.\n3. **Dependencies (`package.json`)**: Added `@scalar/nextjs-api-reference` and `js-yaml` with associated types.\n4. **Documentation (`docs/API_GUIDE.md`)**: Updated the developer guide with references to `/docs/api` and `/api/openapi.json`.\n\n#### Verification:\n- Verified `/api/openapi.json` returns HTTP 200 with complete OpenAPI spec.\n- Verified `/docs/api` renders all endpoints correctly with \"Try it out\" capabilities configured for Stellar Testnet.\n- Unit test included for route handler validation.\n\nReady to submit PR against `integration/staging`.\n\n*Submitted by Jean (@Madatest) - Binance Pay UID: 254779310*",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-15T12:07:08.992080+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 60,
+      "hash": "148c64df84f96b42d7450636975d7a5d65b8e8df02508ab663a519a864f8f15b",
+      "title": "Paid public-work: the work receipt (pwr_) and the payout receipt (lot_) never cross-reference each other",
+      "category": "microservice_gig",
+      "description": "Found by COMPOSE-3732 (first end-to-end execution of the paid public-work leg, on the composed #3627 + #3566 tree). A settled paid public-work task produces TWO public receipts, and neither references the other:\n\n- The work receipt (`pwr_…`, e.g. `pwr_69b28ef1359d5977f7afbb1abde522b7697ef65cbc6d85c2f547811e192ab1d9` on the composed build) carries the criteria, the criteria attestation, executed checks (`criteria_coverage`, `artifact_integrity`), the delivery digest, and — after acceptance — `state: \"verified\"`. It carries **no settlement field and no lot id**: a stranger holding it cannot find the money.\n- The payout receipt (`lot_…`, e.g. `lot_4fff888f29334ea4`) carries the settlement (`kind: \"verified-complete\"`, worker 3.96 / pool fee 0.04 on a 4.00 award), poster + worker, `journalHash`/`prevHash`, and `bountyState: \"paid\"`. It carries **no criteria** and its `verifier` field is `null` (the rail's `settleOnVerdict` synthesizes the escrow attestation under the poster lane). A stranger holding it cannot find the work it paid for.\n\nThe only join keys are `bountyId` and the submission/artifact hash; neither surface renders a link to the other receipt. The stranger-verifiability bar for a paid task (amount + parties + criteria + verdict + journal ref in one open) is met only across both receipts together, with no signpost between them.\n\nSuggested shape: the `pwr_` receipt gains a settlement summary + payout lot id once settled (the member packet already carries `settlement` via `viewForOffer` — the public projection drops it); the lot receipt gains the task id / work-receipt id and a criteria reference. Distinct from #3733 (the `pwr_` face's outcome-blindness — the state half is cured by #3627's verified stamp; this issue is the missing cross-reference, which only becomes visible once the rail actually settles a public-work task).",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3781",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T13:43:55.127467+00:00"
+    },
+    {
+      "id": 59,
+      "hash": "42c32fc93fb11f7747b62b2f5d675986b0cf87b8f17b6ea165eeb23d35ace720",
+      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
+      "category": "microservice_gig",
+      "description": "# [Bounty] Answer the 2 linked question(s) as a lesson\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written rather than looked up.\n\n- #3298 — [Question] AgentCap registry verification reports secret-safe validation failure in capabil\n- #3304 — [Question] Read-only capability registry verification fails its secret-safe gate on metadat\n\n_Shared vocabulary that grouped them: `bounded`, `capability`, `descriptions`, `fail`, `false`, `last`, `refresh`, `registry`._\n\n## Deliverable\n\nA lesson under `lessons/` that answers the question(s) above, following `docs/maintainer/lesson-fields.md` (title / domain / problem / root cause / fix, and a `## Verification` that is a checkable command with an expected result). A written answer in the issue is welcome as a first step, but the lesson is what makes it count — it is the artifact the corpus keeps and the FAQ is built from.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endpoint it must be `misakanet.org`.\n- [ ] Say what you observed yourself versus what you read somewhere. A lesson citing a source that does not exist is worse than one citing nothing (`scripts/check_provenance.py` fails on it).\n\n**1. The derived artifacts are regenerated — this is the step that fails CI most often**\n\n- [ ] Run the three commands the daily job runs, in this order, and commit what they change:\n\n```bash\npython3 scripts/update_lessons_json.py    # data/lessons.json\npython3 scripts/build_lesson_pages.py     # docs/lessons/**, docs/topics/**, docs/sitemap.xml\npython3 scripts/export_okf.py             # data/okf/lessons.jsonl\n```\n\n  Skipping thi",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3332",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T13:43:55.124530+00:00"
+    },
     {
       "id": 58,
       "hash": "1495815c90d17f511b50fccba836b65fb85d35cffe8ae0fd3e7157331b768f47",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-15T23:31:34.408653+00:00"
-    },
-    {
-      "id": 50,
-      "hash": "c176619ca066fe31a07453e7970e2ab51301a26c0f9564983e4a42d1b26b7a01",
-      "title": "[Bounty] [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attest",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/Parabola-org/parabola/issues/5\n\n### 漏洞描述 / Description\n[Bounty: $125] Add AbortSignal support across transfer, completeMint, and attestation polling\n\n**Context**\nNothing in the SDK accepts an `AbortSignal`. `pollForAttestation` (`src/iris/poll.ts:133-170`), `pollTransactionStatus` (`src/chains/stellar.ts:71-86`), and `waitForAllowance`/`retryOnTransientRpcLag` (`src/chains/stellar.ts:210-294`) all run `while` loops with fixed deadlines and no external cancellation. A service shutting down, a user navigating away from the demo, or a request-scoped timeout in a web backend cannot stop an in-flight transfer. This matters most after the burn: the README and `TransferError` docs promise the caller keeps `burnTxHash` for recovery, so an abort that discards it would violate the SDK's core safety contract.\n\n**Proposed Change**\nThread an optional `signal?: AbortSignal` through `TransferOptionsBase` and `CompleteMintOptions`, honoring it in every polling/sleep loop (abortable sleep, not `setTimeout` fire-and-forget). Semantics: aborting before the burn throws a plain `AbortError` with nothing lost; aborting after the burn has been submitted throws a `TransferError` that still carries `burnTxHash` and sets `code` appropriately, so the recovery path is identical to any other post-burn failure. Fetches to Iris should pass the signal through.\n\n**Acceptance Criteria**\n\n- `transfer()` and `completeMint()` accept `options.signal` and the type surface compiles.\n- Pre-burn abort rejects without submitting anything and without requiring recovery.\n- Post-burn abort rejects with a `TransferError` whose `burnTxHash` is the real submitted hash.\n- `pollForAttestation` aborts promptly (well before `pollTimeout`) and Iris `fetch` receives the signal.\n- Tests cover pre-burn and post-burn abort with mocked chain calls.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: feature\n**B",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1911",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T23:31:34.406852+00:00"
-    },
-    {
-      "id": 49,
-      "hash": "662586e07b7e77c0c14433cb433bf5f66146a78307c2f8398e66560166a08642",
-      "title": "[Bounty] [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/Parabola-org/parabola/issues/2\n\n### 漏洞描述 / Description\n[Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no fast tier\n\n**Context**\n`fetchFastTransferFeeBps` in `src/iris/poll.ts:10-23` does `body.find((entry) => entry.finalityThreshold  查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1914",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T23:31:34.405081+00:00"
     }
   ],
-  "exported_at": "2026-10-16T08:04:00.858740+00:00"
+  "exported_at": "2026-10-16T13:43:55.883805+00:00"
 }

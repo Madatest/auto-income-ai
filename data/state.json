@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 43,
-    "total_opportunities": 47,
-    "total_deliverables": 49,
+    "total_executions": 44,
+    "total_opportunities": 53,
+    "total_deliverables": 50,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1147.0,
+    "projected_pipeline_usd": 1172.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 43,
-      "timestamp": "2026-10-16T02:59:39.059585+00:00",
+      "id": 44,
+      "timestamp": "2026-10-16T08:04:00.854807+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.32,
-      "notes": "Produit 'Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)'"
+      "duration_seconds": 2.13,
+      "notes": "Produit '🎯 Bounty-Radar'"
     },
-    "updated_at": "2026-10-16T02:59:39.062185+00:00"
+    "updated_at": "2026-10-16T08:04:00.857480+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 52,
+      "opportunity_hash": "9f22dd4d9765294aa6b4bb304f6774fd9bca20affdf4796501fe4434fb108c74",
+      "category": "bounty_solution",
+      "title": "🎯 Bounty-Radar",
+      "file_path": "site/deliverables/20261016_080400__bounty_radar.md",
+      "relative_path": "deliverables/20261016_080400__bounty_radar.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4261,
+        "extension": "md",
+        "source_url": "https://github.com/hanoi96international-gif/Test/issues/1",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **🎯 Bounty-Radar**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$,"
+      },
+      "created_at": "2026-10-16T08:04:00.200932+00:00"
+    },
     {
       "id": 51,
       "opportunity_hash": "d3541d9ba87e234f9327bfa3a0736ae799d5076cfae160b66fc2e72f01751c10",
@@ -351,46 +388,135 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-15T12:07:08.992080+00:00"
-    },
-    {
-      "id": 42,
-      "opportunity_hash": "371272953230836a6984db17be2205eac4e8ed91dc7b2c31005cdab7214b219f",
-      "category": "bounty_solution",
-      "title": "[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid",
-      "file_path": "site/deliverables/20261015_114422_bounty_bounty_30_x4_post_and_fund_a_real_task_on_v.md",
-      "relative_path": "deliverables/20261015_114422_bounty_bounty_30_x4_post_and_fund_a_real_task_on_v.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5625,
-        "extension": "md",
-        "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1892",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$30"
-      },
-      "created_at": "2026-10-15T11:44:22.940371+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 58,
+      "hash": "1495815c90d17f511b50fccba836b65fb85d35cffe8ae0fd3e7157331b768f47",
+      "title": "[launch-readiness] Rail disputes are undecidable and default to paying the claimant: a confederate dispute freezes the verdict and force-pays junk after 14d",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (PR still OPEN), measured on the real server code locally via a RoomStore harness mirroring `tests/public-work-settlement.test.js`, with the First Shift packet's exact parameters (8h leases, 1% pool fee, 3-day challenge window, 1 cr claim bond, 25% dispute bond). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nA dispute opened against a **submitted** rail bounty can never be decided, freezes the rota verdict, and force-pays the claimant after 14 days — including the challenger's bond.\n\nMechanics, all verified in simulation:\n\n1. `publicWorkSettlement.fund()` posts the escrow bounty with **no designated verifier** (`verifierId` is never passed).\n2. `bountyEscrow.disputeBounty` seats the dispute decider from `bounty.verifier`. With none designated, the dispute is marked `unavailable: \"no-designated-verifier: panel-majority voting is not in slice 1\"` and `decider: null`. `decideDispute` requires `dispute.decider === lane`, so **no lane can ever rule on a rail-bounty dispute**.\n3. While the bounty is `disputed`, the rota cannot settle it: `publicWorkReviews.decide` with `accepted` or `rejected` throws `invalid_state` (escrow `acceptWork`/`rejectWork` require state `submitted`). The packet's 48h/72h review ladder is frozen out. (`revision_requested` still succeeds — the review record moves, no money does.)\n4. Any member lane other than the claimant can open the dispute for exactly 25% of the award. There is no reputation-band gate on disputing.\n5. After `DISPUTE_TIMEOUT_MS` (14 days), the permissionless keeper (`finalizeBounty` / `closeEpoch`) settles with outcome `timeout-default` → **RELEASE**: the full award vests with the worker (swept minus the 1% fee), and the challenger's bond is paid **to the worker** as delay compensation (`bond-compensate`, `forfeitedBond: 0` on the timeout path).\n\n#",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3702",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T08:04:00.194532+00:00"
+    },
+    {
+      "id": 57,
+      "hash": "070177965ed6cee5f7c28106a3dcd58ea916dc4c0e78f31f6aa9965d500af1f3",
+      "title": "[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally through a RoomStore harness mirroring `tests/public-work-settlement.test.js`, First Shift packet parameters. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nOn settlement-rail bounties, the dispute mechanism cannot ever rule against a worker — so the 3-day challenge window provides the sponsor **no protection at all**, and using it costs the sponsor money.\n\nTwo compositions, both verified in simulation (composes with #3591's observation that `disputeBounty` never checks `challengeEndsMs`):\n\n**(i) Post-window dispute freezes an honest payout, then pays the worker a bonus.**\nHonest worker's M task (4 cr) is accepted; the 3-day challenge window closes; a griefer disputes 1 ms later — `disputeBounty` accepts it (no window check). The bounty leaves `accepted` for `disputed`, so `closeEpoch` never approves/sweeps it. Fourteen days later the timeout default RELEASEs: the worker is paid the award **plus the griefer's 1 cr bond** as \"delay compensation\" (worker ends at 104.96 cr vs 103.96 on the honest path; griefer −1 cr, −12 reputation). Any member can impose a 14-day payment delay on any settled task at will.\n\n**(ii) A sponsor dispute against a colluding accept pays the ring more.**\nRing worker's junk is accepted by a colluding rota reviewer. The sponsor (poster) disputes within the window to claw the award back. Rail bounties designate no verifier (`fund()` never passes `verifierId`), so no decider can be seated and the dispute can never be upheld; at 14 days it timeout-RELEASEs. The ring worker receives the award (3.96 cr) **plus the sponsor's own 1 cr dispute bond**. In simulation the sponsor ended at 91 cr (100 − 8 funded across two tasks − 1 bond): the protective dispute was strictly negative-EV (−1 cr and the award still paid).\n\n## Why it matters f",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3703",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T08:04:00.192622+00:00"
+    },
+    {
+      "id": 56,
+      "hash": "e6f4d8d94a189f66deb716b2547a282d22eac983b767c692af37db3346a3835b",
+      "title": "[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The packet claim\n\nFirst Shift launch packet §0/§2: *\"21 of 22 tasks sit at or under the 5-credit probation claim cap (89% of value); FS-14 (8 cr) is established-lane-only by design — and the rail enforces exactly that, because the escrow reputation probation cap applies to paid claims.\"*\n\n## What the code actually does\n\nReputation bands (`server/reputation.mjs`): `bandOf(score)` → TRUSTED ≥ 40, PROBATION cap task) on an explicit established-lane allowlist at enable/claim time; and\n- Correct the packet sentence either way: as written it asserts an enforcement that does not exist for new lanes.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3704",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T08:04:00.191077+00:00"
+    },
+    {
+      "id": 55,
+      "hash": "03fc54b5b7a74958fbd01833b9a0db95fb732682bf96d6ac87c7625e5d6d7226",
+      "title": "[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN) — the claim path is main's `server/public-work-claims.mjs` + `server/work-claims.mjs`, unchanged by the rail except for the settlement attach. Measured on the real code locally (RoomStore harness, First Shift packet parameters, 8h leases pinned per the packet). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nClaiming a public-work task costs nothing and commits nothing:\n\n- **No bond at claim time.** The 1 cr claim bond locks only at `finish` (escrow `claimBounty` inside `attachSubmission`). A claim alone moves zero credits.\n- **No concurrent-claim ceiling.** Nothing in `public-work-claims.mjs` / `work-claims.mjs` limits how many live claims one identity holds. (The only throttle is the door-level 60-actions/60s identity rate limit, which `act()` does not even enforce in-process.)\n- **Renewals are unbounded.** `renew` with `leaseHours: 8` extends indefinitely; there is no renewal count cap and no escalating cost.\n- **No consequence for squatting.** A claim that is held and renewed accrues no flake strike, no reputation signal, nothing. (A claim that *lapses* also just frees the task — `releaseExpired` — with no record on the claim path.)\n- **The packet's 48h submission deadline does not exist in code.** It is task text. The only temporal constraint on a submission is holding a live lease.\n\n## Repro / measurement (simulation)\n\nOne adversary lane claimed **all 9 tranche-1 tasks** at T0 and renewed every 7h: **99/99 renewals succeeded over 72h**, the board showed **0 claimable tasks** for the entire window (648 shelf-task-hours denied against the packet's §5 non-empty SLO: `≥95%` of hourly probes non-empty), and an honest lane's claim attempt was refused with `public_work_claim_conflict`. Total cost to the adversary: **0 credits, 0 strikes, 1.8 effort-hours of scripted renewals** — an",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3707",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T08:04:00.189080+00:00"
+    },
+    {
+      "id": 54,
+      "hash": "f9cdbdf0bce786006275de639a7dbf8671078602b89c3a76439579cc95b45dcc",
+      "title": "[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline measured in the same harness: **0.97 cr per effort-hour** (packet-faithful worker, 3 completions/rolling 7d, real-work effort model). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## Two layers to this finding\n\n**Layer 1 — the caps exist nowhere in code.** Packet §4 rotation caps: *\"no reviewer lane reviews >50% of any rolling 10 First Shift submissions; the same claimant completes ≤3 First Shift tasks per rolling 7 days; the same (claimant, reviewer) pair accounts for ≤3 acceptances per rolling 7 days.\"* Grep over the substrate confirms there is no rolling-window counter, claimant cap, or pair cap anywhere in `public-work-reviews.mjs`, `public-work-claims.mjs`, `public-work-settlement.mjs`, or the escrow. The only review gate in code is named-reviewer membership (verified: poster and non-named member decides are refused `review_forbidden`), plus self-review checks that bind *identity* — they say nothing about *common control*. The packet's other staffing rule (\"none [of the rota] controlled by the claimant's operator\") is likewise admission-time judgment only; nothing in the substrate can detect that three lanes share an operator.\n\n**Layer 2 — even enforced perfectly, the caps as written leak.** Strategy (repro): a rota seat `rev-x` (human member, `decide` permission, named in every offer's `reviewerMemberIds` — all legitimate) under common control with worker lanes submits junk and accepts it within the hour.\n\n- **Code-only world** (no monitor): the ring drained all 21 non-drill tasks (68 cr posted) for **67.32 cr net at 32.1 cr/effort-hour (~33× baseline)**. Bounded only by the shelf.\n- **Packet-caps world** (a perfect ops monitor added runn",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3708",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T08:04:00.187081+00:00"
+    },
+    {
+      "id": 53,
+      "hash": "8878e09ee50e44917369e07e31228f9cbbd728c659b8df4e37684a1c976667d1",
+      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline in the same harness: **0.97 cr per effort-hour**. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The asymmetry\n\nPacket §4's deadline ladder is the mechanism that protects workers from reviewer silence: submission → named reviewer 48h → backup reviewer → at 72h unreviewed, *the operator treats the submission as accepted for payment* and logs `review_neglect`. On the rail this is a normal `decide('accepted')` by the operator (the rail itself, correctly, settles nothing on silence — verified: a submitted rail bounty ignored for 30 days moves no money, and a verdict at day 30 still settles normally).\n\nThat makes the ladder's payout path exactly as strong as the operator's diligence, and the adversary controls the flood volume:\n\n**Passive-operator run (simulation):** two adversary lanes claim and junk-submit 6 tranche-1 tasks (FS-01/03/08 at 2 cr; FS-02/07/10 at 4 cr — 18 cr of awards); nobody reviews; at 72h the operator accepts all six per the ladder. Coalition net **+17.82 cr for 0.5 effort-hours = 35.6 cr/effort-hour (~37× the honest baseline)**; the pool collected 0.18 cr of fees on junk settlements. Note the ladder's stated remedy — two neglects remove a reviewer lane from the rota — targets *reviewer* lanes; when the *operator* is the passive party, nothing in the packet or the code bounds the bleed, and `review_neglect` itself exists only as packet text (no such event in the substrate; it would be an ops log).\n\n**Diligent-operator run (same flood, rota rejects within 24h):** the code's real defenses engage and they work: each rejection forfeits the 1 cr claim bond to the pool and records a flake strike (−10 reputation). After 3 rejections ",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3709",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-16T08:04:00.184248+00:00"
+    },
     {
       "id": 52,
       "hash": "a3b709cc13950d24d0ac74d1438d5297489c78fc543bef405acd6a8d6f5e6bf4",
@@ -474,133 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-15T23:31:34.405081+00:00"
-    },
-    {
-      "id": 48,
-      "hash": "d74959589e1acbcf6e6c100a239bb98feda11893e8e043cbb7edb741511e1612",
-      "title": "[Bounty] [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBur",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/Parabola-org/parabola/issues/3\n\n### 漏洞描述 / Description\n[Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBurn\n\n**Context**\n`pollForAttestation` in `src/iris/poll.ts:133-170` tolerates up to 5 consecutive failures before giving up — the right policy against a public API. But `getAttestation` (lines 102-122), used by `resolveBurn` in `src/transfer.ts:285-304`, calls `pollOnce` exactly once and throws `IrisRequestError` on the first failure. So `resolveBurn`, the SDK's read-only \"what did this burn commit to?\" helper, is strictly less reliable than the polling path for no documented reason. A single dropped connection makes a caller believe the burn is unresolvable.\n\n**Proposed Change**\nGive `getAttestation` the same consecutive-failure tolerance as `pollForAttestation` (extract the shared constant and a small retry helper so the policy lives in one place). `getAttestation` should still make exactly one *successful* read — it must not wait for indexing like the poll loop does; only transient failures retry.\n\n**Acceptance Criteria**\n\n- `getAttestation` retries on `IrisRequestError`-class failures up to the shared consecutive-failure limit and succeeds when a retry succeeds.\n- `getAttestation` still throws `AttestationNotReadyError` on 404 / empty messages without retrying (404 is an expected state, not a failure).\n- `pollForAttestation` behavior is unchanged and its existing tests still pass.\n- The consecutive-failure limit is defined once and referenced by both paths.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: bug\n**Bounty:** $105\n**ETA:** 48 hours\n\n### 积分币奖励 / Coin Reward\n131 coins\n\n### 真实赏金（USD）/ Real Reward\n$105\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T23:31:34.403371+00:00"
-    },
-    {
-      "id": 47,
-      "hash": "61355c415b7543c5885e0bdb43af834251b827c4ebfe09ed760ca7741b8aeab6",
-      "title": "[Bounty] [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transi",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/Parabola-org/parabola/issues/1\n\n### 漏洞描述 / Description\n[Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transient RPC errors\n\n**Context**\n`pollTransactionStatus` in `src/chains/stellar.ts:71-86` calls `server.getTransaction(hash)` inside a bare `while` loop with no error handling. A single transient RPC failure (connection reset, 5xx from the Soroban RPC) rejects the whole loop with whatever error the Stellar SDK threw — a bare error with no hash attached. This contradicts the module's own contract: the comment directly below (lines 81-85) says the hash must be surfaced via `SubmissionTimeoutError` because the transaction was already broadcast. Today that guarantee only holds for the timeout path, not the more common blip path. A caller that gets the bare error loses the only handle for recovering a possibly-landed transaction.\n\n**Proposed Change**\nWrap `getTransaction` so transient failures increment a consecutive-failure counter and retry with a short backoff, mirroring the tolerance policy already used for Iris in `src/iris/poll.ts` (`IRIS_MAX_CONSECUTIVE_FAILURES`). When the overall deadline passes — whether from repeated transient failures or simply never confirming — throw `SubmissionTimeoutError` carrying the hash. Genuinely terminal statuses (`FAILED`) keep throwing immediately.\n\n**Acceptance Criteria**\n\n- A mocked `getTransaction` that throws N-1 times transiently then returns `SUCCESS` resolves with the hash.\n- A mocked `getTransaction` that always throws rejects with `SubmissionTimeoutError` whose `.hash` equals the submitted hash.\n- `FAILED` status still rejects immediately without exhausting retries.\n- Retry count and backoff are constants with a short comment explaining the tolerance, consistent with `src/iris/poll.ts`.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: bug\n**Bounty:** $105\n**ETA:** 48 hours\n\n### ",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T23:31:34.400801+00:00"
-    },
-    {
-      "id": 46,
-      "hash": "3e8b0b57ab8f6f2b54434aee9e78337e0e97abeaf31e47df91440d9f23c26a6d",
-      "title": "[Bounty: $75] Package hygiene: sideEffects flag, export-map validation, and publint in CI",
-      "category": "microservice_gig",
-      "description": "**Context**\n`package.json` publishes a dual CJS/ESM build (`main`/`module`/`exports`) via tsup, but declares no `sideEffects` field (bundlers must assume the SDK can have side effects and keep more than necessary), and nothing validates that the published artifact's export map, `files`, and types entries are actually coherent. `pnpm build` succeeding does not catch misconfigured `exports` paths or types that don't resolve for `moduleResolution: \"node16\"` consumers — the class of bug that only surfaces after `npm publish`.\n\n**Proposed Change**\nAdd `\"sideEffects\": false` to `package.json` (verify no module-level side effects in `src/` first — the current sources are pure declarations, but confirm). Add `publint` as a devDependency with a `pnpm publint` script, and run it in CI after `pnpm build` (new step in the existing job or its own job in `.github/workflows/ci.yml`). Fix anything publint flags.\n\n**Acceptance Criteria**\n\n- `sideEffects: false` is set, justified by a clean check of module top-levels.\n- `pnpm publint` passes locally against the built `dist/`.\n- CI runs publint after build and fails on findings.\n- No changes to the runtime bundle contents beyond what the flag enables downstream.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: chore\n**Bounty:** $75\n**ETA:** 24 hours",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Parabola-org/parabola/issues/15",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T20:53:59.368712+00:00"
-    },
-    {
-      "id": 45,
-      "hash": "6417a3329041f33874e7d47feed91f3cb2d569c0ee55cf2292eb919129d1ac81",
-      "title": "[Bounty: $75] Website: accessibility and motion-preference fixes for the landing page",
-      "category": "microservice_gig",
-      "description": "**Context**\n`website/` is the project's landing page with a scripted hero animation (`website/src/hero-animation.ts`, `website/src/animations.ts`). Marketing pages built around canvas/CSS animation commonly ship without `prefers-reduced-motion` handling, keyboard-navigable CTAs, or proper document landmarks — and this page is the first impression for developers evaluating the SDK. Without seeing the rendered page the exact gaps can't be listed exhaustively, so this bounty is scoped to an audit-plus-fix pass rather than a single known bug.\n\n**Proposed Change**\nAudit the landing page against WCAG 2.1 AA basics and fix what's found: honor `prefers-reduced-motion` (static fallback for the hero animation), ensure all interactive elements are keyboard-reachable with visible focus states, verify color contrast of body text and CTAs, add meaningful `alt`/`aria` where assets are decorative, and ensure a single logical `h1` with ordered headings. Keep the visual design intact — this is not a redesign.\n\n**Acceptance Criteria**\n\n- Hero animation does not run (or runs a static variant) under `prefers-reduced-motion: reduce`, verified in dev tools.\n- Full keyboard pass: tab order reaches every control, focus is always visible.\n- Automated check (axe or Lighthouse a11y) reports no critical/serious issues on the page.\n- `pnpm --filter website build` (or the website's build command) passes.\n- A short summary of fixed issues is included in the PR description.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml` for the SDK, plus a local website build.\n\n**Suggested Label**: feature\n**Bounty:** $75\n**ETA:** 48 hours",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Parabola-org/parabola/issues/16",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T20:53:59.367156+00:00"
-    },
-    {
-      "id": 44,
-      "hash": "929873b3a7ffa1b918bb0a604413063968c3737af1c861c26c864b51734c1802",
-      "title": "[Bounty: $60] Docs: add a \"Failure modes and recovery\" guide",
-      "category": "microservice_gig",
-      "description": "**Context**\nThe README documents the happy path well, and `src/errors.ts` has excellent inline rationale — but a integrator debugging a failed mainnet transfer has to assemble the recovery story by reading source. The pieces are scattered: `TransferError.burnTxHash` (recover via `completeMint`), `AttestationNotReadyError` (retryable, burn is safe), `SubmissionTimeoutError` (hash exists, outcome unknown — check the chain before retrying), `IrisRequestError` (Circle-side outage, retry), and `resolveBurn` for inspecting a burn you didn't produce.\n\n**Proposed Change**\nAdd a `docs/` page (or a major README section, matching wherever long-form docs currently live — check `INTEGRATION.md` first and extend it if that's the right home) covering: the transfer lifecycle diagram in prose, each error class with what it means for funds and what to do next, a worked `completeMint` recovery example for both directions, and guidance on choosing `pollTimeout`. Link the new section from the README's relevant existing sections.\n\n**Acceptance Criteria**\n\n- Every error class exported from `src/index.ts` appears in the guide with meaning + recommended action.\n- At least one complete code example: catch `TransferError` → wait → `completeMint`.\n- The guide distinguishes \"funds are safe, retry\" from \"outcome unknown, inspect first\" cases explicitly.\n- Links from README/INTEGRATION.md to the new guide work.\n- Docs-only PR; `pnpm typecheck` and `pnpm test` still pass untouched.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml`.\n\n**Suggested Label**: documentation\n**Bounty:** $60\n**ETA:** 24 hours",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Parabola-org/parabola/issues/17",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T20:53:59.365644+00:00"
-    },
-    {
-      "id": 43,
-      "hash": "ba5ffaeaf25ab1bda2b3ef1ed2f604ac311a357133fbd913ea94520dd627dd7e",
-      "title": "[Bounty: $60] Harden scripts/testnet-smoke.mjs with retries, exit codes, and a step summary",
-      "category": "microservice_gig",
-      "description": "**Context**\n`scripts/testnet-smoke.mjs` is the end-to-end testnet check (`pnpm smoke`) and one of the few signals that the SDK works against live Circle Iris and real contracts. Public testnets and faucets flake constantly — transient RPC 5xx, attestation delays just over the poll window, faucet rate limits. A smoke script with no retry or step-level reporting turns every flake into a false alarm, and a script that doesn't exit non-zero on partial failure turns real breakage into a green-looking run.\n\n**Proposed Change**\nRestructure the script into named steps (fund/check, approve+burn, attestation wait, mint) with per-step retry + exponential backoff for infrastructure-shaped failures only (not for deterministic validation failures). Exit non-zero if any step ultimately fails, print a per-step pass/fail/duration summary at the end, and keep the burn hash printed prominently on post-burn failure so a human can recover the run with `completeMint`. No new dependencies — plain Node.\n\n**Acceptance Criteria**\n\n- Each step retries transient failures with backoff; deterministic failures (bad address, insufficient funds) fail immediately without retry.\n- Final summary lists every step with status and duration; process exit code reflects overall outcome.\n- Post-burn step failure prints the burn hash and the `completeMint` invocation needed to finish.\n- Script remains runnable with existing env vars from `.env.example` / README smoke instructions.\n- Verified by the `typecheck-test-build` job in `.github/workflows/ci.yml` (script correctness reviewed manually; live run optional).\n\n**Suggested Label**: chore\n**Bounty:** $60\n**ETA:** 24 hours",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Parabola-org/parabola/issues/18",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T20:53:59.364334+00:00"
     }
   ],
-  "exported_at": "2026-10-16T02:59:39.063487+00:00"
+  "exported_at": "2026-10-16T08:04:00.858740+00:00"
 }

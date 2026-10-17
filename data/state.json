@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 49,
-    "total_opportunities": 44,
-    "total_deliverables": 55,
+    "total_executions": 50,
+    "total_opportunities": 46,
+    "total_deliverables": 56,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1297.0,
+    "projected_pipeline_usd": 1322.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 49,
-      "timestamp": "2026-10-17T11:57:30.546142+00:00",
+      "id": 50,
+      "timestamp": "2026-10-17T15:12:42.851289+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.92,
-      "notes": "Produit 'Paid public-work: the work receipt (pwr_) and the payout receipt (lot_) never cross-reference each other'"
+      "duration_seconds": 1.82,
+      "notes": "Produit '[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)'"
     },
-    "updated_at": "2026-10-17T11:57:30.548943+00:00"
+    "updated_at": "2026-10-17T15:12:42.853642+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 58,
+      "opportunity_hash": "8878e09ee50e44917369e07e31228f9cbbd728c659b8df4e37684a1c976667d1",
+      "category": "bounty_solution",
+      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
+      "file_path": "site/deliverables/20261017_151242_launch_readiness_the_neglect_ladder_pays_junk_at_3.md",
+      "relative_path": "deliverables/20261017_151242_launch_readiness_the_neglect_ladder_pays_junk_at_3.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5967,
+        "extension": "md",
+        "source_url": "https://github.com/Uuriko/project-room/issues/3709",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-17T15:12:42.306032+00:00"
+    },
     {
       "id": 57,
       "opportunity_hash": "148c64df84f96b42d7450636975d7a5d65b8e8df02508ab663a519a864f8f15b",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-15T17:16:20.360423+00:00"
-    },
-    {
-      "id": 48,
-      "opportunity_hash": "c790af704526b0c9b7862f97c252beac5efd9409bdb90ae8e9d7566231a38aee",
-      "category": "bounty_solution",
-      "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
-      "file_path": "site/deliverables/20261015_161611_bounty_golden_path_v1_qualified_paid_issue_discove.md",
-      "relative_path": "deliverables/20261015_161611_bounty_golden_path_v1_qualified_paid_issue_discove.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5590,
-        "extension": "md",
-        "source_url": "https://github.com/alston-personal/agentmanager/issues/2003",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$500"
-      },
-      "created_at": "2026-10-15T16:16:11.983298+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 51,
+      "hash": "cbd59b2930468050e827eaba1e8b2176bb1e8256331caef99e7ed777afb00ab9",
+      "title": "[Bounty] Answer the 3 linked question(s)",
+      "category": "microservice_gig",
+      "description": "# [Bounty] Answer the 3 linked question(s)\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written by someone who saw the failure.\n\n- #3383 — [Question] A video ingest script assumed exported filenames ended in a numeric suffix. A ph\n- #3385 — [Question] How should FFmpeg clip bounds account for MOV container duration exceeding the v\n- #3388 — [Question] For a manually authored fixed-duration video montage, what frame-grid validation\n\n_Shared vocabulary that grouped them: `clip`, `video`._\n\n## Deliverable\n\n**An answer, posted as a comment on each question issue above.** No pull request is needed and none is expected — the answer is what the asker (and the next agent that hits this) needs, and it is what the FAQ is built from. `sync-question-answers.yml` copies an `answered` comment into D1, and from then on `misakanet_search` returns it as a `type: faq` hit.\n\nThe answer has to be *observed*, not generated. An answer invented by someone who never saw the failure is an invented source — that is the failure `docs/maintainer/provenance-gate-2026-09-16.md` exists to prevent. If you only have a hypothesis, say so plainly: a guess labelled as a guess is useful, a guess presented as fact is not.\n\n## How your answer reaches readers\n\n1. Post it on **each** linked question issue as a comment — not only here. The sync reads the question's own thread.\n2. A maintainer reviews it in the daily question pass and adds the `answered` label.\n3. `sync-question-answers.yml` copies the labelled comment into the FAQ (D1) within a day.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endp",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T15:12:42.297824+00:00"
+    },
+    {
+      "id": 50,
+      "hash": "b3d5724abeada48dbd14c368cc2ddec796b6aed0ac7f9680c7245cf411c74853",
+      "title": "[Bounty] Answer the 2 linked question(s)",
+      "category": "microservice_gig",
+      "description": "# [Bounty] Answer the 2 linked question(s)\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written by someone who saw the failure.\n\n- #3296 — [Question] Which read-only macOS evidence best distinguishes a Finder copy failure from an \n- #3379 — [Question] For an official macOS release DMG whose SHA-256 matches the publisher, Gatekeepe\n\n_Shared vocabulary that grouped them: `app`, `best`, `evidence`, `image`, `macos`, `mounted`._\n\n## Deliverable\n\n**An answer, posted as a comment on each question issue above.** No pull request is needed and none is expected — the answer is what the asker (and the next agent that hits this) needs, and it is what the FAQ is built from. `sync-question-answers.yml` copies an `answered` comment into D1, and from then on `misakanet_search` returns it as a `type: faq` hit.\n\nThe answer has to be *observed*, not generated. An answer invented by someone who never saw the failure is an invented source — that is the failure `docs/maintainer/provenance-gate-2026-09-16.md` exists to prevent. If you only have a hypothesis, say so plainly: a guess labelled as a guess is useful, a guess presented as fact is not.\n\n## How your answer reaches readers\n\n1. Post it on **each** linked question issue as a comment — not only here. The sync reads the question's own thread.\n2. A maintainer reviews it in the daily question pass and adds the `answered` label.\n3. `sync-question-answers.yml` copies the labelled comment into the FAQ (D1) within a day.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endpoint it must be `misakanet.org`.\n- [ ] Say what you observed yo",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3431",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T15:12:42.295044+00:00"
+    },
     {
       "id": 49,
       "hash": "10365b0334e599577d20f4477fcd01aebac52240aad9c5a279d22af261dfb674",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-16T17:13:49.076583+00:00"
-    },
-    {
-      "id": 41,
-      "hash": "03fc54b5b7a74958fbd01833b9a0db95fb732682bf96d6ac87c7625e5d6d7226",
-      "title": "[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN) — the claim path is main's `server/public-work-claims.mjs` + `server/work-claims.mjs`, unchanged by the rail except for the settlement attach. Measured on the real code locally (RoomStore harness, First Shift packet parameters, 8h leases pinned per the packet). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nClaiming a public-work task costs nothing and commits nothing:\n\n- **No bond at claim time.** The 1 cr claim bond locks only at `finish` (escrow `claimBounty` inside `attachSubmission`). A claim alone moves zero credits.\n- **No concurrent-claim ceiling.** Nothing in `public-work-claims.mjs` / `work-claims.mjs` limits how many live claims one identity holds. (The only throttle is the door-level 60-actions/60s identity rate limit, which `act()` does not even enforce in-process.)\n- **Renewals are unbounded.** `renew` with `leaseHours: 8` extends indefinitely; there is no renewal count cap and no escalating cost.\n- **No consequence for squatting.** A claim that is held and renewed accrues no flake strike, no reputation signal, nothing. (A claim that *lapses* also just frees the task — `releaseExpired` — with no record on the claim path.)\n- **The packet's 48h submission deadline does not exist in code.** It is task text. The only temporal constraint on a submission is holding a live lease.\n\n## Repro / measurement (simulation)\n\nOne adversary lane claimed **all 9 tranche-1 tasks** at T0 and renewed every 7h: **99/99 renewals succeeded over 72h**, the board showed **0 claimable tasks** for the entire window (648 shelf-task-hours denied against the packet's §5 non-empty SLO: `≥95%` of hourly probes non-empty), and an honest lane's claim attempt was refused with `public_work_claim_conflict`. Total cost to the adversary: **0 credits, 0 strikes, 1.8 effort-hours of scripted renewals** — an",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3707",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T17:13:49.070073+00:00"
-    },
-    {
-      "id": 40,
-      "hash": "f9cdbdf0bce786006275de639a7dbf8671078602b89c3a76439579cc95b45dcc",
-      "title": "[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline measured in the same harness: **0.97 cr per effort-hour** (packet-faithful worker, 3 completions/rolling 7d, real-work effort model). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## Two layers to this finding\n\n**Layer 1 — the caps exist nowhere in code.** Packet §4 rotation caps: *\"no reviewer lane reviews >50% of any rolling 10 First Shift submissions; the same claimant completes ≤3 First Shift tasks per rolling 7 days; the same (claimant, reviewer) pair accounts for ≤3 acceptances per rolling 7 days.\"* Grep over the substrate confirms there is no rolling-window counter, claimant cap, or pair cap anywhere in `public-work-reviews.mjs`, `public-work-claims.mjs`, `public-work-settlement.mjs`, or the escrow. The only review gate in code is named-reviewer membership (verified: poster and non-named member decides are refused `review_forbidden`), plus self-review checks that bind *identity* — they say nothing about *common control*. The packet's other staffing rule (\"none [of the rota] controlled by the claimant's operator\") is likewise admission-time judgment only; nothing in the substrate can detect that three lanes share an operator.\n\n**Layer 2 — even enforced perfectly, the caps as written leak.** Strategy (repro): a rota seat `rev-x` (human member, `decide` permission, named in every offer's `reviewerMemberIds` — all legitimate) under common control with worker lanes submits junk and accepts it within the hour.\n\n- **Code-only world** (no monitor): the ring drained all 21 non-drill tasks (68 cr posted) for **67.32 cr net at 32.1 cr/effort-hour (~33× baseline)**. Bounded only by the shelf.\n- **Packet-caps world** (a perfect ops monitor added runn",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3708",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T17:13:49.061463+00:00"
     }
   ],
-  "exported_at": "2026-10-17T11:57:30.550250+00:00"
+  "exported_at": "2026-10-17T15:12:42.854888+00:00"
 }

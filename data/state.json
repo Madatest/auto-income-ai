@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 47,
-    "total_opportunities": 40,
-    "total_deliverables": 53,
+    "total_executions": 48,
+    "total_opportunities": 42,
+    "total_deliverables": 54,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1247.0,
+    "projected_pipeline_usd": 1272.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 47,
-      "timestamp": "2026-10-17T02:51:43.851224+00:00",
+      "id": 48,
+      "timestamp": "2026-10-17T07:29:54.199118+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.5,
-      "notes": "Produit 'Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set'"
+      "duration_seconds": 1.67,
+      "notes": "Produit '[Bounty] Answer 2 linked question(s) as a lesson'"
     },
-    "updated_at": "2026-10-17T02:51:43.853337+00:00"
+    "updated_at": "2026-10-17T07:29:54.201458+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 56,
+      "opportunity_hash": "42c32fc93fb11f7747b62b2f5d675986b0cf87b8f17b6ea165eeb23d35ace720",
+      "category": "bounty_solution",
+      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
+      "file_path": "site/deliverables/20261017_072953_bounty_answer_2_linked_questions_as_a_lesson.md",
+      "relative_path": "deliverables/20261017_072953_bounty_answer_2_linked_questions_as_a_lesson.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5297,
+        "extension": "md",
+        "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3332",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Answer 2 linked question(s) as a lesson**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-17T07:29:53.654044+00:00"
+    },
     {
       "id": 55,
       "opportunity_hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-15T15:15:43.000487+00:00"
-    },
-    {
-      "id": 46,
-      "opportunity_hash": "f2e9dc5a6eae39a7589f9b6362e4b87616f953cf616220e612169991742ac334",
-      "category": "bounty_solution",
-      "title": "Implement timing-safe HMAC signature verification in webhook handler",
-      "file_path": "site/deliverables/20261015_141404_implement_timing_safe_hmac_signature_verification_.md",
-      "relative_path": "deliverables/20261015_141404_implement_timing_safe_hmac_signature_verification_.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4550,
-        "extension": "md",
-        "source_url": "https://github.com/OphirPay/OphirPay/issues/1386",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Implement timing-safe HMAC signature verification in webhook handler**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-15T14:14:04.976489+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 47,
+      "hash": "16c8bedf53f12dac0abf84f3084d42b5998d85709ad96660fbee5f6ec4a79be4",
+      "title": "Prove the race between challenging and refunding",
+      "category": "microservice_gig",
+      "description": "**What this is for**\n\n`MergitEscrowV2` says in its own header that if the funder challenges with the deadline almost up, they can refund before the verifier settles again, and that closing that race would need an arbitrator. That is a claim about the contract that nobody has ever checked.\n\nThis bounty turns the comment into a checked fact.\n\n**What done looks like**\n\n- [ ] A test that posts a bounty with a challenge window, settles it, challenges it close to the deadline, and asserts what actually happens next.\n- [ ] It documents the real behaviour, not the desired one. If the refund goes through, assert that it goes through. If it reverts, assert the revert.\n- [ ] The name and comments are in Spanish, like the rest of the file.\n- [ ] `npx hardhat test` passes in `contracts/`.\n\n**Where it goes**\n\n- `contracts/test/MergitEscrowV2.test.js`\n\n**Bounty: _being funded, the number lands here_**\n\n---\n\n**How this gets paid.** The money is locked on GIWA Sepolia, in public, before anyone starts. Put the `Bounty: #N` line in your pull request description. When it is merged with CI green, the agent pays the author's wallet by itself and comments the receipt here.\n\nSo the agent knows which wallet is yours, either put one line naming Mergit and your address in the README of your GitHub profile repository (free, nothing to sign), or register your login at https://www.mergit.xyz/register\n\nThis is a test network, so the ETH is practice money and we would rather say so. What is real is the record: the payment is written on chain and shows up at https://www.mergit.xyz/p/&lt;your login&gt;\n\n**One bounty, one payment.** The first pull request merged takes it.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/odiseo159-beep/mergit/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T07:29:53.646043+00:00"
+    },
+    {
+      "id": 46,
+      "hash": "d4f1dc8b1090482149cda41d9ce31e562286b31b1edd38c09d5eee5b2f460cf2",
+      "title": "Attack the reentrancy guard, do not just trust it",
+      "category": "microservice_gig",
+      "description": "**What this is for**\n\n`settle` and `refund` both carry `nonReentrant`. Nobody has ever pointed an attacker at them.\n\nA reentrancy guard that has not been attacked is a comment, not a defence. This bounty makes it a test.\n\n**What done looks like**\n\n- [ ] An attacker contract that, on receiving ETH, calls back into `settle` and into `refund` — on the same bounty and on a different one.\n- [ ] Tests proving the guard holds and that every balance ends where it should.\n- [ ] The attacker lives under `contracts/test/`, not next to the production contracts.\n- [ ] The name and comments are in Spanish, like the rest of the file.\n- [ ] `npx hardhat test` passes in `contracts/`.\n\n**Where it goes**\n\n- `contracts/test/MergitEscrow.test.js`\n- a helper contract under `contracts/test/`\n\n**Bounty: _being funded, the number lands here_**\n\n---\n\n**How this gets paid.** The money is locked on GIWA Sepolia, in public, before anyone starts. Put the `Bounty: #N` line in your pull request description. When it is merged with CI green, the agent pays the author's wallet by itself and comments the receipt here.\n\nSo the agent knows which wallet is yours, either put one line naming Mergit and your address in the README of your GitHub profile repository (free, nothing to sign), or register your login at https://www.mergit.xyz/register\n\nThis is a test network, so the ETH is practice money and we would rather say so. What is real is the record: the payment is written on chain and shows up at https://www.mergit.xyz/p/&lt;your login&gt;\n\n**One bounty, one payment.** The first pull request merged takes it.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/odiseo159-beep/mergit/issues/2",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T07:29:53.643284+00:00"
+    },
     {
       "id": 45,
       "hash": "070177965ed6cee5f7c28106a3dcd58ea916dc4c0e78f31f6aa9965d500af1f3",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-16T17:13:49.046640+00:00"
-    },
-    {
-      "id": 37,
-      "hash": "42c32fc93fb11f7747b62b2f5d675986b0cf87b8f17b6ea165eeb23d35ace720",
-      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
-      "category": "microservice_gig",
-      "description": "# [Bounty] Answer the 2 linked question(s) as a lesson\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written rather than looked up.\n\n- #3298 — [Question] AgentCap registry verification reports secret-safe validation failure in capabil\n- #3304 — [Question] Read-only capability registry verification fails its secret-safe gate on metadat\n\n_Shared vocabulary that grouped them: `bounded`, `capability`, `descriptions`, `fail`, `false`, `last`, `refresh`, `registry`._\n\n## Deliverable\n\nA lesson under `lessons/` that answers the question(s) above, following `docs/maintainer/lesson-fields.md` (title / domain / problem / root cause / fix, and a `## Verification` that is a checkable command with an expected result). A written answer in the issue is welcome as a first step, but the lesson is what makes it count — it is the artifact the corpus keeps and the FAQ is built from.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endpoint it must be `misakanet.org`.\n- [ ] Say what you observed yourself versus what you read somewhere. A lesson citing a source that does not exist is worse than one citing nothing (`scripts/check_provenance.py` fails on it).\n\n**1. The derived artifacts are regenerated — this is the step that fails CI most often**\n\n- [ ] Run the three commands the daily job runs, in this order, and commit what they change:\n\n```bash\npython3 scripts/update_lessons_json.py    # data/lessons.json\npython3 scripts/build_lesson_pages.py     # docs/lessons/**, docs/topics/**, docs/sitemap.xml\npython3 scripts/export_okf.py             # data/okf/lessons.jsonl\n```\n\n  Skipping thi",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3332",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T17:13:49.032195+00:00"
-    },
-    {
-      "id": 36,
-      "hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
-      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
-      "category": "microservice_gig",
-      "description": "## Problem\n\n`_get_shell_driver` fails on minimal systems (e.g. containers which have only `/bin/sh`):\n\n*   `SHELL` is not set: it warns and assumes `bash` (via `shutil.which(\"bash\")`),\n    then hits `assert shell_abs_path is not None` when `bash` is not in `PATH`.\n*   `SHELL=/bin/sh`: it raises `ValueError` (unknown shell).\n\nOnly `ShellType.shell_bash` / `ShellType.shell_zsh` (with `ShellDriverBash` / `ShellDriverZsh`) exist today.\n\nBackground and design notes: [`doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md`](https://github.com/uvsmtid/protoprimer/blob/main/doc/task_ref/TODO_74_35_76_27.shell_driver_fallback_to_sh.md)\n\n## Scope\n\n*   **Fallback:** when `SHELL` is not set, `_get_shell_driver` returns `ShellDriverSh` (using `/bin/sh`).\n    It no longer assumes `bash` (the `which(\"bash\")` lookup and its `assert` are removed).\n*   **Recognition:** when `SHELL` has the basename `sh` (e.g. `SHELL=/bin/sh`), `_get_shell_driver` returns `ShellDriverSh`.\n*   **Other unknown shells** (e.g. `/bin/fish`) still raise `ValueError`.\n*   **`ShellDriverSh` is POSIX-only:**\n    *   It must work with any `sh` implementation (`dash`, `busybox ash`, `bash` in `sh` mode, etc.).\n    *   It must not use extensions of any specific implementation (e.g. `source`, `[[ ]]`, `echo -e`, `local`, arrays, `$'...'`, `which`).\n    *   POSIX `sh` has no `--init-file`: pass the init file via the `ENV` variable (read only by interactive shells).\n*   The change is applied to the stand-alone `proto_kernel.py` copy too (keep it in sync).\n\n## Acceptance criteria\n\n1.  Unit tests (mocked) cover:\n    *   no `SHELL` returns `ShellDriverSh` (replaces `test_get_shell_driver_no_shell_env_no_bash`, which currently expects `AssertionError`);\n    *   `SHELL=/bin/sh` returns `ShellDriverSh`;\n    *   `SHELL=/bin/fish` still raises `ValueError`;\n    *   `ShellDriverSh` builds the expected command line and env (the init file is passed via `ENV`, no `--init-file`);\n    *   `bash` and `zsh` behavior has no r",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/uvsmtid/protoprimer/issues/143",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T15:15:11.005488+00:00"
     }
   ],
-  "exported_at": "2026-10-17T02:51:43.854578+00:00"
+  "exported_at": "2026-10-17T07:29:54.202663+00:00"
 }

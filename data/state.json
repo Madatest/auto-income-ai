@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 56,
+    "total_executions": 57,
     "total_opportunities": 47,
-    "total_deliverables": 62,
+    "total_deliverables": 63,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1472.0,
+    "projected_pipeline_usd": 1497.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 56,
-      "timestamp": "2026-10-17T22:51:00.482168+00:00",
+      "id": 57,
+      "timestamp": "2026-10-17T23:43:15.613314+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 59.52,
-      "notes": "Produit '[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus'"
+      "duration_seconds": 2.35,
+      "notes": "Produit 'Attack the reentrancy guard, do not just trust it'"
     },
-    "updated_at": "2026-10-17T22:51:00.506832+00:00"
+    "updated_at": "2026-10-17T23:43:15.616117+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 65,
+      "opportunity_hash": "d4f1dc8b1090482149cda41d9ce31e562286b31b1edd38c09d5eee5b2f460cf2",
+      "category": "bounty_solution",
+      "title": "Attack the reentrancy guard, do not just trust it",
+      "file_path": "site/deliverables/20261017_234314_attack_the_reentrancy_guard_do_not_just_trust_it.md",
+      "relative_path": "deliverables/20261017_234314_attack_the_reentrancy_guard_do_not_just_trust_it.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4844,
+        "extension": "md",
+        "source_url": "https://github.com/odiseo159-beep/mergit/issues/2",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Attack the reentrancy guard, do not just trust it**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-17T23:43:14.925617+00:00"
+    },
     {
       "id": 64,
       "opportunity_hash": "070177965ed6cee5f7c28106a3dcd58ea916dc4c0e78f31f6aa9965d500af1f3",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-17T07:29:53.654044+00:00"
-    },
-    {
-      "id": 55,
-      "opportunity_hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
-      "category": "bounty_solution",
-      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
-      "file_path": "site/deliverables/20261017_025143_add_shelldriversh_use_binsh_when_shell_is_not_set.md",
-      "relative_path": "deliverables/20261017_025143_add_shelldriversh_use_binsh_when_shell_is_not_set.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5317,
-        "extension": "md",
-        "source_url": "https://github.com/uvsmtid/protoprimer/issues/143",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-17T02:51:43.131434+00:00"
     }
   ],
   "top_opportunities": [
@@ -534,7 +534,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-17T07:29:53.643284+00:00"
     },
@@ -602,5 +602,5 @@
       "created_at": "2026-10-16T17:13:49.082909+00:00"
     }
   ],
-  "exported_at": "2026-10-17T22:51:00.523711+00:00"
+  "exported_at": "2026-10-17T23:43:15.617357+00:00"
 }

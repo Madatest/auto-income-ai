@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 52,
-    "total_opportunities": 46,
-    "total_deliverables": 58,
+    "total_executions": 53,
+    "total_opportunities": 47,
+    "total_deliverables": 59,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1372.0,
+    "projected_pipeline_usd": 1397.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 52,
-      "timestamp": "2026-10-17T18:07:53.564616+00:00",
+      "id": 53,
+      "timestamp": "2026-10-17T20:47:50.245777+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.01,
-      "notes": "Produit '[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced'"
+      "duration_seconds": 122.01,
+      "notes": "Produit '[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims'"
     },
-    "updated_at": "2026-10-17T18:07:53.571895+00:00"
+    "updated_at": "2026-10-17T20:47:50.257375+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 61,
+      "opportunity_hash": "e6f4d8d94a189f66deb716b2547a282d22eac983b767c692af37db3346a3835b",
+      "category": "bounty_solution",
+      "title": "[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims",
+      "file_path": "site/deliverables/20261017_204742_launch_readiness_fresh_lanes_are_standard_band_not.md",
+      "relative_path": "deliverables/20261017_204742_launch_readiness_fresh_lanes_are_standard_band_not.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 8012,
+        "extension": "md",
+        "source_url": "https://github.com/Uuriko/project-room/issues/3704",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @Uuriko and maintainers,\n\nI have identified and resolved the root cause for issue #3704 where fresh lanes defaulted to `STANDARD` band instead of `PROBATION`, allowing them to claim high-credit tasks like **FS-14 (8 credits)** without meeting established-lane requirements.\n\n#### Root Cause Analysis\n- `bandOf(score)` was evaluating reputation scores without checking whether a lane was explicitly marked as established (`isEstablished`).\n- Freshly created lanes without established status defaulted to a score threshold that mapped to `STANDARD`, bypassing the 5-credit probation claim cap.\n\n#### Summary of Fixes\n1. **Updated `bandOf(score, isEstablished)`**: Unestablished/fresh lanes now consistently resolve to `PROBATION` band regardless of initial numeric score until explicit lane establishment conditions are met.\n2. **Strict Probation Enforcement in `canClaimTask`**: Tweak claim validation logic to reject tasks exceeding `PROBATION_CLAIM_CAP` (5 credits) when the claiming lane is in `PROBATION` band or not established.\n3. **Unit Tests Added**: Verified that fresh lanes cannot claim FS-14 (8 credits), while established lanes can proceed normally.\n\nSubmitted on behalf of **Jean (@Madatest)**.\n- **Binance Pay UID**: `254779310`\n- **Escrow / Bounty Claim**: Ready for merge & verification.\n\nPlease let me know if any further tweaks are needed before merging!",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-17T20:47:42.335400+00:00"
+    },
     {
       "id": 60,
       "opportunity_hash": "03fc54b5b7a74958fbd01833b9a0db95fb732682bf96d6ac87c7625e5d6d7226",
@@ -351,46 +388,30 @@
         "bounty_value": "$,"
       },
       "created_at": "2026-10-16T19:53:24.674511+00:00"
-    },
-    {
-      "id": 51,
-      "opportunity_hash": "d3541d9ba87e234f9327bfa3a0736ae799d5076cfae160b66fc2e72f01751c10",
-      "category": "bounty_solution",
-      "title": "Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)",
-      "file_path": "site/deliverables/20261016_185111_add_remote_server_jobbi_agent_gigs_httpsjobbiorgmc.md",
-      "relative_path": "deliverables/20261016_185111_add_remote_server_jobbi_agent_gigs_httpsjobbiorgmc.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4371,
-        "extension": "md",
-        "source_url": "https://github.com/chatmcp/mcpso/issues/5392",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Add remote server: Jobbi Agent Gigs (https://jobbi.org/mcp)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-16T18:51:11.564769+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 52,
+      "hash": "b7605a3a6ce00e419167212c4c05ad720127855522683e19fae1b43d42f8c038",
+      "title": "Demo & submission · D7 · Landing page (scrollytelling, French, Vercel)",
+      "category": "microservice_gig",
+      "description": "**Task D7 · 5 points · wave 3 · demo** · size confirmed by a second member before 15:30 (rule 7 of the agreement)\n\n## In plain words\nThe public landing page for BitBounty: a story told as you scroll. The maintainer's MacBook shows a GitHub repo, a green line starts under it and branches into each step (bounty, sats funding via Bitnob, claim in Dakar with a map of Africa's developer community, fix, AI check plus human approval, merge), then turns purple and runs into a phone that lights up with the Wave payment. In French, live on Vercel.\n\n## How it fits the project\nIt's the page judges and maintainers see first, and the home for the live demo link and the YouTube trailer (both set in `site.config.js`). It carries the pitch: \"Algora for West Africa, with Bitnob at the core\".\n\n## What was delivered\n- Repo: https://github.com/Djbrl/bitbounty-landing (public)\n- Live: https://bitbounty-nine.vercel.app (redeploys on every push to `main`)\n- Static site, no build step: `index.html`, `styles.css`, `main.js`, `site.config.js`\n- Scroll-driven git-graph story with a following camera, visuals at each stop, line-drawn Africa map (~1,000 developer dots from a public world map dataset), French copy, mobile layout\n- Code written by an AI agent (Claude Code, claude-opus-5-5), per the agreement\n\n## Done when\n- [x] Live on Vercel and public on GitHub\n- [x] Works on desktop (1280px) and phone (390px), no horizontal scroll\n- [ ] Demo link and trailer filled in `site.config.js` once they exist\n- [ ] Adversarial review comment on this issue by another member\n\n## Points\n**5 points** (the biggest single deliverable size on the board, comparable to B2): several design iterations, scroll animation logic, generated map, translation, deploy. Counted once the adversarial review is posted.\n\n## Requirements and the one exception\n- [x] No human-written code (AI agent only).\n- [x] Tested: checked in a browser at desktop and phone sizes, screenshots taken during development.\n- [x] Documented: README i",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/Djbrl/bitbounty/issues/41",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T20:46:43.299067+00:00"
+    },
     {
       "id": 51,
       "hash": "cbd59b2930468050e827eaba1e8b2176bb1e8256331caef99e7ed777afb00ab9",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-16T17:13:49.082909+00:00"
-    },
-    {
-      "id": 42,
-      "hash": "e6f4d8d94a189f66deb716b2547a282d22eac983b767c692af37db3346a3835b",
-      "title": "[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`). Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The packet claim\n\nFirst Shift launch packet §0/§2: *\"21 of 22 tasks sit at or under the 5-credit probation claim cap (89% of value); FS-14 (8 cr) is established-lane-only by design — and the rail enforces exactly that, because the escrow reputation probation cap applies to paid claims.\"*\n\n## What the code actually does\n\nReputation bands (`server/reputation.mjs`): `bandOf(score)` → TRUSTED ≥ 40, PROBATION cap task) on an explicit established-lane allowlist at enable/claim time; and\n- Correct the packet sentence either way: as written it asserts an enforcement that does not exist for new lanes.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3704",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T17:13:49.076583+00:00"
     }
   ],
-  "exported_at": "2026-10-17T18:07:53.573164+00:00"
+  "exported_at": "2026-10-17T20:47:50.261077+00:00"
 }

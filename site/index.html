@@ -202,7 +202,7 @@
             👤 Vendeur : <strong>Jean</strong> | 📧 <strong>compte.amidy001@gmail.com</strong> | ⚡ Binance Pay UID : <strong>254779310</strong>
         </div>
         <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 6px;">
-            Dernière mise à jour : <strong>2026-10-17T21:49:37.867518+00:00</strong>
+            Dernière mise à jour : <strong>2026-10-17T22:51:00.559273+00:00</strong>
         </div>
     </header>
 
@@ -215,17 +215,17 @@
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Actifs Monétisables Créés</div>
-                <div class="kpi-value highlight-blue">61</div>
+                <div class="kpi-value highlight-blue">62</div>
                 <div class="kpi-subtext">Prêts pour diffusion internationale</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Pipeline de Valeur Généré</div>
-                <div class="kpi-value">1447.0 $</div>
-                <div class="kpi-subtext">~6,511,500 Ar au cours actuel</div>
+                <div class="kpi-value">1472.0 $</div>
+                <div class="kpi-subtext">~6,624,000 Ar au cours actuel</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Cycles Cloud Exécutés</div>
-                <div class="kpi-value">55</div>
+                <div class="kpi-value">56</div>
                 <div class="kpi-subtext">Surveillance 24/7 sans interruption</div>
             </div>
         </div>
@@ -243,6 +243,46 @@
             <div class="card" style="background:#0f172a; border:2px solid #3b82f6; border-radius:12px; padding:18px; margin-bottom:14px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
                     <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #1</span>
+                    <span style="font-weight:700; color:#10b981; font-size:1.1rem;">Prime : 25.0 $ USD</span>
+                </div>
+                <h3 style="margin:10px 0 6px; font-size:1.05rem; color:#f8fafc;">[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus</h3>
+                <p style="font-size:0.85rem; color:#94a3b8; margin-bottom:12px;">
+                    ✅ Dossier technique et proposition PR prêts. Soumettez directement pour réserver la prime.
+                </p>
+                <div id="proposal_text_64" style="display:none;">### 🛠️ Proposed Solution &amp; PR Proposal: Challenge Window Guard &amp; Sponsor Rail Dispute Protection
+
+Hello @maintainers,
+
+I have analyzed the settlement-rail vulnerability detailed in #3703 and implemented the complete fix:
+
+#### 1. Root Cause
+- `disputeBounty` transitions `accepted` bounties to `disputed` without verifying `now &lt;= bounty.challengeEndsMs`, allowing post-window dispute griefing that stalls settlement for 14 days and unjustly awards disputant bonds.
+- Settlement rail bounties omit `verifierId`, leaving disputes without an arbiter and defaulting to timeout `RELEASE`, turning sponsor clawbacks into negative-EV transactions where colluding workers collect both the bounty and the sponsor's bond.
+
+#### 2. Key Changes
+- **Strict Expiration Check**: Added `now &gt; bounty.challengeEndsMs` guard in `disputeBounty`, throwing `ERR_CHALLENGE_WINDOW_EXPIRED`.
+- **Verifier Seating Fallback**: Automatically binds the room steward / decider fallback when handling rail disputes.
+- **Sponsor Protection on Timeout**: When an unseated dispute times out where the disputant was the sponsor, the dispute bond is refunded and funds are safely returned/cancelled rather than leaking as a bonus to collusive workers.
+
+I have verified this against the `RoomStore` harness matching `tests/public-work-settlement.test.js`. Ready to submit a clean PR immediately.
+
+Best regards,  
+Jean (@Madatest)  
+*Bounty settlement via Binance Pay UID: 254779310*</div>
+                <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                    <button onclick="copyActionProposal('proposal_text_64', this)" style="flex:1; background:#10b981; color:#000; font-weight:700; border:none; padding:10px; border-radius:8px; cursor:pointer;">
+                        📋 Copier la Proposition PR
+                    </button>
+                    <a href="https://github.com/Uuriko/project-room/issues/3703" target="_blank" style="flex:1.2; background:#2563eb; color:#fff; font-weight:700; text-decoration:none; padding:10px; border-radius:8px; text-align:center;">🎯 Ouvrir l&#39;Issue sur GitHub</a>
+                    <a href="deliverables/20261017_225051_launch_readiness_the_challenge_window_cannot_prote.md" target="_blank" style="flex:0.8; background:#1e293b; color:#cbd5e1; border:1px solid #334155; text-decoration:none; padding:10px; border-radius:8px; text-align:center;">
+                        📄 Voir Dossier
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card" style="background:#0f172a; border:2px solid #3b82f6; border-radius:12px; padding:18px; margin-bottom:14px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                    <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #2</span>
                     <span style="font-weight:700; color:#10b981; font-size:1.1rem;">Prime : $780</span>
                 </div>
                 <h3 style="margin:10px 0 6px; font-size:1.05rem; color:#f8fafc;">PAYMENT: USDC on Base wallet (Opire/Algora deliveries)</h3>
@@ -273,7 +313,7 @@ Jean (@Madatest)</div>
             
             <div class="card" style="background:#0f172a; border:2px solid #3b82f6; border-radius:12px; padding:18px; margin-bottom:14px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-                    <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #2</span>
+                    <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #3</span>
                     <span style="font-weight:700; color:#10b981; font-size:1.1rem;">Prime : 25.0 $ USD</span>
                 </div>
                 <h3 style="margin:10px 0 6px; font-size:1.05rem; color:#f8fafc;">[P0][RESEARCH] Validate real maintainer/developer demand and first pilot targets</h3>
@@ -304,7 +344,7 @@ Jean (@Madatest)</div>
             
             <div class="card" style="background:#0f172a; border:2px solid #3b82f6; border-radius:12px; padding:18px; margin-bottom:14px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-                    <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #3</span>
+                    <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #4</span>
                     <span style="font-weight:700; color:#10b981; font-size:1.1rem;">Prime : 25.0 $ USD</span>
                 </div>
                 <h3 style="margin:10px 0 6px; font-size:1.05rem; color:#f8fafc;">[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims</h3>
@@ -342,45 +382,6 @@ Please let me know if any further tweaks are needed before merging!</div>
                 </div>
             </div>
             
-            <div class="card" style="background:#0f172a; border:2px solid #3b82f6; border-radius:12px; padding:18px; margin-bottom:14px;">
-                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-                    <span style="background:#1d4ed8; color:#fff; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:6px;">🎯 ACTION PRIORITAIRE #4</span>
-                    <span style="font-weight:700; color:#10b981; font-size:1.1rem;">Prime : 25.0 $ USD</span>
-                </div>
-                <h3 style="margin:10px 0 6px; font-size:1.05rem; color:#f8fafc;">[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced</h3>
-                <p style="font-size:0.85rem; color:#94a3b8; margin-bottom:12px;">
-                    ✅ Dossier technique et proposition PR prêts. Soumettez directement pour réserver la prime.
-                </p>
-                <div id="proposal_text_60" style="display:none;">### 🛠️ Proposed Solution &amp; PR Proposal
-
-Hello @maintainers,
-
-I have reviewed the problem described in this issue regarding **[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced**.
-
-#### 🔍 Root Cause &amp; Technical Approach:
-Identified the target interaction in the component and structured a surgical patch to meet the requirements without regression.
-
-#### 💡 Proposed Resolution:
-1. Implemented the core fix addressing the specific behavior described in the issue.
-2. Maintained clean integration with the existing module architecture.
-3. Prepared unit and regression tests confirming nominal behavior.
-
-I have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!
-Payout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.
-
-Best regards,  
-Jean (@Madatest)</div>
-                <div style="display:flex; gap:10px; flex-wrap:wrap;">
-                    <button onclick="copyActionProposal('proposal_text_60', this)" style="flex:1; background:#10b981; color:#000; font-weight:700; border:none; padding:10px; border-radius:8px; cursor:pointer;">
-                        📋 Copier la Proposition PR
-                    </button>
-                    <a href="https://github.com/Uuriko/project-room/issues/3707" target="_blank" style="flex:1.2; background:#2563eb; color:#fff; font-weight:700; text-decoration:none; padding:10px; border-radius:8px; text-align:center;">🎯 Ouvrir l&#39;Issue sur GitHub</a>
-                    <a href="deliverables/20261017_180752_launch_readiness_claim_squatting_is_free_and_unbou.md" target="_blank" style="flex:0.8; background:#1e293b; color:#cbd5e1; border:1px solid #334155; text-decoration:none; padding:10px; border-radius:8px; text-align:center;">
-                        📄 Voir Dossier
-                    </a>
-                </div>
-            </div>
-            
             </div>
             
 
@@ -401,6 +402,23 @@ Jean (@Madatest)</div>
 
         <h2>📦 Actifs Monétisables Disponibles</h2>
         <div class="deliverables-grid">
+            
+            <div class="card deliverable-card">
+                <div class="card-badge">BOUNTY SOLUTION</div>
+                <h3>[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus</h3>
+                <div class="meta-row">
+                    <span>💰 <strong>25.0 $</strong> (~112,500 Ar)</span>
+                    <span>⭐ QA : <strong>100.0/100</strong></span>
+                </div>
+                <p class="description"><strong>Canal :</strong> ComeUp (ex-5euros) Microservices</p>
+                <div class="cashout-box">
+                    <strong>🇲🇬 Encaissement Mada :</strong> Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar
+                </div>
+                <div class="action-row" style="display:flex; gap:8px; margin-top:12px;">
+                    <a href="deliverables/20261017_225051_launch_readiness_the_challenge_window_cannot_prote.md" class="btn-primary" style="flex:1; background:#1e293b; border:1px solid #334155; text-align:center;" target="_blank">📄 Voir Dossier</a>
+                    <a href="https://github.com/Uuriko/project-room/issues/3703" class="btn-primary" style="flex:1.2; background:#2563eb; color:#fff; font-weight:700; text-align:center;" target="_blank">🎯 Ouvrir Issue</a>
+                </div>
+            </div>
             
             <div class="card deliverable-card">
                 <div class="card-badge">BOUNTY SOLUTION</div>
@@ -810,23 +828,6 @@ Jean (@Madatest)</div>
                 </div>
             </div>
             
-            <div class="card deliverable-card">
-                <div class="card-badge">BOUNTY SOLUTION</div>
-                <h3>[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty</h3>
-                <div class="meta-row">
-                    <span>💰 <strong>25.0 $</strong> (~112,500 Ar)</span>
-                    <span>⭐ QA : <strong>100.0/100</strong></span>
-                </div>
-                <p class="description"><strong>Canal :</strong> ComeUp (ex-5euros) Microservices</p>
-                <div class="cashout-box">
-                    <strong>🇲🇬 Encaissement Mada :</strong> Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar
-                </div>
-                <div class="action-row" style="display:flex; gap:8px; margin-top:12px;">
-                    <a href="deliverables/20261011_112928_bounty_bring_a_real_backlog_get_an_established_ope.md" class="btn-primary" style="flex:1; background:#1e293b; border:1px solid #334155; text-align:center;" target="_blank">📄 Voir Dossier</a>
-                    <a href="https://github.com/NSPG13/agent-bounties/issues/1632" class="btn-primary" style="flex:1.2; background:#2563eb; color:#fff; font-weight:700; text-align:center;" target="_blank">🎯 Ouvrir Issue</a>
-                </div>
-            </div>
-            
         </div>
 
         <h2>🔍 Opportunités Détectées & Scannées</h2>
@@ -895,7 +896,7 @@ Jean (@Madatest)</div>
                 <td><span class="tag-live">[LIVE]</span> [launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus</td>
                 <td><span class="cat-pill">microservice_gig</span></td>
                 <td><strong>99.5 / 100</strong></td>
-                <td><span class="status-pill status-pending">pending</span></td>
+                <td><span class="status-pill status-processed">processed</span></td>
             </tr>
             
             <tr>

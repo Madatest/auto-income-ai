@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 46,
-    "total_opportunities": 39,
-    "total_deliverables": 52,
+    "total_executions": 47,
+    "total_opportunities": 40,
+    "total_deliverables": 53,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1222.0,
+    "projected_pipeline_usd": 1247.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 46,
-      "timestamp": "2026-10-16T23:14:21.851763+00:00",
+      "id": 47,
+      "timestamp": "2026-10-17T02:51:43.851224+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.35,
-      "notes": "Produit 'Add session re-authentication check on critical administrative actions'"
+      "duration_seconds": 2.5,
+      "notes": "Produit 'Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set'"
     },
-    "updated_at": "2026-10-16T23:14:21.854082+00:00"
+    "updated_at": "2026-10-17T02:51:43.853337+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 55,
+      "opportunity_hash": "f044bb2973a429d8dc44c19afeb7bd9a23033480e186228fbe3eadc25ef1f567",
+      "category": "bounty_solution",
+      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
+      "file_path": "site/deliverables/20261017_025143_add_shelldriversh_use_binsh_when_shell_is_not_set.md",
+      "relative_path": "deliverables/20261017_025143_add_shelldriversh_use_binsh_when_shell_is_not_set.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5317,
+        "extension": "md",
+        "source_url": "https://github.com/uvsmtid/protoprimer/issues/143",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-17T02:51:43.131434+00:00"
+    },
     {
       "id": 54,
       "opportunity_hash": "0c6e4039cce27ac6bf4e95df84bb3dab09c507cad2b07463fd4e9c8072bfb310",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-15T14:14:04.976489+00:00"
-    },
-    {
-      "id": 45,
-      "opportunity_hash": "0d57136ca5d6693f9ce4d671514002024128ecc09514dfd26c0fc4d98c2cbfa7",
-      "category": "bounty_solution",
-      "title": "Add session re-authentication check on critical administrative actions",
-      "file_path": "site/deliverables/20261015_141050_add_session_re_authentication_check_on_critical_ad.md",
-      "relative_path": "deliverables/20261015_141050_add_session_re_authentication_check_on_critical_ad.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 7951,
-        "extension": "md",
-        "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal: Admin Sudo Re-authentication Challenge\n\nHello @maintainers,\n\nI have resolved issue #1389 targeting branch `integration/staging`.\n\n### Key Changes\n1. **Sudo Mode Middleware (`src/lib/session-sudo.ts`)**:\n   - Enforces 15-minute validity window (`SUDO_TIMEOUT_MS = 15m`) for cryptographic verification.\n   - Generates nonced challenges (`generateSudoChallenge`) and cryptographically validates Stellar keypair signatures via `x-sudo-signature`.\n   - Returns standard `403 SUDO_REQUIRED` payload with the challenge string when step-up re-auth is needed.\n2. **Critical Endpoints Protected**:\n   - Integrated `requireSudoMode` verification within mutations on `src/app/api/fee-config/route.ts` and `src/app/api/rbac/route.ts`.\n3. **E2E Security Coverage**:\n   - Added automated tests in `e2e/admin-rbac.spec.ts` confirming the 403 challenge trigger and authorization after signature submission.\n\nReady to submit the PR against `integration/staging`.\n\nContributed by Jean (@Madatest)  \nPayment / Bounty: Binance Pay USDT UID: **254779310** (or official repo escrow / Algora).",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-15T14:10:50.950804+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 45,
+      "hash": "070177965ed6cee5f7c28106a3dcd58ea916dc4c0e78f31f6aa9965d500af1f3",
+      "title": "[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus",
+      "category": "microservice_gig",
+      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally through a RoomStore harness mirroring `tests/public-work-settlement.test.js`, First Shift packet parameters. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nOn settlement-rail bounties, the dispute mechanism cannot ever rule against a worker — so the 3-day challenge window provides the sponsor **no protection at all**, and using it costs the sponsor money.\n\nTwo compositions, both verified in simulation (composes with #3591's observation that `disputeBounty` never checks `challengeEndsMs`):\n\n**(i) Post-window dispute freezes an honest payout, then pays the worker a bonus.**\nHonest worker's M task (4 cr) is accepted; the 3-day challenge window closes; a griefer disputes 1 ms later — `disputeBounty` accepts it (no window check). The bounty leaves `accepted` for `disputed`, so `closeEpoch` never approves/sweeps it. Fourteen days later the timeout default RELEASEs: the worker is paid the award **plus the griefer's 1 cr bond** as \"delay compensation\" (worker ends at 104.96 cr vs 103.96 on the honest path; griefer −1 cr, −12 reputation). Any member can impose a 14-day payment delay on any settled task at will.\n\n**(ii) A sponsor dispute against a colluding accept pays the ring more.**\nRing worker's junk is accepted by a colluding rota reviewer. The sponsor (poster) disputes within the window to claw the award back. Rail bounties designate no verifier (`fund()` never passes `verifierId`), so no decider can be seated and the dispute can never be upheld; at 14 days it timeout-RELEASEs. The ring worker receives the award (3.96 cr) **plus the sponsor's own 1 cr dispute bond**. In simulation the sponsor ended at 91 cr (100 − 8 funded across two tasks − 1 bond): the protective dispute was strictly negative-EV (−1 cr and the award still paid).\n\n## Why it matters f",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3703",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T02:51:43.124510+00:00"
+    },
     {
       "id": 44,
       "hash": "f1cc567ab525c7b6fd029e6da003444d49697c8bf26e6ad04c772ca06d9f6ec7",
@@ -576,31 +597,10 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-15T15:15:11.005488+00:00"
-    },
-    {
-      "id": 35,
-      "hash": "0c6e4039cce27ac6bf4e95df84bb3dab09c507cad2b07463fd4e9c8072bfb310",
-      "title": "Add session re-authentication check on critical administrative actions",
-      "category": "microservice_gig",
-      "description": "**Target Branch: integration/staging**\n\n---\n\n## Description\n\nSensitive actions such as updating fee configuration (`src/app/api/fee-config/route.ts`), rotating organization master keys, or modifying RBAC role assignments rely solely on existing session cookies. If a user's browser is temporarily unattended, an attacker could perform high-impact admin mutations without wallet signature re-verification.\n\n## Proposed Solution\n\n1. Implement a \"sudo mode\" challenge middleware in `src/lib/session-sudo.ts`.\n2. Require a fresh wallet challenge signature if the active session's last cryptographic verification was older than 15 minutes.\n3. Return HTTP 403 `SUDO_REQUIRED` with a challenge payload when re-authentication is required.\n4. Add frontend modal prompting quick Freighter re-signing before continuing.\n\n## Acceptance Criteria\n\n- [ ] Critical admin operations require cryptographic wallet signature if session verification is older than 15m\n- [ ] Non-critical read and standard operations proceed without interruption\n- [ ] E2E security test in `e2e/admin-rbac.spec.ts` verifies re-auth enforcement\n\n## Files to Modify\n- src/lib/session-sudo.ts\n- src/app/api/fee-config/route.ts\n- src/app/api/rbac/route.ts\n- e2e/admin-rbac.spec.ts\n\n---\n\n**Target Branch: integration/staging**",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
       "status": "processed",
       "is_simulated": 0,
-      "created_at": "2026-10-15T14:12:42.677580+00:00"
+      "created_at": "2026-10-15T15:15:11.005488+00:00"
     }
   ],
-  "exported_at": "2026-10-16T23:14:21.855346+00:00"
+  "exported_at": "2026-10-17T02:51:43.854578+00:00"
 }

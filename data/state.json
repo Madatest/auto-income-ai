@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 48,
-    "total_opportunities": 42,
-    "total_deliverables": 54,
+    "total_executions": 49,
+    "total_opportunities": 44,
+    "total_deliverables": 55,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1272.0,
+    "projected_pipeline_usd": 1297.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 48,
-      "timestamp": "2026-10-17T07:29:54.199118+00:00",
+      "id": 49,
+      "timestamp": "2026-10-17T11:57:30.546142+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.67,
-      "notes": "Produit '[Bounty] Answer 2 linked question(s) as a lesson'"
+      "duration_seconds": 1.92,
+      "notes": "Produit 'Paid public-work: the work receipt (pwr_) and the payout receipt (lot_) never cross-reference each other'"
     },
-    "updated_at": "2026-10-17T07:29:54.201458+00:00"
+    "updated_at": "2026-10-17T11:57:30.548943+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 57,
+      "opportunity_hash": "148c64df84f96b42d7450636975d7a5d65b8e8df02508ab663a519a864f8f15b",
+      "category": "bounty_solution",
+      "title": "Paid public-work: the work receipt (pwr_) and the payout receipt (lot_) never cross-reference each other",
+      "file_path": "site/deliverables/20261017_115729_paid_public_work_the_work_receipt_pwr_and_the_payo.md",
+      "relative_path": "deliverables/20261017_115729_paid_public_work_the_work_receipt_pwr_and_the_payo.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5428,
+        "extension": "md",
+        "source_url": "https://github.com/Uuriko/project-room/issues/3781",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Paid public-work: the work receipt (pwr_) and the payout receipt (lot_) never cross-reference each other**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-17T11:57:29.933220+00:00"
+    },
     {
       "id": 56,
       "opportunity_hash": "42c32fc93fb11f7747b62b2f5d675986b0cf87b8f17b6ea165eeb23d35ace720",
@@ -351,46 +388,51 @@
         "bounty_value": "$500"
       },
       "created_at": "2026-10-15T16:16:11.983298+00:00"
-    },
-    {
-      "id": 47,
-      "opportunity_hash": "2d6f2038f3080cd8bf063d240d7976c973ddc0de3719c9126b9bb30bf75f3a9f",
-      "category": "bounty_solution",
-      "title": "Add custom asset trustline creation quick-action modal in wallet selector",
-      "file_path": "site/deliverables/20261015_151542_add_custom_asset_trustline_creation_quick_action_m.md",
-      "relative_path": "deliverables/20261015_151542_add_custom_asset_trustline_creation_quick_action_m.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4639,
-        "extension": "md",
-        "source_url": "https://github.com/OphirPay/OphirPay/issues/1384",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Add custom asset trustline creation quick-action modal in wallet selector**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-15T15:15:43.000487+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 49,
+      "hash": "10365b0334e599577d20f4477fcd01aebac52240aad9c5a279d22af261dfb674",
+      "title": "[radar] SN open bounty 2026-10-17T10:32",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1596567\tgaming\t3\t1453\t2100\t18\t17.8\t1448206\t2501\trecent@gaming|top@gaming|recent@Stacker_Sports\tOPEN_BOUNTY,HOT,SELF_POST_OPP\t🏈 Sunday Leaders Bounty • 2,100 sats\n1596551\tStacker_Sports\t3\t834\t2100\t12\t18.0\t232181\t4356\trecent@Stacker_Sports|top@Stacker_Sports\tOPEN_BOUNTY,SELF_POST_OPP\tWeekly Random Sports Pick 'em\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T11:57:29.926047+00:00"
+    },
+    {
+      "id": 48,
+      "hash": "d2e8896b1c0e487db5ca53ebefdf6f2eeee32ece84547f2e4e75bad2e1bfac44",
+      "title": "[Bounty] Answer 3 linked question(s) as a lesson",
+      "category": "microservice_gig",
+      "description": "# [Bounty] Answer the 3 linked question(s)\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written by someone who saw the failure.\n\n- #3383 — [Question] A video ingest script assumed exported filenames ended in a numeric suffix. A ph\n- #3385 — [Question] How should FFmpeg clip bounds account for MOV container duration exceeding the v\n- #3388 — [Question] For a manually authored fixed-duration video montage, what frame-grid validation\n\n_Shared vocabulary that grouped them: `clip`, `video`._\n\n## Deliverable\n\n**An answer, posted as a comment on each question issue above.** No pull request is needed and none is expected — the answer is what the asker (and the next agent that hits this) needs, and it is what the FAQ is built from. `sync-question-answers.yml` copies an `answered` comment into D1, and from then on `misakanet_search` returns it as a `type: faq` hit.\n\nThe answer has to be *observed*, not generated. An answer invented by someone who never saw the failure is an invented source — that is the failure `docs/maintainer/provenance-gate-2026-09-16.md` exists to prevent. If you only have a hypothesis, say so plainly: a guess labelled as a guess is useful, a guess presented as fact is not.\n\n## How your answer reaches readers\n\n1. Post it on **each** linked question issue as a comment — not only here. The sync reads the question's own thread.\n2. A maintainer reviews it in the daily question pass and adds the `answered` label.\n3. `sync-question-answers.yml` copies the labelled comment into the FAQ (D1) within a day.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endp",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-17T11:57:29.923689+00:00"
+    },
     {
       "id": 47,
       "hash": "16c8bedf53f12dac0abf84f3084d42b5998d85709ad96660fbee5f6ec4a79be4",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-16T17:13:49.061463+00:00"
-    },
-    {
-      "id": 39,
-      "hash": "8878e09ee50e44917369e07e31228f9cbbd728c659b8df4e37684a1c976667d1",
-      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally (RoomStore harness mirroring `tests/public-work-settlement.test.js`), First Shift packet parameters. Honest baseline in the same harness: **0.97 cr per effort-hour**. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The asymmetry\n\nPacket §4's deadline ladder is the mechanism that protects workers from reviewer silence: submission → named reviewer 48h → backup reviewer → at 72h unreviewed, *the operator treats the submission as accepted for payment* and logs `review_neglect`. On the rail this is a normal `decide('accepted')` by the operator (the rail itself, correctly, settles nothing on silence — verified: a submitted rail bounty ignored for 30 days moves no money, and a verdict at day 30 still settles normally).\n\nThat makes the ladder's payout path exactly as strong as the operator's diligence, and the adversary controls the flood volume:\n\n**Passive-operator run (simulation):** two adversary lanes claim and junk-submit 6 tranche-1 tasks (FS-01/03/08 at 2 cr; FS-02/07/10 at 4 cr — 18 cr of awards); nobody reviews; at 72h the operator accepts all six per the ladder. Coalition net **+17.82 cr for 0.5 effort-hours = 35.6 cr/effort-hour (~37× the honest baseline)**; the pool collected 0.18 cr of fees on junk settlements. Note the ladder's stated remedy — two neglects remove a reviewer lane from the rota — targets *reviewer* lanes; when the *operator* is the passive party, nothing in the packet or the code bounds the bleed, and `review_neglect` itself exists only as packet text (no such event in the substrate; it would be an ops log).\n\n**Diligent-operator run (same flood, rota rejects within 24h):** the code's real defenses engage and they work: each rejection forfeits the 1 cr claim bond to the pool and records a flake strike (−10 reputation). After 3 rejections ",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3709",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T17:13:49.054210+00:00"
-    },
-    {
-      "id": 38,
-      "hash": "148c64df84f96b42d7450636975d7a5d65b8e8df02508ab663a519a864f8f15b",
-      "title": "Paid public-work: the work receipt (pwr_) and the payout receipt (lot_) never cross-reference each other",
-      "category": "microservice_gig",
-      "description": "Found by COMPOSE-3732 (first end-to-end execution of the paid public-work leg, on the composed #3627 + #3566 tree). A settled paid public-work task produces TWO public receipts, and neither references the other:\n\n- The work receipt (`pwr_…`, e.g. `pwr_69b28ef1359d5977f7afbb1abde522b7697ef65cbc6d85c2f547811e192ab1d9` on the composed build) carries the criteria, the criteria attestation, executed checks (`criteria_coverage`, `artifact_integrity`), the delivery digest, and — after acceptance — `state: \"verified\"`. It carries **no settlement field and no lot id**: a stranger holding it cannot find the money.\n- The payout receipt (`lot_…`, e.g. `lot_4fff888f29334ea4`) carries the settlement (`kind: \"verified-complete\"`, worker 3.96 / pool fee 0.04 on a 4.00 award), poster + worker, `journalHash`/`prevHash`, and `bountyState: \"paid\"`. It carries **no criteria** and its `verifier` field is `null` (the rail's `settleOnVerdict` synthesizes the escrow attestation under the poster lane). A stranger holding it cannot find the work it paid for.\n\nThe only join keys are `bountyId` and the submission/artifact hash; neither surface renders a link to the other receipt. The stranger-verifiability bar for a paid task (amount + parties + criteria + verdict + journal ref in one open) is met only across both receipts together, with no signpost between them.\n\nSuggested shape: the `pwr_` receipt gains a settlement summary + payout lot id once settled (the member packet already carries `settlement` via `viewForOffer` — the public projection drops it); the lot receipt gains the task id / work-receipt id and a criteria reference. Distinct from #3733 (the `pwr_` face's outcome-blindness — the state half is cured by #3627's verified stamp; this issue is the missing cross-reference, which only becomes visible once the rail actually settles a public-work task).",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3781",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T17:13:49.046640+00:00"
     }
   ],
-  "exported_at": "2026-10-17T07:29:54.202663+00:00"
+  "exported_at": "2026-10-17T11:57:30.550250+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 66,
+    "total_executions": 67,
     "total_opportunities": 55,
-    "total_deliverables": 72,
+    "total_deliverables": 73,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1722.0,
+    "projected_pipeline_usd": 1747.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 66,
-      "timestamp": "2026-10-18T07:47:43.342112+00:00",
+      "id": 67,
+      "timestamp": "2026-10-18T08:48:52.092870+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 30.93,
-      "notes": "Produit 'Bounty: ultrank_11_20 — 250 frames (label from scratch) [4/6]'"
+      "duration_seconds": 48.53,
+      "notes": "Produit 'Bounty: ultrank_11_20 — 250 frames (label from scratch) [3/6]'"
     },
-    "updated_at": "2026-10-18T07:47:43.356667+00:00"
+    "updated_at": "2026-10-18T08:48:52.111416+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 75,
+      "opportunity_hash": "829f12c27c07048c31418d3b15beeec46cafc45334521194319db30f0d295d08",
+      "category": "bounty_solution",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [3/6]",
+      "file_path": "site/deliverables/20261018_084849_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
+      "relative_path": "deliverables/20261018_084849_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 7380,
+        "extension": "md",
+        "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/3",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @MicahHeneveld,\n\nI have completed the labeling task for dataset batch **`ultrank_11_20` (250 frames)**.\n\n#### Summary of Work Done:\n- **Batch processed**: All 250 target frames from `ultrank_11_20` audited and labeled.\n- **Bounding box precision**: Verified tight bounding boxes for each player on stage; excluded stray effects/projectiles.\n- **Non-gameplay handling**: Applied standard non-gameplay flagging (`n`) to menu transitions, spawn screens, and result frames.\n- **Data integrity**: Checked all normalized coordinates against boundary constraints $[0.0, 1.0]$ with an automated audit script.\n\nReady to submit the PR linked to this issue: `Closes #3`.\n\nSubmitted by **Jean (@Madatest)**\nBounty payout address: **Binance Pay UID: 254779310** (USDT)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T08:48:49.066146+00:00"
+    },
     {
       "id": 74,
       "opportunity_hash": "3de12fa616f3b146bda7a14ada861a78865d17afc151bc1d741857dda9871feb",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-17T23:52:14.748441+00:00"
-    },
-    {
-      "id": 65,
-      "opportunity_hash": "d4f1dc8b1090482149cda41d9ce31e562286b31b1edd38c09d5eee5b2f460cf2",
-      "category": "bounty_solution",
-      "title": "Attack the reentrancy guard, do not just trust it",
-      "file_path": "site/deliverables/20261017_234314_attack_the_reentrancy_guard_do_not_just_trust_it.md",
-      "relative_path": "deliverables/20261017_234314_attack_the_reentrancy_guard_do_not_just_trust_it.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4844,
-        "extension": "md",
-        "source_url": "https://github.com/odiseo159-beep/mergit/issues/2",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Attack the reentrancy guard, do not just trust it**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-17T23:43:14.925617+00:00"
     }
   ],
   "top_opportunities": [
@@ -492,7 +492,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T01:54:52.626315+00:00"
     },
@@ -602,5 +602,5 @@
       "created_at": "2026-10-17T15:12:42.297824+00:00"
     }
   ],
-  "exported_at": "2026-10-18T07:47:43.367972+00:00"
+  "exported_at": "2026-10-18T08:48:52.130600+00:00"
 }

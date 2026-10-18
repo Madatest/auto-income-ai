@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 72,
+    "total_executions": 73,
     "total_opportunities": 57,
-    "total_deliverables": 78,
+    "total_deliverables": 79,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1872.0,
+    "projected_pipeline_usd": 1897.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 72,
-      "timestamp": "2026-10-18T12:25:23.641557+00:00",
+      "id": 73,
+      "timestamp": "2026-10-18T12:38:38.762588+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.9,
-      "notes": "Produit 'Fix calc.py: average() wrong for normal lists and clamp() returns low for out-of-range high'"
+      "duration_seconds": 33.34,
+      "notes": "Produit 'Add rate limiting to /api/v1/artifacts endpoint'"
     },
-    "updated_at": "2026-10-18T12:25:23.643797+00:00"
+    "updated_at": "2026-10-18T12:38:38.794138+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 81,
+      "opportunity_hash": "3a346a21760bb373716ca99191f0dfcb157c4400604de573f600d20531ba1dc1",
+      "category": "bounty_solution",
+      "title": "Add rate limiting to /api/v1/artifacts endpoint",
+      "file_path": "site/deliverables/20261018_123831_add_rate_limiting_to_apiv1artifacts_endpoint.md",
+      "relative_path": "deliverables/20261018_123831_add_rate_limiting_to_apiv1artifacts_endpoint.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 7336,
+        "extension": "md",
+        "source_url": "https://github.com/mozzimorzam-sudo/project100-mcp/issues/7",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have implemented the requested rate limiting mechanism for the `/api/v1/artifacts` endpoint in `functions/api/v1/_artifacts.js`.\n\n### Key Highlights:\n1. **Sliding Window Rate Limiter**: Restricts submissions to 10 requests per minute per agent (keyed by `x-agent-id` header with fallback to `cf-connecting-ip`).\n2. **HTTP 429 & Retry-After Compliance**: When the threshold is reached, returns a `429 Too Many Requests` status along with standard `Retry-After`, `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` headers.\n3. **Documented Response Payload**: Returns explicit metadata (`limit`, `retryAfter`, and friendly error message) in the JSON payload when exceeded.\n\nBranch: `fix/rate-limit-artifacts`  \nReady to open the PR with the `good first issue` label.\n\nBest regards,  \nJean (@Madatest)  \n*Payment/Bounty Settlement (if applicable): Binance Pay UID 254779310*",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T12:38:31.674739+00:00"
+    },
     {
       "id": 80,
       "opportunity_hash": "163cd39a11c565d1cc6460e7c937e43c65eb9c74e8df35cc1dadded9cf244319",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T07:22:24.818773+00:00"
-    },
-    {
-      "id": 71,
-      "opportunity_hash": "b7605a3a6ce00e419167212c4c05ad720127855522683e19fae1b43d42f8c038",
-      "category": "bounty_solution",
-      "title": "Demo & submission · D7 · Landing page (scrollytelling, French, Vercel)",
-      "file_path": "site/deliverables/20261018_035912_demo_submission_d7_landing_page_scrollytelling_fre.md",
-      "relative_path": "deliverables/20261018_035912_demo_submission_d7_landing_page_scrollytelling_fre.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5302,
-        "extension": "md",
-        "source_url": "https://github.com/Djbrl/bitbounty/issues/41",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Demo & submission · D7 · Landing page (scrollytelling, French, Vercel)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-18T03:59:12.150985+00:00"
     }
   ],
   "top_opportunities": [
@@ -408,7 +408,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T10:11:40.989785+00:00"
     },
@@ -602,5 +602,5 @@
       "created_at": "2026-10-18T01:54:52.593074+00:00"
     }
   ],
-  "exported_at": "2026-10-18T12:25:23.645070+00:00"
+  "exported_at": "2026-10-18T12:38:38.810362+00:00"
 }

@@ -1,0 +1,115 @@
+{
+  "total_earnings_usd": 0.01,
+  "total_tasks_completed": 2,
+  "total_tasks_failed": 3,
+  "blacklist_404": [
+    "PortalForge",
+    "undress-design",
+    "chordswallowthrust",
+    "DEX-zha"
+  ],
+  "platform_stats": {
+    "instagram": {
+      "completed": 0,
+      "failed": 0,
+      "earned_usd": 0.0
+    },
+    "github": {
+      "completed": 0,
+      "failed": 0,
+      "earned_usd": 0.0
+    },
+    "tiktok": {
+      "completed": 0,
+      "failed": 0,
+      "earned_usd": 0.0
+    },
+    "other": {
+      "completed": 2,
+      "failed": 3,
+      "earned_usd": 0.01
+    }
+  },
+  "sessions": [
+    {
+      "session_id": "PR_20261018_161139",
+      "timestamp": "2026-10-18T16:12:11.310857+00:00",
+      "duration_seconds": 31.6,
+      "tasks_target": 3,
+      "tasks_completed": 0,
+      "start_balance": 0.078,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_162350",
+      "timestamp": "2026-10-18T16:23:56.670735+00:00",
+      "duration_seconds": 6.1,
+      "tasks_target": 1,
+      "tasks_completed": 1,
+      "start_balance": 0.083,
+      "end_balance": 0.083,
+      "estimated_gain_usd": 0.004
+    },
+    {
+      "session_id": "PR_20261018_162405",
+      "timestamp": "2026-10-18T16:24:47.713985+00:00",
+      "duration_seconds": 41.9,
+      "tasks_target": 1,
+      "tasks_completed": 0,
+      "start_balance": 0.083,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_162536",
+      "timestamp": "2026-10-18T16:25:54.289097+00:00",
+      "duration_seconds": 17.7,
+      "tasks_target": 2,
+      "tasks_completed": 0,
+      "start_balance": null,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_162715",
+      "timestamp": "2026-10-18T16:27:24.464640+00:00",
+      "duration_seconds": 8.4,
+      "tasks_target": 1,
+      "tasks_completed": 1,
+      "start_balance": 0.088,
+      "end_balance": 0.088,
+      "estimated_gain_usd": 0.004
+    },
+    {
+      "session_id": "PR_20261018_162740",
+      "timestamp": "2026-10-18T16:28:33.168588+00:00",
+      "duration_seconds": 52.8,
+      "tasks_target": 3,
+      "tasks_completed": 0,
+      "start_balance": 0.088,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_163052",
+      "timestamp": "2026-10-18T16:31:00.145245+00:00",
+      "duration_seconds": 7.6,
+      "tasks_target": 1,
+      "tasks_completed": 1,
+      "start_balance": 0.093,
+      "end_balance": 0.093,
+      "estimated_gain_usd": 0.004
+    },
+    {
+      "session_id": "PR_20261018_163110",
+      "timestamp": "2026-10-18T16:32:23.956761+00:00",
+      "duration_seconds": 73.7,
+      "tasks_target": 2,
+      "tasks_completed": 2,
+      "start_balance": 0.093,
+      "end_balance": 0.097,
+      "estimated_gain_usd": 0.008
+    }
+  ]
+}

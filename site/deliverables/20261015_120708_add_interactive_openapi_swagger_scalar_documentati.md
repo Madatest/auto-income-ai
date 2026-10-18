@@ -88,14 +88,14 @@ export default function ApiDocsPage() {
   return (
     <main className="w-full min-h-screen bg-background">
       <ApiReference
-        configuration={{
+        configuration={ {
           spec: {
             url: '/api/openapi.json',
           },
           theme: 'purple',
           darkMode: true,
           showSidebar: true,
-        }}
+        } }
       />
     </main>
   );

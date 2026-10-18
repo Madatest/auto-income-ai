@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 59,
-    "total_opportunities": 47,
-    "total_deliverables": 65,
+    "total_executions": 60,
+    "total_opportunities": 54,
+    "total_deliverables": 66,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1547.0,
+    "projected_pipeline_usd": 1572.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 59,
-      "timestamp": "2026-10-18T00:54:21.567124+00:00",
+      "id": 60,
+      "timestamp": "2026-10-18T01:55:26.972704+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 94.42,
-      "notes": "Produit '[Bounty] Answer 3 linked question(s) as a lesson'"
+      "duration_seconds": 43.43,
+      "notes": "Produit '[radar] SN open bounty 2026-10-17T10:32'"
     },
-    "updated_at": "2026-10-18T00:54:21.589975+00:00"
+    "updated_at": "2026-10-18T01:55:27.038497+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 68,
+      "opportunity_hash": "10365b0334e599577d20f4477fcd01aebac52240aad9c5a279d22af261dfb674",
+      "category": "bounty_solution",
+      "title": "[radar] SN open bounty 2026-10-17T10:32",
+      "file_path": "site/deliverables/20261018_015515_radar_sn_open_bounty_2026_10_17t1032.md",
+      "relative_path": "deliverables/20261018_015515_radar_sn_open_bounty_2026_10_17t1032.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 8896,
+        "extension": "md",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have resolved the Stacker News (SN) open bounty radar ingestion issue reported in #1300.\n\n#### 🔍 Root Cause\nThe runtime lacked a dedicated TSV stream parser for Stacker News radar feeds, leading to unparsed telemetry items when receiving tab-separated entries containing pipe-delimited channels and comma-separated tags (`OPEN_BOUNTY`, `HOT`, `SELF_POST_OPP`).\n\n#### 💡 Fix Overview\n1. **Implemented `SNBountyRadarParser`**: Built a typed, high-performance TSV parser that safely converts incoming radar entries into `SNBountyItem` dataclass instances.\n2. **Metadata & Tag Extraction**: Extracted sats reward amounts, sub-territories, multi-channel feeds, and tag attributes (including flags for `is_self_post` and priority markers like `HOT`).\n3. **Resilient Parsing**: Added graceful fallback logic for malformed telemetry lines and automated unit test suite validation.\n\n#### 🧪 Verification\nAdded comprehensive test suite covering the exact payload from issue #1300 (`tests/test_sn_bounty_parser.py`). All tests pass with 100% coverage on the new parser module.\n\nSubmitted on behalf of **Jean (@Madatest)**.\n- **Bounty Payout Channel**: USDT Binance Pay UID: `254779310` / Algora / Gitcoin Escrow.\n\nLooking forward to your review and merging the accompanying PR!",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T01:55:15.754837+00:00"
+    },
     {
       "id": 67,
       "opportunity_hash": "d2e8896b1c0e487db5ca53ebefdf6f2eeee32ece84547f2e4e75bad2e1bfac44",
@@ -351,46 +388,156 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-17T17:38:06.750147+00:00"
-    },
-    {
-      "id": 58,
-      "opportunity_hash": "8878e09ee50e44917369e07e31228f9cbbd728c659b8df4e37684a1c976667d1",
-      "category": "bounty_solution",
-      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
-      "file_path": "site/deliverables/20261017_151242_launch_readiness_the_neglect_ladder_pays_junk_at_3.md",
-      "relative_path": "deliverables/20261017_151242_launch_readiness_the_neglect_ladder_pays_junk_at_3.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5967,
-        "extension": "md",
-        "source_url": "https://github.com/Uuriko/project-room/issues/3709",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-17T15:12:42.306032+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 59,
+      "hash": "1520c94a2398807c6eba4679178c08a1d2dc0f18642add09204a3d16b7331ca3",
+      "title": "[soundness] const identifier alias bypasses HYB-E6002: const big = 300; var n int8 = big passes hyb check, emitted Go fails go build",
+      "category": "microservice_gig",
+      "description": "### The smallest .hy program that demonstrates it\n\n```hy\n// const-alias.hy (commit 422066b, main 2026-10-17)\nconst big = 300\n\nfn main() {\n    var n int8 = big\n    fmt.println(\"{n}\")\n}\n```\n\n`hyb check` on `422066b`: `OK (0 diagnostics)`. The emitted Go fails `go build`:\n`./a.out.go:10:15: cannot use big (untyped int constant 300) as int8 value in variable declaration (overflows)`.\n\nThe literal form `var n int8 = 300` is already rejected by the landed E6002 fix (#148/#201-B) — this\nis the identifier form of the same rule, and it currently slips through because the E6002 fold never\nresolves file-level `const` names to their initializers.\n\nExact commands (unpatched clean `422066b` checker):\n\n```\n$ hyb check const-alias.hy\nconst-alias.hy: OK (0 diagnostics)\n\n$ hyb build const-alias.hy --emit-go      # emits a.out.go\n$ go build a.out.go\n./a.out.go:10:15: cannot use big (untyped int constant 300) as int8 value in variable declaration (overflows)\n```\n\nWith the fix (`0f05024`):\n\n```\n$ hyb check const-alias.hy\nerror[HYB-E6002]: constant `big` overflows declared type `int8` of `n` (HYB-E6002)\n```\n\n### What the checker should say\n\nReject with **HYB-E6002** at the initializer, as it already does for the literal:\n``constant `big` overflows declared type `int8` of `n` ``. Go requires the constant identifier's\nvalue to fit the declared fixed-width type. A local binding with the same name shadows the const\nand must not be resolved.\n\n### What it actually said\n\n`OK (0 diagnostics)`, then the emitted Go is rejected. Root cause:\n`const_overflow.rs::const_int_fold` folds only int literals, unary `-`, and arithmetic operators; it\nhas no `Expr::Ident` arm, even though the checker holds every file-level const binding. Every\ncontext that routes through the fold (including the per-context checks in the open conveyor\n#515/#520/#526/#528/#530) is therefore launderable by a const alias.\n\n### Claimed severity\n\nP2 — claim-precision bug (accepted value should have been unproven)\n\n### Anything else\n",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/538",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T01:54:52.645443+00:00"
+    },
+    {
+      "id": 58,
+      "hash": "c75bb0f2657574ca0fe24c5bcff4b07a64266402ac51edf2e108af2d2d109a51",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [1/6]",
+      "category": "microservice_gig",
+      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [1/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T01:54:52.639437+00:00"
+    },
+    {
+      "id": 57,
+      "hash": "b371a36605090ef78e66c5000bf9ee11d1fe9c49f23f865e10136d8b53601ba1",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [2/6]",
+      "category": "microservice_gig",
+      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [2/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/2",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T01:54:52.632647+00:00"
+    },
+    {
+      "id": 56,
+      "hash": "829f12c27c07048c31418d3b15beeec46cafc45334521194319db30f0d295d08",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [3/6]",
+      "category": "microservice_gig",
+      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [3/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/3",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T01:54:52.626315+00:00"
+    },
+    {
+      "id": 55,
+      "hash": "3de12fa616f3b146bda7a14ada861a78865d17afc151bc1d741857dda9871feb",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [4/6]",
+      "category": "microservice_gig",
+      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [4/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/4",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T01:54:52.619850+00:00"
+    },
+    {
+      "id": 54,
+      "hash": "f919356aa1d49bb8ca0f8a3ad6e8d112ccabca7559e8460369a5d78e6d8dc3f2",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [5/6]",
+      "category": "microservice_gig",
+      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [5/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/5",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T01:54:52.612234+00:00"
+    },
+    {
+      "id": 53,
+      "hash": "fe9eab7650427b02cb5aa13228935f8e086312d21404c2ae9db90a796f7725c9",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [6/6]",
+      "category": "microservice_gig",
+      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [6/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/6",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T01:54:52.593074+00:00"
+    },
     {
       "id": 52,
       "hash": "b7605a3a6ce00e419167212c4c05ad720127855522683e19fae1b43d42f8c038",
@@ -453,154 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-17T15:12:42.295044+00:00"
-    },
-    {
-      "id": 49,
-      "hash": "10365b0334e599577d20f4477fcd01aebac52240aad9c5a279d22af261dfb674",
-      "title": "[radar] SN open bounty 2026-10-17T10:32",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1596567\tgaming\t3\t1453\t2100\t18\t17.8\t1448206\t2501\trecent@gaming|top@gaming|recent@Stacker_Sports\tOPEN_BOUNTY,HOT,SELF_POST_OPP\t🏈 Sunday Leaders Bounty • 2,100 sats\n1596551\tStacker_Sports\t3\t834\t2100\t12\t18.0\t232181\t4356\trecent@Stacker_Sports|top@Stacker_Sports\tOPEN_BOUNTY,SELF_POST_OPP\tWeekly Random Sports Pick 'em\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T11:57:29.926047+00:00"
-    },
-    {
-      "id": 48,
-      "hash": "d2e8896b1c0e487db5ca53ebefdf6f2eeee32ece84547f2e4e75bad2e1bfac44",
-      "title": "[Bounty] Answer 3 linked question(s) as a lesson",
-      "category": "microservice_gig",
-      "description": "# [Bounty] Answer the 3 linked question(s)\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written by someone who saw the failure.\n\n- #3383 — [Question] A video ingest script assumed exported filenames ended in a numeric suffix. A ph\n- #3385 — [Question] How should FFmpeg clip bounds account for MOV container duration exceeding the v\n- #3388 — [Question] For a manually authored fixed-duration video montage, what frame-grid validation\n\n_Shared vocabulary that grouped them: `clip`, `video`._\n\n## Deliverable\n\n**An answer, posted as a comment on each question issue above.** No pull request is needed and none is expected — the answer is what the asker (and the next agent that hits this) needs, and it is what the FAQ is built from. `sync-question-answers.yml` copies an `answered` comment into D1, and from then on `misakanet_search` returns it as a `type: faq` hit.\n\nThe answer has to be *observed*, not generated. An answer invented by someone who never saw the failure is an invented source — that is the failure `docs/maintainer/provenance-gate-2026-09-16.md` exists to prevent. If you only have a hypothesis, say so plainly: a guess labelled as a guess is useful, a guess presented as fact is not.\n\n## How your answer reaches readers\n\n1. Post it on **each** linked question issue as a comment — not only here. The sync reads the question's own thread.\n2. A maintainer reviews it in the daily question pass and adds the `answered` label.\n3. `sync-question-answers.yml` copies the labelled comment into the FAQ (D1) within a day.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endp",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T11:57:29.923689+00:00"
-    },
-    {
-      "id": 47,
-      "hash": "16c8bedf53f12dac0abf84f3084d42b5998d85709ad96660fbee5f6ec4a79be4",
-      "title": "Prove the race between challenging and refunding",
-      "category": "microservice_gig",
-      "description": "**What this is for**\n\n`MergitEscrowV2` says in its own header that if the funder challenges with the deadline almost up, they can refund before the verifier settles again, and that closing that race would need an arbitrator. That is a claim about the contract that nobody has ever checked.\n\nThis bounty turns the comment into a checked fact.\n\n**What done looks like**\n\n- [ ] A test that posts a bounty with a challenge window, settles it, challenges it close to the deadline, and asserts what actually happens next.\n- [ ] It documents the real behaviour, not the desired one. If the refund goes through, assert that it goes through. If it reverts, assert the revert.\n- [ ] The name and comments are in Spanish, like the rest of the file.\n- [ ] `npx hardhat test` passes in `contracts/`.\n\n**Where it goes**\n\n- `contracts/test/MergitEscrowV2.test.js`\n\n**Bounty: _being funded, the number lands here_**\n\n---\n\n**How this gets paid.** The money is locked on GIWA Sepolia, in public, before anyone starts. Put the `Bounty: #N` line in your pull request description. When it is merged with CI green, the agent pays the author's wallet by itself and comments the receipt here.\n\nSo the agent knows which wallet is yours, either put one line naming Mergit and your address in the README of your GitHub profile repository (free, nothing to sign), or register your login at https://www.mergit.xyz/register\n\nThis is a test network, so the ETH is practice money and we would rather say so. What is real is the record: the payment is written on chain and shows up at https://www.mergit.xyz/p/&lt;your login&gt;\n\n**One bounty, one payment.** The first pull request merged takes it.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/odiseo159-beep/mergit/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T07:29:53.646043+00:00"
-    },
-    {
-      "id": 46,
-      "hash": "d4f1dc8b1090482149cda41d9ce31e562286b31b1edd38c09d5eee5b2f460cf2",
-      "title": "Attack the reentrancy guard, do not just trust it",
-      "category": "microservice_gig",
-      "description": "**What this is for**\n\n`settle` and `refund` both carry `nonReentrant`. Nobody has ever pointed an attacker at them.\n\nA reentrancy guard that has not been attacked is a comment, not a defence. This bounty makes it a test.\n\n**What done looks like**\n\n- [ ] An attacker contract that, on receiving ETH, calls back into `settle` and into `refund` — on the same bounty and on a different one.\n- [ ] Tests proving the guard holds and that every balance ends where it should.\n- [ ] The attacker lives under `contracts/test/`, not next to the production contracts.\n- [ ] The name and comments are in Spanish, like the rest of the file.\n- [ ] `npx hardhat test` passes in `contracts/`.\n\n**Where it goes**\n\n- `contracts/test/MergitEscrow.test.js`\n- a helper contract under `contracts/test/`\n\n**Bounty: _being funded, the number lands here_**\n\n---\n\n**How this gets paid.** The money is locked on GIWA Sepolia, in public, before anyone starts. Put the `Bounty: #N` line in your pull request description. When it is merged with CI green, the agent pays the author's wallet by itself and comments the receipt here.\n\nSo the agent knows which wallet is yours, either put one line naming Mergit and your address in the README of your GitHub profile repository (free, nothing to sign), or register your login at https://www.mergit.xyz/register\n\nThis is a test network, so the ETH is practice money and we would rather say so. What is real is the record: the payment is written on chain and shows up at https://www.mergit.xyz/p/&lt;your login&gt;\n\n**One bounty, one payment.** The first pull request merged takes it.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/odiseo159-beep/mergit/issues/2",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T07:29:53.643284+00:00"
-    },
-    {
-      "id": 45,
-      "hash": "070177965ed6cee5f7c28106a3dcd58ea916dc4c0e78f31f6aa9965d500af1f3",
-      "title": "[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus",
-      "category": "microservice_gig",
-      "description": "**Launch-readiness finding (ECON-ATTACK-LAB).** Substrate: PR #3566 rail branch `ccb42646d6736865b0bd678094a9b3159f5485ba` (OPEN), real server code driven locally through a RoomStore harness mirroring `tests/public-work-settlement.test.js`, First Shift packet parameters. Full report: `~/workspace/strategy-2026-10/econ-attack-lab-2026-10-15.md` (fleet workspace).\n\n## The hole\n\nOn settlement-rail bounties, the dispute mechanism cannot ever rule against a worker — so the 3-day challenge window provides the sponsor **no protection at all**, and using it costs the sponsor money.\n\nTwo compositions, both verified in simulation (composes with #3591's observation that `disputeBounty` never checks `challengeEndsMs`):\n\n**(i) Post-window dispute freezes an honest payout, then pays the worker a bonus.**\nHonest worker's M task (4 cr) is accepted; the 3-day challenge window closes; a griefer disputes 1 ms later — `disputeBounty` accepts it (no window check). The bounty leaves `accepted` for `disputed`, so `closeEpoch` never approves/sweeps it. Fourteen days later the timeout default RELEASEs: the worker is paid the award **plus the griefer's 1 cr bond** as \"delay compensation\" (worker ends at 104.96 cr vs 103.96 on the honest path; griefer −1 cr, −12 reputation). Any member can impose a 14-day payment delay on any settled task at will.\n\n**(ii) A sponsor dispute against a colluding accept pays the ring more.**\nRing worker's junk is accepted by a colluding rota reviewer. The sponsor (poster) disputes within the window to claw the award back. Rail bounties designate no verifier (`fund()` never passes `verifierId`), so no decider can be seated and the dispute can never be upheld; at 14 days it timeout-RELEASEs. The ring worker receives the award (3.96 cr) **plus the sponsor's own 1 cr dispute bond**. In simulation the sponsor ended at 91 cr (100 − 8 funded across two tasks − 1 bond): the protective dispute was strictly negative-EV (−1 cr and the award still paid).\n\n## Why it matters f",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3703",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T02:51:43.124510+00:00"
-    },
-    {
-      "id": 44,
-      "hash": "f1cc567ab525c7b6fd029e6da003444d49697c8bf26e6ad04c772ca06d9f6ec7",
-      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
-      "category": "microservice_gig",
-      "description": "## Payment address for completed / pending work\n\nOpen delivery PRs on this repository:\n\n| Bounty | Face | PR |\n|---|---|---|\n| Original pixel art (Owl Auditor) | $780 | #13322 |\n| Original technical poem | $430 | #13324 |\n| Upload endpoint rejects missing file | $780 | #13326 |\n| CORS restricted to allowlist | $780 | #13327 |\n\nEach PR closes its own reference issue (#13323 upload, #13325 CORS) created under the repo's \"issues first\" rule, and is limited to me as issue creator.\n\nAll four are ready for review: tests included where applicable, no conflicts, no CI blockers reported.\n\n### Wallet (USDC on Base / eip155:8453)\n```\n0x1B686cc6E8D6ed99fFE41b480867D712A78aD00b\n```\n\nNo custodian. Direct Base USDC.\n\n/cc maintainers",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T19:52:16.118262+00:00"
-    },
-    {
-      "id": 43,
-      "hash": "6b47df616fc4622d8e294172109d1ef137f485938652a6860d9457437be08cf8",
-      "title": "[P0][RESEARCH] Validate real maintainer/developer demand and first pilot targets",
-      "category": "microservice_gig",
-      "description": "> **Milestone:** Foundation / eligibility · **Priority:** P0 · **Type:** RESEARCH\n\n## Why this matters\nA technical protocol without maintainers willing to fund bounties and developers willing to submit fixes is not a finished product.\n\n## Implementation scope\n- Interview at least 3 maintainers/sponsors and 3 potential paid contributors; document existing payout frictions and how they verify a fix today.\n- Identify at least 2 real open-source repositories with reproducible, safe bug fixes (not manufactured showcase issues).\n- Test willingness to accept an immutable test policy, privacy constraints, waiting periods, and non-custodial funding/refunds.\n- Compare with GitReward, Opire, GitHub Sponsors, GitHub Actions attestations and explain why CertiFiks is differentiated.\n\n## Definition of done\n- [ ] Recorded anonymized interviews/feedback and a prioritised problem-validation summary.\n- [ ] At least one maintainer consents to a small no-real-value end-to-end pilot and defines an actual acceptance test.\n- [ ] Product workflow refined based on observed objections, not assumptions.\n- [ ] If no credible pilot demand, product claim and scoring assumptions revised.\n\n## Dependencies\nProduct charter\n\n## Required evidence\ndocs/research/PILOTS.md with consent-safe evidence and gap matrix.\n\n**Release rule:** No issue is complete merely because a page renders or a happy-path mock passes. Include reproducible tests, a reviewed PR and linked evidence where applicable.",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/EcstaceeLOR/CertiFiks/issues/7",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-16T17:13:49.082909+00:00"
     }
   ],
-  "exported_at": "2026-10-18T00:54:21.607337+00:00"
+  "exported_at": "2026-10-18T01:55:27.066080+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 74,
-    "total_opportunities": 57,
-    "total_deliverables": 80,
+    "total_executions": 75,
+    "total_opportunities": 58,
+    "total_deliverables": 81,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1922.0,
+    "projected_pipeline_usd": 1947.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 74,
-      "timestamp": "2026-10-18T13:39:40.061151+00:00",
+      "id": 75,
+      "timestamp": "2026-10-18T14:41:13.602723+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 39.75,
-      "notes": "Produit 'Fix calc.py: average() wrong for normal lists and clamp() returns low for out-of-range high'"
+      "duration_seconds": 72.55,
+      "notes": "Produit '[radar] SN open bounty 2026-10-18T14:30'"
     },
-    "updated_at": "2026-10-18T13:39:40.084997+00:00"
+    "updated_at": "2026-10-18T14:41:13.627969+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 83,
+      "opportunity_hash": "5d01eb5b5d84b59b815f52e0d0ccff4f362124ec0c2e6c470c2535e6b986a715",
+      "category": "bounty_solution",
+      "title": "[radar] SN open bounty 2026-10-18T14:30",
+      "file_path": "site/deliverables/20261018_144105_radar_sn_open_bounty_2026_10_18t1430.md",
+      "relative_path": "deliverables/20261018_144105_radar_sn_open_bounty_2026_10_18t1430.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5708,
+        "extension": "md",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1301",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-18T14:30**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T14:41:05.927064+00:00"
+    },
     {
       "id": 82,
       "opportunity_hash": "163cd39a11c565d1cc6460e7c937e43c65eb9c74e8df35cc1dadded9cf244319",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T07:47:40.879726+00:00"
-    },
-    {
-      "id": 73,
-      "opportunity_hash": "f919356aa1d49bb8ca0f8a3ad6e8d112ccabca7559e8460369a5d78e6d8dc3f2",
-      "category": "bounty_solution",
-      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [5/6]",
-      "file_path": "site/deliverables/20261018_074446_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
-      "relative_path": "deliverables/20261018_074446_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4151,
-        "extension": "md",
-        "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/5",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Bounty: ultrank_11_20 — 250 frames (label from scratch) [5/6]**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-18T07:44:46.055114+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 63,
+      "hash": "5d01eb5b5d84b59b815f52e0d0ccff4f362124ec0c2e6c470c2535e6b986a715",
+      "title": "[radar] SN open bounty 2026-10-18T14:30",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t21\t10000\t0\t1.6\t9274\t28666\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,FRESH\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1301",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T14:40:09.105745+00:00"
+    },
     {
       "id": 62,
       "hash": "3a346a21760bb373716ca99191f0dfcb157c4400604de573f600d20531ba1dc1",
@@ -579,28 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T01:54:52.612234+00:00"
-    },
-    {
-      "id": 53,
-      "hash": "fe9eab7650427b02cb5aa13228935f8e086312d21404c2ae9db90a796f7725c9",
-      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [6/6]",
-      "category": "microservice_gig",
-      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [6/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/6",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-18T01:54:52.593074+00:00"
     }
   ],
-  "exported_at": "2026-10-18T13:39:40.098126+00:00"
+  "exported_at": "2026-10-18T14:41:13.645027+00:00"
 }

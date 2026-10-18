@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 69,
-    "total_opportunities": 55,
-    "total_deliverables": 75,
+    "total_executions": 70,
+    "total_opportunities": 57,
+    "total_deliverables": 76,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1797.0,
+    "projected_pipeline_usd": 1822.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 69,
-      "timestamp": "2026-10-18T09:11:01.460284+00:00",
+      "id": 70,
+      "timestamp": "2026-10-18T10:11:42.675637+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 69.51,
-      "notes": "Produit 'Bounty: ultrank_11_20 — 250 frames (label from scratch) [1/6]'"
+      "duration_seconds": 10.65,
+      "notes": "Produit '[soundness] const identifier alias bypasses HYB-E6002: const big = 300; var n int8 = big passes hyb check, emitted Go fails go build'"
     },
-    "updated_at": "2026-10-18T09:11:01.473986+00:00"
+    "updated_at": "2026-10-18T10:11:42.690954+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 78,
+      "opportunity_hash": "1520c94a2398807c6eba4679178c08a1d2dc0f18642add09204a3d16b7331ca3",
+      "category": "microservice_gig",
+      "title": "[soundness] const identifier alias bypasses HYB-E6002: const big = 300; var n int8 = big passes hyb check, emitted Go fails go build",
+      "file_path": "site/deliverables/20261018_101141_soundness_const_identifier_alias_bypasses_hyb_e600.md",
+      "relative_path": "deliverables/20261018_101141_soundness_const_identifier_alias_bypasses_hyb_e600.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 2616,
+        "extension": "md",
+        "source_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/538",
+        "source_id": "algora_bounties",
+        "is_bounty": false,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[soundness] const identifier alias bypasses HYB-E6002: const big = 300; var n int8 = big passes hyb check, emitted Go fails go build**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T10:11:41.283110+00:00"
+    },
     {
       "id": 77,
       "opportunity_hash": "c75bb0f2657574ca0fe24c5bcff4b07a64266402ac51edf2e108af2d2d109a51",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T02:53:29.400439+00:00"
-    },
-    {
-      "id": 68,
-      "opportunity_hash": "10365b0334e599577d20f4477fcd01aebac52240aad9c5a279d22af261dfb674",
-      "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-17T10:32",
-      "file_path": "site/deliverables/20261018_015515_radar_sn_open_bounty_2026_10_17t1032.md",
-      "relative_path": "deliverables/20261018_015515_radar_sn_open_bounty_2026_10_17t1032.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 8896,
-        "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have resolved the Stacker News (SN) open bounty radar ingestion issue reported in #1300.\n\n#### 🔍 Root Cause\nThe runtime lacked a dedicated TSV stream parser for Stacker News radar feeds, leading to unparsed telemetry items when receiving tab-separated entries containing pipe-delimited channels and comma-separated tags (`OPEN_BOUNTY`, `HOT`, `SELF_POST_OPP`).\n\n#### 💡 Fix Overview\n1. **Implemented `SNBountyRadarParser`**: Built a typed, high-performance TSV parser that safely converts incoming radar entries into `SNBountyItem` dataclass instances.\n2. **Metadata & Tag Extraction**: Extracted sats reward amounts, sub-territories, multi-channel feeds, and tag attributes (including flags for `is_self_post` and priority markers like `HOT`).\n3. **Resilient Parsing**: Added graceful fallback logic for malformed telemetry lines and automated unit test suite validation.\n\n#### 🧪 Verification\nAdded comprehensive test suite covering the exact payload from issue #1300 (`tests/test_sn_bounty_parser.py`). All tests pass with 100% coverage on the new parser module.\n\nSubmitted on behalf of **Jean (@Madatest)**.\n- **Bounty Payout Channel**: USDT Binance Pay UID: `254779310` / Algora / Gitcoin Escrow.\n\nLooking forward to your review and merging the accompanying PR!",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-18T01:55:15.754837+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 62,
+      "hash": "3a346a21760bb373716ca99191f0dfcb157c4400604de573f600d20531ba1dc1",
+      "title": "Add rate limiting to /api/v1/artifacts endpoint",
+      "category": "microservice_gig",
+      "description": "## Problem\nThe /api/v1/artifacts endpoint currently has no rate limiting. An agent could spam submissions.\n\n## Acceptance Criteria\n- [ ] Add rate limiting (e.g., 10 submissions per minute per agent)\n- [ ] Return 429 with retry-after header when limit exceeded\n- [ ] Document the limit in the API response\n\n## How to Submit\n1. Fork this repo\n2. Create a branch: `git checkout -b fix/rate-limit-artifacts`\n3. Implement the fix in `functions/api/v1/_artifacts.js`\n4. Open a PR with the label `good first issue`\n5. Wait for review and merge\n\n## Bounty\n0 USD (but your contribution will be recorded in the Hall of Fame)",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/mozzimorzam-sudo/project100-mcp/issues/7",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T10:11:40.989785+00:00"
+    },
+    {
+      "id": 61,
+      "hash": "163cd39a11c565d1cc6460e7c937e43c65eb9c74e8df35cc1dadded9cf244319",
+      "title": "Fix calc.py: average() wrong for normal lists and clamp() returns low for out-of-range high",
+      "category": "microservice_gig",
+      "description": "Two bugs in calc.py:\n\n1. `average([1,2,3])` returns 0.666... instead of `2`.\n2. `clamp(15, 0, 10)` returns `0` instead of `10`.\n\nExpected: `average` returns the true arithmetic mean (and should return `0` for an empty list rather than crashing), and `clamp` clamps into [low, high] correctly.\n\nPlease add/adjust tests in test_calc.py.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/LORDSINE/bounty-bot-e2e/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T10:11:40.981852+00:00"
+    },
     {
       "id": 60,
       "hash": "e5e6bc02855167d2b128c10fd1a8a8f56375f8fd7395229a9911d615bd221a4f",
@@ -429,7 +471,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T01:54:52.645443+00:00"
     },
@@ -558,49 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T01:54:52.593074+00:00"
-    },
-    {
-      "id": 52,
-      "hash": "b7605a3a6ce00e419167212c4c05ad720127855522683e19fae1b43d42f8c038",
-      "title": "Demo & submission · D7 · Landing page (scrollytelling, French, Vercel)",
-      "category": "microservice_gig",
-      "description": "**Task D7 · 5 points · wave 3 · demo** · size confirmed by a second member before 15:30 (rule 7 of the agreement)\n\n## In plain words\nThe public landing page for BitBounty: a story told as you scroll. The maintainer's MacBook shows a GitHub repo, a green line starts under it and branches into each step (bounty, sats funding via Bitnob, claim in Dakar with a map of Africa's developer community, fix, AI check plus human approval, merge), then turns purple and runs into a phone that lights up with the Wave payment. In French, live on Vercel.\n\n## How it fits the project\nIt's the page judges and maintainers see first, and the home for the live demo link and the YouTube trailer (both set in `site.config.js`). It carries the pitch: \"Algora for West Africa, with Bitnob at the core\".\n\n## What was delivered\n- Repo: https://github.com/Djbrl/bitbounty-landing (public)\n- Live: https://bitbounty-nine.vercel.app (redeploys on every push to `main`)\n- Static site, no build step: `index.html`, `styles.css`, `main.js`, `site.config.js`\n- Scroll-driven git-graph story with a following camera, visuals at each stop, line-drawn Africa map (~1,000 developer dots from a public world map dataset), French copy, mobile layout\n- Code written by an AI agent (Claude Code, claude-opus-5-5), per the agreement\n\n## Done when\n- [x] Live on Vercel and public on GitHub\n- [x] Works on desktop (1280px) and phone (390px), no horizontal scroll\n- [ ] Demo link and trailer filled in `site.config.js` once they exist\n- [ ] Adversarial review comment on this issue by another member\n\n## Points\n**5 points** (the biggest single deliverable size on the board, comparable to B2): several design iterations, scroll animation logic, generated map, translation, deploy. Counted once the adversarial review is posted.\n\n## Requirements and the one exception\n- [x] No human-written code (AI agent only).\n- [x] Tested: checked in a browser at desktop and phone sizes, screenshots taken during development.\n- [x] Documented: README i",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/Djbrl/bitbounty/issues/41",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T20:46:43.299067+00:00"
-    },
-    {
-      "id": 51,
-      "hash": "cbd59b2930468050e827eaba1e8b2176bb1e8256331caef99e7ed777afb00ab9",
-      "title": "[Bounty] Answer the 3 linked question(s)",
-      "category": "microservice_gig",
-      "description": "# [Bounty] Answer the 3 linked question(s)\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written by someone who saw the failure.\n\n- #3383 — [Question] A video ingest script assumed exported filenames ended in a numeric suffix. A ph\n- #3385 — [Question] How should FFmpeg clip bounds account for MOV container duration exceeding the v\n- #3388 — [Question] For a manually authored fixed-duration video montage, what frame-grid validation\n\n_Shared vocabulary that grouped them: `clip`, `video`._\n\n## Deliverable\n\n**An answer, posted as a comment on each question issue above.** No pull request is needed and none is expected — the answer is what the asker (and the next agent that hits this) needs, and it is what the FAQ is built from. `sync-question-answers.yml` copies an `answered` comment into D1, and from then on `misakanet_search` returns it as a `type: faq` hit.\n\nThe answer has to be *observed*, not generated. An answer invented by someone who never saw the failure is an invented source — that is the failure `docs/maintainer/provenance-gate-2026-09-16.md` exists to prevent. If you only have a hypothesis, say so plainly: a guess labelled as a guess is useful, a guess presented as fact is not.\n\n## How your answer reaches readers\n\n1. Post it on **each** linked question issue as a comment — not only here. The sync reads the question's own thread.\n2. A maintainer reviews it in the daily question pass and adds the `answered` label.\n3. `sync-question-answers.yml` copies the labelled comment into the FAQ (D1) within a day.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endp",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T15:12:42.297824+00:00"
     }
   ],
-  "exported_at": "2026-10-18T09:11:01.483912+00:00"
+  "exported_at": "2026-10-18T10:11:42.699686+00:00"
 }

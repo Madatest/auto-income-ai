@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 60,
-    "total_opportunities": 54,
-    "total_deliverables": 66,
+    "total_executions": 61,
+    "total_opportunities": 55,
+    "total_deliverables": 67,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1572.0,
+    "projected_pipeline_usd": 1597.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 60,
-      "timestamp": "2026-10-18T01:55:26.972704+00:00",
+      "id": 61,
+      "timestamp": "2026-10-18T02:53:30.099260+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 43.43,
-      "notes": "Produit '[radar] SN open bounty 2026-10-17T10:32'"
+      "duration_seconds": 2.62,
+      "notes": "Produit '[Bounty] Answer the 2 linked question(s)'"
     },
-    "updated_at": "2026-10-18T01:55:27.038497+00:00"
+    "updated_at": "2026-10-18T02:53:30.101817+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 69,
+      "opportunity_hash": "b3d5724abeada48dbd14c368cc2ddec796b6aed0ac7f9680c7245cf411c74853",
+      "category": "bounty_solution",
+      "title": "[Bounty] Answer the 2 linked question(s)",
+      "file_path": "site/deliverables/20261018_025329_bounty_answer_the_2_linked_questions.md",
+      "relative_path": "deliverables/20261018_025329_bounty_answer_the_2_linked_questions.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5242,
+        "extension": "md",
+        "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3431",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty] Answer the 2 linked question(s)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T02:53:29.400439+00:00"
+    },
     {
       "id": 68,
       "opportunity_hash": "10365b0334e599577d20f4477fcd01aebac52240aad9c5a279d22af261dfb674",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-17T18:07:52.809813+00:00"
-    },
-    {
-      "id": 59,
-      "opportunity_hash": "f9cdbdf0bce786006275de639a7dbf8671078602b89c3a76439579cc95b45dcc",
-      "category": "bounty_solution",
-      "title": "[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate",
-      "file_path": "site/deliverables/20261017_173806_launch_readiness_rotation_caps_exist_nowhere_in_co.md",
-      "relative_path": "deliverables/20261017_173806_launch_readiness_rotation_caps_exist_nowhere_in_co.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5732,
-        "extension": "md",
-        "source_url": "https://github.com/Uuriko/project-room/issues/3708",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-17T17:38:06.750147+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 60,
+      "hash": "e5e6bc02855167d2b128c10fd1a8a8f56375f8fd7395229a9911d615bd221a4f",
+      "title": "[radar] SN open bounty 2026-10-17T10:32",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1596567\tgaming\t3\t1453\t2100\t18\t17.8\t1448206\t2501\trecent@gaming|top@gaming|recent@Stacker_Sports\tOPEN_BOUNTY,HOT,SELF_POST_OPP\t🏈 Sunday Leaders Bounty • 2,100 sats\n1596551\tStacker_Sports\t3\t834\t2100\t12\t18.0\t232181\t4356\trecent@Stacker_Sports|top@Stacker_Sports\tOPEN_BOUNTY,SELF_POST_OPP\tWeekly Random Sports Pick 'em\n```",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T02:53:29.394874+00:00"
+    },
     {
       "id": 59,
       "hash": "1520c94a2398807c6eba4679178c08a1d2dc0f18642add09204a3d16b7331ca3",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-17T15:12:42.297824+00:00"
-    },
-    {
-      "id": 50,
-      "hash": "b3d5724abeada48dbd14c368cc2ddec796b6aed0ac7f9680c7245cf411c74853",
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "category": "microservice_gig",
-      "description": "# [Bounty] Answer the 2 linked question(s)\n\n## Context\n\nThese intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_match` — so there is nothing to link the asker to, and the answer has to be written by someone who saw the failure.\n\n- #3296 — [Question] Which read-only macOS evidence best distinguishes a Finder copy failure from an \n- #3379 — [Question] For an official macOS release DMG whose SHA-256 matches the publisher, Gatekeepe\n\n_Shared vocabulary that grouped them: `app`, `best`, `evidence`, `image`, `macos`, `mounted`._\n\n## Deliverable\n\n**An answer, posted as a comment on each question issue above.** No pull request is needed and none is expected — the answer is what the asker (and the next agent that hits this) needs, and it is what the FAQ is built from. `sync-question-answers.yml` copies an `answered` comment into D1, and from then on `misakanet_search` returns it as a `type: faq` hit.\n\nThe answer has to be *observed*, not generated. An answer invented by someone who never saw the failure is an invented source — that is the failure `docs/maintainer/provenance-gate-2026-09-16.md` exists to prevent. If you only have a hypothesis, say so plainly: a guess labelled as a guess is useful, a guess presented as fact is not.\n\n## How your answer reaches readers\n\n1. Post it on **each** linked question issue as a comment — not only here. The sync reads the question's own thread.\n2. A maintainer reviews it in the daily question pass and adds the `answered` label.\n3. `sync-question-answers.yml` copies the labelled comment into the FAQ (D1) within a day.\n\n## MANDATORY ACCEPTANCE CRITERIA (AC)\n\n**0. REPRODUCIBLE EVIDENCE — the condition most submissions fail**\n\n- [ ] Paste the command you ran and the output you got. Not a description of what you did — the command and its output. If you name an endpoint it must be `misakanet.org`.\n- [ ] Say what you observed yo",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3431",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-17T15:12:42.295044+00:00"
     }
   ],
-  "exported_at": "2026-10-18T01:55:27.066080+00:00"
+  "exported_at": "2026-10-18T02:53:30.103065+00:00"
 }

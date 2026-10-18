@@ -1,31 +1,31 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 76,
-    "total_opportunities": 58,
-    "total_deliverables": 81,
+    "total_executions": 77,
+    "total_opportunities": 61,
+    "total_deliverables": 82,
     "total_confirmed_revenue_usd": 0.0,
     "projected_pipeline_usd": 1972.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 76,
-      "timestamp": "2026-10-18T15:41:35.916019+00:00",
+      "id": 77,
+      "timestamp": "2026-10-18T19:12:27.828837+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 0,
-      "deliverables_created": 0,
-      "duration_seconds": 3.37,
-      "notes": "Surveillance et maintien"
+      "opportunities_found": 12,
+      "deliverables_created": 1,
+      "duration_seconds": 2.69,
+      "notes": "Produit '[radar] SN open bounty 2026-10-18T18:00'"
     },
-    "updated_at": "2026-10-18T15:41:35.923993+00:00"
+    "updated_at": "2026-10-18T19:12:27.830890+00:00"
   },
   "recent_deliverables": [
     {
       "id": 84,
-      "opportunity_hash": "55c24e9e0a421822792b6c194c55346d68c80797f33de46e2eb068fd3518d638",
+      "opportunity_hash": "0c3c5c18c3b70752b899189c7d9ed5e165979c3f17b5d6ca47c281487579eb46",
       "category": "bounty_solution",
-      "title": "[Security]: freeze-logic trigger",
-      "file_path": "site/deliverables/20261018_162036_security_freeze_logic_trigger.md",
-      "relative_path": "deliverables/20261018_162036_security_freeze_logic_trigger.md",
+      "title": "[radar] SN open bounty 2026-10-18T18:00",
+      "file_path": "site/deliverables/20261018_191227_radar_sn_open_bounty_2026_10_18t1800.md",
+      "relative_path": "deliverables/20261018_191227_radar_sn_open_bounty_2026_10_18t1800.md",
       "monetization_channel": "comeup",
       "price_usd": 25.0,
       "quality_score": 100.0,
@@ -46,15 +46,15 @@
           "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
           "payout_delay_days": 5
         },
-        "file_size_bytes": 5198,
+        "file_size_bytes": 3563,
         "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/255",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1302",
         "source_id": "github_bounties",
         "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security]: freeze-logic trigger**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-18T18:00**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
         "bounty_value": "25.0 $ USD"
       },
-      "created_at": "2026-10-18T16:20:36.762212+00:00"
+      "created_at": "2026-10-18T19:12:27.093155+00:00"
     },
     {
       "id": 83,
@@ -392,7 +392,7 @@
   ],
   "top_opportunities": [
     {
-      "id": 65,
+      "id": 66,
       "hash": "5e152808f0cffe1fd9cb8125808f8d3dbde7cbdb59c5ab374089cb342111c646",
       "title": "[Security]: Policy/allowlist bypass via scheduled lane: schedule_stream / execute_scheduled skip check_asset_allowed and validate_stream_args",
       "category": "microservice_gig",
@@ -410,10 +410,10 @@
       },
       "status": "pending",
       "is_simulated": 0,
-      "created_at": "2026-10-18T16:20:36.754119+00:00"
+      "created_at": "2026-10-18T19:12:27.086909+00:00"
     },
     {
-      "id": 64,
+      "id": 65,
       "hash": "55c24e9e0a421822792b6c194c55346d68c80797f33de46e2eb068fd3518d638",
       "title": "[Security]: freeze-logic trigger",
       "category": "microservice_gig",
@@ -429,9 +429,30 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T19:12:27.083294+00:00"
+    },
+    {
+      "id": 64,
+      "hash": "0c3c5c18c3b70752b899189c7d9ed5e165979c3f17b5d6ca47c281487579eb46",
+      "title": "[radar] SN open bounty 2026-10-18T18:00",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t52\t10000\t5\t5.1\t9274\t28668\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1302",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
       "status": "processed",
       "is_simulated": 0,
-      "created_at": "2026-10-18T16:20:36.751244+00:00"
+      "created_at": "2026-10-18T19:12:27.073516+00:00"
     },
     {
       "id": 63,
@@ -579,28 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T01:54:52.632647+00:00"
-    },
-    {
-      "id": 56,
-      "hash": "829f12c27c07048c31418d3b15beeec46cafc45334521194319db30f0d295d08",
-      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [3/6]",
-      "category": "microservice_gig",
-      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [3/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/3",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-18T01:54:52.626315+00:00"
     }
   ],
-  "exported_at": "2026-10-18T15:41:35.930674+00:00"
+  "exported_at": "2026-10-18T19:12:27.831927+00:00"
 }

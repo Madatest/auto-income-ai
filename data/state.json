@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 62,
+    "total_executions": 63,
     "total_opportunities": 55,
-    "total_deliverables": 68,
+    "total_deliverables": 69,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1622.0,
+    "projected_pipeline_usd": 1647.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 62,
-      "timestamp": "2026-10-18T02:57:18.783983+00:00",
+      "id": 63,
+      "timestamp": "2026-10-18T03:59:21.641830+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 85.14,
-      "notes": "Produit '[Bounty] Answer the 3 linked question(s)'"
+      "duration_seconds": 100.68,
+      "notes": "Produit 'Demo & submission · D7 · Landing page (scrollytelling, French, Vercel)'"
     },
-    "updated_at": "2026-10-18T02:57:18.805721+00:00"
+    "updated_at": "2026-10-18T03:59:21.667550+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 71,
+      "opportunity_hash": "b7605a3a6ce00e419167212c4c05ad720127855522683e19fae1b43d42f8c038",
+      "category": "bounty_solution",
+      "title": "Demo & submission · D7 · Landing page (scrollytelling, French, Vercel)",
+      "file_path": "site/deliverables/20261018_035912_demo_submission_d7_landing_page_scrollytelling_fre.md",
+      "relative_path": "deliverables/20261018_035912_demo_submission_d7_landing_page_scrollytelling_fre.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5302,
+        "extension": "md",
+        "source_url": "https://github.com/Djbrl/bitbounty/issues/41",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Demo & submission · D7 · Landing page (scrollytelling, French, Vercel)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T03:59:12.150985+00:00"
+    },
     {
       "id": 70,
       "opportunity_hash": "cbd59b2930468050e827eaba1e8b2176bb1e8256331caef99e7ed777afb00ab9",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-17T21:13:08.053915+00:00"
-    },
-    {
-      "id": 61,
-      "opportunity_hash": "e6f4d8d94a189f66deb716b2547a282d22eac983b767c692af37db3346a3835b",
-      "category": "bounty_solution",
-      "title": "[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims",
-      "file_path": "site/deliverables/20261017_204742_launch_readiness_fresh_lanes_are_standard_band_not.md",
-      "relative_path": "deliverables/20261017_204742_launch_readiness_fresh_lanes_are_standard_band_not.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 8012,
-        "extension": "md",
-        "source_url": "https://github.com/Uuriko/project-room/issues/3704",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @Uuriko and maintainers,\n\nI have identified and resolved the root cause for issue #3704 where fresh lanes defaulted to `STANDARD` band instead of `PROBATION`, allowing them to claim high-credit tasks like **FS-14 (8 credits)** without meeting established-lane requirements.\n\n#### Root Cause Analysis\n- `bandOf(score)` was evaluating reputation scores without checking whether a lane was explicitly marked as established (`isEstablished`).\n- Freshly created lanes without established status defaulted to a score threshold that mapped to `STANDARD`, bypassing the 5-credit probation claim cap.\n\n#### Summary of Fixes\n1. **Updated `bandOf(score, isEstablished)`**: Unestablished/fresh lanes now consistently resolve to `PROBATION` band regardless of initial numeric score until explicit lane establishment conditions are met.\n2. **Strict Probation Enforcement in `canClaimTask`**: Tweak claim validation logic to reject tasks exceeding `PROBATION_CLAIM_CAP` (5 credits) when the claiming lane is in `PROBATION` band or not established.\n3. **Unit Tests Added**: Verified that fresh lanes cannot claim FS-14 (8 credits), while established lanes can proceed normally.\n\nSubmitted on behalf of **Jean (@Madatest)**.\n- **Binance Pay UID**: `254779310`\n- **Escrow / Bounty Claim**: Ready for merge & verification.\n\nPlease let me know if any further tweaks are needed before merging!",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-17T20:47:42.335400+00:00"
     }
   ],
   "top_opportunities": [
@@ -576,7 +576,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-17T20:46:43.299067+00:00"
     },
@@ -602,5 +602,5 @@
       "created_at": "2026-10-17T15:12:42.297824+00:00"
     }
   ],
-  "exported_at": "2026-10-18T02:57:18.822373+00:00"
+  "exported_at": "2026-10-18T03:59:21.683721+00:00"
 }

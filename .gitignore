@@ -63,3 +63,4 @@ data/*.db-shm
 data/*.lock
 data/*.tmp*
 *.lock
+mergit_work/

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 78,
-    "total_opportunities": 62,
-    "total_deliverables": 83,
+    "total_executions": 79,
+    "total_opportunities": 63,
+    "total_deliverables": 84,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 1997.0,
+    "projected_pipeline_usd": 2022.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 78,
-      "timestamp": "2026-10-18T22:12:20.561013+00:00",
+      "id": 79,
+      "timestamp": "2026-10-19T00:46:07.104375+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.89,
-      "notes": "Produit '[Security]: freeze-logic trigger'"
+      "duration_seconds": 1.88,
+      "notes": "Produit '[Security]: Policy/allowlist bypass via scheduled lane: schedule_stream / execute_scheduled skip check_asset_allowed and validate_stream_args'"
     },
-    "updated_at": "2026-10-18T22:12:20.563785+00:00"
+    "updated_at": "2026-10-19T00:46:07.107078+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 86,
+      "opportunity_hash": "5e152808f0cffe1fd9cb8125808f8d3dbde7cbdb59c5ab374089cb342111c646",
+      "category": "bounty_solution",
+      "title": "[Security]: Policy/allowlist bypass via scheduled lane: schedule_stream / execute_scheduled skip check_asset_allowed and validate_stream_args",
+      "file_path": "site/deliverables/20261019_004606_security_policyallowlist_bypass_via_scheduled_lane.md",
+      "relative_path": "deliverables/20261019_004606_security_policyallowlist_bypass_via_scheduled_lane.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5630,
+        "extension": "md",
+        "source_url": "https://github.com/Neziahtech/streampay/issues/249",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security]: Policy/allowlist bypass via scheduled lane: schedule_stream / execute_scheduled skip check_asset_allowed and validate_stream_args**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-19T00:46:06.551829+00:00"
+    },
     {
       "id": 85,
       "opportunity_hash": "55c24e9e0a421822792b6c194c55346d68c80797f33de46e2eb068fd3518d638",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T09:10:58.077907+00:00"
-    },
-    {
-      "id": 76,
-      "opportunity_hash": "b371a36605090ef78e66c5000bf9ee11d1fe9c49f23f865e10136d8b53601ba1",
-      "category": "bounty_solution",
-      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [2/6]",
-      "file_path": "site/deliverables/20261018_090829_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
-      "relative_path": "deliverables/20261018_090829_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4151,
-        "extension": "md",
-        "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/2",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Bounty: ultrank_11_20 — 250 frames (label from scratch) [2/6]**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-18T09:08:29.400891+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 68,
+      "hash": "a106a7301b6824352d9fad917398f137380c634388d5cf7c2cd0f3fe2995ac8a",
+      "title": "[radar] SN open bounty 2026-10-18T23:01",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t63\t10000\t13\t10.2\t9274\t28682\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1308",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T00:46:06.542348+00:00"
+    },
     {
       "id": 67,
       "hash": "a236b5aea58770f25a2e919592808ce8e45883228994139518e3c8b407adb41f",
@@ -429,7 +450,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T19:12:27.086909+00:00"
     },
@@ -579,28 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T01:54:52.645443+00:00"
-    },
-    {
-      "id": 58,
-      "hash": "c75bb0f2657574ca0fe24c5bcff4b07a64266402ac51edf2e108af2d2d109a51",
-      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [1/6]",
-      "category": "microservice_gig",
-      "description": "## Bounty: ultrank_11_20 — 250 frames (label from scratch) [1/6]\n\nCreate labels for **250** frames from `ultrank_11_20`. This dataset has no labels yet, so you are the source of truth — the model's boxes are a starting point, not an answer.\n\n**How to claim**\n\nComment `claim` on this issue. Then run `python scripts/bounty.py start `.\n\n**What to do**\n\n- Open each frame. The dashed boxes are the model's guesses.\n- Press `a` to adopt them all, then fix what is wrong; or press `d` to draw by hand.\n- Every player gets exactly one tight box. Press `g` when the frame is correct.\n- Press `n` on menus, results screens and other non-gameplay frames.\n- Push your labels and open a PR that says `Closes #`.\n\n**Reward:** 318 points (250 frames × 1.27 difficulty)",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-18T01:54:52.639437+00:00"
     }
   ],
-  "exported_at": "2026-10-18T22:12:20.565108+00:00"
+  "exported_at": "2026-10-19T00:46:07.108406+00:00"
 }

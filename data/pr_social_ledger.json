@@ -1,7 +1,7 @@
 {
-  "total_earnings_usd": 0.01,
-  "total_tasks_completed": 2,
-  "total_tasks_failed": 3,
+  "total_earnings_usd": 0.014,
+  "total_tasks_completed": 3,
+  "total_tasks_failed": 24,
   "blacklist_404": [
     "PortalForge",
     "undress-design",
@@ -25,9 +25,9 @@
       "earned_usd": 0.0
     },
     "other": {
-      "completed": 2,
-      "failed": 3,
-      "earned_usd": 0.01
+      "completed": 3,
+      "failed": 24,
+      "earned_usd": 0.014
     }
   },
   "sessions": [
@@ -110,6 +110,86 @@
       "start_balance": 0.093,
       "end_balance": 0.097,
       "estimated_gain_usd": 0.008
+    },
+    {
+      "session_id": "PR_20261018_165028",
+      "timestamp": "2026-10-18T16:51:13.595853+00:00",
+      "duration_seconds": 45.1,
+      "tasks_target": 1,
+      "tasks_completed": 0,
+      "start_balance": 0.1,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_171131",
+      "timestamp": "2026-10-18T17:11:52.003695+00:00",
+      "duration_seconds": 20.3,
+      "tasks_target": 3,
+      "tasks_completed": 0,
+      "start_balance": 0.1,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_174113",
+      "timestamp": "2026-10-18T17:41:35.686497+00:00",
+      "duration_seconds": 22.4,
+      "tasks_target": 25,
+      "tasks_completed": 0,
+      "start_balance": null,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_175025",
+      "timestamp": "2026-10-18T17:51:20.789216+00:00",
+      "duration_seconds": 55.3,
+      "tasks_target": 3,
+      "tasks_completed": 0,
+      "start_balance": null,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_180255",
+      "timestamp": "2026-10-18T18:03:43.042550+00:00",
+      "duration_seconds": 47.4,
+      "tasks_target": 5,
+      "tasks_completed": 0,
+      "start_balance": 0.12,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_181726",
+      "timestamp": "2026-10-18T18:17:51.026899+00:00",
+      "duration_seconds": 24.7,
+      "tasks_target": 5,
+      "tasks_completed": 0,
+      "start_balance": null,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_182045",
+      "timestamp": "2026-10-18T18:21:35.567486+00:00",
+      "duration_seconds": 49.8,
+      "tasks_target": 5,
+      "tasks_completed": 0,
+      "start_balance": 0.12,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
+    },
+    {
+      "session_id": "PR_20261018_195556",
+      "timestamp": "2026-10-18T19:56:10.577372+00:00",
+      "duration_seconds": 13.9,
+      "tasks_target": 1,
+      "tasks_completed": 0,
+      "start_balance": null,
+      "end_balance": null,
+      "estimated_gain_usd": 0.0
     }
   ]
 }

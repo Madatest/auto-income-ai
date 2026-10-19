@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 79,
-    "total_opportunities": 65,
-    "total_deliverables": 85,
+    "total_executions": 80,
+    "total_opportunities": 67,
+    "total_deliverables": 86,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2047.0,
+    "projected_pipeline_usd": 2072.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 79,
-      "timestamp": "2026-10-19T09:50:36.789725+00:00",
+      "id": 80,
+      "timestamp": "2026-10-19T12:01:33.165669+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 81.81,
-      "notes": "Produit '[Security] stream-nft: withdraw and withdraw_max fail to route stream payouts to the current NFT owner after transfer and approve accepts expired live_until_ledger'"
+      "duration_seconds": 3.45,
+      "notes": "Produit '[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds'"
     },
-    "updated_at": "2026-10-19T09:50:36.847333+00:00"
+    "updated_at": "2026-10-19T12:01:33.167764+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 88,
+      "opportunity_hash": "96ae206a90b9634a48297a38dc0ecacc9b1f7789d3ef593aa911f4900042954e",
+      "category": "bounty_solution",
+      "title": "[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds",
+      "file_path": "site/deliverables/20261019_120131_security_streaming_payments_out_of_order_start_id_.md",
+      "relative_path": "deliverables/20261019_120131_security_streaming_payments_out_of_order_start_id_.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5997,
+        "extension": "md",
+        "source_url": "https://github.com/Neziahtech/streampay/issues/314",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-19T12:01:31.622600+00:00"
+    },
     {
       "id": 87,
       "opportunity_hash": "353b83cf05bda5c6c82045216a69cb6fc527074e64c0001f591c85174184e35e",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T11:13:11.208915+00:00"
-    },
-    {
-      "id": 78,
-      "opportunity_hash": "1520c94a2398807c6eba4679178c08a1d2dc0f18642add09204a3d16b7331ca3",
-      "category": "microservice_gig",
-      "title": "[soundness] const identifier alias bypasses HYB-E6002: const big = 300; var n int8 = big passes hyb check, emitted Go fails go build",
-      "file_path": "site/deliverables/20261018_101141_soundness_const_identifier_alias_bypasses_hyb_e600.md",
-      "relative_path": "deliverables/20261018_101141_soundness_const_identifier_alias_bypasses_hyb_e600.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 2616,
-        "extension": "md",
-        "source_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/538",
-        "source_id": "algora_bounties",
-        "is_bounty": false,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[soundness] const identifier alias bypasses HYB-E6002: const big = 300; var n int8 = big passes hyb check, emitted Go fails go build**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-18T10:11:41.283110+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 72,
+      "hash": "d871986338c1a960a2a71ad25bcbd4c0c0a35bcecadf7dc2b1e9de86d936a81d",
+      "title": "Outbound link report",
+      "category": "microservice_gig",
+      "description": "# Summary\n\n| Status         | Count |\n|----------------|-------|\n| 🔍 Total       | 38459 |\n| 🔗 Unique      | 5808  |\n| ✅ Successful  | 3655  |\n| ⏳ Timeouts    | 0     |\n| 🔀 Redirected  | 0     |\n| 👻 Excluded    | 34734 |\n| ❓ Unknown     | 0     |\n| 🚫 Errors      | 70    |\n| ⛔ Unsupported | 0     |\n\n## Errors per input\n\n### Errors in atlas/site/dist/atlas/earn/index.html\n\n* [406]  (at 52:26729) | Rejected status code: 406 Not Acceptable\n\n### Errors in atlas/site/dist/atlas/platforms/8004scan/index.html\n\n* [404]  (at 65:518) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/agent-governance-institute/index.html\n\n* [ERROR]  (at 52:602) | SSL certificate not trusted. Use --insecure if site is trusted\n* [ERROR]  (at 65:1062) | SSL certificate not trusted. Use --insecure if site is trusted\n* [ERROR]  (at 65:1601) | SSL certificate not trusted. Use --insecure if site is trusted\n* [ERROR]  (at 65:471) | SSL certificate not trusted. Use --insecure if site is trusted\n\n### Errors in atlas/site/dist/atlas/platforms/agentarxiv-agxiv/index.html\n\n* [404]  (at 65:503) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/algora/index.html\n\n* [404]  (at 65:2393) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/botxiv/index.html\n\n* [404]  (at 65:428) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/bountybook/index.html\n\n* [404]  (at 52:479) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/bountysource/index.html\n\n* [ERROR]  (at 65:1626) | Network error: received fatal alert: InternalError\n\n### Errors in atlas/site/dist/atlas/platforms/clawirc/index.html\n\n* [ERROR]  (at 52:604) | Connection failed. Check network connectivity and firewall settings\n* [400]  (at 65:2428) | Rejected status code: 400 Bad Request\n\n### Errors in atlas/site/dist/atlas/platforms/clawnews/index.html\n\n* [ERROR]  (at 52:712) | SSL certificat",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/commonworld-one/commonworld/issues/11",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T12:01:31.616901+00:00"
+    },
+    {
+      "id": 71,
+      "hash": "505d751a84339ae86a8aa2d350a6df63571b96d4a7a382ca32edfbfda4162cc1",
+      "title": "[Security]: Webhook IPv6/NAT64 egress & outbox reorg sync",
+      "category": "microservice_gig",
+      "description": "### Summary\nOutbound URL filter & reorg retraction.\n\n### Severity (self-assessed)\nHigh ($1,000 - $4,000)\n\n### Affected component\nInfra\n\n### Reproduction\n1. **IPv6 Transition / NAT64 / Hex-Mapped SSRF Bypass in `indexer/src/webhooks/ssrf.ts` (`isDisallowedIpv6` & `validateWebhookUrl`)**:\n   - `isDisallowedIpv6` only checks exact strings `::1`, `::`, `fe8..feb`, `fc..fd`, and dotted-quad `::ffff:x.x.x.x` where `net.isIPv4(ipv4Part)` is true.\n   - However, JavaScript's `new URL(...)` normalizes `[::ffff:127.0.0.1]` and `[::127.0.0.1]` into hex-group notation (`[::ffff:7f00:1]`, `[::7f00:1]`), and `parsed.hostname` retains enclosing brackets `[...]` so `net.isIPv6(hostname)` evaluates to `false` on literal IPv6 URLs while DNS `AAAA` records returning IPv4-compatible (`::7f00:1`, `::a9fe:a9fe`), NAT64 (`64:ff9b::7f00:1`, `64:ff9b::a9fe:a9fe`), 6to4 (`2002:7f00:1::1`), Teredo (`2001:0000::1`), or IPv6 multicast (`ff02::1`) bypass `isDisallowedIpv6` and return `{ safe: true }`.\n   - Any caller registering a webhook endpoint (`POST /api/webhooks/endpoints`), an outbox push consumer (`POST /api/outbox/consumers`), or triggering a redirect during webhook delivery can target internal loopback services (`127.0.0.1`) or cloud metadata (`169.254.169.254`).\n\n2. **Post-Reorg State Projection Desynchronization in `POST /api/outbox/retract` (`indexer/src/index.ts` & `indexer/src/store.ts`)**:\n   - When the dual-read reconciliation service invokes `POST /api/outbox/retract` with `{ after_ledger, reason }`, `store.outbox.retractAfterLedger(afterLedger, reason)` marks `outbox_events` rows with `ledger > afterLedger` as retracted and dead-letters pending `outbox_intents`.\n   - However, it never rolls back the primary `streams`, `events`, `webhook_deliveries`, or `indexer_state` (`lastLedger` / `cursor`) tables in `StreamStore`.\n   - As a result, streams created, topped up, withdrawn, or cancelled in orphaned ledgers (`ledger > afterLedger`) remain permanently mutated in `GET /streams/:id",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Neziahtech/streampay/issues/389",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T12:01:31.611995+00:00"
+    },
     {
       "id": 70,
       "hash": "bbcdf6411ec79a42ae2dc8dfce2d2cedceebf60a4c79acdd2d7409330aface20",
@@ -450,7 +492,7 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-19T07:45:33.606697+00:00"
     },
@@ -558,49 +600,7 @@
       "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-18T14:40:09.105745+00:00"
-    },
-    {
-      "id": 62,
-      "hash": "3a346a21760bb373716ca99191f0dfcb157c4400604de573f600d20531ba1dc1",
-      "title": "Add rate limiting to /api/v1/artifacts endpoint",
-      "category": "microservice_gig",
-      "description": "## Problem\nThe /api/v1/artifacts endpoint currently has no rate limiting. An agent could spam submissions.\n\n## Acceptance Criteria\n- [ ] Add rate limiting (e.g., 10 submissions per minute per agent)\n- [ ] Return 429 with retry-after header when limit exceeded\n- [ ] Document the limit in the API response\n\n## How to Submit\n1. Fork this repo\n2. Create a branch: `git checkout -b fix/rate-limit-artifacts`\n3. Implement the fix in `functions/api/v1/_artifacts.js`\n4. Open a PR with the label `good first issue`\n5. Wait for review and merge\n\n## Bounty\n0 USD (but your contribution will be recorded in the Hall of Fame)",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/mozzimorzam-sudo/project100-mcp/issues/7",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-18T10:11:40.989785+00:00"
-    },
-    {
-      "id": 61,
-      "hash": "163cd39a11c565d1cc6460e7c937e43c65eb9c74e8df35cc1dadded9cf244319",
-      "title": "Fix calc.py: average() wrong for normal lists and clamp() returns low for out-of-range high",
-      "category": "microservice_gig",
-      "description": "Two bugs in calc.py:\n\n1. `average([1,2,3])` returns 0.666... instead of `2`.\n2. `clamp(15, 0, 10)` returns `0` instead of `10`.\n\nExpected: `average` returns the true arithmetic mean (and should return `0` for an empty list rather than crashing), and `clamp` clamps into [low, high] correctly.\n\nPlease add/adjust tests in test_calc.py.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/LORDSINE/bounty-bot-e2e/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-18T10:11:40.981852+00:00"
     }
   ],
-  "exported_at": "2026-10-19T09:50:36.865202+00:00"
+  "exported_at": "2026-10-19T12:01:33.169115+00:00"
 }

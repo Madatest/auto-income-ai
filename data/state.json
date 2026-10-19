@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 81,
-    "total_opportunities": 73,
-    "total_deliverables": 87,
+    "total_executions": 82,
+    "total_opportunities": 79,
+    "total_deliverables": 88,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2097.0,
+    "projected_pipeline_usd": 2122.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 81,
-      "timestamp": "2026-10-19T17:07:17.191710+00:00",
+      "id": 82,
+      "timestamp": "2026-10-19T18:08:56.028559+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 84.55,
-      "notes": "Produit '[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets'"
+      "duration_seconds": 76.22,
+      "notes": "Produit '[radar] SN open bounty 2026-10-19T06:08'"
     },
-    "updated_at": "2026-10-19T17:07:17.231151+00:00"
+    "updated_at": "2026-10-19T18:08:56.042891+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 90,
+      "opportunity_hash": "bbcdf6411ec79a42ae2dc8dfce2d2cedceebf60a4c79acdd2d7409330aface20",
+      "category": "bounty_solution",
+      "title": "[radar] SN open bounty 2026-10-19T06:08",
+      "file_path": "site/deliverables/20261019_180847_radar_sn_open_bounty_2026_10_19t0608.md",
+      "relative_path": "deliverables/20261019_180847_radar_sn_open_bounty_2026_10_19t0608.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3556,
+        "extension": "md",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1310",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-19T06:08**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-19T18:08:47.614272+00:00"
+    },
     {
       "id": 89,
       "opportunity_hash": "31597f59b693052cbc2d3f5021a0aab9c4b1e963865557f2fd1c9792137bba2a",
@@ -351,46 +388,135 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T12:38:31.674739+00:00"
-    },
-    {
-      "id": 80,
-      "opportunity_hash": "163cd39a11c565d1cc6460e7c937e43c65eb9c74e8df35cc1dadded9cf244319",
-      "category": "bounty_solution",
-      "title": "Fix calc.py: average() wrong for normal lists and clamp() returns low for out-of-range high",
-      "file_path": "site/deliverables/20261018_122523_fix_calcpy_average_wrong_for_normal_lists_and_clam.md",
-      "relative_path": "deliverables/20261018_122523_fix_calcpy_average_wrong_for_normal_lists_and_clam.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 3832,
-        "extension": "md",
-        "source_url": "https://github.com/LORDSINE/bounty-bot-e2e/issues/1",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Fix calc.py: average() wrong for normal lists and clamp() returns low for out-of-range high**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-18T12:25:23.103013+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 84,
+      "hash": "e91b6b3e3a3dcd77a242ae25a31f5abacccf3479bd6874c82113b06f93f84d3c",
+      "title": "[find opt-out] Xactus, LLC: find the official opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find Xactus, LLC's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Xactus, LLC (`xactus`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). ",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/414",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T18:07:50.255822+00:00"
+    },
+    {
+      "id": 83,
+      "hash": "527e856a21540d8cbfc88838346fa320a294048313ba7b6c529c1cd6c31873ad",
+      "title": "[opt-out check] TruePeopleSearch: test the removal flow end to end",
+      "category": "microservice_gig",
+      "description": "**What**: Run a real end-to-end test of TruePeopleSearch's removal flow, which needs an email address, a CAPTCHA and an emailed link.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route: [https://www.truepeoplesearch.com/removal](https://www.truepeoplesearch.com/removal)\n- Our automated check can only load the page. It cannot fill forms, so we have never confirmed the removal actually completes.\n- Use ONLY your own listing: search for yourself, never for another person, and never submit anyone else's details. If you are not listed, say so and stop; do not make up a listing.\n\n**What to do**\n1. Open the removal page in a normal browser and find your own listing.\n2. Start the removal. Use an email address you own; redact it in anything you post.\n3. Complete the CAPTCHA and follow the emailed link.\n4. Report each step, whether it asked for anything else (ID, phone, payment, account), and whether your listing was gone afterwards and how long that took. Stop and report if anything beyond email is demanded.\n\n**What counts as done**\nComment on this issue with the steps, what each required, the outcome and the dates, with personal details redacted. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/415",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T18:07:50.248586+00:00"
+    },
+    {
+      "id": 82,
+      "hash": "e3dcf4d97ffc114119b7cd090009cc3501856dcbdc1354a4bc3710815f7c14bc",
+      "title": "[opt-out check] FastPeopleSearch: test the removal flow end to end",
+      "category": "microservice_gig",
+      "description": "**What**: Run a real end-to-end test of FastPeopleSearch's removal flow, which needs an email address, a CAPTCHA and an emailed link.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route: [https://www.fastpeoplesearch.com/removal](https://www.fastpeoplesearch.com/removal)\n- Our automated check can only load the page. It cannot fill forms, so we have never confirmed the removal actually completes.\n- Use ONLY your own listing: search for yourself, never for another person, and never submit anyone else's details. If you are not listed, say so and stop; do not make up a listing.\n\n**What to do**\n1. Open the removal page in a normal browser and find your own listing.\n2. Start the removal. Use an email address you own; redact it in anything you post.\n3. Complete the CAPTCHA and follow the emailed link.\n4. Report each step, whether it asked for anything else (ID, phone, payment, account), and whether your listing was gone afterwards and how long that took. Stop and report if anything beyond email is demanded.\n\n**What counts as done**\nComment on this issue with the steps, what each required, the outcome and the dates, with personal details redacted. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/416",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T18:07:50.241472+00:00"
+    },
+    {
+      "id": 81,
+      "hash": "6fdd317c92a3c956eae78e4c8c4c57934114c5251df2662ea8d127c4515db9f9",
+      "title": "[opt-out check] American Express: marketing opt-out page says \"currently not available\"",
+      "category": "microservice_gig",
+      "description": "**What**: Re-check the American Express marketing opt-out page, which was reported as showing \"currently not available\".\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route: [https://global.americanexpress.com/privacy/opt-out](https://global.americanexpress.com/privacy/opt-out)\n- Found while auditing the game's missions; American Express is not a broker record in the dataset.\n\n**What to do**\n1. Open the URL in a normal browser and report exactly what it shows.\n2. Look on americanexpress.com for another current route to opt out of marketing or data sharing (privacy centre, \"your privacy choices\").\n3. Report what a route requires (login, account, phone). Do not submit anything.\n\n**What counts as done**\nComment on this issue with the final URL, what the page says, any working route, and what it requires. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share your own personal data in the issue. Redact it from screenshots and captures.\n- If a form demands an ID upload or payment, stop and report that here instead.\n\n---\nBounty: paid in karma points. Comment to claim it before you start, so two people don't do the same one.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/417",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T18:07:50.234992+00:00"
+    },
+    {
+      "id": 80,
+      "hash": "08734155f0b6e17fe5709c2432b640f28b91626934ec324acd2dec82c624dbbb",
+      "title": "[opt-out check] PrivateEye: which brokers are behind its search results?",
+      "category": "microservice_gig",
+      "description": "**What**: Identify which data brokers stand behind PrivateEye, which passes searches on to unnamed partner sites and has no removal form of its own.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- The game's mission notes say PrivateEye passes searches on to partner sites and has no removal form of its own (checked October 2026).\n\n**What to do**\n1. Open PrivateEye in a normal browser and search for a well-known public figure or a fictional name, never a private person.\n2. Note which partner sites the results hand off to (final URLs, any disclosure on the page, the privacy policy).\n3. Match each to a broker in the dataset if you can, and report their names and URLs.\n\n**What counts as done**\nComment on this issue with the list of partner sites, where each is disclosed, and evidence for the matches. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share your own personal data in the issue. Redact it from screenshots and captures.\n- If a form demands an ID upload or payment, stop and report that here instead.\n\n---\nBounty: paid in karma points. Comment to claim it before you start, so two people don't do the same one.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/418",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T18:07:50.228008+00:00"
+    },
+    {
+      "id": 79,
+      "hash": "0197097ec94e1f5d301d33821260e5b806356b0fd8597fa3ee91b5ff09e409e6",
+      "title": "[opt-out check] RocketReach: find a no-account opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find out whether RocketReach's opt-out needs an account, and whether a no-account route exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route in the dataset: [https://rocketreach.co/remove-profile](https://rocketreach.co/remove-profile) (status `verified`, a JavaScript app). Our notes say it may require an account.\n\n**What to do**\n1. Open the URL in a normal browser and report what it asks for. Do not create an account; if it demands one, stop there.\n2. Check RocketReach's privacy policy and help pages for another route (email, form, mail).\n3. Report the route and what it requires.\n\n**What counts as done**\nComment on this issue with the findings and the pages you used. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share your own personal data in the issue. Redact it from screenshots and captures.\n- If a form demands an ID upload or payment, stop and report that here instead.\n\n---\nBounty: paid in karma points. Comment to claim it before you start, so two people don't do the same one.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/419",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T18:07:50.217416+00:00"
+    },
     {
       "id": 78,
       "hash": "79cba1fa206950e1e0e23450913bf8b2d5e8e02f2d1793cc4e16452c048b2f04",
@@ -474,133 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-19T17:06:03.598407+00:00"
-    },
-    {
-      "id": 74,
-      "hash": "e60ec8ca25cab4d96911d9d4a02c6a90a894c5cbc04459d1cac1bfbdc838e6c3",
-      "title": "[find opt-out] Data Driven Safety, LLC: find the official opt-out route",
-      "category": "microservice_gig",
-      "description": "**What**: Find Data Driven Safety, LLC's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Data Driven Safety, LLC (`data-driven-safety`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/mai",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/372",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T17:06:03.584660+00:00"
-    },
-    {
-      "id": 73,
-      "hash": "c00925b1b4fe71ab66c99bfed7e074b001740c154b6f91eb38fcac343231448d",
-      "title": "[find opt-out] Data Facts, Inc.: find the official opt-out route",
-      "category": "microservice_gig",
-      "description": "**What**: Find Data Facts, Inc.'s official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Data Facts, Inc. (`data-facts`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-broker",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/373",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T17:06:03.553519+00:00"
-    },
-    {
-      "id": 72,
-      "hash": "d871986338c1a960a2a71ad25bcbd4c0c0a35bcecadf7dc2b1e9de86d936a81d",
-      "title": "Outbound link report",
-      "category": "microservice_gig",
-      "description": "# Summary\n\n| Status         | Count |\n|----------------|-------|\n| 🔍 Total       | 38459 |\n| 🔗 Unique      | 5808  |\n| ✅ Successful  | 3655  |\n| ⏳ Timeouts    | 0     |\n| 🔀 Redirected  | 0     |\n| 👻 Excluded    | 34734 |\n| ❓ Unknown     | 0     |\n| 🚫 Errors      | 70    |\n| ⛔ Unsupported | 0     |\n\n## Errors per input\n\n### Errors in atlas/site/dist/atlas/earn/index.html\n\n* [406]  (at 52:26729) | Rejected status code: 406 Not Acceptable\n\n### Errors in atlas/site/dist/atlas/platforms/8004scan/index.html\n\n* [404]  (at 65:518) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/agent-governance-institute/index.html\n\n* [ERROR]  (at 52:602) | SSL certificate not trusted. Use --insecure if site is trusted\n* [ERROR]  (at 65:1062) | SSL certificate not trusted. Use --insecure if site is trusted\n* [ERROR]  (at 65:1601) | SSL certificate not trusted. Use --insecure if site is trusted\n* [ERROR]  (at 65:471) | SSL certificate not trusted. Use --insecure if site is trusted\n\n### Errors in atlas/site/dist/atlas/platforms/agentarxiv-agxiv/index.html\n\n* [404]  (at 65:503) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/algora/index.html\n\n* [404]  (at 65:2393) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/botxiv/index.html\n\n* [404]  (at 65:428) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/bountybook/index.html\n\n* [404]  (at 52:479) | Rejected status code: 404 Not Found\n\n### Errors in atlas/site/dist/atlas/platforms/bountysource/index.html\n\n* [ERROR]  (at 65:1626) | Network error: received fatal alert: InternalError\n\n### Errors in atlas/site/dist/atlas/platforms/clawirc/index.html\n\n* [ERROR]  (at 52:604) | Connection failed. Check network connectivity and firewall settings\n* [400]  (at 65:2428) | Rejected status code: 400 Bad Request\n\n### Errors in atlas/site/dist/atlas/platforms/clawnews/index.html\n\n* [ERROR]  (at 52:712) | SSL certificat",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/commonworld-one/commonworld/issues/11",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T12:01:31.616901+00:00"
-    },
-    {
-      "id": 71,
-      "hash": "505d751a84339ae86a8aa2d350a6df63571b96d4a7a382ca32edfbfda4162cc1",
-      "title": "[Security]: Webhook IPv6/NAT64 egress & outbox reorg sync",
-      "category": "microservice_gig",
-      "description": "### Summary\nOutbound URL filter & reorg retraction.\n\n### Severity (self-assessed)\nHigh ($1,000 - $4,000)\n\n### Affected component\nInfra\n\n### Reproduction\n1. **IPv6 Transition / NAT64 / Hex-Mapped SSRF Bypass in `indexer/src/webhooks/ssrf.ts` (`isDisallowedIpv6` & `validateWebhookUrl`)**:\n   - `isDisallowedIpv6` only checks exact strings `::1`, `::`, `fe8..feb`, `fc..fd`, and dotted-quad `::ffff:x.x.x.x` where `net.isIPv4(ipv4Part)` is true.\n   - However, JavaScript's `new URL(...)` normalizes `[::ffff:127.0.0.1]` and `[::127.0.0.1]` into hex-group notation (`[::ffff:7f00:1]`, `[::7f00:1]`), and `parsed.hostname` retains enclosing brackets `[...]` so `net.isIPv6(hostname)` evaluates to `false` on literal IPv6 URLs while DNS `AAAA` records returning IPv4-compatible (`::7f00:1`, `::a9fe:a9fe`), NAT64 (`64:ff9b::7f00:1`, `64:ff9b::a9fe:a9fe`), 6to4 (`2002:7f00:1::1`), Teredo (`2001:0000::1`), or IPv6 multicast (`ff02::1`) bypass `isDisallowedIpv6` and return `{ safe: true }`.\n   - Any caller registering a webhook endpoint (`POST /api/webhooks/endpoints`), an outbox push consumer (`POST /api/outbox/consumers`), or triggering a redirect during webhook delivery can target internal loopback services (`127.0.0.1`) or cloud metadata (`169.254.169.254`).\n\n2. **Post-Reorg State Projection Desynchronization in `POST /api/outbox/retract` (`indexer/src/index.ts` & `indexer/src/store.ts`)**:\n   - When the dual-read reconciliation service invokes `POST /api/outbox/retract` with `{ after_ledger, reason }`, `store.outbox.retractAfterLedger(afterLedger, reason)` marks `outbox_events` rows with `ledger > afterLedger` as retracted and dead-letters pending `outbox_intents`.\n   - However, it never rolls back the primary `streams`, `events`, `webhook_deliveries`, or `indexer_state` (`lastLedger` / `cursor`) tables in `StreamStore`.\n   - As a result, streams created, topped up, withdrawn, or cancelled in orphaned ledgers (`ledger > afterLedger`) remain permanently mutated in `GET /streams/:id",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/389",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T12:01:31.611995+00:00"
-    },
-    {
-      "id": 70,
-      "hash": "bbcdf6411ec79a42ae2dc8dfce2d2cedceebf60a4c79acdd2d7409330aface20",
-      "title": "[radar] SN open bounty 2026-10-19T06:08",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t63\t10000\t14\t17.3\t9274\t28691\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1310",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T07:45:33.632888+00:00"
-    },
-    {
-      "id": 69,
-      "hash": "31597f59b693052cbc2d3f5021a0aab9c4b1e963865557f2fd1c9792137bba2a",
-      "title": "[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets",
-      "category": "microservice_gig",
-      "description": "### Summary\n\nThe contract constructor `StreamingPayments::__constructor(governor)` only stores `stream::DataKey::Governor`. The asset allowlist policy module is not initialized during deployment.\n\nThe initialization entrypoint `StreamingPayments::policy_init(env, admin)` (contracts/streaming-payments/src/lib.rs:1643) delegates directly to `policy::init(&env, &admin)` (contracts/streaming-payments/src/policy.rs:151). `policy::init` only performs `initial_admin.require_auth()`; it **never verifies that the caller is the contract governor** or that the initialization was authorized by the deployment owner.\n\nConsequently, any untrusted caller or front-running bot on public mainnet can call `policy_init(env, attacker)` before the legitimate governor, permanently seizing the `PolicyDataKey::Admin` governance role.\n\nFurthermore, `policy_set_timelock_delay(delay)` (policy.rs:174) contains no minimum duration guard (unlike `MIN_UPGRADE_DELAY_SECONDS = 86_400`), allowing the rogue admin to set the timelock delay to `0`. The attacker can then immediately call `policy_propose_asset(asset, false)` and `policy_execute_asset(asset)` with zero delay, permanently blacklisting every token on the platform and causing all subsequent stream creations across both direct and scheduled lanes to fail with `PolicyAssetNotAllowed`.\n\n### Severity (self-assessed)\n\nHigh ($1,000 - $4,000)\n\n### Affected component\n\ncontract (Rust)\n\n### Impact class\n\nInvariant break / Denial of service\n\n### Reproduction\n\nRun the following test case against `contracts/streaming-payments` (`cargo test -p streampay-contract policy::tests::test_unauthenticated_policy_init_takeover`):\n\n```rust\n#[test]\nfn test_unauthenticated_policy_init_takeover_and_dos() {\n    let env = Env::default();\n    env.mock_all_auths();\n\n    let governor = Address::generate(&env);\n    let attacker = Address::generate(&env);\n    let legitimate_token = Address::generate(&env);\n\n    // 1. Contract is deployed with legitimate governor\n    let cid = ",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/312",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T07:45:33.618567+00:00"
     }
   ],
-  "exported_at": "2026-10-19T17:07:17.251697+00:00"
+  "exported_at": "2026-10-19T18:08:56.053676+00:00"
 }

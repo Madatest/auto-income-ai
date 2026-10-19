@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 80,
-    "total_opportunities": 67,
-    "total_deliverables": 86,
+    "total_executions": 81,
+    "total_opportunities": 73,
+    "total_deliverables": 87,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2072.0,
+    "projected_pipeline_usd": 2097.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 80,
-      "timestamp": "2026-10-19T12:01:33.165669+00:00",
+      "id": 81,
+      "timestamp": "2026-10-19T17:07:17.191710+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 3.45,
-      "notes": "Produit '[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds'"
+      "duration_seconds": 84.55,
+      "notes": "Produit '[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets'"
     },
-    "updated_at": "2026-10-19T12:01:33.167764+00:00"
+    "updated_at": "2026-10-19T17:07:17.231151+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 89,
+      "opportunity_hash": "31597f59b693052cbc2d3f5021a0aab9c4b1e963865557f2fd1c9792137bba2a",
+      "category": "bounty_solution",
+      "title": "[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets",
+      "file_path": "site/deliverables/20261019_170709_security_front_runnable_unauthenticated_policy_ini.md",
+      "relative_path": "deliverables/20261019_170709_security_front_runnable_unauthenticated_policy_ini.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5697,
+        "extension": "md",
+        "source_url": "https://github.com/Neziahtech/streampay/issues/312",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$1,000"
+      },
+      "created_at": "2026-10-19T17:07:09.258513+00:00"
+    },
     {
       "id": 88,
       "opportunity_hash": "96ae206a90b9634a48297a38dc0ecacc9b1f7789d3ef593aa911f4900042954e",
@@ -351,46 +388,135 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T12:25:23.103013+00:00"
-    },
-    {
-      "id": 79,
-      "opportunity_hash": "e5e6bc02855167d2b128c10fd1a8a8f56375f8fd7395229a9911d615bd221a4f",
-      "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-17T10:32",
-      "file_path": "site/deliverables/20261018_111311_radar_sn_open_bounty_2026_10_17t1032.md",
-      "relative_path": "deliverables/20261018_111311_radar_sn_open_bounty_2026_10_17t1032.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 7976,
-        "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal: Fix SN Open Bounty Radar Parser\n\nHello Maintainers (@relayhop team),\n\nI have resolved issue #1300 regarding the failure in parsing incoming Stacker News (SN) open bounty telemetry logs.\n\n#### Root Cause\nThe previous TSV parser was failing on lines with pipe-separated feed strings (`recent@gaming|top@gaming`), comma-separated flag lists (`OPEN_BOUNTY,HOT,SELF_POST_OPP`), and multi-word titles containing UTF-8 emojis.\n\n#### Solution Summary\n- Refactored `SnBountyRadarParser` to use a tab-delimited parser with slice-safe title reconstruction.\n- Added structured normalization for `feeds` (pipe-split) and `flags` (comma-split).\n- Added `isSelfPostOpp` helper flag and explicit NaN fallbacks for numerical fields (`bountySats`, `score`, `userId`).\n- Created test coverage covering single and batch parsing scenarios.\n\n#### Contribution & Payment Metadata\n- **Contributor**: Jean (@Madatest)\n- **Bounty Payout Channel**: Algora / Escrow / Binance Pay UID `254779310` (0% Fee option)\n\nReady to open the PR immediately upon maintainer confirmation.",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-18T11:13:11.208915+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 78,
+      "hash": "79cba1fa206950e1e0e23450913bf8b2d5e8e02f2d1793cc4e16452c048b2f04",
+      "title": "[find opt-out] CoreLogic Credco, LLC: find the official opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find CoreLogic Credco, LLC's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: CoreLogic Credco, LLC (`corelogic-credco`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/rese",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/368",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T17:06:03.641051+00:00"
+    },
+    {
+      "id": 77,
+      "hash": "779e64dec51dd0375c2e78de1a1c0983077b9346da9006dbb01f91d3f720c490",
+      "title": "[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find CoreLogic Credco of Puerto Rico's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: CoreLogic Credco of Puerto Rico (`corelogic-credco-of-puerto-rico`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDevelo",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/369",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T17:06:03.625780+00:00"
+    },
+    {
+      "id": 76,
+      "hash": "bfe9983aa34b6ef349a1f3a15ec735765d270fea041e03935a711dc445a6043e",
+      "title": "[find opt-out] CoreLogic Portfolio Solutions, LLC: find the official opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find CoreLogic Portfolio Solutions, LLC's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: CoreLogic Portfolio Solutions, LLC (`corelogic-portfolio-solutions`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDe",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/370",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T17:06:03.611817+00:00"
+    },
+    {
+      "id": 75,
+      "hash": "b7c3eb0dc1a57b58dfef893223ab8772d1a45de8aa4572c6ec26e01ebae4f1c8",
+      "title": "[find opt-out] Dan Barnett: find the official opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find Dan Barnett's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Dan Barnett (`dan-barnett`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/371",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T17:06:03.598407+00:00"
+    },
+    {
+      "id": 74,
+      "hash": "e60ec8ca25cab4d96911d9d4a02c6a90a894c5cbc04459d1cac1bfbdc838e6c3",
+      "title": "[find opt-out] Data Driven Safety, LLC: find the official opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find Data Driven Safety, LLC's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Data Driven Safety, LLC (`data-driven-safety`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/mai",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/372",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T17:06:03.584660+00:00"
+    },
+    {
+      "id": 73,
+      "hash": "c00925b1b4fe71ab66c99bfed7e074b001740c154b6f91eb38fcac343231448d",
+      "title": "[find opt-out] Data Facts, Inc.: find the official opt-out route",
+      "category": "microservice_gig",
+      "description": "**What**: Find Data Facts, Inc.'s official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Data Facts, Inc. (`data-facts`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-broker",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/373",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T17:06:03.553519+00:00"
+    },
     {
       "id": 72,
       "hash": "d871986338c1a960a2a71ad25bcbd4c0c0a35bcecadf7dc2b1e9de86d936a81d",
@@ -471,136 +597,10 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
       "created_at": "2026-10-19T07:45:33.618567+00:00"
-    },
-    {
-      "id": 68,
-      "hash": "96ae206a90b9634a48297a38dc0ecacc9b1f7789d3ef593aa911f4900042954e",
-      "title": "[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds",
-      "category": "microservice_gig",
-      "description": "### Summary\n\n`StreamingPayments` (`contracts/streaming-payments/src/lib.rs` and `contracts/streaming-payments/src/policy.rs`) contains two governance/state-integrity vulnerabilities in storage migration and stream policy management:\n\n1. **Out-of-order `start_id` in `migrate_storage` skips unmigrated streams `1..start_id` and permanently locks `SchemaVersion = TARGET_SCHEMA_VERSION` (`lib.rs:1896-1920`)**:\n   - `migrate_storage(env, caller, start_id, count)` clamps `effective_start` to `1..=total` instead of `1..=cursor.saturating_add(1).min(total)`.\n   - Passing `start_id > cursor + 1` (e.g., `start_id = total, count = 1` when `cursor == 0`) migrates only stream `total`, skips streams `1..total`, advances `new_cursor = total`, and sets `SchemaVersion = TARGET_SCHEMA_VERSION` (`2`).\n   - Any subsequent call to `migrate_storage` to migrate the skipped streams permanently reverts with `StreamError::AlreadyMigrated`.\n\n2. **`set_stream_policy` accepts negative floors and inverted bounds (`min_duration > max_duration`, `min_rate > max_rate`) that brick stream creation and `top_up`, while `get_stream_policy` drops unset (`0`) global ceilings on per-token overrides (`policy.rs:323-368`)**.\n\n### Severity (self-assessed)\n\nHigh (,000 - ,000)\n\n### Affected component\n\ncontract (Rust) - `contracts/streaming-payments/src/lib.rs`, `contracts/streaming-payments/src/policy.rs`\n\n### Impact class\n\nInvariant break / Denial of service / Policy bypass\n\n### Proposed fix\n\n1. In `StreamingPayments::migrate_storage`, clamp `effective_start` to `1..=cursor.saturating_add(1).min(total)`.\n2. In `policy::set_stream_policy`, reject negative floors/ceilings, durations exceeding `MAX_DURATION_SECONDS`, and inverted duration/rate bounds.\n3. In `policy::get_stream_policy`, inherit unset (`0`) fields on a per-token policy from `GlobalStreamPolicy`.\n\n---\n**Reporter:** @huynhnhatquandongnai-source\n**Payout Wallet (EVM / Base / ERC-20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/314",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T07:45:33.606697+00:00"
-    },
-    {
-      "id": 67,
-      "hash": "353b83cf05bda5c6c82045216a69cb6fc527074e64c0001f591c85174184e35e",
-      "title": "[Security] stream-nft: withdraw and withdraw_max fail to route stream payouts to the current NFT owner after transfer and approve accepts expired live_until_ledger",
-      "category": "microservice_gig",
-      "description": "### Summary\n\n`StreamNft` (`contracts/stream-nft/src/lib.rs`) is the companion SEP-41 single-unit NFT contract whose core invariant (lines 5-18) is that **stream recipient rights map directly to NFT ownership** and that transferring the NFT (`transfer` / `transfer_from`) transfers withdrawal payout rights to the new NFT holder (`NftDataKey::Owner`).\n\nHowever, `StreamNft::withdraw` (`contracts/stream-nft/src/lib.rs:430-468`), `StreamNft::withdraw_max` (`contracts/stream-nft/src/lib.rs:472-504`), `StreamNft::mint` (`contracts/stream-nft/src/lib.rs:168-220`), and `StreamNft::approve` (`contracts/stream-nft/src/lib.rs:272-304`) contain three interconnected defects:\n\n1. **Withdrawn tokens are paid to the former owner instead of the current NFT holder (`lib.rs:454-466`, `491-503`)**:\n   - When the initial recipient (`alice`) transfers the `StreamNft` to a new holder (`bob`), `transfer_internal` updates `NftDataKey::Owner` to `bob`, while `StreamingPayments` still records `stream.recipient = alice`.\n   - When `bob` calls `StreamNft::withdraw(&env, bob, amount)` or `StreamNft::withdraw_max(&env, bob)`, `StreamNft` invokes `core_client.withdraw` / `core_client.withdraw_max` and returns without routing the withdrawn tokens to `owner` (`bob`).\n   - Because `StreamingPayments::pay_out` transfers the payout to `stream.recipient` (`alice`), **100% of the tokens withdrawn by `bob` are sent to the former owner `alice`, while the current NFT owner `bob` receives `0` tokens**.\n2. **NFT-custodied streams (`stream.recipient == env.current_contract_address()`) are rejected by `mint` (`lib.rs:200-202`) and trap withdrawn funds inside `StreamNft`**.\n3. **`StreamNft::approve` accepts already-expired `live_until_ledger  0 && live_until_ledger < env.ledger().sequence()` with `Err(NftError::InvalidAmount)`.\n\n---\n**Reporter:** @huynhnhatquandongnai-source\n**Payout Wallet (EVM / Base / ERC-20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/313",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T07:45:33.593590+00:00"
-    },
-    {
-      "id": 66,
-      "hash": "de59afd9bd79b4a18928c0444cd6cc7bd9040985f69f4424028e8920a70daaa3",
-      "title": "[Security] oracle::resolve_stream_time upper-median index (n / 2) lets 1 rogue publisher in 2-of-3 quorum fast-forward stream time + sponsor initial-window double-spend & i128 overflow",
-      "category": "microservice_gig",
-      "description": "### Summary\n\nIn `contracts/streaming-payments/src/oracle.rs`, `resolve_stream_time` computes the median of `n` valid oracle reports using `valid_times.get(n / 2)` (upper-median index) and only validates `report.ledger_time` against `config.max_stale_seconds` without validating `report.reported_time` against current `[ledger_time - max_stale_seconds, ledger_time + max_stale_seconds]`. When a 2-of-3 (or 2-of-2) oracle quorum has `n = 2` active reports (1 honest publisher reporting `now + 10` and 1 rogue publisher reporting `now + max_stale_seconds`), `valid_times.get(2 / 2)` selects index `1` (`now + max_stale_seconds`), allowing a **single compromised publisher** to unilaterally fast-forward stream accrual time and let a colluding recipient prematurely withdraw unaccrued sender funds.\n\nAdditionally, in `contracts/streaming-payments/src/sponsor.rs`:\n1. A newly initialized `BeneficiarySpend` starts with `period_start: 0, spend: 0` (`get_period`, line 200). When a beneficiary makes their first sponsored claim at `now = window` (`false`), leaving `period_start = 0` instead of anchoring `period_start = now`. The window prematurely resets at `t = 86_400`, allowing the beneficiary to withdraw **2x `per_beneficiary_limit`** within a single `window_seconds` interval.\n2. `sponsored_withdraw` (lines 457 and 462) computes `effective + amount` using raw unchecked `+` instead of `checked_add`, panicking on `i128` overflow instead of returning `Branch::PayoutOverflow`.\n\n### Severity (self-assessed)\n\nHigh (,000 - ,000)\n\n### Affected component\n\ncontract (Rust) - `contracts/streaming-payments/src/oracle.rs`, `contracts/streaming-payments/src/sponsor.rs`\n\n### Proposed fix\n\n1. In `oracle::resolve_stream_time`, validate `report.reported_time` against `[ledger_time - max_stale_seconds, ledger_time + max_stale_seconds]` and use the conservative lower-median index `(n - 1) / 2`.\n2. In `sponsor::PeriodSpend` and `sponsor::sponsored_withdraw`, anchor `period_start = now` when `self.spend == 0",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/317",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T07:45:33.580593+00:00"
-    },
-    {
-      "id": 65,
-      "hash": "5fc713c08832b03e9a0054101c7e169cccbca434b65d33e4822c9b306039b196",
-      "title": "[Security] contracts/streampay: missing admin/recipient/registrant authorization in set_governance_caps, add_agent/remove_agent, and set_refill_rule + unvalidated negative/zero parameters",
-      "category": "microservice_gig",
-      "description": "### Summary\n\nMultiple critical access-control and input-validation checks are missing across `contracts/streampay/src/`:\n1. **Unauthenticated Governance Cap Takeover (`contracts/streampay/src/admin.rs:4-11`)**: `set_governance_caps(env, admin, min_duration, max_duration, min_value)` only calls `admin.require_auth()` on the caller-supplied `admin: Address` parameter without checking it against `DataKey::Admin` in instance storage, and allows inverted/zero/negative cap values (`min_duration > max_duration` or `min_value  0 && cadence_seconds > 0 && max_topups > 0 && total_budget >= amount`.\n4. **Missing Type Definitions in `contracts/streampay/src/types.rs`**: `GovernanceCaps` and `RefillRule` are missing from `types.rs`, and `StreamPayError` uses `#[contracttype]` instead of `#[contracterror]` + `#[repr(u32)]`.\n\n### Severity (self-assessed)\n\nCritical / High (,000 - ,000)\n\n### Affected component\n\ncontract (Rust) - `contracts/streampay/src/admin.rs`, `agents.rs`, `refill.rs`, `types.rs`\n\n### Proposed fix\n\n1. Verify `stored_admin == admin` and validate cap bounds in `set_governance_caps`.\n2. Verify `stored_recipient == recipient` in `add_agent`/`remove_agent` and require `amount > 0` in `withdraw_on_behalf_of`.\n3. Verify `existing.registrant == registrant` and validate rule bounds in `set_refill_rule`.\n4. Define `GovernanceCaps`, `RefillRule`, and `#[contracterror] StreamPayError` in `types.rs`.\n\n---\n**Reporter:** @huynhnhatquandongnai-source\n**Payout Wallet (EVM / Base / ERC-20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/318",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T07:45:33.561766+00:00"
-    },
-    {
-      "id": 64,
-      "hash": "9da1a6ae964b615c9861e7fd5b6085480da3876dc6106b72852079583dad9b22",
-      "title": "Bounty Scout — 2026-10-19",
-      "category": "microservice_gig",
-      "description": "# Bounty Scout — week of 2026-10-19\n\nTarget: at least US$10/week. One merged bounty of US$50 covers ~5 weeks.\n\n| # | Score | Amount | Stars | Comments | Repository | Issue |\n|---|------:|-------:|------:|---------:|------------|-------|\n| – | – | – | – | – | – | No bounty passed the filters this week |\n\n## Filtered out\n\n- no stated amount: 84\n- outside expertise: 53\n- bounty-farm repository: 35\n- below minimum amount: 19\n- not an organisation repo: 8\n- fewer than 500 stars: 2\n\n## Before claiming\n- Read the repo's CONTRIBUTING and bounty rules; many ban low-effort or unreviewed AI-generated PRs.\n- Check nobody is already assigned or has an open PR (comment count is a proxy only).\n- Prefer 💎 Algora bounties: the payout is escrowed by the platform.\n- Comment to claim (e.g. `/attempt` on Algora) only when you can deliver within a week.\n- Payouts go to your own Algora/IssueHunt/Stripe account; declare the income for tax.",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/ariahendrawan-sudo/project-a/issues/13",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T07:42:19.531748+00:00"
-    },
-    {
-      "id": 63,
-      "hash": "5d01eb5b5d84b59b815f52e0d0ccff4f362124ec0c2e6c470c2535e6b986a715",
-      "title": "[radar] SN open bounty 2026-10-18T14:30",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t21\t10000\t0\t1.6\t9274\t28666\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,FRESH\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1301",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-18T14:40:09.105745+00:00"
     }
   ],
-  "exported_at": "2026-10-19T12:01:33.169115+00:00"
+  "exported_at": "2026-10-19T17:07:17.251697+00:00"
 }

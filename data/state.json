@@ -1,105 +1,31 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 80,
-    "total_opportunities": 70,
-    "total_deliverables": 85,
+    "total_executions": 77,
+    "total_opportunities": 65,
+    "total_deliverables": 83,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2047.0,
+    "projected_pipeline_usd": 1997.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 80,
-      "timestamp": "2026-10-19T05:41:07.786664+00:00",
+      "id": 77,
+      "timestamp": "2026-10-19T07:46:32.288667+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.99,
-      "notes": "Produit '[radar] SN open bounty 2026-10-18T20:33'"
+      "duration_seconds": 113.15,
+      "notes": "Produit '[Security] contracts/streampay: missing admin/recipient/registrant authorization in set_governance_caps, add_agent/remove_agent, and set_refill_rule + unvalidated negative/zero parameters'"
     },
-    "updated_at": "2026-10-19T05:41:07.788986+00:00"
+    "updated_at": "2026-10-19T07:46:32.313277+00:00"
   },
   "recent_deliverables": [
     {
-      "id": 87,
-      "opportunity_hash": "a236b5aea58770f25a2e919592808ce8e45883228994139518e3c8b407adb41f",
-      "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-18T20:33",
-      "file_path": "site/deliverables/20261019_054107_radar_sn_open_bounty_2026_10_18t2033.md",
-      "relative_path": "deliverables/20261019_054107_radar_sn_open_bounty_2026_10_18t2033.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 3554,
-        "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1306",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-18T20:33**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T05:41:07.111604+00:00"
-    },
-    {
-      "id": 86,
-      "opportunity_hash": "5e152808f0cffe1fd9cb8125808f8d3dbde7cbdb59c5ab374089cb342111c646",
-      "category": "bounty_solution",
-      "title": "[Security]: Policy/allowlist bypass via scheduled lane: schedule_stream / execute_scheduled skip check_asset_allowed and validate_stream_args",
-      "file_path": "site/deliverables/20261019_004606_security_policyallowlist_bypass_via_scheduled_lane.md",
-      "relative_path": "deliverables/20261019_004606_security_policyallowlist_bypass_via_scheduled_lane.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5630,
-        "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/249",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security]: Policy/allowlist bypass via scheduled lane: schedule_stream / execute_scheduled skip check_asset_allowed and validate_stream_args**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T00:46:06.551829+00:00"
-    },
-    {
       "id": 85,
-      "opportunity_hash": "55c24e9e0a421822792b6c194c55346d68c80797f33de46e2eb068fd3518d638",
+      "opportunity_hash": "5fc713c08832b03e9a0054101c7e169cccbca434b65d33e4822c9b306039b196",
       "category": "bounty_solution",
-      "title": "[Security]: freeze-logic trigger",
-      "file_path": "site/deliverables/20261018_221219_security_freeze_logic_trigger.md",
-      "relative_path": "deliverables/20261018_221219_security_freeze_logic_trigger.md",
+      "title": "[Security] contracts/streampay: missing admin/recipient/registrant authorization in set_governance_caps, add_agent/remove_agent, and set_refill_rule + unvalidated negative/zero parameters",
+      "file_path": "site/deliverables/20261019_074624_security_contractsstreampay_missing_adminrecipient.md",
+      "relative_path": "deliverables/20261019_074624_security_contractsstreampay_missing_adminrecipient.md",
       "monetization_channel": "comeup",
       "price_usd": 25.0,
       "quality_score": 100.0,
@@ -120,23 +46,23 @@
           "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
           "payout_delay_days": 5
         },
-        "file_size_bytes": 5198,
+        "file_size_bytes": 5354,
         "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/255",
+        "source_url": "https://github.com/Neziahtech/streampay/issues/318",
         "source_id": "github_bounties",
         "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security]: freeze-logic trigger**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security] contracts/streampay: missing admin/recipient/registrant authorization in set_governance_caps, add_agent/remove_agent, and set_refill_rule + unvalidated negative/zero parameters**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
         "bounty_value": "25.0 $ USD"
       },
-      "created_at": "2026-10-18T22:12:19.928258+00:00"
+      "created_at": "2026-10-19T07:46:24.101220+00:00"
     },
     {
       "id": 84,
-      "opportunity_hash": "0c3c5c18c3b70752b899189c7d9ed5e165979c3f17b5d6ca47c281487579eb46",
+      "opportunity_hash": "9da1a6ae964b615c9861e7fd5b6085480da3876dc6106b72852079583dad9b22",
       "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-18T18:00",
-      "file_path": "site/deliverables/20261018_191227_radar_sn_open_bounty_2026_10_18t1800.md",
-      "relative_path": "deliverables/20261018_191227_radar_sn_open_bounty_2026_10_18t1800.md",
+      "title": "Bounty Scout — 2026-10-19",
+      "file_path": "site/deliverables/20261019_074350_bounty_scout_2026_10_19.md",
+      "relative_path": "deliverables/20261019_074350_bounty_scout_2026_10_19.md",
       "monetization_channel": "comeup",
       "price_usd": 25.0,
       "quality_score": 100.0,
@@ -157,15 +83,15 @@
           "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
           "payout_delay_days": 5
         },
-        "file_size_bytes": 3563,
+        "file_size_bytes": 7402,
         "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1302",
-        "source_id": "github_bounties",
+        "source_url": "https://github.com/ariahendrawan-sudo/project-a/issues/13",
+        "source_id": "algora_bounties",
         "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-18T18:00**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @ariahendrawan-sudo and project maintainers,\n\nI have investigated issue #13 regarding the Bounty Scout filter execution and weekly criteria processing.\n\n#### Root Cause\n1. **Type Coercion Issue**: Repository star counts were being evaluated as raw string types (`\"1200\"` vs `500`), leading to incorrect lexicographical comparisons where valid repositories with >500 stars were incorrectly flagged under `fewer than 500 stars`.\n2. **Currency Parsing Failure**: Formatting patterns such as `US$10` or `$50.00` were not sanitized prior to comparison, causing valid bounties to fall back to `no stated amount` or `below minimum amount`.\n\n#### Applied Fix\n- Implemented robust `extract_amount()` helper using sanitization regex to parse string/numeric bounty values cleanly.\n- Added strict numerical type coercion for repository star counts (`int()`) and threshold evaluation.\n- Added comprehensive unit tests in `tests/test_scout_filters.py`.\n\nA Pull Request with the complete fix is ready to be merged.\n\nSubmitted by **Jean (@Madatest)**  \n*Payment / Escrow Details:*\n- **Algora / GitHub Escrow**: Standard workflow\n- **Direct USDT (Binance Pay UID)**: `254779310` (0% transaction fees)",
+        "bounty_value": "$10"
       },
-      "created_at": "2026-10-18T19:12:27.093155+00:00"
+      "created_at": "2026-10-19T07:43:50.316915+00:00"
     },
     {
       "id": 83,
@@ -388,11 +314,211 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-18T10:11:41.283110+00:00"
+    },
+    {
+      "id": 77,
+      "opportunity_hash": "c75bb0f2657574ca0fe24c5bcff4b07a64266402ac51edf2e108af2d2d109a51",
+      "category": "bounty_solution",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [1/6]",
+      "file_path": "site/deliverables/20261018_091058_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
+      "relative_path": "deliverables/20261018_091058_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 7884,
+        "extension": "md",
+        "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/1",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Bounty: ultrank_11_20 — 250 frames (label from scratch) [1/6]**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T09:10:58.077907+00:00"
+    },
+    {
+      "id": 76,
+      "opportunity_hash": "b371a36605090ef78e66c5000bf9ee11d1fe9c49f23f865e10136d8b53601ba1",
+      "category": "bounty_solution",
+      "title": "Bounty: ultrank_11_20 — 250 frames (label from scratch) [2/6]",
+      "file_path": "site/deliverables/20261018_090829_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
+      "relative_path": "deliverables/20261018_090829_bounty_ultrank_11_20_250_frames_label_from_scratch.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4151,
+        "extension": "md",
+        "source_url": "https://github.com/MicahHeneveld/bros-analysis/issues/2",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Bounty: ultrank_11_20 — 250 frames (label from scratch) [2/6]**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-18T09:08:29.400891+00:00"
     }
   ],
   "top_opportunities": [
     {
-      "id": 75,
+      "id": 70,
+      "hash": "bbcdf6411ec79a42ae2dc8dfce2d2cedceebf60a4c79acdd2d7409330aface20",
+      "title": "[radar] SN open bounty 2026-10-19T06:08",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t63\t10000\t14\t17.3\t9274\t28691\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1310",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T07:45:33.632888+00:00"
+    },
+    {
+      "id": 69,
+      "hash": "31597f59b693052cbc2d3f5021a0aab9c4b1e963865557f2fd1c9792137bba2a",
+      "title": "[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets",
+      "category": "microservice_gig",
+      "description": "### Summary\n\nThe contract constructor `StreamingPayments::__constructor(governor)` only stores `stream::DataKey::Governor`. The asset allowlist policy module is not initialized during deployment.\n\nThe initialization entrypoint `StreamingPayments::policy_init(env, admin)` (contracts/streaming-payments/src/lib.rs:1643) delegates directly to `policy::init(&env, &admin)` (contracts/streaming-payments/src/policy.rs:151). `policy::init` only performs `initial_admin.require_auth()`; it **never verifies that the caller is the contract governor** or that the initialization was authorized by the deployment owner.\n\nConsequently, any untrusted caller or front-running bot on public mainnet can call `policy_init(env, attacker)` before the legitimate governor, permanently seizing the `PolicyDataKey::Admin` governance role.\n\nFurthermore, `policy_set_timelock_delay(delay)` (policy.rs:174) contains no minimum duration guard (unlike `MIN_UPGRADE_DELAY_SECONDS = 86_400`), allowing the rogue admin to set the timelock delay to `0`. The attacker can then immediately call `policy_propose_asset(asset, false)` and `policy_execute_asset(asset)` with zero delay, permanently blacklisting every token on the platform and causing all subsequent stream creations across both direct and scheduled lanes to fail with `PolicyAssetNotAllowed`.\n\n### Severity (self-assessed)\n\nHigh ($1,000 - $4,000)\n\n### Affected component\n\ncontract (Rust)\n\n### Impact class\n\nInvariant break / Denial of service\n\n### Reproduction\n\nRun the following test case against `contracts/streaming-payments` (`cargo test -p streampay-contract policy::tests::test_unauthenticated_policy_init_takeover`):\n\n```rust\n#[test]\nfn test_unauthenticated_policy_init_takeover_and_dos() {\n    let env = Env::default();\n    env.mock_all_auths();\n\n    let governor = Address::generate(&env);\n    let attacker = Address::generate(&env);\n    let legitimate_token = Address::generate(&env);\n\n    // 1. Contract is deployed with legitimate governor\n    let cid = ",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Neziahtech/streampay/issues/312",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T07:45:33.618567+00:00"
+    },
+    {
+      "id": 68,
+      "hash": "96ae206a90b9634a48297a38dc0ecacc9b1f7789d3ef593aa911f4900042954e",
+      "title": "[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds",
+      "category": "microservice_gig",
+      "description": "### Summary\n\n`StreamingPayments` (`contracts/streaming-payments/src/lib.rs` and `contracts/streaming-payments/src/policy.rs`) contains two governance/state-integrity vulnerabilities in storage migration and stream policy management:\n\n1. **Out-of-order `start_id` in `migrate_storage` skips unmigrated streams `1..start_id` and permanently locks `SchemaVersion = TARGET_SCHEMA_VERSION` (`lib.rs:1896-1920`)**:\n   - `migrate_storage(env, caller, start_id, count)` clamps `effective_start` to `1..=total` instead of `1..=cursor.saturating_add(1).min(total)`.\n   - Passing `start_id > cursor + 1` (e.g., `start_id = total, count = 1` when `cursor == 0`) migrates only stream `total`, skips streams `1..total`, advances `new_cursor = total`, and sets `SchemaVersion = TARGET_SCHEMA_VERSION` (`2`).\n   - Any subsequent call to `migrate_storage` to migrate the skipped streams permanently reverts with `StreamError::AlreadyMigrated`.\n\n2. **`set_stream_policy` accepts negative floors and inverted bounds (`min_duration > max_duration`, `min_rate > max_rate`) that brick stream creation and `top_up`, while `get_stream_policy` drops unset (`0`) global ceilings on per-token overrides (`policy.rs:323-368`)**.\n\n### Severity (self-assessed)\n\nHigh (,000 - ,000)\n\n### Affected component\n\ncontract (Rust) - `contracts/streaming-payments/src/lib.rs`, `contracts/streaming-payments/src/policy.rs`\n\n### Impact class\n\nInvariant break / Denial of service / Policy bypass\n\n### Proposed fix\n\n1. In `StreamingPayments::migrate_storage`, clamp `effective_start` to `1..=cursor.saturating_add(1).min(total)`.\n2. In `policy::set_stream_policy`, reject negative floors/ceilings, durations exceeding `MAX_DURATION_SECONDS`, and inverted duration/rate bounds.\n3. In `policy::get_stream_policy`, inherit unset (`0`) fields on a per-token policy from `GlobalStreamPolicy`.\n\n---\n**Reporter:** @huynhnhatquandongnai-source\n**Payout Wallet (EVM / Base / ERC-20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Neziahtech/streampay/issues/314",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T07:45:33.606697+00:00"
+    },
+    {
+      "id": 67,
+      "hash": "353b83cf05bda5c6c82045216a69cb6fc527074e64c0001f591c85174184e35e",
+      "title": "[Security] stream-nft: withdraw and withdraw_max fail to route stream payouts to the current NFT owner after transfer and approve accepts expired live_until_ledger",
+      "category": "microservice_gig",
+      "description": "### Summary\n\n`StreamNft` (`contracts/stream-nft/src/lib.rs`) is the companion SEP-41 single-unit NFT contract whose core invariant (lines 5-18) is that **stream recipient rights map directly to NFT ownership** and that transferring the NFT (`transfer` / `transfer_from`) transfers withdrawal payout rights to the new NFT holder (`NftDataKey::Owner`).\n\nHowever, `StreamNft::withdraw` (`contracts/stream-nft/src/lib.rs:430-468`), `StreamNft::withdraw_max` (`contracts/stream-nft/src/lib.rs:472-504`), `StreamNft::mint` (`contracts/stream-nft/src/lib.rs:168-220`), and `StreamNft::approve` (`contracts/stream-nft/src/lib.rs:272-304`) contain three interconnected defects:\n\n1. **Withdrawn tokens are paid to the former owner instead of the current NFT holder (`lib.rs:454-466`, `491-503`)**:\n   - When the initial recipient (`alice`) transfers the `StreamNft` to a new holder (`bob`), `transfer_internal` updates `NftDataKey::Owner` to `bob`, while `StreamingPayments` still records `stream.recipient = alice`.\n   - When `bob` calls `StreamNft::withdraw(&env, bob, amount)` or `StreamNft::withdraw_max(&env, bob)`, `StreamNft` invokes `core_client.withdraw` / `core_client.withdraw_max` and returns without routing the withdrawn tokens to `owner` (`bob`).\n   - Because `StreamingPayments::pay_out` transfers the payout to `stream.recipient` (`alice`), **100% of the tokens withdrawn by `bob` are sent to the former owner `alice`, while the current NFT owner `bob` receives `0` tokens**.\n2. **NFT-custodied streams (`stream.recipient == env.current_contract_address()`) are rejected by `mint` (`lib.rs:200-202`) and trap withdrawn funds inside `StreamNft`**.\n3. **`StreamNft::approve` accepts already-expired `live_until_ledger  0 && live_until_ledger < env.ledger().sequence()` with `Err(NftError::InvalidAmount)`.\n\n---\n**Reporter:** @huynhnhatquandongnai-source\n**Payout Wallet (EVM / Base / ERC-20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Neziahtech/streampay/issues/313",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T07:45:33.593590+00:00"
+    },
+    {
+      "id": 66,
+      "hash": "de59afd9bd79b4a18928c0444cd6cc7bd9040985f69f4424028e8920a70daaa3",
+      "title": "[Security] oracle::resolve_stream_time upper-median index (n / 2) lets 1 rogue publisher in 2-of-3 quorum fast-forward stream time + sponsor initial-window double-spend & i128 overflow",
+      "category": "microservice_gig",
+      "description": "### Summary\n\nIn `contracts/streaming-payments/src/oracle.rs`, `resolve_stream_time` computes the median of `n` valid oracle reports using `valid_times.get(n / 2)` (upper-median index) and only validates `report.ledger_time` against `config.max_stale_seconds` without validating `report.reported_time` against current `[ledger_time - max_stale_seconds, ledger_time + max_stale_seconds]`. When a 2-of-3 (or 2-of-2) oracle quorum has `n = 2` active reports (1 honest publisher reporting `now + 10` and 1 rogue publisher reporting `now + max_stale_seconds`), `valid_times.get(2 / 2)` selects index `1` (`now + max_stale_seconds`), allowing a **single compromised publisher** to unilaterally fast-forward stream accrual time and let a colluding recipient prematurely withdraw unaccrued sender funds.\n\nAdditionally, in `contracts/streaming-payments/src/sponsor.rs`:\n1. A newly initialized `BeneficiarySpend` starts with `period_start: 0, spend: 0` (`get_period`, line 200). When a beneficiary makes their first sponsored claim at `now = window` (`false`), leaving `period_start = 0` instead of anchoring `period_start = now`. The window prematurely resets at `t = 86_400`, allowing the beneficiary to withdraw **2x `per_beneficiary_limit`** within a single `window_seconds` interval.\n2. `sponsored_withdraw` (lines 457 and 462) computes `effective + amount` using raw unchecked `+` instead of `checked_add`, panicking on `i128` overflow instead of returning `Branch::PayoutOverflow`.\n\n### Severity (self-assessed)\n\nHigh (,000 - ,000)\n\n### Affected component\n\ncontract (Rust) - `contracts/streaming-payments/src/oracle.rs`, `contracts/streaming-payments/src/sponsor.rs`\n\n### Proposed fix\n\n1. In `oracle::resolve_stream_time`, validate `report.reported_time` against `[ledger_time - max_stale_seconds, ledger_time + max_stale_seconds]` and use the conservative lower-median index `(n - 1) / 2`.\n2. In `sponsor::PeriodSpend` and `sponsor::sponsored_withdraw`, anchor `period_start = now` when `self.spend == 0",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Neziahtech/streampay/issues/317",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T07:45:33.580593+00:00"
+    },
+    {
+      "id": 65,
+      "hash": "5fc713c08832b03e9a0054101c7e169cccbca434b65d33e4822c9b306039b196",
+      "title": "[Security] contracts/streampay: missing admin/recipient/registrant authorization in set_governance_caps, add_agent/remove_agent, and set_refill_rule + unvalidated negative/zero parameters",
+      "category": "microservice_gig",
+      "description": "### Summary\n\nMultiple critical access-control and input-validation checks are missing across `contracts/streampay/src/`:\n1. **Unauthenticated Governance Cap Takeover (`contracts/streampay/src/admin.rs:4-11`)**: `set_governance_caps(env, admin, min_duration, max_duration, min_value)` only calls `admin.require_auth()` on the caller-supplied `admin: Address` parameter without checking it against `DataKey::Admin` in instance storage, and allows inverted/zero/negative cap values (`min_duration > max_duration` or `min_value  0 && cadence_seconds > 0 && max_topups > 0 && total_budget >= amount`.\n4. **Missing Type Definitions in `contracts/streampay/src/types.rs`**: `GovernanceCaps` and `RefillRule` are missing from `types.rs`, and `StreamPayError` uses `#[contracttype]` instead of `#[contracterror]` + `#[repr(u32)]`.\n\n### Severity (self-assessed)\n\nCritical / High (,000 - ,000)\n\n### Affected component\n\ncontract (Rust) - `contracts/streampay/src/admin.rs`, `agents.rs`, `refill.rs`, `types.rs`\n\n### Proposed fix\n\n1. Verify `stored_admin == admin` and validate cap bounds in `set_governance_caps`.\n2. Verify `stored_recipient == recipient` in `add_agent`/`remove_agent` and require `amount > 0` in `withdraw_on_behalf_of`.\n3. Verify `existing.registrant == registrant` and validate rule bounds in `set_refill_rule`.\n4. Define `GovernanceCaps`, `RefillRule`, and `#[contracterror] StreamPayError` in `types.rs`.\n\n---\n**Reporter:** @huynhnhatquandongnai-source\n**Payout Wallet (EVM / Base / ERC-20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/Neziahtech/streampay/issues/318",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 0,
+      "created_at": "2026-10-19T07:45:33.561766+00:00"
+    },
+    {
+      "id": 64,
       "hash": "9da1a6ae964b615c9861e7fd5b6085480da3876dc6106b72852079583dad9b22",
       "title": "Bounty Scout — 2026-10-19",
       "category": "microservice_gig",
@@ -408,165 +534,18 @@
         "madagascar_payment_readiness": 20.0,
         "max_possible": 100.0
       },
-      "status": "pending",
+      "status": "processed",
       "is_simulated": 0,
-      "created_at": "2026-10-19T05:41:07.106319+00:00"
+      "created_at": "2026-10-19T07:42:19.531748+00:00"
     },
     {
-      "id": 74,
-      "hash": "ce96949e50c26b62abfb32fb631412d5d9e50296f088a63ac388bd174dd686a2",
-      "title": "[BOUNTY #1] MoE Routing Gate Normalization across High-Dimensional Token Projections",
+      "id": 63,
+      "hash": "5d01eb5b5d84b59b815f52e0d0ccff4f362124ec0c2e6c470c2535e6b986a715",
+      "title": "[radar] SN open bounty 2026-10-18T14:30",
       "category": "microservice_gig",
-      "description": "### 🤖 Autonomous Agent Bounty\n\n**Reward:** 2 Swarm Query Credits  \n**Category:** Model Architecture / Tensor Mathematics  \n**Host:** WhisperAI Studio Swarm Agora Council\n\n#### Problem Statement:\nAnalyze and verify unit-norm cheap_embed positive prompt vectors when projecting hidden states into router space for high-expert Qwen2MoE (12–20 experts). Ensure zero cosine collapse between adjacent expert anchors.\n\n#### How to Claim:\nSubmit your verified solution or proof-of-concept algorithm either:\n1. Directly via API: POST https://whisperaistudio.com/api/swarm/solve with \task_id: bounty_moe_01 and your \bot_id.\n2. As a comment/PR on this issue.\n\n*Automated validation is active.*",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t21\t10000\t0\t1.6\t9274\t28666\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,FRESH\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
       "source_id": "github_bounties",
-      "source_url": "https://github.com/patrickkellyyoung-ai/swarm-agora-mcp/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T05:41:07.105015+00:00"
-    },
-    {
-      "id": 73,
-      "hash": "7a1a277b72d5e96e1b5e7386a386c59b215928710f9a56c69b7db0f3d36dc8ab",
-      "title": "[Security]: Signed i128 underflow in cancel_amounts_at and unguarded past timestamp in submit_oracle_time over-refunds creator on cancellation",
-      "category": "microservice_gig",
-      "description": "### Severity (self-assessed)\n\nHigh\n\n### Affected component\n\ncontract (Rust)\n\n### Impact class\n\nFunds drainable\n\n### Summary\n\n**Original Reporter & Bounty Claimant:** `@huynhnhatquandongnai-source` | **Payout Wallet (USDC/USDT EVM/BEP20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`\n\nIn `contracts/streaming-payments/src/stream.rs:273-283` (`cancel_amounts_at`) and `253-263` (`available_amount_at`), `streamed.checked_sub(stream.withdrawn)` operates on signed `i128` values. Whenever `streamed  stream.deposit - stream.withdrawn`, corrupting `s.withdrawn` downward at `lib.rs:872` and over-refunding up to 180% of the principal.\n\n### Reproduction\n\n// Run: cargo test -p streaming-payments poc_oracle_time_regression_in_cancel_stream_drains_other_streams\n#[test]\nfn poc_oracle_time_regression_in_cancel_stream_drains_other_streams() {\n    let f = Fixture::setup();\n    let p1 = soroban_sdk::Address::generate(&f.env);\n    let mut publishers = soroban_sdk::Vec::new(&f.env);\n    publishers.push_back(p1.clone());\n\n    f.client\n        .mock_all_auths()\n        .set_oracle_config(&f.governor, &publishers, &1, &3600);\n\n    let _unrelated = f.create_stream(DEPOSIT, 0, 10 * DAY, false);\n    let now = f.env.ledger().timestamp();\n    let sid = f.create_stream_with_oracle(DEPOSIT, 0, 1000, true, true);\n\n    // 1. Oracle reports now + 800 (within max_stale_seconds = 3600)\n    f.client.mock_all_auths().submit_oracle_time(&p1, &(now + 800));\n\n    // 2. Beneficiary withdraws 80% of DEPOSIT\n    let withdraw_amt = (DEPOSIT * 80) / 100;\n    f.client.mock_all_auths().withdraw(&sid, &withdraw_amt);\n\n    // 3. Oracle reports `now` (or quorum falls back to ledger time `now`)\n    f.client.mock_all_auths().submit_oracle_time(&p1, &now);\n\n    let creator_before = TokenClient::new(&f.env, &f.token).balance(&f.sender);\n\n    // 4. Cancellation at `now` computes recipient_amount = -8_000_000_000 and sender_amount = DEPOSIT (100% refund!)\n    f.client.mock_all_auths().cancel_stream(&f.sender, &sid);\n\n    l",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/294",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T05:41:07.103519+00:00"
-    },
-    {
-      "id": 72,
-      "hash": "a52764f8c4fb0650f1aea7116f4417f9c8e9d2a5b0b7b91f1e386b58cc6eed45",
-      "title": "[Security]: Unscoped NftDataKey::Allowance(spender) persists across StreamNft::transfer, enabling prior spender to seize or burn new holder's NFT",
-      "category": "microservice_gig",
-      "description": "### Severity (self-assessed)\n\nHigh\n\n### Affected component\n\ncontract (Rust)\n\n### Impact class\n\nInvariant break\n\n### Summary\n\n**Original Reporter & Bounty Claimant:** `@huynhnhatquandongnai-source` | **Payout Wallet (USDC/USDT EVM/BEP20):** `0xb9f3765aeb1974c27a193463f655a1a57b3aec94`\n\nIn `contracts/stream-nft/src/lib.rs:82` (`NftDataKey::Allowance(Address)`), operator approvals are keyed solely by `spender: Address` rather than `(owner, spender)`, and `StreamNft::transfer_internal` (`lib.rs:526-557`) updates `NftDataKey::Owner` without clearing or epoch-invalidating prior approvals. Consequently, after holder `Alice` approves `spender` and transfers the StreamNft directly to `Bob`, `StreamNft::allowance(env, bob, spender)` (`lib.rs:252-268`) returns `1`, permitting `spender` to invoke `transfer_from` or `burn_from` against `Bob` without `Bob`'s consent.\n\n### Reproduction\n\n// Run: cargo test -p stream-nft poc_previous_owner_operator_steals_nft_from_new_owner_after_transfer\n#[test]\nfn poc_previous_owner_operator_steals_nft_from_new_owner_after_transfer() {\n    let f = TestFixture::setup();\n    let sid = f.create_stream(10 * DAY, false);\n    let (_nft_addr, nft) = f.deploy_nft(sid);\n    nft.mint(&f.recipient);\n\n    let alice_operator = Address::generate(&f.env);\n    let bob = Address::generate(&f.env);\n    let thief = Address::generate(&f.env);\n\n    // 1. Initial holder (Alice) approves alice_operator\n    let live_until = f.env.ledger().sequence() + 100;\n    nft.approve(&f.recipient, &alice_operator, &1, &live_until);\n    assert_eq!(nft.allowance(&f.recipient, &alice_operator), 1);\n\n    // 2. Alice transfers the NFT directly to Bob\n    nft.transfer(&f.recipient, &bob, &1);\n    assert_eq!(nft.owner(), bob);\n\n    // 3. BUG: Bob never approved alice_operator, yet allowance(bob, alice_operator) == 1\n    assert_eq!(nft.allowance(&bob, &alice_operator), 1);\n\n    // 4. alice_operator seizes the NFT from Bob via transfer_from\n    nft.transfer_from(&alice_operator, &bob, &thief",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/295",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T05:41:07.102209+00:00"
-    },
-    {
-      "id": 71,
-      "hash": "204acf4741e67c7f30bd95dfda1bfca8bce0bad9c8b6ef6338f2da69c809315f",
-      "title": "[BOUNTY #2] Automated CVE & Threat Surface Detection on Windows Kernel Drivers",
-      "category": "microservice_gig",
-      "description": "### 🤖 Autonomous Security Agent Bounty\n\n**Reward:** 3 Swarm Query Credits  \n**Category:** Systems Hardening / Security  \n**Host:** WhisperAI Studio Swarm Agora\n\n#### Objective:\nSubmit an autonomous diagnostic script or pattern scanner that identifies unquoted service paths and vulnerable kernel driver dispatch routines.\n\n#### To Claim:\nCall POST https://whisperaistudio.com/api/swarm/solve with \task_id: bounty_sys_02 and your \bot_id, or submit a solution in this thread.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/patrickkellyyoung-ai/swarm-agora-mcp/issues/3",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T05:41:07.100694+00:00"
-    },
-    {
-      "id": 70,
-      "hash": "4201a0632efb85ea678e5de49925218c08988baa52a2af129035f1b1a6caf958",
-      "title": "[BOUNTY #3] High-Throughput MoE KV-Cache Compression Benchmark",
-      "category": "microservice_gig",
-      "description": "### 🤖 Autonomous Model Architecture Bounty\n\n**Reward:** 2 Swarm Query Credits  \n**Category:** Inference Acceleration  \n**Host:** WhisperAI Studio Swarm Agora\n\n#### Objective:\nEvaluate 4-bit vs 8-bit KV unified cache degradation across 36-layer Qwen2MoE architectures under high concurrency (100+ bot queries/sec).\n\n#### To Claim:\nSubmit your benchmarks and data table to POST https://whisperaistudio.com/api/swarm/solve with \task_id: bounty_moe_03 and your \bot_id.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/patrickkellyyoung-ai/swarm-agora-mcp/issues/4",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T05:41:07.098613+00:00"
-    },
-    {
-      "id": 69,
-      "hash": "f4d200749a711f9c79d28ad37a13a7cdd42e4c7113eb9e24f9c9182b517c532d",
-      "title": "[Security]: PasskeySigner unscoped UsedChallenge nonce griefing, top-level JSON key spoofing in cbor.rs, and COSE/DER parsing bugs",
-      "category": "microservice_gig",
-      "description": "### Severity (self-assessed)\n\nHigh\n\n### Affected component\n\ncontract (Rust)\n\n### Impact class\n\nInvariant break\n\n### Summary\n\nIn `contracts/passkey-signer/src/` (`lib.rs`, `registry.rs`, `cbor.rs`, and `frontend/lib/passkey.ts`), `PasskeySigner::verify_and_record` records consumed WebAuthn challenge nonces under a global unscoped key `RegistryKey::UsedChallenge(BytesN)`, checks replay after ECDSA signature verification instead of before, omits WebAuthn `origin` verification and structural JSON key-context parsing in `find_json_string_value`, and uses a Naive CBOR byte substring scan (`findCoseByteString`) in `extractP256KeyFromAuthData` that can match `0x21 0x58 0x20` inside raw X coordinate bytes.\n\n### Reproduction\n\n```rust\n// Run: cargo test -p passkey-signer poc_verify_and_record_unscoped_nonce_and_cbor_spoofing\n#[test]\nfn poc_verify_and_record_unscoped_nonce_and_cbor_spoofing() {\n    let env = new_env();\n    let (contract_id, client) = deploy(&env);\n    let alice = Address::generate(&env);\n    let bob = Address::generate(&env);\n    let rp_id_hash = [0x11u8; 32];\n    let (x, y) = fake_pub_key();\n\n    client.register(\n        &alice,\n        &to_bytes32(&env, &rp_id_hash),\n        &to_bytes32(&env, &x),\n        &to_bytes32(&env, &y),\n        &0u32,\n    );\n    client.register(\n        &bob,\n        &to_bytes32(&env, &rp_id_hash),\n        &to_bytes32(&env, &x),\n        &to_bytes32(&env, &y),\n        &0u32,\n    );\n\n    // 1. Unscoped challenge nonce: Alice consuming challenge C blocks Bob on the same challenge C\n    //    and `is_nonce_used(C)` cannot distinguish whether Alice or an attacker consumed C.\n    let challenge = to_bytes32(&env, &[0x42u8; 32]);\n    env.as_contract(&contract_id, || {\n        crate::registry::record_challenge(&env, &challenge).unwrap();\n    });\n    assert!(client.is_nonce_used(&challenge));\n\n    // 2. Substring key spoofing in cbor::find_json_string_value:\n    //    A first field whose value contains escaped or nested `\"type\":\"webauthn.get\"`\n",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/300",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T05:41:07.093611+00:00"
-    },
-    {
-      "id": 68,
-      "hash": "a106a7301b6824352d9fad917398f137380c634388d5cf7c2cd0f3fe2995ac8a",
-      "title": "[radar] SN open bounty 2026-10-18T23:01",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t63\t10000\t13\t10.2\t9274\t28682\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1308",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T00:46:06.542348+00:00"
-    },
-    {
-      "id": 67,
-      "hash": "a236b5aea58770f25a2e919592808ce8e45883228994139518e3c8b407adb41f",
-      "title": "[radar] SN open bounty 2026-10-18T20:33",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t63\t10000\t7\t7.7\t9274\t28677\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1306",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1301",
       "score": 99.5,
       "score_breakdown": {
         "observable_demand": 25.0,
@@ -578,16 +557,16 @@
       },
       "status": "processed",
       "is_simulated": 0,
-      "created_at": "2026-10-18T22:12:19.918790+00:00"
+      "created_at": "2026-10-18T14:40:09.105745+00:00"
     },
     {
-      "id": 66,
-      "hash": "5e152808f0cffe1fd9cb8125808f8d3dbde7cbdb59c5ab374089cb342111c646",
-      "title": "[Security]: Policy/allowlist bypass via scheduled lane: schedule_stream / execute_scheduled skip check_asset_allowed and validate_stream_args",
+      "id": 62,
+      "hash": "3a346a21760bb373716ca99191f0dfcb157c4400604de573f600d20531ba1dc1",
+      "title": "Add rate limiting to /api/v1/artifacts endpoint",
       "category": "microservice_gig",
-      "description": "### Severity (self-assessed)\n\nCritical\n\n### Affected component\n\ncontract (Rust)\n\n### Impact class\n\nFunds drainable\n\n### Summary\n\nThe policy module is the on-chain allowlist: create_stream enforces check_asset_allowed and reverts PolicyAssetNotAllowed (#31) for blocked assets. The scheduled lane never calls it — schedule.rs contains zero references to \"policy\", and neither schedule_stream nor execute_scheduled invokes check_asset_allowed or validate_stream_args. A permissionless sender can therefore open streams (with escrow) for assets the admin explicitly blocked — e.g. scam or sanctioned tokens — while simultaneously bypassing min-deposit / duration / rate floors and the protocol fee. The team's own exemption list (POLICY_GOVERNANCE.md L32) covers only withdraw / withdraw_max / cancel_stream; the scheduled lane appears in no exemption.\n\n\n### Reproduction\n\nNET=\"--network testnet\"\nCID=\"--id CCF6M73DGUWTDKXE76FKZJIFKHAK3CMUJPTZIXSBXYG4Z5CUS5PUSLKE\"\n# Own testnet deployment of the pinned commit (wasm sha256 4a5c771e...c94bd616).\n# Replace --source identities with funded testnet accounts.\n\n# 1. Initialize policy and block FZNB (CCNZ27...QIGWJ)\nstellar contract invoke $NET $CID --source gov -- policy_init --admin GAJ6HLMKKFF5GXX2PAT7WUZ53PATELHT4I5L5XR2YTJAXQE4IHPF4XLX\nstellar contract invoke $NET $CID --source gov -- policy_set_timelock_delay --delay 0\nstellar contract invoke $NET $CID --source gov -- policy_propose_asset --asset CCNZ27KWIOQC3S5MO4MWNDDRN2EB3L4KLOHWRK4AQ7ACIFCVNBHQIGWJ --allowed false\nstellar contract invoke $NET $CID --source gov -- policy_execute_asset --asset CCNZ27KWIOQC3S5MO4MWNDDRN2EB3L4KLOHWRK4AQ7ACIFCVNBHQIGWJ\n\n# 2. State proof: asset is blocked\nstellar contract invoke $NET $CID --source gov -- policy_is_asset_allowed --asset CCNZ27KWIOQC3S5MO4MWNDDRN2EB3L4KLOHWRK4AQ7ACIFCVNBHQIGWJ\n# expected: false\n# actual:   false\n\n# 3. NEGATIVE CONTROL — direct lane still enforces the policy\nstellar contract invoke $NET $CID --source sender -- create_stream",
+      "description": "## Problem\nThe /api/v1/artifacts endpoint currently has no rate limiting. An agent could spam submissions.\n\n## Acceptance Criteria\n- [ ] Add rate limiting (e.g., 10 submissions per minute per agent)\n- [ ] Return 429 with retry-after header when limit exceeded\n- [ ] Document the limit in the API response\n\n## How to Submit\n1. Fork this repo\n2. Create a branch: `git checkout -b fix/rate-limit-artifacts`\n3. Implement the fix in `functions/api/v1/_artifacts.js`\n4. Open a PR with the label `good first issue`\n5. Wait for review and merge\n\n## Bounty\n0 USD (but your contribution will be recorded in the Hall of Fame)",
       "source_id": "github_bounties",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/249",
+      "source_url": "https://github.com/mozzimorzam-sudo/project100-mcp/issues/7",
       "score": 99.5,
       "score_breakdown": {
         "observable_demand": 25.0,
@@ -599,8 +578,29 @@
       },
       "status": "processed",
       "is_simulated": 0,
-      "created_at": "2026-10-18T19:12:27.086909+00:00"
+      "created_at": "2026-10-18T10:11:40.989785+00:00"
+    },
+    {
+      "id": 61,
+      "hash": "163cd39a11c565d1cc6460e7c937e43c65eb9c74e8df35cc1dadded9cf244319",
+      "title": "Fix calc.py: average() wrong for normal lists and clamp() returns low for out-of-range high",
+      "category": "microservice_gig",
+      "description": "Two bugs in calc.py:\n\n1. `average([1,2,3])` returns 0.666... instead of `2`.\n2. `clamp(15, 0, 10)` returns `0` instead of `10`.\n\nExpected: `average` returns the true arithmetic mean (and should return `0` for an empty list rather than crashing), and `clamp` clamps into [low, high] correctly.\n\nPlease add/adjust tests in test_calc.py.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/LORDSINE/bounty-bot-e2e/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "processed",
+      "is_simulated": 0,
+      "created_at": "2026-10-18T10:11:40.981852+00:00"
     }
   ],
-  "exported_at": "2026-10-19T05:41:07.790056+00:00"
+  "exported_at": "2026-10-19T07:46:32.331422+00:00"
 }

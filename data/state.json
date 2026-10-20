@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 90,
+    "total_executions": 91,
     "total_opportunities": 86,
-    "total_deliverables": 96,
+    "total_deliverables": 97,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2322.0,
+    "projected_pipeline_usd": 2347.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 90,
-      "timestamp": "2026-10-20T07:06:33.019103+00:00",
+      "id": 91,
+      "timestamp": "2026-10-20T07:47:54.498797+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.68,
-      "notes": "Produit '[find opt-out] CoreLogic Credco, LLC: find the official opt-out route'"
+      "duration_seconds": 85.11,
+      "notes": "Produit '[opt-out check] RocketReach: find a no-account opt-out route'"
     },
-    "updated_at": "2026-10-20T07:06:33.021361+00:00"
+    "updated_at": "2026-10-20T07:47:54.533218+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 99,
+      "opportunity_hash": "0197097ec94e1f5d301d33821260e5b806356b0fd8597fa3ee91b5ff09e409e6",
+      "category": "bounty_solution",
+      "title": "[opt-out check] RocketReach: find a no-account opt-out route",
+      "file_path": "site/deliverables/20261020_074746_opt_out_check_rocketreach_find_a_no_account_opt_ou.md",
+      "relative_path": "deliverables/20261020_074746_opt_out_check_rocketreach_find_a_no_account_opt_ou.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5198,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/419",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[opt-out check] RocketReach: find a no-account opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T07:47:46.748371+00:00"
+    },
     {
       "id": 98,
       "opportunity_hash": "79cba1fa206950e1e0e23450913bf8b2d5e8e02f2d1793cc4e16452c048b2f04",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-19T18:08:47.614272+00:00"
-    },
-    {
-      "id": 89,
-      "opportunity_hash": "31597f59b693052cbc2d3f5021a0aab9c4b1e963865557f2fd1c9792137bba2a",
-      "category": "bounty_solution",
-      "title": "[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets",
-      "file_path": "site/deliverables/20261019_170709_security_front_runnable_unauthenticated_policy_ini.md",
-      "relative_path": "deliverables/20261019_170709_security_front_runnable_unauthenticated_policy_ini.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5697,
-        "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/312",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security]: Front-runnable unauthenticated policy_init allows arbitrary caller to hijack PolicyDataKey::Admin, set zero timelock, and blacklist all stream assets**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$1,000"
-      },
-      "created_at": "2026-10-19T17:07:09.258513+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-19T18:07:50.241472+00:00"
     }
   ],
-  "exported_at": "2026-10-20T07:06:33.022817+00:00"
+  "exported_at": "2026-10-20T07:47:54.540872+00:00"
 }

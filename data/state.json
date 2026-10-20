@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 89,
+    "total_executions": 90,
     "total_opportunities": 86,
-    "total_deliverables": 95,
+    "total_deliverables": 96,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2297.0,
+    "projected_pipeline_usd": 2322.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 89,
-      "timestamp": "2026-10-20T06:46:31.101942+00:00",
+      "id": 90,
+      "timestamp": "2026-10-20T07:06:33.019103+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 99.69,
-      "notes": "Produit '[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route'"
+      "duration_seconds": 2.68,
+      "notes": "Produit '[find opt-out] CoreLogic Credco, LLC: find the official opt-out route'"
     },
-    "updated_at": "2026-10-20T06:46:31.124875+00:00"
+    "updated_at": "2026-10-20T07:06:33.021361+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 98,
+      "opportunity_hash": "79cba1fa206950e1e0e23450913bf8b2d5e8e02f2d1793cc4e16452c048b2f04",
+      "category": "bounty_solution",
+      "title": "[find opt-out] CoreLogic Credco, LLC: find the official opt-out route",
+      "file_path": "site/deliverables/20261020_070631_find_opt_out_corelogic_credco_llc_find_the_officia.md",
+      "relative_path": "deliverables/20261020_070631_find_opt_out_corelogic_credco_llc_find_the_officia.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5430,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/368",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] CoreLogic Credco, LLC: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T07:06:31.813343+00:00"
+    },
     {
       "id": 97,
       "opportunity_hash": "779e64dec51dd0375c2e78de1a1c0983077b9346da9006dbb01f91d3f720c490",
@@ -351,43 +388,6 @@
         "bounty_value": "$1,000"
       },
       "created_at": "2026-10-19T17:07:09.258513+00:00"
-    },
-    {
-      "id": 88,
-      "opportunity_hash": "96ae206a90b9634a48297a38dc0ecacc9b1f7789d3ef593aa911f4900042954e",
-      "category": "bounty_solution",
-      "title": "[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds",
-      "file_path": "site/deliverables/20261019_120131_security_streaming_payments_out_of_order_start_id_.md",
-      "relative_path": "deliverables/20261019_120131_security_streaming_payments_out_of_order_start_id_.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5997,
-        "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/314",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security] streaming-payments: Out-of-order start_id in migrate_storage permanently skips unmigrated streams while locking SchemaVersion = v2, and set_stream_policy accepts inverted/negative bounds**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T12:01:31.622600+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-19T18:07:50.241472+00:00"
     }
   ],
-  "exported_at": "2026-10-20T06:46:31.138485+00:00"
+  "exported_at": "2026-10-20T07:06:33.022817+00:00"
 }

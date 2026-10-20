@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 88,
-    "total_opportunities": 85,
-    "total_deliverables": 94,
+    "total_executions": 89,
+    "total_opportunities": 86,
+    "total_deliverables": 95,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2272.0,
+    "projected_pipeline_usd": 2297.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 88,
-      "timestamp": "2026-10-20T05:44:18.700113+00:00",
+      "id": 89,
+      "timestamp": "2026-10-20T06:46:31.101942+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 93.45,
-      "notes": "Produit '[find opt-out] CoreLogic Portfolio Solutions, LLC: find the official opt-out route'"
+      "duration_seconds": 99.69,
+      "notes": "Produit '[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route'"
     },
-    "updated_at": "2026-10-20T05:44:18.734202+00:00"
+    "updated_at": "2026-10-20T06:46:31.124875+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 97,
+      "opportunity_hash": "779e64dec51dd0375c2e78de1a1c0983077b9346da9006dbb01f91d3f720c490",
+      "category": "bounty_solution",
+      "title": "[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route",
+      "file_path": "site/deliverables/20261020_064622_find_opt_out_corelogic_credco_of_puerto_rico_find_.md",
+      "relative_path": "deliverables/20261020_064622_find_opt_out_corelogic_credco_of_puerto_rico_find_.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5470,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/369",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T06:46:22.970929+00:00"
+    },
     {
       "id": 96,
       "opportunity_hash": "bfe9983aa34b6ef349a1f3a15ec735765d270fea041e03935a711dc445a6043e",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-19T12:01:31.622600+00:00"
-    },
-    {
-      "id": 87,
-      "opportunity_hash": "353b83cf05bda5c6c82045216a69cb6fc527074e64c0001f591c85174184e35e",
-      "category": "bounty_solution",
-      "title": "[Security] stream-nft: withdraw and withdraw_max fail to route stream payouts to the current NFT owner after transfer and approve accepts expired live_until_ledger",
-      "file_path": "site/deliverables/20261019_095028_security_stream_nft_withdraw_and_withdraw_max_fail.md",
-      "relative_path": "deliverables/20261019_095028_security_stream_nft_withdraw_and_withdraw_max_fail.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5794,
-        "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/313",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security] stream-nft: withdraw and withdraw_max fail to route stream payouts to the current NFT owner after transfer and approve accepts expired live_until_ledger**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T09:50:28.348352+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 91,
+      "hash": "3dc6b8db07be893695bd73dbe5dde60c0d67994a129185331efd57fda9155a1c",
+      "title": "[radar] SN open bounty 2026-10-20T05:55",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t2\t17.0\t9274\t28731\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1315",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T06:45:00.491478+00:00"
+    },
     {
       "id": 90,
       "hash": "f665ecc1d8eba565163a434c32a36ee43da8b7d4533ae18b2199d41d67e49a5c",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-19T18:07:50.241472+00:00"
-    },
-    {
-      "id": 81,
-      "hash": "6fdd317c92a3c956eae78e4c8c4c57934114c5251df2662ea8d127c4515db9f9",
-      "title": "[opt-out check] American Express: marketing opt-out page says \"currently not available\"",
-      "category": "microservice_gig",
-      "description": "**What**: Re-check the American Express marketing opt-out page, which was reported as showing \"currently not available\".\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route: [https://global.americanexpress.com/privacy/opt-out](https://global.americanexpress.com/privacy/opt-out)\n- Found while auditing the game's missions; American Express is not a broker record in the dataset.\n\n**What to do**\n1. Open the URL in a normal browser and report exactly what it shows.\n2. Look on americanexpress.com for another current route to opt out of marketing or data sharing (privacy centre, \"your privacy choices\").\n3. Report what a route requires (login, account, phone). Do not submit anything.\n\n**What counts as done**\nComment on this issue with the final URL, what the page says, any working route, and what it requires. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share your own personal data in the issue. Redact it from screenshots and captures.\n- If a form demands an ID upload or payment, stop and report that here instead.\n\n---\nBounty: paid in karma points. Comment to claim it before you start, so two people don't do the same one.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/417",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T18:07:50.234992+00:00"
     }
   ],
-  "exported_at": "2026-10-20T05:44:18.760106+00:00"
+  "exported_at": "2026-10-20T06:46:31.138485+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 91,
+    "total_executions": 92,
     "total_opportunities": 86,
-    "total_deliverables": 97,
+    "total_deliverables": 98,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2347.0,
+    "projected_pipeline_usd": 2372.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 91,
-      "timestamp": "2026-10-20T07:47:54.498797+00:00",
+      "id": 92,
+      "timestamp": "2026-10-20T08:49:01.274325+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 85.11,
-      "notes": "Produit '[opt-out check] RocketReach: find a no-account opt-out route'"
+      "duration_seconds": 44.97,
+      "notes": "Produit '[opt-out check] PrivateEye: which brokers are behind its search results?'"
     },
-    "updated_at": "2026-10-20T07:47:54.533218+00:00"
+    "updated_at": "2026-10-20T08:49:01.283178+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 100,
+      "opportunity_hash": "08734155f0b6e17fe5709c2432b640f28b91626934ec324acd2dec82c624dbbb",
+      "category": "bounty_solution",
+      "title": "[opt-out check] PrivateEye: which brokers are behind its search results?",
+      "file_path": "site/deliverables/20261020_084853_opt_out_check_privateeye_which_brokers_are_behind_.md",
+      "relative_path": "deliverables/20261020_084853_opt_out_check_privateeye_which_brokers_are_behind_.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 9292,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/418",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[opt-out check] PrivateEye: which brokers are behind its search results?**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T08:48:53.337904+00:00"
+    },
     {
       "id": 99,
       "opportunity_hash": "0197097ec94e1f5d301d33821260e5b806356b0fd8597fa3ee91b5ff09e409e6",
@@ -351,43 +388,6 @@
         "bounty_value": "$1,000"
       },
       "created_at": "2026-10-19T18:58:28.824036+00:00"
-    },
-    {
-      "id": 90,
-      "opportunity_hash": "bbcdf6411ec79a42ae2dc8dfce2d2cedceebf60a4c79acdd2d7409330aface20",
-      "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-19T06:08",
-      "file_path": "site/deliverables/20261019_180847_radar_sn_open_bounty_2026_10_19t0608.md",
-      "relative_path": "deliverables/20261019_180847_radar_sn_open_bounty_2026_10_19t0608.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 3556,
-        "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1310",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-19T06:08**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T18:08:47.614272+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-19T18:07:50.241472+00:00"
     }
   ],
-  "exported_at": "2026-10-20T07:47:54.540872+00:00"
+  "exported_at": "2026-10-20T08:49:01.289104+00:00"
 }

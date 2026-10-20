@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 95,
-    "total_opportunities": 88,
-    "total_deliverables": 101,
+    "total_executions": 96,
+    "total_opportunities": 89,
+    "total_deliverables": 102,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2447.0,
+    "projected_pipeline_usd": 2472.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 95,
-      "timestamp": "2026-10-20T18:18:36.687911+00:00",
+      "id": 96,
+      "timestamp": "2026-10-20T22:03:41.432358+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.46,
-      "notes": "Produit '[opt-out check] TruePeopleSearch: test the removal flow end to end'"
+      "duration_seconds": 3.05,
+      "notes": "Produit '[find opt-out] Xactus, LLC: find the official opt-out route'"
     },
-    "updated_at": "2026-10-20T18:18:36.690417+00:00"
+    "updated_at": "2026-10-20T22:03:41.435262+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 104,
+      "opportunity_hash": "e91b6b3e3a3dcd77a242ae25a31f5abacccf3479bd6874c82113b06f93f84d3c",
+      "category": "bounty_solution",
+      "title": "[find opt-out] Xactus, LLC: find the official opt-out route",
+      "file_path": "site/deliverables/20261020_220340_find_opt_out_xactus_llc_find_the_official_opt_out_.md",
+      "relative_path": "deliverables/20261020_220340_find_opt_out_xactus_llc_find_the_official_opt_out_.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5389,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/414",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] Xactus, LLC: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T22:03:40.788401+00:00"
+    },
     {
       "id": 103,
       "opportunity_hash": "527e856a21540d8cbfc88838346fa320a294048313ba7b6c529c1cd6c31873ad",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-20T03:59:29.487468+00:00"
-    },
-    {
-      "id": 94,
-      "opportunity_hash": "e60ec8ca25cab4d96911d9d4a02c6a90a894c5cbc04459d1cac1bfbdc838e6c3",
-      "category": "bounty_solution",
-      "title": "[find opt-out] Data Driven Safety, LLC: find the official opt-out route",
-      "file_path": "site/deliverables/20261020_013216_find_opt_out_data_driven_safety_llc_find_the_offic.md",
-      "relative_path": "deliverables/20261020_013216_find_opt_out_data_driven_safety_llc_find_the_offic.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5438,
-        "extension": "md",
-        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/372",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] Data Driven Safety, LLC: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-20T01:32:16.928136+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 94,
+      "hash": "c76305a54717a1376197a2a5b2c41d3ce02ab4b7424fad44ce003287a1f3e73f",
+      "title": "[TEST BOUNTY] Fix typo in README",
+      "category": "microservice_gig",
+      "description": "**Bounty: $50**\n\nThere is a typo in README.md: \"Welcom\" should be \"Welcome\".\n\n**Reward:** $50 via PayPal/Crypto\n\n**Contact:** DM for payment details",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T22:03:40.773903+00:00"
+    },
     {
       "id": 93,
       "hash": "c5e245e1385d991922eb1afdf353dcefa134f1f6fb7d912ebbb4dc9afb038c9f",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-19T22:50:50.444366+00:00"
-    },
-    {
-      "id": 84,
-      "hash": "e91b6b3e3a3dcd77a242ae25a31f5abacccf3479bd6874c82113b06f93f84d3c",
-      "title": "[find opt-out] Xactus, LLC: find the official opt-out route",
-      "category": "microservice_gig",
-      "description": "**What**: Find Xactus, LLC's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: Xactus, LLC (`xactus`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). ",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/414",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T18:07:50.255822+00:00"
     }
   ],
-  "exported_at": "2026-10-20T18:18:36.691907+00:00"
+  "exported_at": "2026-10-20T22:03:41.436384+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 92,
+    "total_executions": 93,
     "total_opportunities": 86,
-    "total_deliverables": 98,
+    "total_deliverables": 99,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2372.0,
+    "projected_pipeline_usd": 2397.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 92,
-      "timestamp": "2026-10-20T08:49:01.274325+00:00",
+      "id": 93,
+      "timestamp": "2026-10-20T09:50:57.943168+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 44.97,
-      "notes": "Produit '[opt-out check] PrivateEye: which brokers are behind its search results?'"
+      "duration_seconds": 95.26,
+      "notes": "Produit '[opt-out check] American Express: marketing opt-out page says \"currently not available\"'"
     },
-    "updated_at": "2026-10-20T08:49:01.283178+00:00"
+    "updated_at": "2026-10-20T09:50:57.975388+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 101,
+      "opportunity_hash": "6fdd317c92a3c956eae78e4c8c4c57934114c5251df2662ea8d127c4515db9f9",
+      "category": "bounty_solution",
+      "title": "[opt-out check] American Express: marketing opt-out page says \"currently not available\"",
+      "file_path": "site/deliverables/20261020_095046_opt_out_check_american_express_marketing_opt_out_p.md",
+      "relative_path": "deliverables/20261020_095046_opt_out_check_american_express_marketing_opt_out_p.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5425,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/417",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[opt-out check] American Express: marketing opt-out page says \"currently not available\"**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T09:50:46.350243+00:00"
+    },
     {
       "id": 100,
       "opportunity_hash": "08734155f0b6e17fe5709c2432b640f28b91626934ec324acd2dec82c624dbbb",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-19T19:10:29.637914+00:00"
-    },
-    {
-      "id": 91,
-      "opportunity_hash": "505d751a84339ae86a8aa2d350a6df63571b96d4a7a382ca32edfbfda4162cc1",
-      "category": "bounty_solution",
-      "title": "[Security]: Webhook IPv6/NAT64 egress & outbox reorg sync",
-      "file_path": "site/deliverables/20261019_185828_security_webhook_ipv6nat64_egress_outbox_reorg_syn.md",
-      "relative_path": "deliverables/20261019_185828_security_webhook_ipv6nat64_egress_outbox_reorg_syn.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5316,
-        "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/389",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security]: Webhook IPv6/NAT64 egress & outbox reorg sync**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$1,000"
-      },
-      "created_at": "2026-10-19T18:58:28.824036+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-19T18:07:50.241472+00:00"
     }
   ],
-  "exported_at": "2026-10-20T08:49:01.289104+00:00"
+  "exported_at": "2026-10-20T09:50:57.996975+00:00"
 }

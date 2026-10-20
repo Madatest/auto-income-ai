@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 93,
-    "total_opportunities": 86,
-    "total_deliverables": 99,
+    "total_executions": 94,
+    "total_opportunities": 88,
+    "total_deliverables": 100,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2397.0,
+    "projected_pipeline_usd": 2422.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 93,
-      "timestamp": "2026-10-20T09:50:57.943168+00:00",
+      "id": 94,
+      "timestamp": "2026-10-20T13:17:36.839630+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 95.26,
-      "notes": "Produit '[opt-out check] American Express: marketing opt-out page says \"currently not available\"'"
+      "duration_seconds": 2.45,
+      "notes": "Produit '[opt-out check] FastPeopleSearch: test the removal flow end to end'"
     },
-    "updated_at": "2026-10-20T09:50:57.975388+00:00"
+    "updated_at": "2026-10-20T13:17:36.842492+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 102,
+      "opportunity_hash": "e3dcf4d97ffc114119b7cd090009cc3501856dcbdc1354a4bc3710815f7c14bc",
+      "category": "bounty_solution",
+      "title": "[opt-out check] FastPeopleSearch: test the removal flow end to end",
+      "file_path": "site/deliverables/20261020_131736_opt_out_check_fastpeoplesearch_test_the_removal_fl.md",
+      "relative_path": "deliverables/20261020_131736_opt_out_check_fastpeoplesearch_test_the_removal_fl.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5418,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/416",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[opt-out check] FastPeopleSearch: test the removal flow end to end**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T13:17:36.033431+00:00"
+    },
     {
       "id": 101,
       "opportunity_hash": "6fdd317c92a3c956eae78e4c8c4c57934114c5251df2662ea8d127c4515db9f9",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-19T22:50:50.452377+00:00"
-    },
-    {
-      "id": 92,
-      "opportunity_hash": "d871986338c1a960a2a71ad25bcbd4c0c0a35bcecadf7dc2b1e9de86d936a81d",
-      "category": "bounty_solution",
-      "title": "Outbound link report",
-      "file_path": "site/deliverables/20261019_191029_outbound_link_report.md",
-      "relative_path": "deliverables/20261019_191029_outbound_link_report.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5206,
-        "extension": "md",
-        "source_url": "https://github.com/commonworld-one/commonworld/issues/11",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Outbound link report**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T19:10:29.637914+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 93,
+      "hash": "c5e245e1385d991922eb1afdf353dcefa134f1f6fb7d912ebbb4dc9afb038c9f",
+      "title": "[radar] SN open bounty 2026-10-20T11:24",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t3\t22.5\t9274\t28740\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1316",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T13:17:36.025442+00:00"
+    },
+    {
+      "id": 92,
+      "hash": "bc38f81723ddc589bd16bea978b3dd55662b33415815ade4cb605063c8080f1b",
+      "title": "[BOUNTY] Suggestion #1291",
+      "category": "microservice_gig",
+      "description": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nA boolean variable applied to all objects \"ghost_cafe_only\" that will make objects vanish if they are pulled outside of the ghost café or infinidorms. Some dorm rooms have things such as surgery trays, valuable materials, and special equipment that can be brought out of the ghost Cafe. Its already against the rules (I think) but it would be cool to have a variable I can use while mapping to put silly things like energy swords in some infinidorms without risk of them being smuggled out.\n\n**Reason:**\n[BOUNTY] yea\n\n**Results:**\n9x \n2x \n\n\n### Suggestion Reference\n\n**Suggested by:** megamiana\nhttps://discord.com/channels/908082639704064051/1404686278351655055/1562067681270698016\n\n### Contact Information\n\nContact `mos_ley` in discord for payment information.\n\nContact `megamiana` in discord for information about the requirements.\n\n### Payment Details\n\nPayment methods:\n- PayPal\n- Cryptocurrency",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1327",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T13:17:36.022173+00:00"
+    },
     {
       "id": 91,
       "hash": "3dc6b8db07be893695bd73dbe5dde60c0d67994a129185331efd57fda9155a1c",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-19T18:07:50.255822+00:00"
-    },
-    {
-      "id": 83,
-      "hash": "527e856a21540d8cbfc88838346fa320a294048313ba7b6c529c1cd6c31873ad",
-      "title": "[opt-out check] TruePeopleSearch: test the removal flow end to end",
-      "category": "microservice_gig",
-      "description": "**What**: Run a real end-to-end test of TruePeopleSearch's removal flow, which needs an email address, a CAPTCHA and an emailed link.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route: [https://www.truepeoplesearch.com/removal](https://www.truepeoplesearch.com/removal)\n- Our automated check can only load the page. It cannot fill forms, so we have never confirmed the removal actually completes.\n- Use ONLY your own listing: search for yourself, never for another person, and never submit anyone else's details. If you are not listed, say so and stop; do not make up a listing.\n\n**What to do**\n1. Open the removal page in a normal browser and find your own listing.\n2. Start the removal. Use an email address you own; redact it in anything you post.\n3. Complete the CAPTCHA and follow the emailed link.\n4. Report each step, whether it asked for anything else (ID, phone, payment, account), and whether your listing was gone afterwards and how long that took. Stop and report if anything beyond email is demanded.\n\n**What counts as done**\nComment on this issue with the steps, what each required, the outcome and the dates, with personal details redacted. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/415",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T18:07:50.248586+00:00"
-    },
-    {
-      "id": 82,
-      "hash": "e3dcf4d97ffc114119b7cd090009cc3501856dcbdc1354a4bc3710815f7c14bc",
-      "title": "[opt-out check] FastPeopleSearch: test the removal flow end to end",
-      "category": "microservice_gig",
-      "description": "**What**: Run a real end-to-end test of FastPeopleSearch's removal flow, which needs an email address, a CAPTCHA and an emailed link.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route: [https://www.fastpeoplesearch.com/removal](https://www.fastpeoplesearch.com/removal)\n- Our automated check can only load the page. It cannot fill forms, so we have never confirmed the removal actually completes.\n- Use ONLY your own listing: search for yourself, never for another person, and never submit anyone else's details. If you are not listed, say so and stop; do not make up a listing.\n\n**What to do**\n1. Open the removal page in a normal browser and find your own listing.\n2. Start the removal. Use an email address you own; redact it in anything you post.\n3. Complete the CAPTCHA and follow the emailed link.\n4. Report each step, whether it asked for anything else (ID, phone, payment, account), and whether your listing was gone afterwards and how long that took. Stop and report if anything beyond email is demanded.\n\n**What counts as done**\nComment on this issue with the steps, what each required, the outcome and the dates, with personal details redacted. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/416",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T18:07:50.241472+00:00"
     }
   ],
-  "exported_at": "2026-10-20T09:50:57.996975+00:00"
+  "exported_at": "2026-10-20T13:17:36.843888+00:00"
 }

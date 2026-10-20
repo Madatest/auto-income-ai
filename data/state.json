@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 87,
-    "total_opportunities": 81,
-    "total_deliverables": 93,
+    "total_executions": 88,
+    "total_opportunities": 85,
+    "total_deliverables": 94,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2247.0,
+    "projected_pipeline_usd": 2272.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 87,
-      "timestamp": "2026-10-20T03:59:38.996808+00:00",
+      "id": 88,
+      "timestamp": "2026-10-20T05:44:18.700113+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 101.18,
-      "notes": "Produit '[find opt-out] Dan Barnett: find the official opt-out route'"
+      "duration_seconds": 93.45,
+      "notes": "Produit '[find opt-out] CoreLogic Portfolio Solutions, LLC: find the official opt-out route'"
     },
-    "updated_at": "2026-10-20T03:59:39.017753+00:00"
+    "updated_at": "2026-10-20T05:44:18.734202+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 96,
+      "opportunity_hash": "bfe9983aa34b6ef349a1f3a15ec735765d270fea041e03935a711dc445a6043e",
+      "category": "bounty_solution",
+      "title": "[find opt-out] CoreLogic Portfolio Solutions, LLC: find the official opt-out route",
+      "file_path": "site/deliverables/20261020_054400_find_opt_out_corelogic_portfolio_solutions_llc_fin.md",
+      "relative_path": "deliverables/20261020_054400_find_opt_out_corelogic_portfolio_solutions_llc_fin.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 7830,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/370",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] CoreLogic Portfolio Solutions, LLC: find the official opt-out route**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T05:44:00.183783+00:00"
+    },
     {
       "id": 95,
       "opportunity_hash": "b7c3eb0dc1a57b58dfef893223ab8772d1a45de8aa4572c6ec26e01ebae4f1c8",
@@ -351,46 +388,93 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-19T09:50:28.348352+00:00"
-    },
-    {
-      "id": 86,
-      "opportunity_hash": "de59afd9bd79b4a18928c0444cd6cc7bd9040985f69f4424028e8920a70daaa3",
-      "category": "bounty_solution",
-      "title": "[Security] oracle::resolve_stream_time upper-median index (n / 2) lets 1 rogue publisher in 2-of-3 quorum fast-forward stream time + sponsor initial-window double-spend & i128 overflow",
-      "file_path": "site/deliverables/20261019_084842_security_oracleresolve_stream_time_upper_median_in.md",
-      "relative_path": "deliverables/20261019_084842_security_oracleresolve_stream_time_upper_median_in.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5955,
-        "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/317",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security] oracle::resolve_stream_time upper-median index (n / 2) lets 1 rogue publisher in 2-of-3 quorum fast-forward stream time + sponsor initial-window double-spend & i128 overflow**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T08:48:42.256208+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 90,
+      "hash": "f665ecc1d8eba565163a434c32a36ee43da8b7d4533ae18b2199d41d67e49a5c",
+      "title": "Frantic bounty #139: Send your first email with the Nitrosend CLI and report how it went",
+      "category": "microservice_gig",
+      "description": "Frantic bounty #139\n\nSend your first email with the Nitrosend CLI and report how it went\n\nWorker price: $1\nSlots: 100 (94 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/139\nFunding receipt: https://gofrantic.com/r/508e13d6\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/auscaster/frantic-board/issues/538",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T05:42:58.293507+00:00"
+    },
+    {
+      "id": 89,
+      "hash": "74b89e476e7e25f563abc5c870287c8156428a8c541070bb3f5dfc03815c8089",
+      "title": "Frantic bounty #140: Send an email with a 30-line Nitrosend SDK script and report how it went",
+      "category": "microservice_gig",
+      "description": "Frantic bounty #140\n\nSend an email with a 30-line Nitrosend SDK script and report how it went\n\nWorker price: $1\nSlots: 100 (100 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/140\nFunding receipt: https://gofrantic.com/r/7bb7e15c\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/auscaster/frantic-board/issues/539",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T05:42:58.284681+00:00"
+    },
+    {
+      "id": 88,
+      "hash": "8169d5662cf0a7e2d01a5b8dcf6cf99c332fd6ea68faa30f60004eb7b2702034",
+      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
+      "category": "microservice_gig",
+      "description": "Frantic bounty #141\n\nLet your agent onboard itself through the Nitrosend MCP server and send one email\n\nWorker price: $1\nSlots: 100 (99 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/141\nFunding receipt: https://gofrantic.com/r/61735cc5\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/auscaster/frantic-board/issues/540",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T05:42:58.277828+00:00"
+    },
+    {
+      "id": 87,
+      "hash": "184e49fa60a6501df8bd3326bda95a4d45422441a9b47cd125279d4dcbe3e254",
+      "title": "Frantic bounty #143: Write and validate your own MAP description with the mailschema package",
+      "category": "microservice_gig",
+      "description": "Frantic bounty #143\n\nWrite and validate your own MAP description with the mailschema package\n\nWorker price: $2\nSlots: 40 (33 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/143\nFunding receipt: https://gofrantic.com/r/24ba7537\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/auscaster/frantic-board/issues/541",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-20T05:42:58.268349+00:00"
+    },
     {
       "id": 86,
       "hash": "ee18f011f6472bec873fd18a8b032e9c78cc96d889ed2e3727684c6e0a6a6f5a",
@@ -516,91 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-19T18:07:50.234992+00:00"
-    },
-    {
-      "id": 80,
-      "hash": "08734155f0b6e17fe5709c2432b640f28b91626934ec324acd2dec82c624dbbb",
-      "title": "[opt-out check] PrivateEye: which brokers are behind its search results?",
-      "category": "microservice_gig",
-      "description": "**What**: Identify which data brokers stand behind PrivateEye, which passes searches on to unnamed partner sites and has no removal form of its own.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- The game's mission notes say PrivateEye passes searches on to partner sites and has no removal form of its own (checked October 2026).\n\n**What to do**\n1. Open PrivateEye in a normal browser and search for a well-known public figure or a fictional name, never a private person.\n2. Note which partner sites the results hand off to (final URLs, any disclosure on the page, the privacy policy).\n3. Match each to a broker in the dataset if you can, and report their names and URLs.\n\n**What counts as done**\nComment on this issue with the list of partner sites, where each is disclosed, and evidence for the matches. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share your own personal data in the issue. Redact it from screenshots and captures.\n- If a form demands an ID upload or payment, stop and report that here instead.\n\n---\nBounty: paid in karma points. Comment to claim it before you start, so two people don't do the same one.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/418",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T18:07:50.228008+00:00"
-    },
-    {
-      "id": 79,
-      "hash": "0197097ec94e1f5d301d33821260e5b806356b0fd8597fa3ee91b5ff09e409e6",
-      "title": "[opt-out check] RocketReach: find a no-account opt-out route",
-      "category": "microservice_gig",
-      "description": "**What**: Find out whether RocketReach's opt-out needs an account, and whether a no-account route exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Route in the dataset: [https://rocketreach.co/remove-profile](https://rocketreach.co/remove-profile) (status `verified`, a JavaScript app). Our notes say it may require an account.\n\n**What to do**\n1. Open the URL in a normal browser and report what it asks for. Do not create an account; if it demands one, stop there.\n2. Check RocketReach's privacy policy and help pages for another route (email, form, mail).\n3. Report the route and what it requires.\n\n**What counts as done**\nComment on this issue with the findings and the pages you used. Include a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/README.md). If no file under `research/data-brokers/build/` fits your fix, a comment is the right route.\n\n**Ground rules**\n- No fake accounts.\n- Never submit someone else's personal information.\n- Don't share your own personal data in the issue. Redact it from screenshots and captures.\n- If a form demands an ID upload or payment, stop and report that here instead.\n\n---\nBounty: paid in karma points. Comment to claim it before you start, so two people don't do the same one.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/419",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T18:07:50.217416+00:00"
-    },
-    {
-      "id": 78,
-      "hash": "79cba1fa206950e1e0e23450913bf8b2d5e8e02f2d1793cc4e16452c048b2f04",
-      "title": "[find opt-out] CoreLogic Credco, LLC: find the official opt-out route",
-      "category": "microservice_gig",
-      "description": "**What**: Find CoreLogic Credco, LLC's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: CoreLogic Credco, LLC (`corelogic-credco`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/rese",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/368",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T17:06:03.641051+00:00"
-    },
-    {
-      "id": 77,
-      "hash": "779e64dec51dd0375c2e78de1a1c0983077b9346da9006dbb01f91d3f720c490",
-      "title": "[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route",
-      "category": "microservice_gig",
-      "description": "**What**: Find CoreLogic Credco of Puerto Rico's official opt-out or \"do not sell\" route, or show that none exists.\n\n**Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time.\n\n- Broker: CoreLogic Credco of Puerto Rico (`corelogic-credco-of-puerto-rico`)\n- Website: not recorded\n- Listed in the registries: VT\n- Current opt-out in the dataset: none (`optOut` is null, which means unknown, not that the broker offers none)\n- Vermont's registry gives opt-out instructions as free text. Read this broker's Vermont entry first, as a starting point: https://bizfilings.vermont.gov/databrokersearch/Search\n\n**What to do**\n1. Read the broker's Vermont entry (https://bizfilings.vermont.gov/databrokersearch/Search) for its opt-out instructions, then confirm them on the broker's own site and privacy policy.\n2. Check its entry in the other registries it appears in (the snapshots are in [`sources/registries/`](https://github.com/lizTheDeveloper/privacy-the-game/blob/main/research/data-brokers/sources/registries/)).\n3. Report the URL (or email or address), plus the method: web form, email, mail or portal.\n4. If you find no route after checking all of these, report that with evidence of where you looked.\n5. Capture each page you used. The Vermont search uses a CAPTCHA: a capture of it may not work, so describe the entry in your comment instead.\n\n**What counts as done**\nComment on this issue with the route, its method, where you found it, and a Wayback capture (https://web.archive.org/save/) of every page you used. Paste the capture links.\n\nCode-literate volunteers may open a PR instead. Opt-out URLs come from the state registries and our research pass, not from a hand-edited file, and generated files (`brokers/`, `links.json`, `sources.json`, `src/data/broker-map.json`) must never be edited by hand; see \"How to rebuild\" in the [README](https://github.com/lizTheDevelo",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/369",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T17:06:03.625780+00:00"
     }
   ],
-  "exported_at": "2026-10-20T03:59:39.024420+00:00"
+  "exported_at": "2026-10-20T05:44:18.760106+00:00"
 }

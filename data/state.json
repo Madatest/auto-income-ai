@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 86,
+    "total_executions": 87,
     "total_opportunities": 81,
-    "total_deliverables": 92,
+    "total_deliverables": 93,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2222.0,
+    "projected_pipeline_usd": 2247.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 86,
-      "timestamp": "2026-10-20T01:32:17.495019+00:00",
+      "id": 87,
+      "timestamp": "2026-10-20T03:59:38.996808+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.93,
-      "notes": "Produit '[find opt-out] Data Driven Safety, LLC: find the official opt-out route'"
+      "duration_seconds": 101.18,
+      "notes": "Produit '[find opt-out] Dan Barnett: find the official opt-out route'"
     },
-    "updated_at": "2026-10-20T01:32:17.497338+00:00"
+    "updated_at": "2026-10-20T03:59:39.017753+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 95,
+      "opportunity_hash": "b7c3eb0dc1a57b58dfef893223ab8772d1a45de8aa4572c6ec26e01ebae4f1c8",
+      "category": "bounty_solution",
+      "title": "[find opt-out] Dan Barnett: find the official opt-out route",
+      "file_path": "site/deliverables/20261020_035929_find_opt_out_dan_barnett_find_the_official_opt_out.md",
+      "relative_path": "deliverables/20261020_035929_find_opt_out_dan_barnett_find_the_official_opt_out.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5390,
+        "extension": "md",
+        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/371",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] Dan Barnett: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-20T03:59:29.487468+00:00"
+    },
     {
       "id": 94,
       "opportunity_hash": "e60ec8ca25cab4d96911d9d4a02c6a90a894c5cbc04459d1cac1bfbdc838e6c3",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-19T08:48:42.256208+00:00"
-    },
-    {
-      "id": 85,
-      "opportunity_hash": "5fc713c08832b03e9a0054101c7e169cccbca434b65d33e4822c9b306039b196",
-      "category": "bounty_solution",
-      "title": "[Security] contracts/streampay: missing admin/recipient/registrant authorization in set_governance_caps, add_agent/remove_agent, and set_refill_rule + unvalidated negative/zero parameters",
-      "file_path": "site/deliverables/20261019_074624_security_contractsstreampay_missing_adminrecipient.md",
-      "relative_path": "deliverables/20261019_074624_security_contractsstreampay_missing_adminrecipient.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5354,
-        "extension": "md",
-        "source_url": "https://github.com/Neziahtech/streampay/issues/318",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Security] contracts/streampay: missing admin/recipient/registrant authorization in set_governance_caps, add_agent/remove_agent, and set_refill_rule + unvalidated negative/zero parameters**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-19T07:46:24.101220+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-19T17:06:03.625780+00:00"
     }
   ],
-  "exported_at": "2026-10-20T01:32:17.498745+00:00"
+  "exported_at": "2026-10-20T03:59:39.024420+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 96,
-    "total_opportunities": 89,
-    "total_deliverables": 102,
+    "total_executions": 97,
+    "total_opportunities": 90,
+    "total_deliverables": 103,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2472.0,
+    "projected_pipeline_usd": 2497.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 96,
-      "timestamp": "2026-10-20T22:03:41.432358+00:00",
+      "id": 97,
+      "timestamp": "2026-10-21T01:14:48.415948+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 3.05,
-      "notes": "Produit '[find opt-out] Xactus, LLC: find the official opt-out route'"
+      "duration_seconds": 2.66,
+      "notes": "Produit '[radar] SN open bounty 2026-10-19T20:31'"
     },
-    "updated_at": "2026-10-20T22:03:41.435262+00:00"
+    "updated_at": "2026-10-21T01:14:48.418302+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 105,
+      "opportunity_hash": "a7c0d9fc38029c275cd51a3fd137a60f2a1c9991d4530c5eee1021dbbec4ab48",
+      "category": "bounty_solution",
+      "title": "[radar] SN open bounty 2026-10-19T20:31",
+      "file_path": "site/deliverables/20261021_011447_radar_sn_open_bounty_2026_10_19t2031.md",
+      "relative_path": "deliverables/20261021_011447_radar_sn_open_bounty_2026_10_19t2031.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3711,
+        "extension": "md",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1313",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-19T20:31**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-21T01:14:47.715802+00:00"
+    },
     {
       "id": 104,
       "opportunity_hash": "e91b6b3e3a3dcd77a242ae25a31f5abacccf3479bd6874c82113b06f93f84d3c",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-20T05:44:00.183783+00:00"
-    },
-    {
-      "id": 95,
-      "opportunity_hash": "b7c3eb0dc1a57b58dfef893223ab8772d1a45de8aa4572c6ec26e01ebae4f1c8",
-      "category": "bounty_solution",
-      "title": "[find opt-out] Dan Barnett: find the official opt-out route",
-      "file_path": "site/deliverables/20261020_035929_find_opt_out_dan_barnett_find_the_official_opt_out.md",
-      "relative_path": "deliverables/20261020_035929_find_opt_out_dan_barnett_find_the_official_opt_out.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5390,
-        "extension": "md",
-        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/371",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] Dan Barnett: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-20T03:59:29.487468+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 95,
+      "hash": "d7ddfd3bb3a75c6e5aec13a4f90b9f4cec694caa3829ce76d50a891450f324f2",
+      "title": "[Bounty] [TEST BOUNTY] Fix typo in README",
+      "category": "microservice_gig",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/jomaaabbe78-spec/bookningsapp/issues/1\n\n### 漏洞描述 / Description\n[TEST BOUNTY] Fix typo in README\n\n**Bounty: $50**\n\nThere is a typo in README.md: \"Welcom\" should be \"Welcome\".\n\n**Reward:** $50 via PayPal/Crypto\n\n**Contact:** DM for payment details\n\n### 积分币奖励 / Coin Reward\n62 coins\n\n### 真实赏金（USD）/ Real Reward\n$50\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T01:14:47.705234+00:00"
+    },
     {
       "id": 94,
       "hash": "c76305a54717a1376197a2a5b2c41d3ce02ab4b7424fad44ce003287a1f3e73f",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-20T01:32:16.918265+00:00"
-    },
-    {
-      "id": 85,
-      "hash": "a7c0d9fc38029c275cd51a3fd137a60f2a1c9991d4530c5eee1021dbbec4ab48",
-      "title": "[radar] SN open bounty 2026-10-19T20:31",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t63\t10000\t18\t31.7\t9274\t28721\trecent@Stacker_Stocks\tOPEN_BOUNTY\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t1\t7.6\t9274\t28721\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1313",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-19T22:50:50.444366+00:00"
     }
   ],
-  "exported_at": "2026-10-20T22:03:41.436384+00:00"
+  "exported_at": "2026-10-21T01:14:48.419707+00:00"
 }

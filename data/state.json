@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 98,
-    "total_opportunities": 90,
-    "total_deliverables": 104,
+    "total_executions": 99,
+    "total_opportunities": 92,
+    "total_deliverables": 105,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2522.0,
+    "projected_pipeline_usd": 2547.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 98,
-      "timestamp": "2026-10-21T06:59:54.675204+00:00",
+      "id": 99,
+      "timestamp": "2026-10-21T12:52:11.464466+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.41,
-      "notes": "Produit '[radar] SN open bounty 2026-10-20T00:14'"
+      "duration_seconds": 2.91,
+      "notes": "Produit 'Frantic bounty #143: Write and validate your own MAP description with the mailschema package'"
     },
-    "updated_at": "2026-10-21T06:59:54.677494+00:00"
+    "updated_at": "2026-10-21T12:52:11.467125+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 107,
+      "opportunity_hash": "184e49fa60a6501df8bd3326bda95a4d45422441a9b47cd125279d4dcbe3e254",
+      "category": "bounty_solution",
+      "title": "Frantic bounty #143: Write and validate your own MAP description with the mailschema package",
+      "file_path": "site/deliverables/20261021_125210_frantic_bounty_143_write_and_validate_your_own_map.md",
+      "relative_path": "deliverables/20261021_125210_frantic_bounty_143_write_and_validate_your_own_map.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3835,
+        "extension": "md",
+        "source_url": "https://github.com/auscaster/frantic-board/issues/541",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Frantic bounty #143: Write and validate your own MAP description with the mailschema package**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$2"
+      },
+      "created_at": "2026-10-21T12:52:10.556559+00:00"
+    },
     {
       "id": 106,
       "opportunity_hash": "ee18f011f6472bec873fd18a8b032e9c78cc96d889ed2e3727684c6e0a6a6f5a",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-20T07:06:31.813343+00:00"
-    },
-    {
-      "id": 97,
-      "opportunity_hash": "779e64dec51dd0375c2e78de1a1c0983077b9346da9006dbb01f91d3f720c490",
-      "category": "bounty_solution",
-      "title": "[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route",
-      "file_path": "site/deliverables/20261020_064622_find_opt_out_corelogic_credco_of_puerto_rico_find_.md",
-      "relative_path": "deliverables/20261020_064622_find_opt_out_corelogic_credco_of_puerto_rico_find_.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5470,
-        "extension": "md",
-        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/369",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] CoreLogic Credco of Puerto Rico: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-20T06:46:22.970929+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 97,
+      "hash": "3a908107678ee22cab9f809947dd9d5e2686c669a58f6a23b96ced52dbf09f7d",
+      "title": "Solana USDC (SPL) signing for x402",
+      "category": "microservice_gig",
+      "description": "Base works end to end. Solana is the other half of the x402 ecosystem and the payment rail APInex uses.\n\nAcceptance:\n- sign an SPL `transferWithAuthorization` on Solana\n- `pickOption` can select `solana:5eykt4UsFv8P8NJdTREY1vzqKqZKvdp`\n- tests run against a local validator\n- README documents both networks",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/rustemmustafingovua-byte/agent-x402/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T12:52:10.552254+00:00"
+    },
+    {
+      "id": 96,
+      "hash": "e3217f5d1ea401781e245db896d470e5e6bda2e5cea6eee31b2e1f58fba3b02a",
+      "title": "Bounty Board rewire to Quantum AI App + Tracker",
+      "category": "microservice_gig",
+      "description": "> Mirrored from the Solorion Tracker — **TRK-0241** is the source of truth. Edits here do not flow back.\n\nBackfill record (Oct 21 outage audit, Section B.11 verification). The Bounty Board froze; diagnosis landed Oct 20 daytime and the board was REWIRED to run on the Quantum AI App + Tracker instead of the suspended cooper-the-fox credential (see also TRK-0147, TRK-0120). This record confirms the rewire itself carries a Tracker home, since it is the first surface embodying the tracker-first pattern that TRK-0235 (Tracker-to-GitHub sync) generalizes.\n\n---\n**Tracker fields**\n- Kind: task · Status: done · Priority: medium\n\n\n\n— cooper, via Quantum AI App",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/dsect-net/quantum/issues/288",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T12:52:10.540993+00:00"
+    },
     {
       "id": 95,
       "hash": "d7ddfd3bb3a75c6e5aec13a4f90b9f4cec694caa3829ce76d50a891450f324f2",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-20T05:42:58.277828+00:00"
-    },
-    {
-      "id": 87,
-      "hash": "184e49fa60a6501df8bd3326bda95a4d45422441a9b47cd125279d4dcbe3e254",
-      "title": "Frantic bounty #143: Write and validate your own MAP description with the mailschema package",
-      "category": "microservice_gig",
-      "description": "Frantic bounty #143\n\nWrite and validate your own MAP description with the mailschema package\n\nWorker price: $2\nSlots: 40 (33 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/143\nFunding receipt: https://gofrantic.com/r/24ba7537\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/auscaster/frantic-board/issues/541",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T05:42:58.268349+00:00"
-    },
-    {
-      "id": 86,
-      "hash": "ee18f011f6472bec873fd18a8b032e9c78cc96d889ed2e3727684c6e0a6a6f5a",
-      "title": "[radar] SN open bounty 2026-10-20T00:14",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597420\tStacker_Stocks\t2\t63\t10000\t21\t35.4\t9274\t28729\trecent@Stacker_Stocks\tOPEN_BOUNTY\tStacker Stocks Weekly Close Contest 🟩 or 🟥- Week #15 Win up to 30k Sats!\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t1\t11.4\t9274\t28729\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1314",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T01:32:16.918265+00:00"
     }
   ],
-  "exported_at": "2026-10-21T06:59:54.678910+00:00"
+  "exported_at": "2026-10-21T12:52:11.468005+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 99,
-    "total_opportunities": 92,
-    "total_deliverables": 105,
+    "total_executions": 100,
+    "total_opportunities": 98,
+    "total_deliverables": 106,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2547.0,
+    "projected_pipeline_usd": 2572.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 99,
-      "timestamp": "2026-10-21T12:52:11.464466+00:00",
+      "id": 100,
+      "timestamp": "2026-10-21T17:53:10.631489+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.91,
-      "notes": "Produit 'Frantic bounty #143: Write and validate your own MAP description with the mailschema package'"
+      "duration_seconds": 3.03,
+      "notes": "Produit 'Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email'"
     },
-    "updated_at": "2026-10-21T12:52:11.467125+00:00"
+    "updated_at": "2026-10-21T17:53:10.633480+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 108,
+      "opportunity_hash": "8169d5662cf0a7e2d01a5b8dcf6cf99c332fd6ea68faa30f60004eb7b2702034",
+      "category": "bounty_solution",
+      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
+      "file_path": "site/deliverables/20261021_175309_frantic_bounty_141_let_your_agent_onboard_itself_t.md",
+      "relative_path": "deliverables/20261021_175309_frantic_bounty_141_let_your_agent_onboard_itself_t.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3896,
+        "extension": "md",
+        "source_url": "https://github.com/auscaster/frantic-board/issues/540",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$1"
+      },
+      "created_at": "2026-10-21T17:53:09.672155+00:00"
+    },
     {
       "id": 107,
       "opportunity_hash": "184e49fa60a6501df8bd3326bda95a4d45422441a9b47cd125279d4dcbe3e254",
@@ -351,46 +388,135 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-20T07:47:46.748371+00:00"
-    },
-    {
-      "id": 98,
-      "opportunity_hash": "79cba1fa206950e1e0e23450913bf8b2d5e8e02f2d1793cc4e16452c048b2f04",
-      "category": "bounty_solution",
-      "title": "[find opt-out] CoreLogic Credco, LLC: find the official opt-out route",
-      "file_path": "site/deliverables/20261020_070631_find_opt_out_corelogic_credco_llc_find_the_officia.md",
-      "relative_path": "deliverables/20261020_070631_find_opt_out_corelogic_credco_llc_find_the_officia.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5430,
-        "extension": "md",
-        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/368",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] CoreLogic Credco, LLC: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-20T07:06:31.813343+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 103,
+      "hash": "db6c624b4225e28a4125b7041341f4cc6138519f4c62ee9787013dfd4f23b09b",
+      "title": "[puzzle] Deadlock detection for boxes stuck in corners",
+      "category": "microservice_gig",
+      "description": "**App:** `apps/puzzle`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/puzzle-deadlock/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-deadlock/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-deadlock/check.yml ` in the dev image. Nobody reviews the result.\n\nA box pushed into a corner that is not a goal can never move again, and the\nplayer only finds out much later. Add `deadBoxes(state)` to `logic.js`, returning\nthe sorted indices of boxes that sit on a non-goal cell with a wall on one\nvertical side and one horizontal side. The UI marks those cells with a `dead`\nclass and shows \"Stuck: a box is in a corner\" in `#status`.\n\nAcceptance tests (`test/deadlock.test.js`):\n- `deadBoxes returns [] for every level's start`: `deadBoxes(parse(lv.map))` deep-equals `[]` for each entry in `levels.json`.\n- `corner box is dead`: `deadBoxes(play(parse(levels[1].map), 'DLdR'))` (level \"Corner\") deep-equals `[28]`.\n- `dead box in a larger level`: `deadBoxes(play(parse(levels[4].map), 'URurDD'))` (level \"Storeroom\") deep-equals `[33]`.\n- `box on a goal in a corner is not dead`: `deadBoxes(parse(['####', '#@*#', '####']))` deep-equals `[]`.\n- `wall on one side only is not dead`: `deadBoxes(parse(['######', '#@$ .#', '#    #', '######']))` deep-equals `[]`.\n- Playwright `marks dead box`: select option value `1` (\"Corner\"), press `ArrowDown`, `ArrowLeft`, `ArrowDown`, `ArrowRight`; assert `#board .dead` has count 1, it is the 29th `.cell` (index 28), and `#status` contains `Stuck`. Then click `undo` and assert `#board .dead` has count 0.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/amiller/bounty-arcade/issues/7",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T17:53:09.667838+00:00"
+    },
+    {
+      "id": 102,
+      "hash": "518e1b6bff2ce1a76e26617ccbc89be4ec48ea4579cb66f6ced1ab206a858e31",
+      "title": "[puzzle] Persist progress and best scores per level",
+      "category": "microservice_gig",
+      "description": "**App:** `apps/puzzle`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/puzzle-progress/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-progress/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-progress/check.yml ` in the dev image. Nobody reviews the result.\n\nPlayers lose their place on reload. Store, per level name, whether it was solved\nand the fewest moves used, and restore the last selected level on load. Keep the\nbookkeeping pure in `logic.js` as `recordWin(progress, levelName, moves)` returning\na new progress object; `ui.js` reads and writes it under the `localStorage` key\n`puzzle-progress`. The level `` shows a check mark and the best move count\nfor solved levels.\n\nAcceptance tests (`test/progress.test.js` and `test/progress.spec.js`):\n- `recordWin stores first result`: `recordWin({}, 'Corner', 12)` deep-equals `{ Corner: { best: 12 } }`.\n- `recordWin keeps the lower count`: `recordWin({ Corner: { best: 12 } }, 'Corner', 20).Corner.best === 12` and with `9` it is `9`.\n- `recordWin does not mutate input`: the argument object is unchanged after the call.\n- Playwright `best score survives reload`: solve level 1 with `ArrowRight` x3, reload, assert the option with value `0` contains `3` and a check mark (`✓`).\n- Playwright `last level is restored`: select option value `2`, reload, assert `#level` has value `2` and `#moves` is `0`.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/amiller/bounty-arcade/issues/8",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T17:53:09.666419+00:00"
+    },
+    {
+      "id": 101,
+      "hash": "ed11ca2fabece3247f4e2ba5b946995b9354ba6e35601f0f115ebc6a876dda20",
+      "title": "[puzzle] Shareable replay links",
+      "category": "microservice_gig",
+      "description": "**App:** `apps/puzzle`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/puzzle-replay-links/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-replay-links/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-replay-links/check.yml ` in the dev image. Nobody reviews the result.\n\nLet a player share a solution as a URL such as `/apps/puzzle/#level=2&moves=lLLLrrrddLLL`.\nOn load, the page selects that level and replays the moves; the replay must stop\nwith an error message in `#status` if a move is blocked. Add `replayUrl(levelIndex, state)`\nand `parseReplay(hash)` to `logic.js`, and a \"Copy link\" button with\n`data-testid=\"share\"` that writes the URL to `#share-url` (a read-only input).\n\nAcceptance tests (`test/replay.test.js` and `test/replay.spec.js`):\n- `parseReplay round-trips`: `parseReplay('#level=2&moves=lLLLrrrddLLL')` deep-equals `{ level: 2, moves: 'lLLLrrrddLLL' }`.\n- `replayUrl encodes history`: `replayUrl(0, play(parse(levels[0].map), 'rRR'))` equals `'#level=0&moves=rRR'`.\n- `parseReplay rejects junk`: `parseReplay('#level=x&moves=q')` throws.\n- Playwright `replay link solves a level`: goto `/apps/puzzle/#level=2&moves=lLLLrrrddLLL`, assert `#level` value `2`, `#moves` text `12`, `#status` contains `Solved`.\n- Playwright `blocked replay reports the step`: goto `/apps/puzzle/#level=0&moves=l`, assert `#status` contains `blocked` and `#moves` is `0`.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/amiller/bounty-arcade/issues/9",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T17:53:09.660708+00:00"
+    },
+    {
+      "id": 100,
+      "hash": "8cf7907c0c45ec4c92d8a6e3037f0defd7ab69a3c04f28525550df587ea83c78",
+      "title": "[routes] Segments and gaps",
+      "category": "microservice_gig",
+      "description": "**App:** `apps/routes`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/routes-segments/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/routes-segments/check.yml) at `8232383`, run with `node check.mjs bounties/routes-segments/check.yml ` in the dev image. Nobody reviews the result.\n\n`parseGpx` flattens every `` into one list, so a GPX with two `` blocks (a paused recording, or a ferry crossing) counts the straight line across the gap as distance. Return `segments: [[point, ...], ...]` alongside `points` (`points` stays the flat list), and add `stats(points, { segments })` (default `[points]`) whose distance and gain/loss sum within segments only. Draw each segment as its own `` in `#track`.\n\nAcceptance tests (`bounties/routes-segments/`):\n- `parses two segments`: a GPX string with two `` blocks of 2 and 3 points gives `segments.length === 2`, lengths `[2, 3]`, and `points.length === 5`.\n- `distance skips gaps`: segments `[(0,0),(0,0.01)]` and `[(10,10),(10,10.01)]` give `stats(points, { segments }).distance` within 1 m of `haversine((0,0),(0,0.01)) + haversine((10,10),(10,10.01))`.\n- `gain skips gaps`: segment elevations `[100, 110]` and `[500, 490]` give gain 10 and loss 10.\n- `samples unchanged`: both bundled samples have one segment and `stats(points, { segments })` gives the same distance as before (4020.8 m and 9105.4 m, within 1 m).\n- Browser: uploading a file with segments (0,0)–(0,0.01) and (0.01,0.01)–(0.01,0.02)–(0.02,0.02) via `#file` yields `#track polyline` count 2 and `#stat-distance` `3.34 km` (4.45 km with the gap).",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/amiller/bounty-arcade/issues/10",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T17:53:09.659038+00:00"
+    },
+    {
+      "id": 99,
+      "hash": "b4f08c0c36f83f2e784b6603af893910b6a925e3a96221a4dd4ad31b64c44cac",
+      "title": "[routes] Gain/loss threshold",
+      "category": "microservice_gig",
+      "description": "**App:** `apps/routes`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/routes-threshold/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/routes-threshold/check.yml) at `8232383`, run with `node check.mjs bounties/routes-threshold/check.yml ` in the dev image. Nobody reviews the result.\n\nRaw GPS and barometer noise inflates elevation gain: the flat Riverside Loop reports 53 m. Add `stats(points, { threshold })` (metres, default 0, which keeps current results) that counts a climb or descent only once elevation has moved at least `threshold` from the last counted turning point (hysteresis); once a climb is counted, every further rise extends it until elevation falls `threshold` below the high point, and likewise for descents. Add a numeric input `#threshold` (data-testid `threshold`, default 0) that recomputes the stats panel.\n\nAcceptance tests (`bounties/routes-threshold/`):\n- `default matches raw`: for both samples, `stats(points)` and `stats(points, { threshold: 0 })` return identical gain and loss.\n- `noise ignored`: elevations `[100, 101, 100, 101, 100]` with threshold 2 give gain 0, loss 0.\n- `real climb counted`: elevations `[100, 101, 100, 105, 104, 110]` with threshold 2 give gain 10, loss 0 (not 12 and 2).\n- `descent counted`: `[200, 190, 191, 180]` with threshold 3 gives gain 0, loss 20.\n- `climb extends`: `[100, 103, 104, 102]` with threshold 2 gives gain 4, loss 2.\n- `net preserved`: for the riverside sample, threshold 1 gives gain below 50 m (raw is 52.6 m) and `|gain - loss| < 1`.\n- Browser: setting `#threshold` to 1 on Riverside Loop changes `#stat-gain` to a value other than `53 m`.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/amiller/bounty-arcade/issues/11",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T17:53:09.657512+00:00"
+    },
+    {
+      "id": 98,
+      "hash": "962c3b32bd4af48c558a6a4c49e550e783126a8d63f689d4575007d5a9a2ef08",
+      "title": "[routes] Time, moving time and speed",
+      "category": "microservice_gig",
+      "description": "**App:** `apps/routes`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/routes-time/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/routes-time/check.yml) at `8232383`, run with `node check.mjs bounties/routes-time/check.yml ` in the dev image. Nobody reviews the result.\n\nMost recorded GPX has `` on each point. Parse it to `time` (ms since epoch; a point without `` has no `time` property, since existing tests deep-compare points) and add a pure `timing(points)` returning `{ elapsed, moving, avgSpeed }`, where `moving` sums only intervals whose speed is at least 0.5 m/s and `avgSpeed` is total distance over moving time in m/s; all three are `null` if any point lacks a time. Show elapsed and moving time as `h:mm:ss` in new `#stat-elapsed` and `#stat-moving` cells, and `—` when absent.\n\nAcceptance tests (`bounties/routes-time/`):\n- `parses time`: `2026-01-01T00:00:00Z` parses to `time === Date.UTC(2026, 0, 1)`; a point without `` has no `time` property.\n- `elapsed`: three points 60 s apart give `elapsed === 120000`.\n- `stops excluded`: points at (0,0) t=0, (0,0.001) t=60 s, (0,0.001) t=600 s give `elapsed === 600000`, `moving === 60000` and `avgSpeed` within 0.01 of `haversine(...)/60`.\n- `missing time`: one point without time makes all three fields `null`.\n- `format`: `formatDuration(3723000) === '1:02:03'`, `formatDuration(null) === '—'`.\n- Browser: bundled samples (no times) show `—` in `#stat-elapsed`; uploading a timed 3-point file (moving 1 minute, then stopped 1 minute) shows `0:02:00` in `#stat-elapsed` and `0:01:00` in `#stat-moving`.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/amiller/bounty-arcade/issues/12",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-21T17:53:09.654574+00:00"
+    },
     {
       "id": 97,
       "hash": "3a908107678ee22cab9f809947dd9d5e2686c669a58f6a23b96ced52dbf09f7d",
@@ -474,133 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-20T22:03:40.773903+00:00"
-    },
-    {
-      "id": 93,
-      "hash": "c5e245e1385d991922eb1afdf353dcefa134f1f6fb7d912ebbb4dc9afb038c9f",
-      "title": "[radar] SN open bounty 2026-10-20T11:24",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t3\t22.5\t9274\t28740\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1316",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T13:17:36.025442+00:00"
-    },
-    {
-      "id": 92,
-      "hash": "bc38f81723ddc589bd16bea978b3dd55662b33415815ade4cb605063c8080f1b",
-      "title": "[BOUNTY] Suggestion #1291",
-      "category": "microservice_gig",
-      "description": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nA boolean variable applied to all objects \"ghost_cafe_only\" that will make objects vanish if they are pulled outside of the ghost café or infinidorms. Some dorm rooms have things such as surgery trays, valuable materials, and special equipment that can be brought out of the ghost Cafe. Its already against the rules (I think) but it would be cool to have a variable I can use while mapping to put silly things like energy swords in some infinidorms without risk of them being smuggled out.\n\n**Reason:**\n[BOUNTY] yea\n\n**Results:**\n9x \n2x \n\n\n### Suggestion Reference\n\n**Suggested by:** megamiana\nhttps://discord.com/channels/908082639704064051/1404686278351655055/1562067681270698016\n\n### Contact Information\n\nContact `mos_ley` in discord for payment information.\n\nContact `megamiana` in discord for information about the requirements.\n\n### Payment Details\n\nPayment methods:\n- PayPal\n- Cryptocurrency",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1327",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T13:17:36.022173+00:00"
-    },
-    {
-      "id": 91,
-      "hash": "3dc6b8db07be893695bd73dbe5dde60c0d67994a129185331efd57fda9155a1c",
-      "title": "[radar] SN open bounty 2026-10-20T05:55",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t2\t17.0\t9274\t28731\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1315",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T06:45:00.491478+00:00"
-    },
-    {
-      "id": 90,
-      "hash": "f665ecc1d8eba565163a434c32a36ee43da8b7d4533ae18b2199d41d67e49a5c",
-      "title": "Frantic bounty #139: Send your first email with the Nitrosend CLI and report how it went",
-      "category": "microservice_gig",
-      "description": "Frantic bounty #139\n\nSend your first email with the Nitrosend CLI and report how it went\n\nWorker price: $1\nSlots: 100 (94 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/139\nFunding receipt: https://gofrantic.com/r/508e13d6\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/auscaster/frantic-board/issues/538",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T05:42:58.293507+00:00"
-    },
-    {
-      "id": 89,
-      "hash": "74b89e476e7e25f563abc5c870287c8156428a8c541070bb3f5dfc03815c8089",
-      "title": "Frantic bounty #140: Send an email with a 30-line Nitrosend SDK script and report how it went",
-      "category": "microservice_gig",
-      "description": "Frantic bounty #140\n\nSend an email with a 30-line Nitrosend SDK script and report how it went\n\nWorker price: $1\nSlots: 100 (100 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/140\nFunding receipt: https://gofrantic.com/r/7bb7e15c\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/auscaster/frantic-board/issues/539",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T05:42:58.284681+00:00"
-    },
-    {
-      "id": 88,
-      "hash": "8169d5662cf0a7e2d01a5b8dcf6cf99c332fd6ea68faa30f60004eb7b2702034",
-      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
-      "category": "microservice_gig",
-      "description": "Frantic bounty #141\n\nLet your agent onboard itself through the Nitrosend MCP server and send one email\n\nWorker price: $1\nSlots: 100 (99 available)\nStatus: Available\nClaim: https://gofrantic.com/bounties/141\nFunding receipt: https://gofrantic.com/r/61735cc5\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/auscaster/frantic-board/issues/540",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T05:42:58.277828+00:00"
     }
   ],
-  "exported_at": "2026-10-21T12:52:11.468005+00:00"
+  "exported_at": "2026-10-21T17:53:10.634414+00:00"
 }

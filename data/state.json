@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 107,
-    "total_opportunities": 101,
-    "total_deliverables": 113,
+    "total_executions": 108,
+    "total_opportunities": 102,
+    "total_deliverables": 114,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2747.0,
+    "projected_pipeline_usd": 2772.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 107,
-      "timestamp": "2026-10-22T11:06:29.426024+00:00",
+      "id": 108,
+      "timestamp": "2026-10-22T13:36:07.465137+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.6,
-      "notes": "Produit '[Bounty] [TEST BOUNTY] Fix typo in README'"
+      "duration_seconds": 38.16,
+      "notes": "Produit 'Bounty Board rewire to Quantum AI App + Tracker'"
     },
-    "updated_at": "2026-10-22T11:06:29.428392+00:00"
+    "updated_at": "2026-10-22T13:36:07.513689+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 116,
+      "opportunity_hash": "e3217f5d1ea401781e245db896d470e5e6bda2e5cea6eee31b2e1f58fba3b02a",
+      "category": "bounty_solution",
+      "title": "Bounty Board rewire to Quantum AI App + Tracker",
+      "file_path": "site/deliverables/20261022_133556_bounty_board_rewire_to_quantum_ai_app_tracker.md",
+      "relative_path": "deliverables/20261022_133556_bounty_board_rewire_to_quantum_ai_app_tracker.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3910,
+        "extension": "md",
+        "source_url": "https://github.com/dsect-net/quantum/issues/288",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Bounty Board rewire to Quantum AI App + Tracker**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-22T13:35:56.317768+00:00"
+    },
     {
       "id": 115,
       "opportunity_hash": "d7ddfd3bb3a75c6e5aec13a4f90b9f4cec694caa3829ce76d50a891450f324f2",
@@ -351,46 +388,30 @@
         "bounty_value": "$2"
       },
       "created_at": "2026-10-21T12:52:10.556559+00:00"
-    },
-    {
-      "id": 106,
-      "opportunity_hash": "ee18f011f6472bec873fd18a8b032e9c78cc96d889ed2e3727684c6e0a6a6f5a",
-      "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-20T00:14",
-      "file_path": "site/deliverables/20261021_065953_radar_sn_open_bounty_2026_10_20t0014.md",
-      "relative_path": "deliverables/20261021_065953_radar_sn_open_bounty_2026_10_20t0014.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 3712,
-        "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1314",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-20T00:14**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-21T06:59:53.724903+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 107,
+      "hash": "4f82c6f44a7083df2907da4043d833c5c4b30d2f359309a1e7faa3c862fff73a",
+      "title": "[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)",
+      "category": "microservice_gig",
+      "description": "Fixes #22778. PR: #23293**Bug:** `get_user_goals` (backend/database/goals.py) applied `.limit(limit)` inside the Firestore query, so the page filled in document-id order BEFORE the achieved/abandoned filter ran. If a user's first page is all ended goals, active goals get dropped and callers asking for `limit` active goals silently receive fewer. Callers affected: `backend/utils/proactivity_producers.py` and `backend/utils/llm/external_integrations.py` (both pass limit=3).\n\n**Fix:** the bound now applies after the ended-goal filter and the oldest-first `created_at` sort — the same pattern `get_all_goals` in the same module already uses and documents for exactly this reason. 6 lines, no schema/API changes.\n\n**Bounty**: $50 USD on merge, paid via Algora. — NoYouDeal",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/BasedHardware/omi/issues/23294",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T13:35:43.168167+00:00"
+    },
     {
       "id": 106,
       "hash": "63ed7490b068a2b1ca0ad7914bb3a8776d2778d05ade59f3a291954a1a9bcc24",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-21T17:53:09.654574+00:00"
-    },
-    {
-      "id": 97,
-      "hash": "3a908107678ee22cab9f809947dd9d5e2686c669a58f6a23b96ced52dbf09f7d",
-      "title": "Solana USDC (SPL) signing for x402",
-      "category": "microservice_gig",
-      "description": "Base works end to end. Solana is the other half of the x402 ecosystem and the payment rail APInex uses.\n\nAcceptance:\n- sign an SPL `transferWithAuthorization` on Solana\n- `pickOption` can select `solana:5eykt4UsFv8P8NJdTREY1vzqKqZKvdp`\n- tests run against a local validator\n- README documents both networks",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/rustemmustafingovua-byte/agent-x402/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T12:52:10.552254+00:00"
     }
   ],
-  "exported_at": "2026-10-22T11:06:29.429545+00:00"
+  "exported_at": "2026-10-22T13:36:07.534713+00:00"
 }

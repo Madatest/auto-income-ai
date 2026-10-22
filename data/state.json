@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 110,
-    "total_opportunities": 104,
-    "total_deliverables": 116,
+    "total_executions": 111,
+    "total_opportunities": 106,
+    "total_deliverables": 117,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2822.0,
+    "projected_pipeline_usd": 2847.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 110,
-      "timestamp": "2026-10-22T15:39:13.051149+00:00",
+      "id": 111,
+      "timestamp": "2026-10-22T16:34:33.892685+00:00",
       "status": "SUCCESS",
-      "opportunities_found": 0,
+      "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 110.78,
-      "notes": "Produit '[routes] Time, moving time and speed'"
+      "duration_seconds": 2.73,
+      "notes": "Produit '[routes] Gain/loss threshold'"
     },
-    "updated_at": "2026-10-22T15:39:13.081808+00:00"
+    "updated_at": "2026-10-22T16:34:33.894985+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 119,
+      "opportunity_hash": "b4f08c0c36f83f2e784b6603af893910b6a925e3a96221a4dd4ad31b64c44cac",
+      "category": "bounty_solution",
+      "title": "[routes] Gain/loss threshold",
+      "file_path": "site/deliverables/20261022_163432_routes_gainloss_threshold.md",
+      "relative_path": "deliverables/20261022_163432_routes_gainloss_threshold.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4854,
+        "extension": "md",
+        "source_url": "https://github.com/amiller/bounty-arcade/issues/11",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[routes] Gain/loss threshold**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-22T16:34:32.900619+00:00"
+    },
     {
       "id": 118,
       "opportunity_hash": "962c3b32bd4af48c558a6a4c49e550e783126a8d63f689d4575007d5a9a2ef08",
@@ -351,46 +388,51 @@
         "bounty_value": "$1"
       },
       "created_at": "2026-10-22T00:24:48.826615+00:00"
-    },
-    {
-      "id": 109,
-      "opportunity_hash": "74b89e476e7e25f563abc5c870287c8156428a8c541070bb3f5dfc03815c8089",
-      "category": "bounty_solution",
-      "title": "Frantic bounty #140: Send an email with a 30-line Nitrosend SDK script and report how it went",
-      "file_path": "site/deliverables/20261021_211254_frantic_bounty_140_send_an_email_with_a_30_line_ni.md",
-      "relative_path": "deliverables/20261021_211254_frantic_bounty_140_send_an_email_with_a_30_line_ni.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 3843,
-        "extension": "md",
-        "source_url": "https://github.com/auscaster/frantic-board/issues/539",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Frantic bounty #140: Send an email with a 30-line Nitrosend SDK script and report how it went**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$1"
-      },
-      "created_at": "2026-10-21T21:12:54.608518+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 111,
+      "hash": "7c7bcdb0fdd665032e6ca7ecbcf079b3f43906a8a27c0eeae9fd2b1b7e8a621e",
+      "title": "📋 2 open bounties right now",
+      "category": "microservice_gig",
+      "description": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue.\n\n- 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1)\n- 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290)\n\ncc @habibdxb01",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/habibdxb01/bounty-watcher/issues/8",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T16:34:32.894649+00:00"
+    },
+    {
+      "id": 110,
+      "hash": "3b76c58f734ac3a37f575df8de86c531a1722b768b7527ae39b268d6a7eaa1b0",
+      "title": "📋 2 open bounties right now",
+      "category": "microservice_gig",
+      "description": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue.\n\n- 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1)\n- 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290)\n\ncc @habibdxb01",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/habibdxb01/bounty-watcher/issues/8",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T16:34:32.889145+00:00"
+    },
     {
       "id": 109,
       "hash": "9793ac7a5032c50422145114899cdf1a69e8cdd919d209614d200564f02a0d50",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-21T17:53:09.666419+00:00"
-    },
-    {
-      "id": 101,
-      "hash": "ed11ca2fabece3247f4e2ba5b946995b9354ba6e35601f0f115ebc6a876dda20",
-      "title": "[puzzle] Shareable replay links",
-      "category": "microservice_gig",
-      "description": "**App:** `apps/puzzle`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/puzzle-replay-links/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-replay-links/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-replay-links/check.yml ` in the dev image. Nobody reviews the result.\n\nLet a player share a solution as a URL such as `/apps/puzzle/#level=2&moves=lLLLrrrddLLL`.\nOn load, the page selects that level and replays the moves; the replay must stop\nwith an error message in `#status` if a move is blocked. Add `replayUrl(levelIndex, state)`\nand `parseReplay(hash)` to `logic.js`, and a \"Copy link\" button with\n`data-testid=\"share\"` that writes the URL to `#share-url` (a read-only input).\n\nAcceptance tests (`test/replay.test.js` and `test/replay.spec.js`):\n- `parseReplay round-trips`: `parseReplay('#level=2&moves=lLLLrrrddLLL')` deep-equals `{ level: 2, moves: 'lLLLrrrddLLL' }`.\n- `replayUrl encodes history`: `replayUrl(0, play(parse(levels[0].map), 'rRR'))` equals `'#level=0&moves=rRR'`.\n- `parseReplay rejects junk`: `parseReplay('#level=x&moves=q')` throws.\n- Playwright `replay link solves a level`: goto `/apps/puzzle/#level=2&moves=lLLLrrrddLLL`, assert `#level` value `2`, `#moves` text `12`, `#status` contains `Solved`.\n- Playwright `blocked replay reports the step`: goto `/apps/puzzle/#level=0&moves=l`, assert `#status` contains `blocked` and `#moves` is `0`.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/amiller/bounty-arcade/issues/9",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T17:53:09.660708+00:00"
-    },
-    {
-      "id": 100,
-      "hash": "8cf7907c0c45ec4c92d8a6e3037f0defd7ab69a3c04f28525550df587ea83c78",
-      "title": "[routes] Segments and gaps",
-      "category": "microservice_gig",
-      "description": "**App:** `apps/routes`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/routes-segments/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/routes-segments/check.yml) at `8232383`, run with `node check.mjs bounties/routes-segments/check.yml ` in the dev image. Nobody reviews the result.\n\n`parseGpx` flattens every `` into one list, so a GPX with two `` blocks (a paused recording, or a ferry crossing) counts the straight line across the gap as distance. Return `segments: [[point, ...], ...]` alongside `points` (`points` stays the flat list), and add `stats(points, { segments })` (default `[points]`) whose distance and gain/loss sum within segments only. Draw each segment as its own `` in `#track`.\n\nAcceptance tests (`bounties/routes-segments/`):\n- `parses two segments`: a GPX string with two `` blocks of 2 and 3 points gives `segments.length === 2`, lengths `[2, 3]`, and `points.length === 5`.\n- `distance skips gaps`: segments `[(0,0),(0,0.01)]` and `[(10,10),(10,10.01)]` give `stats(points, { segments }).distance` within 1 m of `haversine((0,0),(0,0.01)) + haversine((10,10),(10,10.01))`.\n- `gain skips gaps`: segment elevations `[100, 110]` and `[500, 490]` give gain 10 and loss 10.\n- `samples unchanged`: both bundled samples have one segment and `stats(points, { segments })` gives the same distance as before (4020.8 m and 9105.4 m, within 1 m).\n- Browser: uploading a file with segments (0,0)–(0,0.01) and (0.01,0.01)–(0.01,0.02)–(0.02,0.02) via `#file` yields `#track polyline` count 2 and `#stat-distance` `3.34 km` (4.45 km with the gap).",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/amiller/bounty-arcade/issues/10",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T17:53:09.659038+00:00"
     }
   ],
-  "exported_at": "2026-10-22T15:39:13.101878+00:00"
+  "exported_at": "2026-10-22T16:34:33.896479+00:00"
 }

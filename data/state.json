@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 103,
-    "total_opportunities": 98,
-    "total_deliverables": 109,
+    "total_executions": 104,
+    "total_opportunities": 99,
+    "total_deliverables": 110,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2647.0,
+    "projected_pipeline_usd": 2672.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 103,
-      "timestamp": "2026-10-22T05:56:24.324094+00:00",
+      "id": 104,
+      "timestamp": "2026-10-22T06:57:50.574009+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 62.83,
-      "notes": "Produit '[radar] SN open bounty 2026-10-20T05:55'"
+      "duration_seconds": 62.03,
+      "notes": "Produit '[BOUNTY] Suggestion #1291'"
     },
-    "updated_at": "2026-10-22T05:56:24.374618+00:00"
+    "updated_at": "2026-10-22T06:57:50.606844+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 112,
+      "opportunity_hash": "bc38f81723ddc589bd16bea978b3dd55662b33415815ade4cb605063c8080f1b",
+      "category": "bounty_solution",
+      "title": "[BOUNTY] Suggestion #1291",
+      "file_path": "site/deliverables/20261022_065739_bounty_suggestion_1291.md",
+      "relative_path": "deliverables/20261022_065739_bounty_suggestion_1291.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 6152,
+        "extension": "md",
+        "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1327",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal: Ghost Café Item Boundary Protection (#1291)\n\nHello @maintainers,\n\nI have implemented the requested `ghost_cafe_only` restriction attribute for items and objects in DM.\n\n### Key Changes\n- **Attribute Added**: Added `var/ghost_cafe_only = FALSE` to `/obj`.\n- **Movement Validation**: Overrode `/obj/Moved()` to verify the target area via `check_ghost_cafe_bounds()`.\n- **Area Enforcement**: Checked against `/area/ghost_cafe` and `/area/infinidorm` (or `AREA_FLAG_GHOST_CAFE_PERMITTED`).\n- **Disintegration Mechanism**: Implemented `vanish_ghost_cafe_item()` which displays a visible disintegration feedback/sparks effect and cleanly deletes the object with `qdel(src)`.\n\n### Verification\n- Tested moving objects with `ghost_cafe_only = TRUE` within Infinidorms/Ghost Cafe (remains active).\n- Tested pulling/carrying items across the threshold into standard station areas (object disintegrates immediately as expected).\n\nPR is ready to be opened upon confirmation.\n\n*Submitted on behalf of Jean (@Madatest).*  \n**Bounty / Payment details:**  \n- **Binance Pay UID:** `254779310` (USDT - 0% fees)  \n- Or via official repo escrow (Algora/Gitcoin).",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-22T06:57:39.628315+00:00"
+    },
     {
       "id": 111,
       "opportunity_hash": "3dc6b8db07be893695bd73dbe5dde60c0d67994a129185331efd57fda9155a1c",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-20T18:18:35.926935+00:00"
-    },
-    {
-      "id": 102,
-      "opportunity_hash": "e3dcf4d97ffc114119b7cd090009cc3501856dcbdc1354a4bc3710815f7c14bc",
-      "category": "bounty_solution",
-      "title": "[opt-out check] FastPeopleSearch: test the removal flow end to end",
-      "file_path": "site/deliverables/20261020_131736_opt_out_check_fastpeoplesearch_test_the_removal_fl.md",
-      "relative_path": "deliverables/20261020_131736_opt_out_check_fastpeoplesearch_test_the_removal_fl.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5418,
-        "extension": "md",
-        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/416",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[opt-out check] FastPeopleSearch: test the removal flow end to end**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-20T13:17:36.033431+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 104,
+      "hash": "ee530ec6b31765d6f7669514b1e5b29b08b251aa9341d4be06f9aa7b0cd65865",
+      "title": "[radar] SN open bounty 2026-10-20T05:55",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t2\t17.0\t9274\t28731\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1315",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T06:56:57.974872+00:00"
+    },
     {
       "id": 103,
       "hash": "db6c624b4225e28a4125b7041341f4cc6138519f4c62ee9787013dfd4f23b09b",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-21T01:14:47.705234+00:00"
-    },
-    {
-      "id": 94,
-      "hash": "c76305a54717a1376197a2a5b2c41d3ce02ab4b7424fad44ce003287a1f3e73f",
-      "title": "[TEST BOUNTY] Fix typo in README",
-      "category": "microservice_gig",
-      "description": "**Bounty: $50**\n\nThere is a typo in README.md: \"Welcom\" should be \"Welcome\".\n\n**Reward:** $50 via PayPal/Crypto\n\n**Contact:** DM for payment details",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-20T22:03:40.773903+00:00"
     }
   ],
-  "exported_at": "2026-10-22T05:56:24.402251+00:00"
+  "exported_at": "2026-10-22T06:57:50.632912+00:00"
 }

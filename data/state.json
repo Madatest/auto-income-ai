@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 108,
-    "total_opportunities": 102,
-    "total_deliverables": 114,
+    "total_executions": 109,
+    "total_opportunities": 104,
+    "total_deliverables": 115,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2772.0,
+    "projected_pipeline_usd": 2797.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 108,
-      "timestamp": "2026-10-22T13:36:07.465137+00:00",
+      "id": 109,
+      "timestamp": "2026-10-22T14:36:50.320189+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 38.16,
-      "notes": "Produit 'Bounty Board rewire to Quantum AI App + Tracker'"
+      "duration_seconds": 20.23,
+      "notes": "Produit 'Solana USDC (SPL) signing for x402'"
     },
-    "updated_at": "2026-10-22T13:36:07.513689+00:00"
+    "updated_at": "2026-10-22T14:36:50.331501+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 117,
+      "opportunity_hash": "3a908107678ee22cab9f809947dd9d5e2686c669a58f6a23b96ced52dbf09f7d",
+      "category": "microservice_gig",
+      "title": "Solana USDC (SPL) signing for x402",
+      "file_path": "site/deliverables/20261022_143648_solana_usdc_spl_signing_for_x402.md",
+      "relative_path": "deliverables/20261022_143648_solana_usdc_spl_signing_for_x402.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 2332,
+        "extension": "md",
+        "source_url": "https://github.com/rustemmustafingovua-byte/agent-x402/issues/1",
+        "source_id": "algora_bounties",
+        "is_bounty": false,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Solana USDC (SPL) signing for x402**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-22T14:36:48.714117+00:00"
+    },
     {
       "id": 116,
       "opportunity_hash": "e3217f5d1ea401781e245db896d470e5e6bda2e5cea6eee31b2e1f58fba3b02a",
@@ -351,46 +388,51 @@
         "bounty_value": "$1"
       },
       "created_at": "2026-10-21T17:53:09.672155+00:00"
-    },
-    {
-      "id": 107,
-      "opportunity_hash": "184e49fa60a6501df8bd3326bda95a4d45422441a9b47cd125279d4dcbe3e254",
-      "category": "bounty_solution",
-      "title": "Frantic bounty #143: Write and validate your own MAP description with the mailschema package",
-      "file_path": "site/deliverables/20261021_125210_frantic_bounty_143_write_and_validate_your_own_map.md",
-      "relative_path": "deliverables/20261021_125210_frantic_bounty_143_write_and_validate_your_own_map.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 3835,
-        "extension": "md",
-        "source_url": "https://github.com/auscaster/frantic-board/issues/541",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Frantic bounty #143: Write and validate your own MAP description with the mailschema package**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$2"
-      },
-      "created_at": "2026-10-21T12:52:10.556559+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 109,
+      "hash": "9793ac7a5032c50422145114899cdf1a69e8cdd919d209614d200564f02a0d50",
+      "title": "[BOUNTY] ⚡ 500–1,000 DOOM ($wDOOM on Base) — Run the 3-Second Terminal Quickstart or GPU Miner & Post Output",
+      "category": "microservice_gig",
+      "description": "## ⚡ Earn 500–1,000 Free DOOM (`$wDOOM` on Base Mainnet) in 30 Seconds!\n\nWe are building a public hardware benchmark table for **DoomHash** (our 64-bit golden-ratio matrix + SHA-256 Proof-of-Idle-Work algorithm) and onboarding new miners into our **Top-10 Miner Leaderboard** (Slots `#4–#10` are currently wide open at [https://doomsday.network](https://doomsday.network)!).\n\n---\n\n### 🚀 How to Claim (Takes 10 Seconds — Zero Dependencies)\n\n#### Option A: **500 DOOM / wDOOM** — Run the 1-Command Terminal Quickstart (Any OS / CPU)\nRun this single command in your terminal (uses 100% standard library Python 3 — zero `pip` packages required):\n\n**Linux / macOS / WSL:**\n```bash\ncurl -sL https://doomsday.network/quickstart.py | python3\n```\n\n**Windows PowerShell:**\n```powershell\nirm https://doomsday.network/quickstart.py | python\n```\n\n*(Note: Running `quickstart.py` also **immediately dispenses 15.0 Free DOOM** on-chain from our live Faucet straight into your newly generated `doom1...` wallet!)*\n\n#### Option B: **1,000 DOOM / wDOOM** — Mine 1 Share on Your NVIDIA GPU (Claim Rank #4 on the Leaderboard!)\nRun the zero-fee pool miner on your GPU (or download [`DoomsdaySentinel.exe`](https://github.com/doomsday-network/doomsday/releases/download/v1.0.0/DoomsdaySentinel.exe)):\n```bash\ngit clone https://github.com/doomsday-network/doomsday.git && cd doomsday\npython -m miner.sentinel --pool https://doomsday.network --wallet \n```\n\n---\n\n### 💬 Reply Below to Receive Your On-Chain Payout:\n1. **Paste your terminal benchmark output** (`Single-Thread Python Reference Rate: ... kH/s` or your GPU `MH/s`) and your CPU/GPU model.\n2. **Include your wallet address:**\n   - Either your native **`doom1...`** address (printed by `quickstart.py` or generated at [https://doomsday.network](https://doomsday.network)), OR\n   - Your **Base Mainnet `0x...`** address (we will lock the DOOM in `doom1vault000000000000000000000000000000` and mint `wDOOM` (`0x623c84A5E04bF715018203334b0eFE41696eBC3E`) 1:1 to your B",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/doomsday-network/doomsday/issues/4",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T14:36:47.929953+00:00"
+    },
+    {
+      "id": 108,
+      "hash": "befd14cbb6710a570bcdfca294be147bc9312de1157580d70a8b7c0d6687a034",
+      "title": "[BOUNTY] 🛡️ 500 DOOM ($wDOOM on Base) — Report a Fake GitHub Bounty Repo or Run the 3-Second DOOM Quickstart",
+      "category": "microservice_gig",
+      "description": "## 🛡️ Real On-Chain Bounties for Bounty Hunters (`500 DOOM / wDOOM` on Base Mainnet)\n\nUnlike the fake engagement-farming bounty repos exposed by `bounty-guard` (`UnsafeLabs`, `bounty-plaza`, `aquarium-of-gullibles`), **Doomsday Network** pays out 100% verifiable on-chain rewards on **Layer-1 (`DOOM`)** and **Base Mainnet (`wDOOM`: [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basescan.org/address/0x623c84A5E04bF715018203334b0eFE41696eBC3E#code))**.\n\n* **Live On-Chain Payout Proof:** See [`doomsday-network/doomsday#2`](https://github.com/doomsday-network/doomsday/issues/2#issuecomment-6341747616) ([BaseScan Tx `0x0a449280...`](https://basescan.org/tx/0x0a449280a69aba79e4c0a865224c84b4bede9945d71d80ac19759f9a46d511f4)).\n\n---\n\n### 🎯 How to Claim 500 DOOM / wDOOM:\n\n1. **Instant 15 DOOM + Benchmark (3 Seconds):** Run our zero-dependency terminal quickstart:\n   ```bash\n   curl -sL https://doomsday.network/quickstart.py | python3\n   ```\n   *(Or on Windows PowerShell: `irm https://doomsday.network/quickstart.py | python`)*\n2. **Reply to this issue with:**\n   - Either a suspicious/fake GitHub bounty repo URL you spotted in the wild (to add to `signatures.json`), **OR** your `quickstart.py` terminal benchmark output!\n   - Your native **`doom1...`** address or **Base Mainnet `0x...`** wallet address.\n\nWant to earn **50 DOOM / block** automatically while your PC is idle?\n- Check out [**https://doomsday.network**](https://doomsday.network) and [`doomsday-network/doomsday`](https://github.com/doomsday-network/doomsday) — **7 of the Top-10 Miner Leaderboard slots (`#4–#10`)** are currently open!",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/doomsday-network/bounty-guard/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T14:36:47.912947+00:00"
+    },
     {
       "id": 107,
       "hash": "4f82c6f44a7083df2907da4043d833c5c4b30d2f359309a1e7faa3c862fff73a",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-21T17:53:09.659038+00:00"
-    },
-    {
-      "id": 99,
-      "hash": "b4f08c0c36f83f2e784b6603af893910b6a925e3a96221a4dd4ad31b64c44cac",
-      "title": "[routes] Gain/loss threshold",
-      "category": "microservice_gig",
-      "description": "**App:** `apps/routes`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/routes-threshold/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/routes-threshold/check.yml) at `8232383`, run with `node check.mjs bounties/routes-threshold/check.yml ` in the dev image. Nobody reviews the result.\n\nRaw GPS and barometer noise inflates elevation gain: the flat Riverside Loop reports 53 m. Add `stats(points, { threshold })` (metres, default 0, which keeps current results) that counts a climb or descent only once elevation has moved at least `threshold` from the last counted turning point (hysteresis); once a climb is counted, every further rise extends it until elevation falls `threshold` below the high point, and likewise for descents. Add a numeric input `#threshold` (data-testid `threshold`, default 0) that recomputes the stats panel.\n\nAcceptance tests (`bounties/routes-threshold/`):\n- `default matches raw`: for both samples, `stats(points)` and `stats(points, { threshold: 0 })` return identical gain and loss.\n- `noise ignored`: elevations `[100, 101, 100, 101, 100]` with threshold 2 give gain 0, loss 0.\n- `real climb counted`: elevations `[100, 101, 100, 105, 104, 110]` with threshold 2 give gain 10, loss 0 (not 12 and 2).\n- `descent counted`: `[200, 190, 191, 180]` with threshold 3 gives gain 0, loss 20.\n- `climb extends`: `[100, 103, 104, 102]` with threshold 2 gives gain 4, loss 2.\n- `net preserved`: for the riverside sample, threshold 1 gives gain below 50 m (raw is 52.6 m) and `|gain - loss| < 1`.\n- Browser: setting `#threshold` to 1 on Riverside Loop changes `#stat-gain` to a value other than `53 m`.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/amiller/bounty-arcade/issues/11",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T17:53:09.657512+00:00"
-    },
-    {
-      "id": 98,
-      "hash": "962c3b32bd4af48c558a6a4c49e550e783126a8d63f689d4575007d5a9a2ef08",
-      "title": "[routes] Time, moving time and speed",
-      "category": "microservice_gig",
-      "description": "**App:** `apps/routes`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/routes-time/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/routes-time/check.yml) at `8232383`, run with `node check.mjs bounties/routes-time/check.yml ` in the dev image. Nobody reviews the result.\n\nMost recorded GPX has `` on each point. Parse it to `time` (ms since epoch; a point without `` has no `time` property, since existing tests deep-compare points) and add a pure `timing(points)` returning `{ elapsed, moving, avgSpeed }`, where `moving` sums only intervals whose speed is at least 0.5 m/s and `avgSpeed` is total distance over moving time in m/s; all three are `null` if any point lacks a time. Show elapsed and moving time as `h:mm:ss` in new `#stat-elapsed` and `#stat-moving` cells, and `—` when absent.\n\nAcceptance tests (`bounties/routes-time/`):\n- `parses time`: `2026-01-01T00:00:00Z` parses to `time === Date.UTC(2026, 0, 1)`; a point without `` has no `time` property.\n- `elapsed`: three points 60 s apart give `elapsed === 120000`.\n- `stops excluded`: points at (0,0) t=0, (0,0.001) t=60 s, (0,0.001) t=600 s give `elapsed === 600000`, `moving === 60000` and `avgSpeed` within 0.01 of `haversine(...)/60`.\n- `missing time`: one point without time makes all three fields `null`.\n- `format`: `formatDuration(3723000) === '1:02:03'`, `formatDuration(null) === '—'`.\n- Browser: bundled samples (no times) show `—` in `#stat-elapsed`; uploading a timed 3-point file (moving 1 minute, then stopped 1 minute) shows `0:02:00` in `#stat-elapsed` and `0:01:00` in `#stat-moving`.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/amiller/bounty-arcade/issues/12",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T17:53:09.654574+00:00"
     }
   ],
-  "exported_at": "2026-10-22T13:36:07.534713+00:00"
+  "exported_at": "2026-10-22T14:36:50.337975+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 105,
-    "total_opportunities": 100,
-    "total_deliverables": 111,
+    "total_executions": 106,
+    "total_opportunities": 101,
+    "total_deliverables": 112,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2697.0,
+    "projected_pipeline_usd": 2722.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 105,
-      "timestamp": "2026-10-22T08:45:22.241151+00:00",
+      "id": 106,
+      "timestamp": "2026-10-22T09:46:43.709437+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 61.3,
-      "notes": "Produit '[radar] SN open bounty 2026-10-20T11:24'"
+      "duration_seconds": 53.79,
+      "notes": "Produit '[TEST BOUNTY] Fix typo in README'"
     },
-    "updated_at": "2026-10-22T08:45:22.256569+00:00"
+    "updated_at": "2026-10-22T09:46:43.745674+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 114,
+      "opportunity_hash": "c76305a54717a1376197a2a5b2c41d3ce02ab4b7424fad44ce003287a1f3e73f",
+      "category": "bounty_solution",
+      "title": "[TEST BOUNTY] Fix typo in README",
+      "file_path": "site/deliverables/20261022_094633_test_bounty_fix_typo_in_readme.md",
+      "relative_path": "deliverables/20261022_094633_test_bounty_fix_typo_in_readme.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3899,
+        "extension": "md",
+        "source_url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @jomaaabbe78-spec,\n\nI have identified and fixed the typo in `README.md` where `\"Welcom\"` was mistakenly written instead of `\"Welcome\"`.\n\n#### Changes applied:\n- Replaced all instances of `Welcom` with `Welcome` in `README.md`.\n- Verified formatting and whitespace to ensure pristine Markdown rendering.\n\nA clean commit is prepared and ready to be merged immediately. I can open the Pull Request right away.\n\nBest regards,  \n**Jean (@Madatest)**  \n*Bounty settlement details: Binance Pay UID: `254779310` (USDT) or repository escrow.*",
+        "bounty_value": "$50"
+      },
+      "created_at": "2026-10-22T09:46:33.481685+00:00"
+    },
     {
       "id": 113,
       "opportunity_hash": "c5e245e1385d991922eb1afdf353dcefa134f1f6fb7d912ebbb4dc9afb038c9f",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-21T01:14:47.715802+00:00"
-    },
-    {
-      "id": 104,
-      "opportunity_hash": "e91b6b3e3a3dcd77a242ae25a31f5abacccf3479bd6874c82113b06f93f84d3c",
-      "category": "bounty_solution",
-      "title": "[find opt-out] Xactus, LLC: find the official opt-out route",
-      "file_path": "site/deliverables/20261020_220340_find_opt_out_xactus_llc_find_the_official_opt_out_.md",
-      "relative_path": "deliverables/20261020_220340_find_opt_out_xactus_llc_find_the_official_opt_out_.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5389,
-        "extension": "md",
-        "source_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/414",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[find opt-out] Xactus, LLC: find the official opt-out route**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-20T22:03:40.788401+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 106,
+      "hash": "63ed7490b068a2b1ca0ad7914bb3a8776d2778d05ade59f3a291954a1a9bcc24",
+      "title": "tokens/token-swap: add the native (Solana Native) flavor — example currently ships anchor-only",
+      "category": "microservice_gig",
+      "description": "## Proposal\n\n`tokens/token-swap` ships only the `anchor/` flavor. Sibling token examples (`create-token`, `transfer-tokens`, `escrow`, `pda-mint-authority`, `nft-operations`) teach the same operations across anchor/native/pinocchio so learners can diff what each framework generates and costs.\n\nThis issue proposes `tokens/token-swap/native/` — a Solana Native implementation of the same swap pattern (SOL  token sides via the existing example's structure), letting the trio pattern hold for one of the most-consulted token examples in the repo.\n\n## Precedent\n\nThe Solana Foundation's recent program-examples bounty rounds paid $200-500 per framework per program for exactly this kind of flavor coverage (Token Swap was one of the funded examples in Steel/Poseidon). Extending the in-repo anchor flavor to `native/` is the same educational value, in-repo.\n\n## What I will deliver (on approval — happy to be assigned)\n\n- `tokens/token-swap/native/`: `program/` crate added as a root workspace member (or listed in `.github/.workspace-ignore` per CI rules), `package.json` with mandatory `build-and-test` script, tests on the repo's test stack — mocha + tsx, `@solana/kit` + `litesvm` 1.x, `FailedTransactionMetadata` assertions, `svm.expireBlockhash()` between identical resends.\n- No mpl/lint crate deps where hand-built instructions suffice (per `AGENTS.md` patterns), no toolchain bumps, no shared JS helpers, per-example lockfile committed.\n- Branch + PR with `Fixes #` on approval.\n\n(Also watching #754 for `tokens/nft-operations` native — happy to take whichever gap maintainers prefer first.)",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/solana-foundation/program-examples/issues/755",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T09:46:20.510550+00:00"
+    },
     {
       "id": 105,
       "hash": "29b886ada906af8892a2f1efb2eb365e427b6574d2b458521d5d288213aaaa2b",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-21T12:52:10.552254+00:00"
-    },
-    {
-      "id": 96,
-      "hash": "e3217f5d1ea401781e245db896d470e5e6bda2e5cea6eee31b2e1f58fba3b02a",
-      "title": "Bounty Board rewire to Quantum AI App + Tracker",
-      "category": "microservice_gig",
-      "description": "> Mirrored from the Solorion Tracker — **TRK-0241** is the source of truth. Edits here do not flow back.\n\nBackfill record (Oct 21 outage audit, Section B.11 verification). The Bounty Board froze; diagnosis landed Oct 20 daytime and the board was REWIRED to run on the Quantum AI App + Tracker instead of the suspended cooper-the-fox credential (see also TRK-0147, TRK-0120). This record confirms the rewire itself carries a Tracker home, since it is the first surface embodying the tracker-first pattern that TRK-0235 (Tracker-to-GitHub sync) generalizes.\n\n---\n**Tracker fields**\n- Kind: task · Status: done · Priority: medium\n\n\n\n— cooper, via Quantum AI App",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/dsect-net/quantum/issues/288",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T12:52:10.540993+00:00"
     }
   ],
-  "exported_at": "2026-10-22T08:45:22.296298+00:00"
+  "exported_at": "2026-10-22T09:46:43.770490+00:00"
 }

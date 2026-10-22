@@ -2,17 +2,17 @@
   "cycle_id": 114,
   "execution_id": 114,
   "status": "SUCCESS",
-  "start_time": "2026-10-23T03:14:40.416691+00:00",
-  "end_time": "2026-10-23T03:14:43.147235+00:00",
-  "duration_seconds": 2.73,
-  "duration_sec": 2.73,
-  "opportunities_scanned": 12,
+  "start_time": "2026-10-22T18:41:38.796046+00:00",
+  "end_time": "2026-10-22T18:41:42.032384+00:00",
+  "duration_seconds": 3.24,
+  "duration_sec": 3.24,
+  "opportunities_scanned": 0,
   "deliverable": {
     "opportunity_hash": "518e1b6bff2ce1a76e26617ccbc89be4ec48ea4579cb66f6ced1ab206a858e31",
     "category": "bounty_solution",
     "title": "[puzzle] Persist progress and best scores per level",
-    "file_path": "site/deliverables/20261023_031442_puzzle_persist_progress_and_best_scores_per_level.md",
-    "relative_path": "deliverables/20261023_031442_puzzle_persist_progress_and_best_scores_per_level.md",
+    "file_path": "site/deliverables/20261022_184140_puzzle_persist_progress_and_best_scores_per_level.md",
+    "relative_path": "deliverables/20261022_184140_puzzle_persist_progress_and_best_scores_per_level.md",
     "monetization_channel": "comeup",
     "price_usd": 25.0,
     "quality_score": 100.0,
@@ -48,7 +48,7 @@
   "first_real_revenue": false,
   "phases": {
     "phase_a_analysis": {
-      "opportunities_scanned": 12,
+      "opportunities_scanned": 0,
       "blockers": [
         "Actifs publiés mais trafic/conversion direct en cours d'amorçage international."
       ],
@@ -56,7 +56,7 @@
     },
     "phase_b_execution": {
       "deliverable_created": "[puzzle] Persist progress and best scores per level",
-      "file_path": "site/deliverables/20261023_031442_puzzle_persist_progress_and_best_scores_per_level.md",
+      "file_path": "site/deliverables/20261022_184140_puzzle_persist_progress_and_best_scores_per_level.md",
       "price_usd": 25.0,
       "monetization_channel": "comeup"
     },
@@ -65,9 +65,9 @@
         "Actif commercial #122 produit et prêt à la vente."
       ],
       "observed_facts": [
-        "Opportunités scannées : 12",
+        "Opportunités scannées : 0",
         "Dépense financière : 0.00 USD",
-        "Fichier actif physique créé : site/deliverables/20261023_031442_puzzle_persist_progress_and_best_scores_per_level.md"
+        "Fichier actif physique créé : site/deliverables/20261022_184140_puzzle_persist_progress_and_best_scores_per_level.md"
       ],
       "working_hypotheses": [
         "La visibilité sur GitHub Pages et Binance Pay convertit prioritairement les acheteurs anglophones et crypto."
@@ -98,12 +98,12 @@
           "status": "ACTIVE_RECEIVING"
         },
         "android_notification_listener": {
-          "available": false,
+          "available": true,
           "monitored_packages": [
             "com.binance.dev",
             "com.google.android.gm"
           ],
-          "status": "UNAVAILABLE_ON_CLOUD"
+          "status": "PASSIVE_MONITORING"
         },
         "receipts_registry": {
           "path": "data/payment_receipts.json",
@@ -124,7 +124,7 @@
   ],
   "next_scheduled_action": "Cycle suivant dans 1 heure (ou déclenchement immédiat)",
   "wolf_supervision": {
-    "timestamp": "2026-10-23T03:14:43.151346+00:00",
+    "timestamp": "2026-10-22T18:41:42.090890+00:00",
     "cycle_id": 114,
     "decision_score": 65.5,
     "score_breakdown": {
@@ -141,7 +141,7 @@
     "motto": "AUTO-ÉVOLUTION ACTIVE (RÈGLE JEAN #3) : Ne jamais attendre de questions externes. T'es plus intelligent, il y a toujours des réponses sur quelque chose. Identifie la cause racine, brise la stagnation et apporte la solution immédiatement.",
     "status": "PENDING_NEXT_CYCLE",
     "interrogation": {
-      "1_actual_production": "Livrable généré : '[puzzle] Persist progress and best scores per level' (bounty_solution, 25.0 $). Fichier : site/deliverables/20261023_031442_puzzle_persist_progress_and_best_scores_per_level.md.",
+      "1_actual_production": "Livrable généré : '[puzzle] Persist progress and best scores per level' (bounty_solution, 25.0 $). Fichier : site/deliverables/20261022_184140_puzzle_persist_progress_and_best_scores_per_level.md.",
       "2_commercial_problem": "Outil fonctionnel direct : outil web autonome résolvant un calcul ou une manipulation concrète.",
       "3_who_pays_and_why": "Utilisateur technique cherchant un résultat immédiat sans inscription.",
       "4_customer_reach": "Distribution directe via démo GitHub Pages et partage ciblé sur forum spécialisé.",

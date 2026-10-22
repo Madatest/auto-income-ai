@@ -1,0 +1,101 @@
+[
+  {
+    "proxy": "http://103.51.223.133:8080",
+    "ip": "103.51.223.133",
+    "city": "Siliguri",
+    "region": "West Bengal",
+    "isp": "ASA GALAXY INTERNET SERVICES PVT. LTD.",
+    "org": "ASA Galaxy  Pvt. Ltd.",
+    "as": "AS135852 Galaxynet Connections Private Limited",
+    "latency_ms": 1141,
+    "last_checked": 1792650327
+  },
+  {
+    "proxy": "socks5://144.24.111.128:1088",
+    "ip": "144.24.111.128",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "isp": "Oracle Corporation",
+    "org": "Oracle Cloud Infrastructure (ap-mumbai-1)",
+    "as": "AS31898 Oracle Corporation",
+    "latency_ms": 1271,
+    "last_checked": 1792650324
+  },
+  {
+    "proxy": "http://151.185.58.17:80",
+    "ip": "151.185.58.17",
+    "city": "New Delhi",
+    "region": "National Capital Territory of Delhi",
+    "isp": "E2E Networks Limited",
+    "org": "E2E Networks Limited",
+    "as": "AS132420 E2E NETWORKS",
+    "latency_ms": 1290,
+    "last_checked": 1792650333
+  },
+  {
+    "proxy": "socks5://139.59.1.14:1080",
+    "ip": "139.59.1.14",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "isp": "DIGITALOCEAN",
+    "org": "DigitalOcean, LLC",
+    "as": "AS14061 DigitalOcean, LLC",
+    "latency_ms": 1465,
+    "last_checked": 1792650332
+  },
+  {
+    "proxy": "socks4://202.179.76.105:51951",
+    "ip": "103.123.226.134",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "isp": "Juweriyah Networks Private Limited",
+    "org": "7STARNET",
+    "as": "AS138296 Juweriyah Networks Private Limited",
+    "latency_ms": 2105,
+    "last_checked": 1792650330
+  },
+  {
+    "proxy": "socks4://202.179.83.169:51951",
+    "ip": "103.123.226.134",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "isp": "Juweriyah Networks Private Limited",
+    "org": "7STARNET",
+    "as": "AS138296 Juweriyah Networks Private Limited",
+    "latency_ms": 2754,
+    "last_checked": 1792650323
+  },
+  {
+    "proxy": "socks5://178.92.72.205:1080",
+    "ip": "178.92.72.205",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "isp": "Micro Hosting Private Limited",
+    "org": "",
+    "as": "AS134926 Micro Hosting Private Limited",
+    "latency_ms": 3160,
+    "last_checked": 1792650323
+  },
+  {
+    "proxy": "socks4://103.143.214.81:5678",
+    "ip": "103.143.214.81",
+    "city": "Chennai",
+    "region": "Tamil Nadu",
+    "isp": "Pink Broadband Service Pvt Ltd",
+    "org": "Pink Solutions",
+    "as": "AS137620 Pink Broadband Service Pvt Ltd",
+    "latency_ms": 3282,
+    "last_checked": 1792650323
+  },
+  {
+    "proxy": "socks5://111.118.179.98:1080",
+    "ip": "111.118.179.98",
+    "city": "Noida",
+    "region": "Uttar Pradesh",
+    "isp": "Cyfuture India Pvt. Ltd.",
+    "org": "",
+    "as": "AS55470 Cyfuture India Pvt. Ltd.",
+    "latency_ms": 3745,
+    "last_checked": 1792650323
+  }
+]

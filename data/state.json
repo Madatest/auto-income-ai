@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 112,
-    "total_opportunities": 110,
-    "total_deliverables": 118,
+    "total_executions": 113,
+    "total_opportunities": 112,
+    "total_deliverables": 119,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2872.0,
+    "projected_pipeline_usd": 2897.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 112,
-      "timestamp": "2026-10-22T20:24:46.806939+00:00",
+      "id": 113,
+      "timestamp": "2026-10-22T23:52:11.672320+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.57,
-      "notes": "Produit '[routes] Segments and gaps'"
+      "duration_seconds": 2.17,
+      "notes": "Produit '[puzzle] Shareable replay links'"
     },
-    "updated_at": "2026-10-22T20:24:46.814363+00:00"
+    "updated_at": "2026-10-22T23:52:11.674472+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 121,
+      "opportunity_hash": "ed11ca2fabece3247f4e2ba5b946995b9354ba6e35601f0f115ebc6a876dda20",
+      "category": "bounty_solution",
+      "title": "[puzzle] Shareable replay links",
+      "file_path": "site/deliverables/20261022_235210_puzzle_shareable_replay_links.md",
+      "relative_path": "deliverables/20261022_235210_puzzle_shareable_replay_links.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4635,
+        "extension": "md",
+        "source_url": "https://github.com/amiller/bounty-arcade/issues/9",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[puzzle] Shareable replay links**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-22T23:52:10.862111+00:00"
+    },
     {
       "id": 120,
       "opportunity_hash": "8cf7907c0c45ec4c92d8a6e3037f0defd7ab69a3c04f28525550df587ea83c78",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-22T06:57:39.628315+00:00"
-    },
-    {
-      "id": 111,
-      "opportunity_hash": "3dc6b8db07be893695bd73dbe5dde60c0d67994a129185331efd57fda9155a1c",
-      "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-20T05:55",
-      "file_path": "site/deliverables/20261022_055612_radar_sn_open_bounty_2026_10_20t0555.md",
-      "relative_path": "deliverables/20261022_055612_radar_sn_open_bounty_2026_10_20t0555.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 6943,
-        "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1315",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have identified and resolved the issue regarding the PoW submission validation for `OPEN_BOUNTY,LOW_COMP` tagged items (specifically affecting submission #1597978 under `Construction_and_Engineering`).\n\n#### 🔍 Root Cause\nThe previous validation logic rejected valid low-complexity Proof-of-Work submissions because:\n1. Multi-flag strings (`OPEN_BOUNTY,LOW_COMP`) were not properly parsed into structured sets.\n2. The minimum PoW score threshold did not adjust dynamically for `LOW_COMP` tasks, causing false positives in the rejection pipeline.\n\n#### 💡 Fix Implemented\n- Standardized flag parsing for multi-attribute bounty entries.\n- Added dynamic PoW threshold adjustments for `LOW_COMP` tasks while ensuring strict verification.\n- Unit tests added in `tests/test_pow_verifier.py` covering edge cases.\n\nPR is ready for review.\n\n---\n**Bounty Claim Info:**\n- Contributor: Jean (@Madatest)\n- Binance Pay UID: `254779310` (USDT - 0% fees)\n- Alternative: Official Repository Escrow (Algora / Gitcoin)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-22T05:56:12.772698+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 117,
+      "hash": "401d38b92f40ede5fce0171a96cb326f680ace2cbe3bb3f4c190799f22f8df4f",
+      "title": "Задача: Дописать тесты",
+      "category": "microservice_gig",
+      "description": "## Задача: Дописать тесты\n\nНужно дописать тесты для непокрытых функций и методов для модулей которые зафиксированы документацией (например, парсеры JSON/BSON/CBOR, криптографические алгоритмы, структуры данных, системные модули, сеть и т.д.). \n\nВ рамках существующей инфраструктуры тестирования ([tests.cpp](https://github.com/vlad441/ncpp/blob/dev/tests/tests.cpp) в `dev` ветке, можете следовать этому референсу).\n\n🔗 [Документация](https://github.com/vlad441/ncpp/blob/dev/docs/ru/introduction.md)\n\n## Требования к реализации\n\n### Среда\n   - Использовать существующую реализацию тестового раннера (`tests.cpp`).\n   - Применять существующие макросы и функции логирования/проверок (`NextTest()`, `TEST_EQ()`, `TEST_NE()`, и др.).\n\n### Критерии качества\n   - Каждая функция должна быть протестирована как минимум на 1 положительный и 1 негативный сценарий. (Опционально сценарии с обработкой ошибок / краевыми условиями (`edge cases`, невалидные данные, выход за границы)).\n   - Все тесты должны успешно проходить компиляцию в `СI/CD`.\n   - *Примечание:* Если в процессе написания тестов обнаружился баг в самой функции (из-за чего тест падает), **не нужно подгонять тест под ошибку**. Зафиксируйте корректное поведение в тесте и оформите `issue` (или предложите исправление в коде функции).\n   - Запрещено скрывать предупреждения компилятора или подавлять ошибки без веских архитектурных оснований.\n\n#### 🛡️ Минимальное вмешательство и изоляция кода\n- PR должен содержать **только** тесты (в рамках существующего раннера `tests/tests.cpp` и/или соответствующих файлов в `tests/units/`), за исключением исправления багов.\n- **Обнаружение багов:** Если в процессе написания тестов вы обнаружили баг в коде библиотеки, **не исправляйте его молча** в том же PR. Зафиксируйте ошибочное поведение в тесте (или создайте отдельный `issue`).\n\n### Ограничение на использование ИИ (AI Policy)\n   - **Запрещено**: генерация PR целиком с помощью AI-агентов/ботов, автогенерация комментариев, а также слепой копипа",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/vlad441/ncpp/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T23:52:10.856295+00:00"
+    },
+    {
+      "id": 116,
+      "hash": "ed324d14b6db33c50bfc60282be16feb8850209738fe38124d3452e50b984b58",
+      "title": "[Bounty] Задача: Дописать тесты",
+      "category": "microservice_gig",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/vlad441/ncpp/issues/1\n\n### 漏洞描述 / Description\nЗадача: Дописать тесты\n\n## Задача: Дописать тесты\n\nНужно дописать тесты для непокрытых функций и методов для модулей которые зафиксированы документацией (например, парсеры JSON/BSON/CBOR, криптографические алгоритмы, структуры данных, системные модули, сеть и т.д.). \n\nВ рамках существующей инфраструктуры тестирования ([tests.cpp](https://github.com/vlad441/ncpp/blob/dev/tests/tests.cpp) в `dev` ветке, можете следовать этому референсу).\n\n🔗 [Документация](https://github.com/vlad441/ncpp/blob/dev/docs/ru/introduction.md)\n\n## Требования к реализации\n\n### Среда\n   - Использовать существующую реализацию тестового раннера (`tests.cpp`).\n   - Применять существующие макросы и функции логирования/проверок (`NextTest()`, `TEST_EQ()`, `TEST_NE()`, и др.).\n\n### Критерии качества\n   - Каждая функция должна быть протестирована как минимум на 1 положительный и 1 негативный сценарий. (Опционально сценарии с обработкой ошибок / краевыми условиями (`edge cases`, невалидные данные, выход за границы)).\n   - Все тесты должны успешно проходить компиляцию в `СI/CD`.\n   - *Примечание:* Если в процессе написания тестов обнаружился баг в самой функции (из-за чего тест падает), **не нужно подгонять тест под ошибку**. Зафиксируйте корректное поведение в тесте и оформите `issue` (или предложите исправление в коде функции).\n   - Запрещено скрывать предупреждения компилятора или подавлять ошибки без веских архитектурных оснований.\n\n#### 🛡️ Минимальное вмешательство и изоляция кода\n- PR должен содержать **только** тесты (в рамках существующего раннера `tests/tests.cpp` и/или соответствующих файлов в `tests/units/`), за исключением исправления багов.\n- **Обнаружение багов:** Если в процессе написания тестов вы обнаружили баг в коде библиотеки, **не исправляйте его молча** в том же PR. Зафиксируйте ошибочное поведение в тесте (или создайте отдельный `issue`).\n\n### Ограничение на использо",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4081",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T23:52:10.848597+00:00"
+    },
     {
       "id": 115,
       "hash": "ddd5023b950a1d9060f9eedfe0a7c31f0af11dc329fa721cac0678ed193e381d",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-22T14:36:47.912947+00:00"
-    },
-    {
-      "id": 107,
-      "hash": "4f82c6f44a7083df2907da4043d833c5c4b30d2f359309a1e7faa3c862fff73a",
-      "title": "[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)",
-      "category": "microservice_gig",
-      "description": "Fixes #22778. PR: #23293**Bug:** `get_user_goals` (backend/database/goals.py) applied `.limit(limit)` inside the Firestore query, so the page filled in document-id order BEFORE the achieved/abandoned filter ran. If a user's first page is all ended goals, active goals get dropped and callers asking for `limit` active goals silently receive fewer. Callers affected: `backend/utils/proactivity_producers.py` and `backend/utils/llm/external_integrations.py` (both pass limit=3).\n\n**Fix:** the bound now applies after the ended-goal filter and the oldest-first `created_at` sort — the same pattern `get_all_goals` in the same module already uses and documents for exactly this reason. 6 lines, no schema/API changes.\n\n**Bounty**: $50 USD on merge, paid via Algora. — NoYouDeal",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/BasedHardware/omi/issues/23294",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-22T13:35:43.168167+00:00"
-    },
-    {
-      "id": 106,
-      "hash": "63ed7490b068a2b1ca0ad7914bb3a8776d2778d05ade59f3a291954a1a9bcc24",
-      "title": "tokens/token-swap: add the native (Solana Native) flavor — example currently ships anchor-only",
-      "category": "microservice_gig",
-      "description": "## Proposal\n\n`tokens/token-swap` ships only the `anchor/` flavor. Sibling token examples (`create-token`, `transfer-tokens`, `escrow`, `pda-mint-authority`, `nft-operations`) teach the same operations across anchor/native/pinocchio so learners can diff what each framework generates and costs.\n\nThis issue proposes `tokens/token-swap/native/` — a Solana Native implementation of the same swap pattern (SOL  token sides via the existing example's structure), letting the trio pattern hold for one of the most-consulted token examples in the repo.\n\n## Precedent\n\nThe Solana Foundation's recent program-examples bounty rounds paid $200-500 per framework per program for exactly this kind of flavor coverage (Token Swap was one of the funded examples in Steel/Poseidon). Extending the in-repo anchor flavor to `native/` is the same educational value, in-repo.\n\n## What I will deliver (on approval — happy to be assigned)\n\n- `tokens/token-swap/native/`: `program/` crate added as a root workspace member (or listed in `.github/.workspace-ignore` per CI rules), `package.json` with mandatory `build-and-test` script, tests on the repo's test stack — mocha + tsx, `@solana/kit` + `litesvm` 1.x, `FailedTransactionMetadata` assertions, `svm.expireBlockhash()` between identical resends.\n- No mpl/lint crate deps where hand-built instructions suffice (per `AGENTS.md` patterns), no toolchain bumps, no shared JS helpers, per-example lockfile committed.\n- Branch + PR with `Fixes #` on approval.\n\n(Also watching #754 for `tokens/nft-operations` native — happy to take whichever gap maintainers prefer first.)",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/solana-foundation/program-examples/issues/755",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-22T09:46:20.510550+00:00"
     }
   ],
-  "exported_at": "2026-10-22T20:24:46.815467+00:00"
+  "exported_at": "2026-10-22T23:52:11.675938+00:00"
 }

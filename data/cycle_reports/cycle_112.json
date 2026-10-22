@@ -2,17 +2,17 @@
   "cycle_id": 112,
   "execution_id": 112,
   "status": "SUCCESS",
-  "start_time": "2026-10-22T20:24:44.240794+00:00",
-  "end_time": "2026-10-22T20:24:46.806925+00:00",
-  "duration_seconds": 2.57,
-  "duration_sec": 2.57,
+  "start_time": "2026-10-22T16:39:44.560725+00:00",
+  "end_time": "2026-10-22T16:41:08.372442+00:00",
+  "duration_seconds": 83.81,
+  "duration_sec": 83.81,
   "opportunities_scanned": 12,
   "deliverable": {
     "opportunity_hash": "8cf7907c0c45ec4c92d8a6e3037f0defd7ab69a3c04f28525550df587ea83c78",
     "category": "bounty_solution",
     "title": "[routes] Segments and gaps",
-    "file_path": "site/deliverables/20261022_202446_routes_segments_and_gaps.md",
-    "relative_path": "deliverables/20261022_202446_routes_segments_and_gaps.md",
+    "file_path": "site/deliverables/20261022_164054_routes_segments_and_gaps.md",
+    "relative_path": "deliverables/20261022_164054_routes_segments_and_gaps.md",
     "monetization_channel": "comeup",
     "price_usd": 25.0,
     "quality_score": 100.0,
@@ -56,7 +56,7 @@
     },
     "phase_b_execution": {
       "deliverable_created": "[routes] Segments and gaps",
-      "file_path": "site/deliverables/20261022_202446_routes_segments_and_gaps.md",
+      "file_path": "site/deliverables/20261022_164054_routes_segments_and_gaps.md",
       "price_usd": 25.0,
       "monetization_channel": "comeup"
     },
@@ -67,7 +67,7 @@
       "observed_facts": [
         "Opportunités scannées : 12",
         "Dépense financière : 0.00 USD",
-        "Fichier actif physique créé : site/deliverables/20261022_202446_routes_segments_and_gaps.md"
+        "Fichier actif physique créé : site/deliverables/20261022_164054_routes_segments_and_gaps.md"
       ],
       "working_hypotheses": [
         "La visibilité sur GitHub Pages et Binance Pay convertit prioritairement les acheteurs anglophones et crypto."
@@ -98,12 +98,12 @@
           "status": "ACTIVE_RECEIVING"
         },
         "android_notification_listener": {
-          "available": false,
+          "available": true,
           "monitored_packages": [
             "com.binance.dev",
             "com.google.android.gm"
           ],
-          "status": "UNAVAILABLE_ON_CLOUD"
+          "status": "PASSIVE_MONITORING"
         },
         "receipts_registry": {
           "path": "data/payment_receipts.json",
@@ -124,7 +124,7 @@
   ],
   "next_scheduled_action": "Cycle suivant dans 1 heure (ou déclenchement immédiat)",
   "wolf_supervision": {
-    "timestamp": "2026-10-22T20:24:46.816252+00:00",
+    "timestamp": "2026-10-22T16:41:08.480084+00:00",
     "cycle_id": 112,
     "decision_score": 65.5,
     "score_breakdown": {
@@ -141,7 +141,7 @@
     "motto": "AUTO-ÉVOLUTION ACTIVE (RÈGLE JEAN #3) : Ne jamais attendre de questions externes. T'es plus intelligent, il y a toujours des réponses sur quelque chose. Identifie la cause racine, brise la stagnation et apporte la solution immédiatement.",
     "status": "PENDING_NEXT_CYCLE",
     "interrogation": {
-      "1_actual_production": "Livrable généré : '[routes] Segments and gaps' (bounty_solution, 25.0 $). Fichier : site/deliverables/20261022_202446_routes_segments_and_gaps.md.",
+      "1_actual_production": "Livrable généré : '[routes] Segments and gaps' (bounty_solution, 25.0 $). Fichier : site/deliverables/20261022_164054_routes_segments_and_gaps.md.",
       "2_commercial_problem": "Outil fonctionnel direct : outil web autonome résolvant un calcul ou une manipulation concrète.",
       "3_who_pays_and_why": "Utilisateur technique cherchant un résultat immédiat sans inscription.",
       "4_customer_reach": "Distribution directe via démo GitHub Pages et partage ciblé sur forum spécialisé.",

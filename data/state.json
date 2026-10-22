@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 111,
-    "total_opportunities": 106,
-    "total_deliverables": 117,
+    "total_executions": 112,
+    "total_opportunities": 110,
+    "total_deliverables": 118,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2847.0,
+    "projected_pipeline_usd": 2872.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 111,
-      "timestamp": "2026-10-22T16:34:33.892685+00:00",
+      "id": 112,
+      "timestamp": "2026-10-22T20:24:46.806939+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.73,
-      "notes": "Produit '[routes] Gain/loss threshold'"
+      "duration_seconds": 2.57,
+      "notes": "Produit '[routes] Segments and gaps'"
     },
-    "updated_at": "2026-10-22T16:34:33.894985+00:00"
+    "updated_at": "2026-10-22T20:24:46.814363+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 120,
+      "opportunity_hash": "8cf7907c0c45ec4c92d8a6e3037f0defd7ab69a3c04f28525550df587ea83c78",
+      "category": "bounty_solution",
+      "title": "[routes] Segments and gaps",
+      "file_path": "site/deliverables/20261022_202446_routes_segments_and_gaps.md",
+      "relative_path": "deliverables/20261022_202446_routes_segments_and_gaps.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4785,
+        "extension": "md",
+        "source_url": "https://github.com/amiller/bounty-arcade/issues/10",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[routes] Segments and gaps**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-22T20:24:46.161233+00:00"
+    },
     {
       "id": 119,
       "opportunity_hash": "b4f08c0c36f83f2e784b6603af893910b6a925e3a96221a4dd4ad31b64c44cac",
@@ -351,46 +388,93 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-22T05:56:12.772698+00:00"
-    },
-    {
-      "id": 110,
-      "opportunity_hash": "f665ecc1d8eba565163a434c32a36ee43da8b7d4533ae18b2199d41d67e49a5c",
-      "category": "bounty_solution",
-      "title": "Frantic bounty #139: Send your first email with the Nitrosend CLI and report how it went",
-      "file_path": "site/deliverables/20261022_002448_frantic_bounty_139_send_your_first_email_with_the_.md",
-      "relative_path": "deliverables/20261022_002448_frantic_bounty_139_send_your_first_email_with_the_.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 3812,
-        "extension": "md",
-        "source_url": "https://github.com/auscaster/frantic-board/issues/538",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Frantic bounty #139: Send your first email with the Nitrosend CLI and report how it went**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$1"
-      },
-      "created_at": "2026-10-22T00:24:48.826615+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 115,
+      "hash": "ddd5023b950a1d9060f9eedfe0a7c31f0af11dc329fa721cac0678ed193e381d",
+      "title": "🎯 Bounty Alert: 14 New Opportunityies found",
+      "category": "microservice_gig",
+      "description": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-10-22 18:17 UTC\n\n#### 1. [[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)](https://github.com/BasedHardware/omi/issues/23294)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 1\n- **Last Updated:** 2026-10-22T18:14:46Z\n\n#### 2. [Research Integration: Looped Transformer Blocks & Fixed-Point KV Sharing for the SETI-Swarm MoE Backbone (Huang et al. 2026)](https://github.com/xaviercallens/HiveMind/issues/66)\n- **Repository:** [xaviercallens/HiveMind](https://github.com/xaviercallens/HiveMind)\n- **Comments:** 1\n- **Last Updated:** 2026-10-22T18:11:53Z\n\n#### 3. [[Bounty proposal] fix(graph-tools): harden traverse_knowledge_graph_tool validation, hops coercion, and config extraction ( proposed)](https://github.com/BasedHardware/omi/issues/23305)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 2\n- **Last Updated:** 2026-10-22T18:11:05Z\n\n#### 4. [[Bounty proposal] fix(notification-tools): harden manage_daily_summary_tool validation, hour coercion, and config extraction ( proposed)](https://github.com/BasedHardware/omi/issues/23307)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 2\n- **Last Updated:** 2026-10-22T18:11:02Z\n\n#### 5. [[Bounty proposal] fix(preference-tools): harden save_user_preference_tool validation, user_stated coercion, and config resilience ($50 proposed)](https://github.com/BasedHardware/omi/issues/23328)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 3\n- **Last Updated:** 2026-10-22T18:10:58Z\n\n#### 6. [Brand Mentions: 2026-10-22 (22 worthy, 0 highlights)](https://github.com/sbc1-code/brand-monitor/issues/139)\n- **Repository:** [sbc1-code/brand-monitor](https://github.com/sbc1-code/brand-monitor)\n- **Comments:** 0\n- **Last Updated:** 2026-10-22T18:08:54Z\n\n#### 7. [Grammar Gap: spell ",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/freedom-winds/BountyScout/issues/1300",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T20:24:46.156974+00:00"
+    },
+    {
+      "id": 114,
+      "hash": "1e0c55a3320ed7df1433abf924db48eb93591d42568b80fcc63edff13e75b5bc",
+      "title": "Задача: Дописать тесты",
+      "category": "microservice_gig",
+      "description": "## Задача: Дописать тесты\n\nНужно дописать тесты для непокрытых функций и методов для модулей которые зафиксированы документацией (например, парсеры JSON/BSON/CBOR, криптографические алгоритмы, структуры данных, системные модули, сеть и т.д.). \n\nВ рамках существующей инфраструктуры тестирования ([tests.cpp](https://github.com/vlad441/ncpp/blob/dev/tests/tests.cpp) в `dev` ветке, можете следовать этому референсу).\n\n🔗 [Документация](https://github.com/vlad441/ncpp/blob/dev/docs/ru/introduction.md)\n\n## Требования к реализации\n\n1. **Среда:**\n   - Использовать существующую реализацию тестового раннера (`tests.cpp`).\n   - Применять существующие макросы и функции логирования/проверок (`NextTest()`, `TEST_EQ()`, `TEST_NE()`, и др.).\n\n2. **Критерии качества:**\n   - Каждая функция должна быть протестирована как минимум на 1 положительный и 1 негативный сценарий. (Опционально сценарии с обработкой ошибок / краевыми условиями (`edge cases`, невалидные данные, выход за границы)).\n   - Все тесты должны успешно проходить компиляцию в `СI/CD`.\n   - *Примечание:* Если в процессе написания тестов обнаружился баг в самой функции (из-за чего тест падает), **не нужно подгонять тест под ошибку**. Зафиксируйте корректное поведение в тесте и оформите `issue` (или предложите исправление в коде функции).\n   - Запрещено скрывать предупреждения компилятора или подавлять ошибки без веских архитектурных оснований.\n\n## Награда\nПроект является волонтерским, поэтому награда воспринимается не как коммерческая оплата, а как маленький приятный бонус и знак благодарности за ваш вклад в проект:\n   - **Фонд вознаграждения задачи**: $50\n   - Способы оплаты: Криптовалюта (USDT TRC20/BEP20, USDC, LTC, etc. Иные монеты обсуждаются индивидуально)\n   \nНаграда выплачивается после успешного слияния вашего `Pull Request` и прохождения всех проверок в `CI/CD` для каждого из модулей проекта:\n   - Для модулей могут быть созданы отдельные подзадачи.",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/vlad441/ncpp/issues/1",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T20:24:46.154188+00:00"
+    },
+    {
+      "id": 113,
+      "hash": "25a85ad8f03880e9a5ab1134f2dda64eb04dbf75dbb900af7dc180f273200fe7",
+      "title": "[radar] SN open bounty 2026-10-22T19:11",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1600261\tmath\t2\t2441\t1000\t6\t2.8\t48657\t16270\trecent@math|top@math\tOPEN_BOUNTY,HOT,SIGNAL,SELF_POST_OPP\t[Math Puzzle] Sequence of Square Pairs\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1326",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T20:24:46.152719+00:00"
+    },
+    {
+      "id": 112,
+      "hash": "effd5d2098fba7086e4a595fd09b20be1c15e8e746fdbbcd9089ef306c91a588",
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "category": "microservice_gig",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/habibdxb01/bounty-watcher/issues/8\n\n### 漏洞描述 / Description\n📋 2 open bounties right now\n\nBounties that were already open when the watcher started. From now on, each new one gets its own issue.\n\n- 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1)\n- 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290)\n\ncc @habibdxb01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n### 积分币奖励 / Coin Reward\n187 coins\n\n### 真实赏金（USD）/ Real Reward\n$150\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-22T20:24:46.149612+00:00"
+    },
     {
       "id": 111,
       "hash": "7c7bcdb0fdd665032e6ca7ecbcf079b3f43906a8a27c0eeae9fd2b1b7e8a621e",
@@ -516,91 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-22T09:46:20.510550+00:00"
-    },
-    {
-      "id": 105,
-      "hash": "29b886ada906af8892a2f1efb2eb365e427b6574d2b458521d5d288213aaaa2b",
-      "title": "[BOUNTY] Suggestion #1291",
-      "category": "microservice_gig",
-      "description": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nA boolean variable applied to all objects \"ghost_cafe_only\" that will make objects vanish if they are pulled outside of the ghost café or infinidorms. Some dorm rooms have things such as surgery trays, valuable materials, and special equipment that can be brought out of the ghost Cafe. Its already against the rules (I think) but it would be cool to have a variable I can use while mapping to put silly things like energy swords in some infinidorms without risk of them being smuggled out.\n\n**Reason:**\n[BOUNTY] yea\n\n**Results:**\n9x \n2x \n\n\n### Suggestion Reference\n\n**Suggested by:** megamiana\nhttps://discord.com/channels/908082639704064051/1404686278351655055/1562067681270698016\n\n### Contact Information\n\nContact `mos_ley` in discord for payment information.\n\nContact `megamiana` in discord for information about the requirements.\n\n### Payment Details\n\nPayment methods:\n- PayPal\n- Cryptocurrency",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1327",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-22T08:44:31.501421+00:00"
-    },
-    {
-      "id": 104,
-      "hash": "ee530ec6b31765d6f7669514b1e5b29b08b251aa9341d4be06f9aa7b0cd65865",
-      "title": "[radar] SN open bounty 2026-10-20T05:55",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1597978\tConstruction_and_Engineering\t2\t50\t5000\t2\t17.0\t9274\t28731\ttop@Construction_and_Engineering\tOPEN_BOUNTY,LOW_COMP\tShow Your Build Weekly #6: Post Your Proof-of-Work 🔨\n```",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1315",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-22T06:56:57.974872+00:00"
-    },
-    {
-      "id": 103,
-      "hash": "db6c624b4225e28a4125b7041341f4cc6138519f4c62ee9787013dfd4f23b09b",
-      "title": "[puzzle] Deadlock detection for boxes stuck in corners",
-      "category": "microservice_gig",
-      "description": "**App:** `apps/puzzle`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/puzzle-deadlock/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-deadlock/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-deadlock/check.yml ` in the dev image. Nobody reviews the result.\n\nA box pushed into a corner that is not a goal can never move again, and the\nplayer only finds out much later. Add `deadBoxes(state)` to `logic.js`, returning\nthe sorted indices of boxes that sit on a non-goal cell with a wall on one\nvertical side and one horizontal side. The UI marks those cells with a `dead`\nclass and shows \"Stuck: a box is in a corner\" in `#status`.\n\nAcceptance tests (`test/deadlock.test.js`):\n- `deadBoxes returns [] for every level's start`: `deadBoxes(parse(lv.map))` deep-equals `[]` for each entry in `levels.json`.\n- `corner box is dead`: `deadBoxes(play(parse(levels[1].map), 'DLdR'))` (level \"Corner\") deep-equals `[28]`.\n- `dead box in a larger level`: `deadBoxes(play(parse(levels[4].map), 'URurDD'))` (level \"Storeroom\") deep-equals `[33]`.\n- `box on a goal in a corner is not dead`: `deadBoxes(parse(['####', '#@*#', '####']))` deep-equals `[]`.\n- `wall on one side only is not dead`: `deadBoxes(parse(['######', '#@$ .#', '#    #', '######']))` deep-equals `[]`.\n- Playwright `marks dead box`: select option value `1` (\"Corner\"), press `ArrowDown`, `ArrowLeft`, `ArrowDown`, `ArrowRight`; assert `#board .dead` has count 1, it is the 29th `.cell` (index 28), and `#status` contains `Stuck`. Then click `undo` and assert `#board .dead` has count 0.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/amiller/bounty-arcade/issues/7",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T17:53:09.667838+00:00"
-    },
-    {
-      "id": 102,
-      "hash": "518e1b6bff2ce1a76e26617ccbc89be4ec48ea4579cb66f6ced1ab206a858e31",
-      "title": "[puzzle] Persist progress and best scores per level",
-      "category": "microservice_gig",
-      "description": "**App:** `apps/puzzle`\n**Amount:** not yet funded\n**Base commit:** `5c76d40`\n**Checker:** [`bounties/puzzle-progress/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-progress/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-progress/check.yml ` in the dev image. Nobody reviews the result.\n\nPlayers lose their place on reload. Store, per level name, whether it was solved\nand the fewest moves used, and restore the last selected level on load. Keep the\nbookkeeping pure in `logic.js` as `recordWin(progress, levelName, moves)` returning\na new progress object; `ui.js` reads and writes it under the `localStorage` key\n`puzzle-progress`. The level `` shows a check mark and the best move count\nfor solved levels.\n\nAcceptance tests (`test/progress.test.js` and `test/progress.spec.js`):\n- `recordWin stores first result`: `recordWin({}, 'Corner', 12)` deep-equals `{ Corner: { best: 12 } }`.\n- `recordWin keeps the lower count`: `recordWin({ Corner: { best: 12 } }, 'Corner', 20).Corner.best === 12` and with `9` it is `9`.\n- `recordWin does not mutate input`: the argument object is unchanged after the call.\n- Playwright `best score survives reload`: solve level 1 with `ArrowRight` x3, reload, assert the option with value `0` contains `3` and a check mark (`✓`).\n- Playwright `last level is restored`: select option value `2`, reload, assert `#level` has value `2` and `#moves` is `0`.",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/amiller/bounty-arcade/issues/8",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-21T17:53:09.666419+00:00"
     }
   ],
-  "exported_at": "2026-10-22T16:34:33.896479+00:00"
+  "exported_at": "2026-10-22T20:24:46.815467+00:00"
 }

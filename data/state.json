@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 114,
-    "total_opportunities": 113,
-    "total_deliverables": 120,
+    "total_executions": 115,
+    "total_opportunities": 114,
+    "total_deliverables": 121,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2922.0,
+    "projected_pipeline_usd": 2947.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 114,
-      "timestamp": "2026-10-23T03:14:43.147250+00:00",
+      "id": 115,
+      "timestamp": "2026-10-23T09:04:31.564352+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.73,
-      "notes": "Produit '[puzzle] Persist progress and best scores per level'"
+      "duration_seconds": 2.94,
+      "notes": "Produit '[puzzle] Deadlock detection for boxes stuck in corners'"
     },
-    "updated_at": "2026-10-23T03:14:43.149496+00:00"
+    "updated_at": "2026-10-23T09:04:31.770939+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 123,
+      "opportunity_hash": "db6c624b4225e28a4125b7041341f4cc6138519f4c62ee9787013dfd4f23b09b",
+      "category": "bounty_solution",
+      "title": "[puzzle] Deadlock detection for boxes stuck in corners",
+      "file_path": "site/deliverables/20261023_090430_puzzle_deadlock_detection_for_boxes_stuck_in_corne.md",
+      "relative_path": "deliverables/20261023_090430_puzzle_deadlock_detection_for_boxes_stuck_in_corne.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4920,
+        "extension": "md",
+        "source_url": "https://github.com/amiller/bounty-arcade/issues/7",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[puzzle] Deadlock detection for boxes stuck in corners**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-23T09:04:30.531864+00:00"
+    },
     {
       "id": 122,
       "opportunity_hash": "518e1b6bff2ce1a76e26617ccbc89be4ec48ea4579cb66f6ced1ab206a858e31",
@@ -351,46 +388,30 @@
         "bounty_value": "$50"
       },
       "created_at": "2026-10-22T09:46:33.481685+00:00"
-    },
-    {
-      "id": 113,
-      "opportunity_hash": "c5e245e1385d991922eb1afdf353dcefa134f1f6fb7d912ebbb4dc9afb038c9f",
-      "category": "bounty_solution",
-      "title": "[radar] SN open bounty 2026-10-20T11:24",
-      "file_path": "site/deliverables/20261022_084513_radar_sn_open_bounty_2026_10_20t1124.md",
-      "relative_path": "deliverables/20261022_084513_radar_sn_open_bounty_2026_10_20t1124.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 6935,
-        "extension": "md",
-        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1316",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-20T11:24**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-22T08:45:13.353488+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 119,
+      "hash": "951f024bcfb7dad7a6a675844d0fe713ddfcff25d2d00635f9fbc23954697d4d",
+      "title": "HER Hack-Astron #7 | Spark-X2.6 Open Source AI for Good Challenge｜公益应用场景挑战赛",
+      "category": "microservice_gig",
+      "description": "# HER Hack-Astron # 7 | Spark-X2.6 Open Source AI for Good Challenge\r\n\r\nBuild something useful for people who need it. This round invites you to use **Spark-X2.6-4B** to create a working application for disaster response, health, accessibility, gender equality, or another public-interest need.\r\n\r\n**Go to [Spark-X2.6-4B on Hugging Face](https://huggingface.co/XHToken/Spark-X2.6-4B), give the model a ❤️ Like, and download and use it to build your application. Publish your complete project with a video or illustrated demo in the model's Hugging Face Community Discussions, then reply to this event Issue with the Discussion link.**\r\n\r\n- Model and getting started: https://huggingface.co/XHToken/Spark-X2.6-4B\r\n- Publish your project (Hugging Face Community Discussions): https://huggingface.co/XHToken/Spark-X2.6-4B/discussions\r\n- Submit your Discussion link (reply to this event Issue): https://github.com/XHToken/Spark-X2.6/issues/16\r\n\r\n## Quick Summary\r\n\r\n1. Individuals of any gender are welcome. For team entries, at least 50% of contributors must identify as women, following the HER Hack-Astron participation rule.\r\n2. Your application must actually use Spark-X2.6-4B. Explain what the model does in the application.\r\n3. Every submission must include **a video demo OR an illustrated demo with screenshots and explanatory text** showing the application running.\r\n4. Publish the complete entry in Spark-X2.6-4B's Hugging Face Community Discussions, then reply to this announcement Issue with the direct Discussion link.\r\n5. AI-assisted development is allowed; disclose how it was used. AI personas must not be presented as human participants.\r\n6. No live presentation is required.\r\n7. One winner receives **USD 100**. No upfront participation or prize-claim fee is required.\r\n\r\n## Schedule\r\n\r\n- Submissions open: **October 23, 2026 (UTC)**\r\n- Submission deadline: **October 31, 2026, 23:59 UTC**\r\n- Beijing time equivalent of the deadline: **November 1, 2026, 07:59 (UTC+8)**\r\n- Judging and ",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/XHToken/Spark-X2.6/issues/16",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-23T09:04:30.196380+00:00"
+    },
     {
       "id": 118,
       "hash": "b3b07924aa654eaf6df24e467c5c66524535d1ac2981a8bfff7d2f5074e93659",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-22T16:34:32.889145+00:00"
-    },
-    {
-      "id": 109,
-      "hash": "9793ac7a5032c50422145114899cdf1a69e8cdd919d209614d200564f02a0d50",
-      "title": "[BOUNTY] ⚡ 500–1,000 DOOM ($wDOOM on Base) — Run the 3-Second Terminal Quickstart or GPU Miner & Post Output",
-      "category": "microservice_gig",
-      "description": "## ⚡ Earn 500–1,000 Free DOOM (`$wDOOM` on Base Mainnet) in 30 Seconds!\n\nWe are building a public hardware benchmark table for **DoomHash** (our 64-bit golden-ratio matrix + SHA-256 Proof-of-Idle-Work algorithm) and onboarding new miners into our **Top-10 Miner Leaderboard** (Slots `#4–#10` are currently wide open at [https://doomsday.network](https://doomsday.network)!).\n\n---\n\n### 🚀 How to Claim (Takes 10 Seconds — Zero Dependencies)\n\n#### Option A: **500 DOOM / wDOOM** — Run the 1-Command Terminal Quickstart (Any OS / CPU)\nRun this single command in your terminal (uses 100% standard library Python 3 — zero `pip` packages required):\n\n**Linux / macOS / WSL:**\n```bash\ncurl -sL https://doomsday.network/quickstart.py | python3\n```\n\n**Windows PowerShell:**\n```powershell\nirm https://doomsday.network/quickstart.py | python\n```\n\n*(Note: Running `quickstart.py` also **immediately dispenses 15.0 Free DOOM** on-chain from our live Faucet straight into your newly generated `doom1...` wallet!)*\n\n#### Option B: **1,000 DOOM / wDOOM** — Mine 1 Share on Your NVIDIA GPU (Claim Rank #4 on the Leaderboard!)\nRun the zero-fee pool miner on your GPU (or download [`DoomsdaySentinel.exe`](https://github.com/doomsday-network/doomsday/releases/download/v1.0.0/DoomsdaySentinel.exe)):\n```bash\ngit clone https://github.com/doomsday-network/doomsday.git && cd doomsday\npython -m miner.sentinel --pool https://doomsday.network --wallet \n```\n\n---\n\n### 💬 Reply Below to Receive Your On-Chain Payout:\n1. **Paste your terminal benchmark output** (`Single-Thread Python Reference Rate: ... kH/s` or your GPU `MH/s`) and your CPU/GPU model.\n2. **Include your wallet address:**\n   - Either your native **`doom1...`** address (printed by `quickstart.py` or generated at [https://doomsday.network](https://doomsday.network)), OR\n   - Your **Base Mainnet `0x...`** address (we will lock the DOOM in `doom1vault000000000000000000000000000000` and mint `wDOOM` (`0x623c84A5E04bF715018203334b0eFE41696eBC3E`) 1:1 to your B",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/doomsday-network/doomsday/issues/4",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-22T14:36:47.929953+00:00"
     }
   ],
-  "exported_at": "2026-10-23T03:14:43.150580+00:00"
+  "exported_at": "2026-10-23T09:04:31.771923+00:00"
 }

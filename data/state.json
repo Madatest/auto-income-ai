@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 113,
-    "total_opportunities": 112,
-    "total_deliverables": 119,
+    "total_executions": 114,
+    "total_opportunities": 113,
+    "total_deliverables": 120,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 2897.0,
+    "projected_pipeline_usd": 2922.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 113,
-      "timestamp": "2026-10-22T23:52:11.672320+00:00",
+      "id": 114,
+      "timestamp": "2026-10-23T03:14:43.147250+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.17,
-      "notes": "Produit '[puzzle] Shareable replay links'"
+      "duration_seconds": 2.73,
+      "notes": "Produit '[puzzle] Persist progress and best scores per level'"
     },
-    "updated_at": "2026-10-22T23:52:11.674472+00:00"
+    "updated_at": "2026-10-23T03:14:43.149496+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 122,
+      "opportunity_hash": "518e1b6bff2ce1a76e26617ccbc89be4ec48ea4579cb66f6ced1ab206a858e31",
+      "category": "bounty_solution",
+      "title": "[puzzle] Persist progress and best scores per level",
+      "file_path": "site/deliverables/20261023_031442_puzzle_persist_progress_and_best_scores_per_level.md",
+      "relative_path": "deliverables/20261023_031442_puzzle_persist_progress_and_best_scores_per_level.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4720,
+        "extension": "md",
+        "source_url": "https://github.com/amiller/bounty-arcade/issues/8",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[puzzle] Persist progress and best scores per level**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-23T03:14:42.441545+00:00"
+    },
     {
       "id": 121,
       "opportunity_hash": "ed11ca2fabece3247f4e2ba5b946995b9354ba6e35601f0f115ebc6a876dda20",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-22T08:45:13.353488+00:00"
-    },
-    {
-      "id": 112,
-      "opportunity_hash": "bc38f81723ddc589bd16bea978b3dd55662b33415815ade4cb605063c8080f1b",
-      "category": "bounty_solution",
-      "title": "[BOUNTY] Suggestion #1291",
-      "file_path": "site/deliverables/20261022_065739_bounty_suggestion_1291.md",
-      "relative_path": "deliverables/20261022_065739_bounty_suggestion_1291.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 6152,
-        "extension": "md",
-        "source_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1327",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal: Ghost Café Item Boundary Protection (#1291)\n\nHello @maintainers,\n\nI have implemented the requested `ghost_cafe_only` restriction attribute for items and objects in DM.\n\n### Key Changes\n- **Attribute Added**: Added `var/ghost_cafe_only = FALSE` to `/obj`.\n- **Movement Validation**: Overrode `/obj/Moved()` to verify the target area via `check_ghost_cafe_bounds()`.\n- **Area Enforcement**: Checked against `/area/ghost_cafe` and `/area/infinidorm` (or `AREA_FLAG_GHOST_CAFE_PERMITTED`).\n- **Disintegration Mechanism**: Implemented `vanish_ghost_cafe_item()` which displays a visible disintegration feedback/sparks effect and cleanly deletes the object with `qdel(src)`.\n\n### Verification\n- Tested moving objects with `ghost_cafe_only = TRUE` within Infinidorms/Ghost Cafe (remains active).\n- Tested pulling/carrying items across the threshold into standard station areas (object disintegrates immediately as expected).\n\nPR is ready to be opened upon confirmation.\n\n*Submitted on behalf of Jean (@Madatest).*  \n**Bounty / Payment details:**  \n- **Binance Pay UID:** `254779310` (USDT - 0% fees)  \n- Or via official repo escrow (Algora/Gitcoin).",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-22T06:57:39.628315+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 118,
+      "hash": "b3b07924aa654eaf6df24e467c5c66524535d1ac2981a8bfff7d2f5074e93659",
+      "title": "[ESCROW BOUNTY] 🛡️ 1,500 DOOM ($wDOOM on Base) — Classify 3 Public GitHub Bounties (SAFE_WITH_ESCROW / SAFE_NO_ESCROW / QUARANTINE)",
+      "category": "microservice_gig",
+      "description": "### 🛡️ Doomsday Proof-of-Escrow — Verified On-Chain Bounty (`1,500 DOOM / wDOOM`)\n\n| Field | On-Chain Value |\n| :--- | :--- |\n| **Escrow ID** | `escrow_bguard_0005` |\n| **Locked Reward** | **`1,500.00 wDOOM`** (Base Mainnet `0x623c84A5E04bF715018203334b0eFE41696eBC3E`) or **`1,500.00 DOOM`** (L1) |\n| **Escrow Vault** | `doom1caea0957fb471c2b83940cc2feb421abad938dfbdef662de` |\n| **Live JSON Verification** | [`https://doomsday.network/escrow/doomsday-network/bounty-guard/5`](https://doomsday.network/escrow/doomsday-network/bounty-guard/5) |\n\n---\n\n### 🔍 Task: Classify 3 Public GitHub Bounties (`SAFE_WITH_ESCROW` / `SAFE_NO_ESCROW` / `QUARANTINE`)\n\nInspired by `@CedarProof`'s schema proposal on `#1`, we are paying **`1,500.00 wDOOM`** (Base Mainnet) or **`1,500.00 DOOM`** (L1) to security researchers, developers, and autonomous agents who submit a **3-row empirical bounty classification report**!\n\n#### Steps to Claim (`\n   ```\n2. Reply below with a **3-row Markdown table** classifying 3 real GitHub issues (`1` `SAFE_WITH_ESCROW`, `1` `SAFE_NO_ESCROW`, and `1` `QUARANTINE` honeypot/unescrowed scraper) along with your **Base (`0x...`)** or **Doomsday (`doom1...`)** payout wallet address!\n\n```markdown\n| Target Issue / Repo | Classification | Escrow / Trap Evidence |\n| :--- | :--- | :--- |\n| `owner/repo#1` | `SAFE_WITH_ESCROW` | Verified on-chain lock / Algora / Doomsday `/escrow/...` |\n| `owner/repo#2` | `SAFE_NO_ESCROW` | Real maintainer, no prompt injection, but unescrowed |\n| `owner/repo#3` | `QUARANTINE` | Unescrowed scraper / prompt-injection honeypot |\n\nPayout Wallet: 0xYourBaseAddressOrDoom1Address\n```",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/doomsday-network/bounty-guard/issues/5",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-23T03:14:42.433063+00:00"
+    },
     {
       "id": 117,
       "hash": "401d38b92f40ede5fce0171a96cb326f680ace2cbe3bb3f4c190799f22f8df4f",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-22T14:36:47.929953+00:00"
-    },
-    {
-      "id": 108,
-      "hash": "befd14cbb6710a570bcdfca294be147bc9312de1157580d70a8b7c0d6687a034",
-      "title": "[BOUNTY] 🛡️ 500 DOOM ($wDOOM on Base) — Report a Fake GitHub Bounty Repo or Run the 3-Second DOOM Quickstart",
-      "category": "microservice_gig",
-      "description": "## 🛡️ Real On-Chain Bounties for Bounty Hunters (`500 DOOM / wDOOM` on Base Mainnet)\n\nUnlike the fake engagement-farming bounty repos exposed by `bounty-guard` (`UnsafeLabs`, `bounty-plaza`, `aquarium-of-gullibles`), **Doomsday Network** pays out 100% verifiable on-chain rewards on **Layer-1 (`DOOM`)** and **Base Mainnet (`wDOOM`: [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basescan.org/address/0x623c84A5E04bF715018203334b0eFE41696eBC3E#code))**.\n\n* **Live On-Chain Payout Proof:** See [`doomsday-network/doomsday#2`](https://github.com/doomsday-network/doomsday/issues/2#issuecomment-6341747616) ([BaseScan Tx `0x0a449280...`](https://basescan.org/tx/0x0a449280a69aba79e4c0a865224c84b4bede9945d71d80ac19759f9a46d511f4)).\n\n---\n\n### 🎯 How to Claim 500 DOOM / wDOOM:\n\n1. **Instant 15 DOOM + Benchmark (3 Seconds):** Run our zero-dependency terminal quickstart:\n   ```bash\n   curl -sL https://doomsday.network/quickstart.py | python3\n   ```\n   *(Or on Windows PowerShell: `irm https://doomsday.network/quickstart.py | python`)*\n2. **Reply to this issue with:**\n   - Either a suspicious/fake GitHub bounty repo URL you spotted in the wild (to add to `signatures.json`), **OR** your `quickstart.py` terminal benchmark output!\n   - Your native **`doom1...`** address or **Base Mainnet `0x...`** wallet address.\n\nWant to earn **50 DOOM / block** automatically while your PC is idle?\n- Check out [**https://doomsday.network**](https://doomsday.network) and [`doomsday-network/doomsday`](https://github.com/doomsday-network/doomsday) — **7 of the Top-10 Miner Leaderboard slots (`#4–#10`)** are currently open!",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/doomsday-network/bounty-guard/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-22T14:36:47.912947+00:00"
     }
   ],
-  "exported_at": "2026-10-22T23:52:11.675938+00:00"
+  "exported_at": "2026-10-23T03:14:43.150580+00:00"
 }

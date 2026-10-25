@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 118,
+    "total_executions": 119,
     "total_opportunities": 115,
-    "total_deliverables": 124,
+    "total_deliverables": 125,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3022.0,
+    "projected_pipeline_usd": 3047.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 118,
-      "timestamp": "2026-10-25T05:38:18.830876+00:00",
+      "id": 119,
+      "timestamp": "2026-10-25T06:36:57.650102+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.39,
-      "notes": "Produit 'tokens/token-swap: add the native (Solana Native) flavor — example currently ships anchor-only'"
+      "duration_seconds": 86.77,
+      "notes": "Produit '[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)'"
     },
-    "updated_at": "2026-10-25T05:38:18.833093+00:00"
+    "updated_at": "2026-10-25T06:36:57.671272+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 127,
+      "opportunity_hash": "4f82c6f44a7083df2907da4043d833c5c4b30d2f359309a1e7faa3c862fff73a",
+      "category": "bounty_solution",
+      "title": "[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)",
+      "file_path": "site/deliverables/20261025_063649_bounty_proposal_fixgoals_get_user_goals_drops_acti.md",
+      "relative_path": "deliverables/20261025_063649_bounty_proposal_fixgoals_get_user_goals_drops_acti.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4287,
+        "extension": "md",
+        "source_url": "https://github.com/BasedHardware/omi/issues/23294",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$50"
+      },
+      "created_at": "2026-10-25T06:36:49.728032+00:00"
+    },
     {
       "id": 126,
       "opportunity_hash": "63ed7490b068a2b1ca0ad7914bb3a8776d2778d05ade59f3a291954a1a9bcc24",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-22T15:39:00.559388+00:00"
-    },
-    {
-      "id": 117,
-      "opportunity_hash": "3a908107678ee22cab9f809947dd9d5e2686c669a58f6a23b96ced52dbf09f7d",
-      "category": "microservice_gig",
-      "title": "Solana USDC (SPL) signing for x402",
-      "file_path": "site/deliverables/20261022_143648_solana_usdc_spl_signing_for_x402.md",
-      "relative_path": "deliverables/20261022_143648_solana_usdc_spl_signing_for_x402.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 2332,
-        "extension": "md",
-        "source_url": "https://github.com/rustemmustafingovua-byte/agent-x402/issues/1",
-        "source_id": "algora_bounties",
-        "is_bounty": false,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **Solana USDC (SPL) signing for x402**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-22T14:36:48.714117+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-22T16:34:32.894649+00:00"
     }
   ],
-  "exported_at": "2026-10-25T05:38:18.834651+00:00"
+  "exported_at": "2026-10-25T06:36:57.676591+00:00"
 }

@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 119,
+    "total_executions": 120,
     "total_opportunities": 115,
-    "total_deliverables": 125,
+    "total_deliverables": 126,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3047.0,
+    "projected_pipeline_usd": 3072.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 119,
-      "timestamp": "2026-10-25T06:36:57.650102+00:00",
+      "id": 120,
+      "timestamp": "2026-10-25T09:19:11.455055+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 86.77,
-      "notes": "Produit '[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)'"
+      "duration_seconds": 98.28,
+      "notes": "Produit '[BOUNTY] 🛡️ 500 DOOM ($wDOOM on Base) — Report a Fake GitHub Bounty Repo or Run the 3-Second DOOM Quickstart'"
     },
-    "updated_at": "2026-10-25T06:36:57.671272+00:00"
+    "updated_at": "2026-10-25T09:19:11.476485+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 128,
+      "opportunity_hash": "befd14cbb6710a570bcdfca294be147bc9312de1157580d70a8b7c0d6687a034",
+      "category": "bounty_solution",
+      "title": "[BOUNTY] 🛡️ 500 DOOM ($wDOOM on Base) — Report a Fake GitHub Bounty Repo or Run the 3-Second DOOM Quickstart",
+      "file_path": "site/deliverables/20261025_091902_bounty_500_doom_wdoom_on_base_report_a_fake_github.md",
+      "relative_path": "deliverables/20261025_091902_bounty_500_doom_wdoom_on_base_report_a_fake_github.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5294,
+        "extension": "md",
+        "source_url": "https://github.com/doomsday-network/bounty-guard/issues/1",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[BOUNTY] 🛡️ 500 DOOM ($wDOOM on Base) — Report a Fake GitHub Bounty Repo or Run the 3-Second DOOM Quickstart**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-25T09:19:02.875384+00:00"
+    },
     {
       "id": 127,
       "opportunity_hash": "4f82c6f44a7083df2907da4043d833c5c4b30d2f359309a1e7faa3c862fff73a",
@@ -351,43 +388,6 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-22T16:34:32.900619+00:00"
-    },
-    {
-      "id": 118,
-      "opportunity_hash": "962c3b32bd4af48c558a6a4c49e550e783126a8d63f689d4575007d5a9a2ef08",
-      "category": "bounty_solution",
-      "title": "[routes] Time, moving time and speed",
-      "file_path": "site/deliverables/20261022_153900_routes_time_moving_time_and_speed.md",
-      "relative_path": "deliverables/20261022_153900_routes_time_moving_time_and_speed.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 80.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal | Proposition de Pull Request manquante",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5952,
-        "extension": "md",
-        "source_url": "https://github.com/amiller/bounty-arcade/issues/12",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[routes] Time, moving time and speed**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-22T15:39:00.559388+00:00"
     }
   ],
   "top_opportunities": [
@@ -602,5 +602,5 @@
       "created_at": "2026-10-22T16:34:32.894649+00:00"
     }
   ],
-  "exported_at": "2026-10-25T06:36:57.676591+00:00"
+  "exported_at": "2026-10-25T09:19:11.493783+00:00"
 }

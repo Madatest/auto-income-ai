@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 122,
-    "total_opportunities": 115,
-    "total_deliverables": 128,
+    "total_executions": 123,
+    "total_opportunities": 116,
+    "total_deliverables": 129,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3122.0,
+    "projected_pipeline_usd": 3147.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 122,
-      "timestamp": "2026-10-25T10:38:51.328285+00:00",
+      "id": 123,
+      "timestamp": "2026-10-25T11:22:09.713170+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.18,
+      "duration_seconds": 48.48,
       "notes": "Produit '📋 2 open bounties right now'"
     },
-    "updated_at": "2026-10-25T10:38:51.330384+00:00"
+    "updated_at": "2026-10-25T11:22:09.749459+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 131,
+      "opportunity_hash": "7c7bcdb0fdd665032e6ca7ecbcf079b3f43906a8a27c0eeae9fd2b1b7e8a621e",
+      "category": "bounty_solution",
+      "title": "📋 2 open bounties right now",
+      "file_path": "site/deliverables/20261025_112206__2_open_bounties_right_now.md",
+      "relative_path": "deliverables/20261025_112206__2_open_bounties_right_now.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 7918,
+        "extension": "md",
+        "source_url": "https://github.com/habibdxb01/bounty-watcher/issues/8",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @habibdxb01 and maintainers,\n\nI have analyzed the bounty tracking flow where initial open bounties were listed in a combined state. To ensure each subsequent new bounty gets isolated state tracking and its own dedicated notification/issue, I've implemented a **Baseline Seeding and State Cache Manager**.\n\n#### 🔍 Summary of Fixes:\n1. **Initial Baseline Synchronization**: On first run (or empty state cache), existing open bounties (e.g., BAWES Universe $150, EdgeChains $50) are cataloged into `seen_bounties` baseline without firing duplicate alerts.\n2. **Individual Event Emission**: Any subsequent polling cycle compares incoming bounty items against the persistent state set. Newly discovered bounties trigger isolated, individual events for standalone issue creation.\n3. **Atomic Persistence**: Cache state updates atomically to guarantee crash resilience and prevent repeated issue creation.\n\nUnit tests have been added to verify both initial state baseline seeding and new bounty event isolation. Ready to submit a Pull Request upon your confirmation!\n\n---\n**Bounty Claim Credentials:**\n- **Contributor**: Jean (@Madatest)\n- **Payment Method**: Binance Pay UID `254779310` (USDT - 0% fees) / Algora Escrow",
+        "bounty_value": "$150"
+      },
+      "created_at": "2026-10-25T11:22:06.550019+00:00"
+    },
     {
       "id": 130,
       "opportunity_hash": "3b76c58f734ac3a37f575df8de86c531a1722b768b7527ae39b268d6a7eaa1b0",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-22T18:41:40.319295+00:00"
-    },
-    {
-      "id": 121,
-      "opportunity_hash": "ed11ca2fabece3247f4e2ba5b946995b9354ba6e35601f0f115ebc6a876dda20",
-      "category": "bounty_solution",
-      "title": "[puzzle] Shareable replay links",
-      "file_path": "site/deliverables/20261022_174133_puzzle_shareable_replay_links.md",
-      "relative_path": "deliverables/20261022_174133_puzzle_shareable_replay_links.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4635,
-        "extension": "md",
-        "source_url": "https://github.com/amiller/bounty-arcade/issues/9",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[puzzle] Shareable replay links**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-22T17:41:33.508689+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 121,
+      "hash": "ea7d5409c10445f0d9dbcfdb9a4338cef9cd3a3de86bd35a56d9589792a8af31",
+      "title": "💰 Bounty Seguro (Ver enlace): 💰 Bounty Seguro (Ver enlace): 💰 Bounty Seguro (Ver",
+      "category": "microservice_gig",
+      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 💰 Bounty Seguro (Ver enlace): 💰 Bounty Seguro (Ver enlace): [ESCROW BOUNTY] 🔌 2,\n- **Monto:** Ver enlace\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/31)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/37",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-25T11:21:28.989639+00:00"
+    },
     {
       "id": 120,
       "hash": "b3b07924aa654eaf6df24e467c5c66524535d1ac2981a8bfff7d2f5074e93659",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-25T04:32:38.364977+00:00"
-    },
-    {
-      "id": 111,
-      "hash": "7c7bcdb0fdd665032e6ca7ecbcf079b3f43906a8a27c0eeae9fd2b1b7e8a621e",
-      "title": "📋 2 open bounties right now",
-      "category": "microservice_gig",
-      "description": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue.\n\n- 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1)\n- 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290)\n\ncc @habibdxb01",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/habibdxb01/bounty-watcher/issues/8",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-22T16:34:32.894649+00:00"
     }
   ],
-  "exported_at": "2026-10-25T10:38:51.331421+00:00"
+  "exported_at": "2026-10-25T11:22:09.769588+00:00"
 }

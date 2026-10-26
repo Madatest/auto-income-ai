@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 124,
-    "total_opportunities": 116,
-    "total_deliverables": 130,
+    "total_executions": 125,
+    "total_opportunities": 121,
+    "total_deliverables": 131,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3172.0,
+    "projected_pipeline_usd": 3197.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 124,
-      "timestamp": "2026-10-25T12:33:55.240798+00:00",
+      "id": 125,
+      "timestamp": "2026-10-26T05:13:12.728479+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 52.43,
-      "notes": "Produit '💰 Bounty Seguro (Ver enlace): 💰 Bounty Seguro (Ver enlace): [ESCROW BOUNTY] 🔌 2,'"
+      "duration_seconds": 64.93,
+      "notes": "Produit '[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card'"
     },
-    "updated_at": "2026-10-25T12:33:55.272582+00:00"
+    "updated_at": "2026-10-26T05:13:12.759677+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 133,
+      "opportunity_hash": "86b7d275cfb50299eff9060f1b913043c1e976604ec0d979c8463b9ea320bf9f",
+      "category": "bounty_solution",
+      "title": "[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
+      "file_path": "site/deliverables/20261026_051303_bounty_steam_vault_exchange_100000_doom_wdoom_for_.md",
+      "relative_path": "deliverables/20261026_051303_bounty_steam_vault_exchange_100000_doom_wdoom_for_.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 8582,
+        "extension": "md",
+        "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal: Automated Steam Vault Verification Engine\n\nHello @zhangjiayang6835-cyber and Doomsday Network maintainers,\n\nI have developed a production-grade verification module (`DoomVaultVerifier`) for handling the 100,000 DOOM / wDOOM Steam Gift Card redemptions securely.\n\n#### 🔧 Key Technical Highlights\n- **On-Chain Event Parsing**: Direct parsing of Base Mainnet ERC-20 `Transfer` logs (`wDOOM` contract: `0x623c84A5E04bF715018203334b0eFE41696eBC3E`).\n- **Strict Amount & Vault Verification**: Verifies recipient checksum equality against Vault address and validates raw WEI amounts (`100,000 * 10^18`).\n- **Replay Protection & Limit Enforcement**: Built-in state verification ensuring 1 transaction hash cannot be reused and enforcing 1 redemption per verified sender address.\n- **Robust Exception Handling**: Rejects pending or unconfirmed/failed transactions automatically.\n\n#### 👤 Author & Bounty Allocation\n- **Engineer**: Jean (@Madatest)\n- **Binance Pay UID**: `254779310` (USDT - 0% fees)\n- **Escrow**: Algora / Gitcoin / Repository Native\n\nReady to open the PR upon your go-ahead!",
+        "bounty_value": "$10"
+      },
+      "created_at": "2026-10-26T05:13:03.882325+00:00"
+    },
     {
       "id": 132,
       "opportunity_hash": "9addfb86f22bb11994021b864053471580cc7142279e714cd1ea6bd4418346e5",
@@ -351,46 +388,114 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-25T04:33:23.416679+00:00"
-    },
-    {
-      "id": 123,
-      "opportunity_hash": "db6c624b4225e28a4125b7041341f4cc6138519f4c62ee9787013dfd4f23b09b",
-      "category": "bounty_solution",
-      "title": "[puzzle] Deadlock detection for boxes stuck in corners",
-      "file_path": "site/deliverables/20261023_040458_puzzle_deadlock_detection_for_boxes_stuck_in_corne.md",
-      "relative_path": "deliverables/20261023_040458_puzzle_deadlock_detection_for_boxes_stuck_in_corne.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4920,
-        "extension": "md",
-        "source_url": "https://github.com/amiller/bounty-arcade/issues/7",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[puzzle] Deadlock detection for boxes stuck in corners**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-23T04:04:58.597314+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 126,
+      "hash": "ddd5023b950a1d9060f9eedfe0a7c31f0af11dc329fa721cac0678ed193e381d",
+      "title": "🎯 Bounty Alert: 14 New Opportunityies found",
+      "category": "microservice_gig",
+      "description": "### Active Bounty Scan Results\n\n**Scan Time:** 2026-10-22 18:17 UTC\n\n#### 1. [[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)](https://github.com/BasedHardware/omi/issues/23294)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 1\n- **Last Updated:** 2026-10-22T18:14:46Z\n\n#### 2. [Research Integration: Looped Transformer Blocks & Fixed-Point KV Sharing for the SETI-Swarm MoE Backbone (Huang et al. 2026)](https://github.com/xaviercallens/HiveMind/issues/66)\n- **Repository:** [xaviercallens/HiveMind](https://github.com/xaviercallens/HiveMind)\n- **Comments:** 1\n- **Last Updated:** 2026-10-22T18:11:53Z\n\n#### 3. [[Bounty proposal] fix(graph-tools): harden traverse_knowledge_graph_tool validation, hops coercion, and config extraction ( proposed)](https://github.com/BasedHardware/omi/issues/23305)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 2\n- **Last Updated:** 2026-10-22T18:11:05Z\n\n#### 4. [[Bounty proposal] fix(notification-tools): harden manage_daily_summary_tool validation, hour coercion, and config extraction ( proposed)](https://github.com/BasedHardware/omi/issues/23307)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 2\n- **Last Updated:** 2026-10-22T18:11:02Z\n\n#### 5. [[Bounty proposal] fix(preference-tools): harden save_user_preference_tool validation, user_stated coercion, and config resilience ($50 proposed)](https://github.com/BasedHardware/omi/issues/23328)\n- **Repository:** [BasedHardware/omi](https://github.com/BasedHardware/omi)\n- **Comments:** 3\n- **Last Updated:** 2026-10-22T18:10:58Z\n\n#### 6. [Brand Mentions: 2026-10-22 (22 worthy, 0 highlights)](https://github.com/sbc1-code/brand-monitor/issues/139)\n- **Repository:** [sbc1-code/brand-monitor](https://github.com/sbc1-code/brand-monitor)\n- **Comments:** 0\n- **Last Updated:** 2026-10-22T18:08:54Z\n\n#### 7. [Grammar Gap: spell ",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/freedom-winds/BountyScout/issues/1300",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-26T04:11:11.907679+00:00"
+    },
+    {
+      "id": 125,
+      "hash": "deb6f7db27cdae254b6dfb58dc167f725dcb6023a66ca64965c40be39f2bcf00",
+      "title": "[radar] SN open bounty 2026-10-25T16:02",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1601866\tStacker_Stocks\t2\t266\t10000\t5\t3.9\t9274\t28889\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,SIGNAL,SELF_POST_OPP\tStacker Stocks Weekly Close Contest 🟩 or 🟥 - Week #16 Win up to 20k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1329",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-26T04:11:11.887956+00:00"
+    },
+    {
+      "id": 124,
+      "hash": "b616d5a1a5903e8812de4ac9ecd831972c4ba0fc8bcaff97f71606064680413d",
+      "title": "[radar] SN open bounty 2026-10-25T18:56",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1601866\tStacker_Stocks\t2\t266\t10000\t9\t6.8\t9274\t28899\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,SIGNAL,SELF_POST_OPP\tStacker Stocks Weekly Close Contest 🟩 or 🟥 - Week #16 Win up to 20k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1331",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-26T04:11:11.878203+00:00"
+    },
+    {
+      "id": 123,
+      "hash": "a154410e548d51faa168a3ba567478a7bb7cd973066ae7581d47a442c5cddb87",
+      "title": "[radar] SN open bounty 2026-10-25T21:40",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1601866\tStacker_Stocks\t2\t298\t10000\t12\t9.5\t9274\t28900\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,SIGNAL,SELF_POST_OPP\tStacker Stocks Weekly Close Contest 🟩 or 🟥 - Week #16 Win up to 20k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1333",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-26T04:11:11.864194+00:00"
+    },
+    {
+      "id": 122,
+      "hash": "44287339f2a59e0dc6aff6ca3543b04206e342212485c34a34d6cb7d4974a138",
+      "title": "[radar] SN open bounty 2026-10-26T00:09",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1601866\tStacker_Stocks\t2\t319\t10000\t12\t12.0\t9274\t28904\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,SELF_POST_OPP\tStacker Stocks Weekly Close Contest 🟩 or 🟥 - Week #16 Win up to 20k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1335",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-26T04:11:11.834153+00:00"
+    },
     {
       "id": 121,
       "hash": "ea7d5409c10445f0d9dbcfdb9a4338cef9cd3a3de86bd35a56d9589792a8af31",
@@ -495,112 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-25T04:32:38.439127+00:00"
-    },
-    {
-      "id": 116,
-      "hash": "4fefbd7484bae6e6751e6d3730ea31839c3a45a64a052b99107152a4187586a3",
-      "title": "Community review: ownership verification on the audit engine + webhook idempotency",
-      "category": "microservice_gig",
-      "description": "## What I reviewed\n\n`README.md`, the three-engine architecture, deploy path (Caddyfile, VPS script, RapidAPI/Apify manifests) — from the Go-Hybrid org, where your emit-side export-collision fix landed this week.\n\n## What's genuinely good\n\nThe zero-external-API-cost constraint shaping the whole design is a real differentiator (it forces the revenue engines to be self-contained), and the payment→key-activation webhook (Stripe + LemonSqueezy compatible, auto-provisions the customer's API key on payment) is the correct fully-automated sales loop. Shipping `openapi_rapidapi.json` + `.actor/actor.json` means the marketplace listings are config, not manual work.\n\n## Suggestions, in order of leverage\n\n1. **Legal gate on the audit engine.** `report-html?url=...` that scans arbitrary domains for \"failles SEO ou Sécurité\" is a legal minefield if pointed at domains the caller doesn't own. Require a documented ownership verification step (DNS token or meta-tag) before generating an audit report — it also makes the white-label report more credible to the recipient.\n2. **Idempotent + replay-protected webhook.** The payment webhook auto-creates API keys — the money path. Document the signature verification, enforce idempotency by payment ID, and log the activation decision. One replayed webhook currently means one free key.\n3. **Bounty radar freshness.** Algora/Opire bounties get claimed fast; expose `last_verified` per listing and drop claims older than a threshold — a radar that points the Antigravity brief generator at a claimed bounty wastes the user's most expensive asset (agent time).\n4. **Version the brief format.** The Antigravity execution brief is the cleverest part; give it a version field and a changelog so downstream tooling can rely on it.",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/umpireboulianne-design/nexus-revenue-engine/issues/1",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-25T04:32:38.431934+00:00"
-    },
-    {
-      "id": 115,
-      "hash": "9ab6ff380c7c89c87da5d18e32a99330499b246cd17937c3f8a9f6e4a86b85e0",
-      "title": "💰 Bounty Seguro (Ver enlace): [ESCROW BOUNTY] 🔌 2,000 DOOM ($wDOOM on Base) — In",
-      "category": "microservice_gig",
-      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** [ESCROW BOUNTY] 🔌 2,000 DOOM ($wDOOM on Base) — Integrate BountyGuard Into Your Public Agent Repo or GitHub Action Workflow!\n- **Monto:** Ver enlace\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/doomsday-network/bounty-guard/issues/7)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/30",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-25T04:32:38.422356+00:00"
-    },
-    {
-      "id": 114,
-      "hash": "e6768a078f7fc44e2798a481d06eae6a7ff54a22f81198fa4ea99a66171d12d6",
-      "title": "[STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault)",
-      "category": "microservice_gig",
-      "description": "### 🎮 DoomVault — Redeem `100,000 DOOM` (`$wDOOM`) for a `$10 USD` Steam Digital Gift Card!\n\n**Vault Inventory:** 🟢 **`10 / 10 Cards Available` (`$100 USD` Total Vault)**\n**Exchange Rate:** **`100,000.0 DOOM` (Layer-1) or `100,000.0 wDOOM` (Base Mainnet)** = **`1x $10.00 USD Steam Digital Gift Card Code`**\n**Limit:** `1` redemption per verified GPU miner / GitHub developer (`10` total redemptions available).\n\n---\n\n### ⚡ How It Works (Mine Idle on Your Gaming PC $\\to$ Buy Steam Games)\n\n1. **Accumulate `100,000 DOOM` (or `wDOOM` on Base Mainnet):**\n   - **Mine with your GPU (`0% Pool Fee`):** Download **[`Doomsday.exe`](https://doomsday.network/download/desktop)** or run `python mine_pool.py --wallet YOUR_DOOM_ADDRESS` at **[`https://doomsday.network`](https://doomsday.network)** while your gaming PC is idle.\n   - **Or Top Up on Uniswap v3 (Base Mainnet):** Swap `ETH` $\\to$ `wDOOM` (`0x623c84A5E04bF715018203334b0eFE41696eBC3E`) on **[Uniswap Base Mainnet](https://app.uniswap.org/swap?chain=base&inputCurrency=ETH&outputCurrency=0x623c84A5E04bF715018203334b0eFE41696eBC3E)**.\n\n2. **Checkout via [DoomPay (`https://doomsday.network/pay`)](https://doomsday.network/pay) or Direct On-Chain Transfer:**\n   - **Option A (1-Click DoomPay Checkout):** Click **`🎮 Redeem 100,000 DOOM for $10 Steam Card`** on **[`https://doomsday.network`](https://doomsday.network)** or **[`https://doomsday.network/pay`](https://doomsday.network/pay)**.\n   - **Option B (Direct Layer-1 `DOOM` Transfer):** Send **`100,000.0 DOOM`** on Doomsday Layer-1 to the official DoomVault address:\n     ```text\n     doom12da148685b855223a3cd830058e227d8369b5aac8e96db05\n     ```\n   - **Option C (Direct Base Mainnet `wDOOM` Transfer):** Send **`100,000.0 wDOOM`** (`0x623c84A5E04bF715018203334b0eFE41696eBC3E` on Base Mainnet `8453`) to the official DoomVault EVM address:\n     ```text\n     0x484ed370ded0d36e36aad469a2afe5d69b1a005d\n     ```\n\n3. **Post Your Verified On-Chain Receipt Below:**\n   - Reply to this issue wit",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/doomsday-network/doom-pay/issues/4",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-25T04:32:38.407315+00:00"
-    },
-    {
-      "id": 113,
-      "hash": "86b7d275cfb50299eff9060f1b913043c1e976604ec0d979c8463b9ea320bf9f",
-      "title": "[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/doomsday-network/doomsday/issues/39\n\n### 漏洞描述 / Description\n[STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault)\n\n### 🎮 DoomVault — Redeem `100,000 DOOM` (`$wDOOM`) for a `$10 USD` Steam Digital Gift Card!\n\n**Vault Inventory:** 🟢 **`10 / 10 Cards Available` (`$100 USD` Total Vault)**\n**Exchange Rate:** **`100,000.0 DOOM` (Layer-1) or `100,000.0 wDOOM` (Base Mainnet)** = **`1x $10.00 USD Steam Digital Gift Card Code`**\n**Limit:** `1` redemption per verified GPU miner / GitHub developer (`10` total redemptions available).\n\n---\n\n### ⚡ How It Works (Mine Idle on Your Gaming PC $\\to$ Buy Steam Games)\n\n1. **Accumulate `100,000 DOOM` (or `wDOOM` on Base Mainnet):**\n   - **Mine with your GPU (`0% Pool Fee`):** Download **[`Doomsday.exe`](https://doomsday.network/download/desktop)** or run `python mine_pool.py --wallet YOUR_DOOM_ADDRESS` at **[`https://doomsday.network`](https://doomsday.network)** while your gaming PC is idle.\n   - **Or Top Up on Uniswap v3 (Base Mainnet):** Swap `ETH` $\\to$ `wDOOM` (`0x623c84A5E04bF715018203334b0eFE41696eBC3E`) on **[Uniswap Base Mainnet](https://app.uniswap.org/swap?chain=base&inputCurrency=ETH&outputCurrency=0x623c84A5E04bF715018203334b0eFE41696eBC3E)**.\n\n2. **Checkout via [DoomPay (`https://doomsday.network/pay`)](https://doomsday.network/pay) or Direct On-Chain Transfer:**\n   - **Option A (1-Click DoomPay Checkout):** Click **`🎮 Redeem 100,000 DOOM for $10 Steam Card`** on **[`https://doomsday.network`](https://doomsday.network)** or **[`https://doomsday.network/pay`](https://doomsday.network/pay)**.\n   - **Option B (Direct Layer-1 `DOOM` Transfer):** Send **`100,000.0 DOOM`** on Doomsday Layer-1 to the official DoomVault address:\n     ```text\n     doom12da148685b855223a3cd830058e227d8369b5aac8e96db05\n     ```\n   - **Option C (Direct Base Mainnet `wDOOM` Transfer):** Send **`100,000.0 wDOOM`** (`0x623c8",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-25T04:32:38.396123+00:00"
-    },
-    {
-      "id": 112,
-      "hash": "9addfb86f22bb11994021b864053471580cc7142279e714cd1ea6bd4418346e5",
-      "title": "💰 Bounty Seguro (Ver enlace): 💰 Bounty Seguro (Ver enlace): [ESCROW BOUNTY] 🔌 2,",
-      "category": "microservice_gig",
-      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 💰 Bounty Seguro (Ver enlace): [ESCROW BOUNTY] 🔌 2,000 DOOM ($wDOOM on Base) — In\n- **Monto:** Ver enlace\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/30)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/31",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "processed",
-      "is_simulated": 0,
-      "created_at": "2026-10-25T04:32:38.364977+00:00"
     }
   ],
-  "exported_at": "2026-10-25T12:33:55.307375+00:00"
+  "exported_at": "2026-10-26T05:13:12.783960+00:00"
 }

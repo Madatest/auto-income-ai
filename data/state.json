@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 128,
-    "total_opportunities": 154,
-    "total_deliverables": 134,
+    "total_executions": 129,
+    "total_opportunities": 155,
+    "total_deliverables": 135,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3272.0,
+    "projected_pipeline_usd": 3297.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 128,
-      "timestamp": "2026-10-30T00:34:23.268707+00:00",
+      "id": 129,
+      "timestamp": "2026-10-30T06:45:25.764856+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.88,
-      "notes": "Produit 'Community review: ownership verification on the audit engine + webhook idempotency'"
+      "duration_seconds": 2.7,
+      "notes": "Produit '[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)'"
     },
-    "updated_at": "2026-10-30T00:34:23.270849+00:00"
+    "updated_at": "2026-10-30T06:45:25.767153+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 137,
+      "opportunity_hash": "7e7f99974109c34842169f39861717dae5820c3bca959826164a8ed7340ec284",
+      "category": "bounty_solution",
+      "title": "[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)",
+      "file_path": "site/deliverables/20261030_064525_submit_remote_mcp_server_agent_bounty_feed_iogithu.md",
+      "relative_path": "deliverables/20261030_064525_submit_remote_mcp_server_agent_bounty_feed_iogithu.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 4594,
+        "extension": "md",
+        "source_url": "https://github.com/chatmcp/mcpso/issues/6028",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-30T06:45:25.081587+00:00"
+    },
     {
       "id": 136,
       "opportunity_hash": "4fefbd7484bae6e6751e6d3730ea31839c3a45a64a052b99107152a4187586a3",
@@ -351,46 +388,30 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-25T09:19:02.875384+00:00"
-    },
-    {
-      "id": 127,
-      "opportunity_hash": "4f82c6f44a7083df2907da4043d833c5c4b30d2f359309a1e7faa3c862fff73a",
-      "category": "bounty_solution",
-      "title": "[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)",
-      "file_path": "site/deliverables/20261025_063649_bounty_proposal_fixgoals_get_user_goals_drops_acti.md",
-      "relative_path": "deliverables/20261025_063649_bounty_proposal_fixgoals_get_user_goals_drops_acti.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 4287,
-        "extension": "md",
-        "source_url": "https://github.com/BasedHardware/omi/issues/23294",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$50"
-      },
-      "created_at": "2026-10-25T06:36:49.728032+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 160,
+      "hash": "d6a9d0819ddca88455a6f29a4bb471d1052321eec34c4c0ec0763580a9b41efb",
+      "title": "💰 Bounty Seguro (Ver enlace): 💰 Bounty Seguro (Ver enlace): 🪙 [Web3] bounty: [le",
+      "category": "microservice_gig",
+      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 💰 Bounty Seguro (Ver enlace): 🪙 [Web3] bounty: [level:critical] Agentic Self-Hea\n- **Monto:** Ver enlace\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/64)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/65",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-30T06:45:25.070610+00:00"
+    },
     {
       "id": 159,
       "hash": "727477be6230e7eb4a265b3aa3aae5b956f47bbda7c891bd1dbc3264dd26193f",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-29T17:14:19.165219+00:00"
-    },
-    {
-      "id": 150,
-      "hash": "29cb2faee8db90684aa1a94b32b525926bf49cc4fbfc5363e1b4f69c6a98b49d",
-      "title": "💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bount",
-      "category": "microservice_gig",
-      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** [Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro \n- **Monto:** $$250\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/60",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-29T17:14:19.159240+00:00"
     }
   ],
-  "exported_at": "2026-10-30T00:34:23.272166+00:00"
+  "exported_at": "2026-10-30T06:45:25.768764+00:00"
 }

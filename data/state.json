@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 130,
-    "total_opportunities": 155,
-    "total_deliverables": 136,
+    "total_executions": 131,
+    "total_opportunities": 156,
+    "total_deliverables": 137,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3322.0,
+    "projected_pipeline_usd": 3347.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 130,
-      "timestamp": "2026-10-30T13:48:20.639606+00:00",
+      "id": 131,
+      "timestamp": "2026-10-30T18:57:42.971982+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 3.14,
-      "notes": "Produit 'Question: Bounty program clarification — 84 merged PRs from Dimank92'"
+      "duration_seconds": 2.61,
+      "notes": "Produit 'First-Dollar Mission: qualify and complete the first paid AI-assisted repair'"
     },
-    "updated_at": "2026-10-30T13:48:20.641931+00:00"
+    "updated_at": "2026-10-30T18:57:42.974010+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 139,
+      "opportunity_hash": "4e6a6506167f8eca20055d7e2f9569786892608f0f674cda056b5568262f76b4",
+      "category": "bounty_solution",
+      "title": "First-Dollar Mission: qualify and complete the first paid AI-assisted repair",
+      "file_path": "site/deliverables/20261030_185742_first_dollar_mission_qualify_and_complete_the_firs.md",
+      "relative_path": "deliverables/20261030_185742_first_dollar_mission_qualify_and_complete_the_firs.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 5360,
+        "extension": "md",
+        "source_url": "https://github.com/Ledgercorp/BountyForge/issues/3",
+        "source_id": "algora_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **First-Dollar Mission: qualify and complete the first paid AI-assisted repair**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "$2,000"
+      },
+      "created_at": "2026-10-30T18:57:42.236914+00:00"
+    },
     {
       "id": 138,
       "opportunity_hash": "dc3e2d7031a52655ab0b8c545769c18e5cc5f7ca23f7d02a32d54a9749d050c7",
@@ -351,46 +388,30 @@
         "bounty_value": "$150"
       },
       "created_at": "2026-10-25T10:38:50.818949+00:00"
-    },
-    {
-      "id": 129,
-      "opportunity_hash": "9793ac7a5032c50422145114899cdf1a69e8cdd919d209614d200564f02a0d50",
-      "category": "bounty_solution",
-      "title": "[BOUNTY] ⚡ 500–1,000 DOOM ($wDOOM on Base) — Run the 3-Second Terminal Quickstart or GPU Miner & Post Output",
-      "file_path": "site/deliverables/20261025_102050_bounty_5001000_doom_wdoom_on_base_run_the_3_second.md",
-      "relative_path": "deliverables/20261025_102050_bounty_5001000_doom_wdoom_on_base_run_the_3_second.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5649,
-        "extension": "md",
-        "source_url": "https://github.com/doomsday-network/doomsday/issues/4",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[BOUNTY] ⚡ 500–1,000 DOOM ($wDOOM on Base) — Run the 3-Second Terminal Quickstart or GPU Miner & Post Output**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "25.0 $ USD"
-      },
-      "created_at": "2026-10-25T10:20:50.624571+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 161,
+      "hash": "cf69f00981cd2fe5512b439e04b2204b39d39612fd68677140f0821469ce0e1d",
+      "title": "[Bounty] [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy",
+      "category": "microservice_gig",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/tenstorrent/tt-metal/issues/62571\n\n### 漏洞描述 / Description\n[Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy\n\n📝 Background\n\nThe Qwen3-TTS code predictor produces logits for 15 codebook heads during decoding. Improving accuracy while preserving inference throughput benefits end-to-end Qwen3-TTS quality without changing model weights.\n\n🎯 What Success Looks Like\n- The Qwen3-TTS end-to-end test passes for the 0.6B and 1.7B models on Wormhole N150 and Blackhole P100a.\n- Top-1 and top-5 accuracy meet or exceed the applicable lower bounds in models/demos/audio/qwen3_tts/tests/e2e/model_targets.yaml for each tested configuration.\n- The following PCC tests pass for both model sizes on the tested hardware: test_decode_pcc, test_pipeline, test_kv_cache_guard, and test_code_predictor_pcc.\n- Submit a results table showing top-1, top-5, and frames/second for each tested card/model pair, comparing the baseline and proposed change. Identify any untested configurations; do not claim support for them.\n\n💡 Problem to Solve\n\nInvestigate the code predictor's output precision and accuracy. Implement a change that improves or maintains end-to-end accuracy while avoiding a meaningful frame-rate regression. The implementation should not modify model weights.\n\n\n🧭 Guidance & Starting Points\n- Start with models/demos/audio/qwen3_tts/tt/ttnn_qwen3_code_predictor_decode.py, particularly the codebook-head linear operation.\n- Run models/demos/audio/qwen3_tts/tests/e2e/test_e2e.py and the code predictor PCC tests.\n- Compare results against models/demos/audio/qwen3_tts/tests/e2e/model_targets.yaml.\n\n\nThis bounty is subject to the [Tenstorrent Bounty Program Terms & Conditions](https://docs.tenstorrent.com/bounty_terms.html).\n\n### 积分币奖励 / Coin Reward\n937 coins\n\n### 真实赏金（USD）/ Real Reward\n$750\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-30T18:57:42.221758+00:00"
+    },
     {
       "id": 160,
       "hash": "d6a9d0819ddca88455a6f29a4bb471d1052321eec34c4c0ec0763580a9b41efb",
@@ -579,28 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-29T17:14:19.173136+00:00"
-    },
-    {
-      "id": 151,
-      "hash": "105588c423691a2a24160d9e1e60d5373ac69e0f1bf0fda8e210ac42c9d467f3",
-      "title": "[Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/alfrexo95/bounty-bot/issues/58\n\n### 漏洞描述 / Description\n💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro \n\n🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro \n- **Monto:** $$250\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*\n\n\n### 积分币奖励 / Coin Reward\n312 coins\n\n### 真实赏金（USD）/ Real Reward\n$250\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-29T17:14:19.165219+00:00"
     }
   ],
-  "exported_at": "2026-10-30T13:48:20.643580+00:00"
+  "exported_at": "2026-10-30T18:57:42.975076+00:00"
 }

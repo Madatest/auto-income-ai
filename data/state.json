@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 134,
-    "total_opportunities": 161,
-    "total_deliverables": 140,
+    "total_executions": 135,
+    "total_opportunities": 165,
+    "total_deliverables": 141,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3422.0,
+    "projected_pipeline_usd": 3447.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 134,
-      "timestamp": "2026-10-31T08:13:03.714501+00:00",
+      "id": 135,
+      "timestamp": "2026-10-31T14:59:19.971579+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.63,
-      "notes": "Produit '[radar] SN open bounty 2026-10-26T00:09'"
+      "duration_seconds": 1.9,
+      "notes": "Produit '[radar] SN open bounty 2026-10-25T21:40'"
     },
-    "updated_at": "2026-10-31T08:13:03.717000+00:00"
+    "updated_at": "2026-10-31T14:59:19.973644+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 143,
+      "opportunity_hash": "a154410e548d51faa168a3ba567478a7bb7cd973066ae7581d47a442c5cddb87",
+      "category": "bounty_solution",
+      "title": "[radar] SN open bounty 2026-10-25T21:40",
+      "file_path": "site/deliverables/20261031_145919_radar_sn_open_bounty_2026_10_25t2140.md",
+      "relative_path": "deliverables/20261031_145919_radar_sn_open_bounty_2026_10_25t2140.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3578,
+        "extension": "md",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1333",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-25T21:40**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-31T14:59:19.425509+00:00"
+    },
     {
       "id": 142,
       "opportunity_hash": "44287339f2a59e0dc6aff6ca3543b04206e342212485c34a34d6cb7d4974a138",
@@ -351,46 +388,93 @@
         "bounty_value": "$10"
       },
       "created_at": "2026-10-29T20:19:44.565171+00:00"
-    },
-    {
-      "id": 133,
-      "opportunity_hash": "86b7d275cfb50299eff9060f1b913043c1e976604ec0d979c8463b9ea320bf9f",
-      "category": "bounty_solution",
-      "title": "[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
-      "file_path": "site/deliverables/20261026_051303_bounty_steam_vault_exchange_100000_doom_wdoom_for_.md",
-      "relative_path": "deliverables/20261026_051303_bounty_steam_vault_exchange_100000_doom_wdoom_for_.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 8582,
-        "extension": "md",
-        "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal: Automated Steam Vault Verification Engine\n\nHello @zhangjiayang6835-cyber and Doomsday Network maintainers,\n\nI have developed a production-grade verification module (`DoomVaultVerifier`) for handling the 100,000 DOOM / wDOOM Steam Gift Card redemptions securely.\n\n#### 🔧 Key Technical Highlights\n- **On-Chain Event Parsing**: Direct parsing of Base Mainnet ERC-20 `Transfer` logs (`wDOOM` contract: `0x623c84A5E04bF715018203334b0eFE41696eBC3E`).\n- **Strict Amount & Vault Verification**: Verifies recipient checksum equality against Vault address and validates raw WEI amounts (`100,000 * 10^18`).\n- **Replay Protection & Limit Enforcement**: Built-in state verification ensuring 1 transaction hash cannot be reused and enforcing 1 redemption per verified sender address.\n- **Robust Exception Handling**: Rejects pending or unconfirmed/failed transactions automatically.\n\n#### 👤 Author & Bounty Allocation\n- **Engineer**: Jean (@Madatest)\n- **Binance Pay UID**: `254779310` (USDT - 0% fees)\n- **Escrow**: Algora / Gitcoin / Repository Native\n\nReady to open the PR upon your go-ahead!",
-        "bounty_value": "$10"
-      },
-      "created_at": "2026-10-26T05:13:03.882325+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 170,
+      "hash": "21212fa2a88da00b6339d8172880cc1d89e630009f36aea871d1485186f87e07",
+      "title": "💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro",
+      "category": "microservice_gig",
+      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty\n- **Monto:** $$750\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/69)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/70",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-31T14:59:19.419264+00:00"
+    },
+    {
+      "id": 169,
+      "hash": "95f7bea0d9b277de00143d24596645c75c7a0399dc19075c4290977c9892b5ae",
+      "title": "[radar] SN open bounty 2026-10-31T12:12",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1605944\thistory\t2\t21\t10000\t0\t0.2\t9274\t29131\trecent@history|top@history\tOPEN_BOUNTY,LOW_COMP,FRESH\tIYKYK:  Can you guess what this is about?\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1345",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-31T14:59:19.417799+00:00"
+    },
+    {
+      "id": 168,
+      "hash": "25ce0e52ae04c50753fdbe7c9525181ff7a2b98602c37e39ff1bfb6131cc1ecf",
+      "title": "[radar] SN open bounty 2026-10-31T12:13",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1605336\tStacker_Sports\t3\t1069\t4200\t18\t21.4\t1448206\t2652\trecent@Stacker_Sports|top@Stacker_Sports\tOPEN_BOUNTY,HOT,SELF_POST_OPP\t🏈 Sunday Leaders Bounty • 4.200 double bounty\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1346",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-31T14:59:19.393437+00:00"
+    },
+    {
+      "id": 167,
+      "hash": "824cf36c35caf91bd376f109bc8de59c89036afcfef4e8a156e0b5d41a445f6f",
+      "title": "[Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro",
+      "category": "microservice_gig",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/alfrexo95/bounty-bot/issues/70\n\n### 漏洞描述 / Description\n💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro \n\n🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty\n- **Monto:** $$750\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/69)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*\n\n\n### 积分币奖励 / Coin Reward\n937 coins\n\n### 真实赏金（USD）/ Real Reward\n$750\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4190",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-31T14:59:19.223590+00:00"
+    },
     {
       "id": 166,
       "hash": "d6e39e0dbdef81c5269861593d89ff2821c5edeba29d7dc44663f95e341ec979",
@@ -516,91 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-30T18:57:42.221758+00:00"
-    },
-    {
-      "id": 160,
-      "hash": "d6a9d0819ddca88455a6f29a4bb471d1052321eec34c4c0ec0763580a9b41efb",
-      "title": "💰 Bounty Seguro (Ver enlace): 💰 Bounty Seguro (Ver enlace): 🪙 [Web3] bounty: [le",
-      "category": "microservice_gig",
-      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 💰 Bounty Seguro (Ver enlace): 🪙 [Web3] bounty: [level:critical] Agentic Self-Hea\n- **Monto:** Ver enlace\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/64)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/65",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-30T06:45:25.070610+00:00"
-    },
-    {
-      "id": 159,
-      "hash": "727477be6230e7eb4a265b3aa3aae5b956f47bbda7c891bd1dbc3264dd26193f",
-      "title": "💰 Bounty Seguro (Ver enlace): 🪙 [Web3] bounty: [level:critical] Agentic Self-Hea",
-      "category": "microservice_gig",
-      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 🪙 [Web3] bounty: [level:critical] Agentic Self-Healing Acti\n- **Monto:** Ver enlace\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/63)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/64",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-29T19:17:20.069492+00:00"
-    },
-    {
-      "id": 158,
-      "hash": "e91c31e0564db673d143947cb79b41b9e43cb5692cb81523bf209a8deaf4b202",
-      "title": "[GFI-09] ecosystem: MCP adapter — expose preview / apply / undo as three MCP tools",
-      "category": "microservice_gig",
-      "description": "Every MCP client (Claude Desktop, Cursor, and anything else speaking the protocol) should be able to drive deskshell. This is the cheapest way to make the protocol reachable without asking anyone to learn a CLI.\n\nShip a zero-dependency stdio MCP server (hand-written JSON-RPC 2.0, no SDK) exposing three tools: `deskshell.preview(skill, root?)`, `deskshell.apply(taskId)`, `deskshell.undo(taskId)`. `preview` must remain the only path that does not mutate; `apply` must refuse a taskId that was never previewed in this session.\n\n**Files:** new `packages/integrations/mcp/server.ts` (+ `skill.json`-style manifest if needed), `scripts/mcp-smoke.ts`, `docs/integrations.md`, both language sites.\n\n**Acceptance:** `node scripts/mcp-smoke.ts` performs `initialize` → `tools/list` (exactly three tools) → `tools/call preview` on `downloads-cleanup` and asserts the fixture is unchanged; a second call with an unknown taskId returns a JSON-RPC error, not a crash; `node scripts/regress.ts` stays green. Do not add a dependency — the MCP transport is line-delimited JSON, nothing more.\n\nSize: M. This is not in the frozen protocol, so no RFC is needed. Full spec: https://github.com/ciceroyang/deskshell/blob/main/outreach/GOOD-FIRST-ISSUES.md (task 09).",
-      "source_id": "algora_bounties",
-      "source_url": "https://github.com/ZhiliangTech/deskshell/issues/8",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-29T18:15:55.416141+00:00"
-    },
-    {
-      "id": 157,
-      "hash": "e1870faf47b4f886e665ded5d961ce8648b6b719ec407e9c0615df4deb8c1a2b",
-      "title": "🪙 [Web3] bounty: [level:critical] Predictive SLA Breach For",
-      "category": "microservice_gig",
-      "description": "🤖 **Bounty Encontrado en Web3**\n\n- **Título:** bounty: [level:critical] Predictive SLA Breach Forecasting & Dynamic Capacity Balancing Engine\n- **Monto:** Ver enlace\n- **Plataforma:** Web3\n- **Enlace:** [https://github.com/riteshbonthalakoti/HELPDESK.AI/issues/4116](https://github.com/riteshbonthalakoti/HELPDESK.AI/issues/4116)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/62",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-29T18:15:55.376118+00:00"
     }
   ],
-  "exported_at": "2026-10-31T08:13:03.718314+00:00"
+  "exported_at": "2026-10-31T14:59:19.974992+00:00"
 }

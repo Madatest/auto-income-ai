@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 135,
-    "total_opportunities": 165,
-    "total_deliverables": 141,
+    "total_executions": 136,
+    "total_opportunities": 167,
+    "total_deliverables": 142,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3447.0,
+    "projected_pipeline_usd": 3472.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 135,
-      "timestamp": "2026-10-31T14:59:19.971579+00:00",
+      "id": 136,
+      "timestamp": "2026-10-31T19:12:46.050147+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 1.9,
-      "notes": "Produit '[radar] SN open bounty 2026-10-25T21:40'"
+      "duration_seconds": 2.53,
+      "notes": "Produit '[radar] SN open bounty 2026-10-25T18:56'"
     },
-    "updated_at": "2026-10-31T14:59:19.973644+00:00"
+    "updated_at": "2026-10-31T19:12:46.052500+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 144,
+      "opportunity_hash": "b616d5a1a5903e8812de4ac9ecd831972c4ba0fc8bcaff97f71606064680413d",
+      "category": "bounty_solution",
+      "title": "[radar] SN open bounty 2026-10-25T18:56",
+      "file_path": "site/deliverables/20261031_191245_radar_sn_open_bounty_2026_10_25t1856.md",
+      "relative_path": "deliverables/20261031_191245_radar_sn_open_bounty_2026_10_25t1856.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3577,
+        "extension": "md",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1331",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-25T18:56**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-10-31T19:12:45.397812+00:00"
+    },
     {
       "id": 143,
       "opportunity_hash": "a154410e548d51faa168a3ba567478a7bb7cd973066ae7581d47a442c5cddb87",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-29T20:50:33.312165+00:00"
-    },
-    {
-      "id": 134,
-      "opportunity_hash": "e6768a078f7fc44e2798a481d06eae6a7ff54a22f81198fa4ea99a66171d12d6",
-      "category": "bounty_solution",
-      "title": "[STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault)",
-      "file_path": "site/deliverables/20261029_201944_steam_vault_exchange_100000_doom_wdoom_for_a_10_st.md",
-      "relative_path": "deliverables/20261029_201944_steam_vault_exchange_100000_doom_wdoom_for_a_10_st.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 7175,
-        "extension": "md",
-        "source_url": "https://github.com/doomsday-network/doom-pay/issues/4",
-        "source_id": "github_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault)**.\n\nI have prepared a verified technical solution and regression tests ready for Pull Request.\nPayout address: USDT Binance Pay UID 254779310.\n\nBest regards,\nJean (@Madatest)",
-        "bounty_value": "$10"
-      },
-      "created_at": "2026-10-29T20:19:44.565171+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 172,
+      "hash": "8a2a29861f12bf33ab628221795bdf93daa1d2febb8b8fc2015ed8e93fe0615e",
+      "title": "💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro",
+      "category": "microservice_gig",
+      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro \n- **Monto:** $$750\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4190)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/71",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-31T19:12:45.389588+00:00"
+    },
+    {
+      "id": 171,
+      "hash": "540a3300169771cd3faa8f2ff9aef807e75fc2245f6ced36ea50290dbb64a5ed",
+      "title": "[Bounty] 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro",
+      "category": "microservice_gig",
+      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/alfrexo95/bounty-bot/issues/71\n\n### 漏洞描述 / Description\n💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro \n\n🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro \n- **Monto:** $$750\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4190)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*\n\n\n### 积分币奖励 / Coin Reward\n937 coins\n\n### 真实赏金（USD）/ Real Reward\n$750\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4191",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-10-31T19:12:45.386440+00:00"
+    },
     {
       "id": 170,
       "hash": "21212fa2a88da00b6339d8172880cc1d89e630009f36aea871d1485186f87e07",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-30T22:51:04.552065+00:00"
-    },
-    {
-      "id": 162,
-      "hash": "5329bd457b3f259ace6c89dd7abf3832d738c271f65c0c4292782f70fd8d1908",
-      "title": "[Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty $750] Improve Qwen3-TTS Code Pred",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/alfrexo95/bounty-bot/issues/68\n\n### 漏洞描述 / Description\n💰 Bounty Seguro ($$750): [Bounty] [Bounty $750] Improve Qwen3-TTS Code Pred\n\n🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** [Bounty] [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy\n- **Monto:** $$750\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*\n\n\n### 积分币奖励 / Coin Reward\n937 coins\n\n### 真实赏金（USD）/ Real Reward\n$750\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4188",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-30T22:51:04.548921+00:00"
-    },
-    {
-      "id": 161,
-      "hash": "cf69f00981cd2fe5512b439e04b2204b39d39612fd68677140f0821469ce0e1d",
-      "title": "[Bounty] [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy",
-      "category": "microservice_gig",
-      "description": "### 赏金平台 / Platform\nGitHub\n\n### 原始链接 / Source URL\nhttps://github.com/tenstorrent/tt-metal/issues/62571\n\n### 漏洞描述 / Description\n[Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy\n\n📝 Background\n\nThe Qwen3-TTS code predictor produces logits for 15 codebook heads during decoding. Improving accuracy while preserving inference throughput benefits end-to-end Qwen3-TTS quality without changing model weights.\n\n🎯 What Success Looks Like\n- The Qwen3-TTS end-to-end test passes for the 0.6B and 1.7B models on Wormhole N150 and Blackhole P100a.\n- Top-1 and top-5 accuracy meet or exceed the applicable lower bounds in models/demos/audio/qwen3_tts/tests/e2e/model_targets.yaml for each tested configuration.\n- The following PCC tests pass for both model sizes on the tested hardware: test_decode_pcc, test_pipeline, test_kv_cache_guard, and test_code_predictor_pcc.\n- Submit a results table showing top-1, top-5, and frames/second for each tested card/model pair, comparing the baseline and proposed change. Identify any untested configurations; do not claim support for them.\n\n💡 Problem to Solve\n\nInvestigate the code predictor's output precision and accuracy. Implement a change that improves or maintains end-to-end accuracy while avoiding a meaningful frame-rate regression. The implementation should not modify model weights.\n\n\n🧭 Guidance & Starting Points\n- Start with models/demos/audio/qwen3_tts/tt/ttnn_qwen3_code_predictor_decode.py, particularly the codebook-head linear operation.\n- Run models/demos/audio/qwen3_tts/tests/e2e/test_e2e.py and the code predictor PCC tests.\n- Compare results against models/demos/audio/qwen3_tts/tests/e2e/model_targets.yaml.\n\n\nThis bounty is subject to the [Tenstorrent Bounty Program Terms & Conditions](https://docs.tenstorrent.com/bounty_terms.html).\n\n### 积分币奖励 / Coin Reward\n937 coins\n\n### 真实赏金（USD）/ Real Reward\n$750\n\n### 难度 / Difficulty\nMedium\n\n### 认领方式\n评论 `/claim` 锁定任务 24h\n\n### 兑换说明\n> 查看 [REWARD_POLICY.md](REWARD_POLICY.md) 了解兑换规则",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-30T18:57:42.221758+00:00"
     }
   ],
-  "exported_at": "2026-10-31T14:59:19.974992+00:00"
+  "exported_at": "2026-10-31T19:12:46.054085+00:00"
 }

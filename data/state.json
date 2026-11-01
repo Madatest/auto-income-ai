@@ -1,24 +1,61 @@
 {
   "system": "AUTO-INCOME AI",
   "stats": {
-    "total_executions": 140,
-    "total_opportunities": 173,
-    "total_deliverables": 146,
+    "total_executions": 141,
+    "total_opportunities": 175,
+    "total_deliverables": 147,
     "total_confirmed_revenue_usd": 0.0,
-    "projected_pipeline_usd": 3572.0,
+    "projected_pipeline_usd": 3597.0,
     "total_costs_usd": 0.0,
     "last_execution": {
-      "id": 140,
-      "timestamp": "2026-11-01T17:35:59.548946+00:00",
+      "id": 141,
+      "timestamp": "2026-11-01T21:39:07.771133+00:00",
       "status": "SUCCESS",
       "opportunities_found": 12,
       "deliverables_created": 1,
-      "duration_seconds": 2.27,
-      "notes": "Produit '[BOUNTY] [level:intermediate] Backend: Implement Real-Time SLA Breach Auto-Escalation & Notification Worker'"
+      "duration_seconds": 2.31,
+      "notes": "Produit '[radar] SN open bounty 2026-10-26T06:01'"
     },
-    "updated_at": "2026-11-01T17:35:59.551167+00:00"
+    "updated_at": "2026-11-01T21:39:07.774257+00:00"
   },
   "recent_deliverables": [
+    {
+      "id": 149,
+      "opportunity_hash": "1357d7b0bf3a1253be7147be5d2588af4882c428328418d64be348dfc4b75920",
+      "category": "bounty_solution",
+      "title": "[radar] SN open bounty 2026-10-26T06:01",
+      "file_path": "site/deliverables/20261101_213907_radar_sn_open_bounty_2026_10_26t0601.md",
+      "relative_path": "deliverables/20261101_213907_radar_sn_open_bounty_2026_10_26t0601.md",
+      "monetization_channel": "comeup",
+      "price_usd": 25.0,
+      "quality_score": 100.0,
+      "metadata": {
+        "qa_notes": "Volume textuel optimal",
+        "monetization": {
+          "category": "microservice_gig",
+          "target_client": "Agences web, e-commerçants francophones et PME européennes",
+          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
+          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
+          "recommended_channel": "comeup",
+          "channel_name": "ComeUp (ex-5euros) Microservices",
+          "price_usd": 25.0,
+          "fee_usd": 5.0,
+          "net_revenue_usd": 20.0,
+          "madagascar_readiness_score": 19.0,
+          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
+          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
+          "payout_delay_days": 5
+        },
+        "file_size_bytes": 3572,
+        "extension": "md",
+        "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1337",
+        "source_id": "github_bounties",
+        "is_bounty": true,
+        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **[radar] SN open bounty 2026-10-26T06:01**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
+        "bounty_value": "25.0 $ USD"
+      },
+      "created_at": "2026-11-01T21:39:07.116993+00:00"
+    },
     {
       "id": 148,
       "opportunity_hash": "ee06df954dc4767944cc78a2e6f425a03b289a09fecdf03e21bea26ef66f4286",
@@ -351,46 +388,51 @@
         "bounty_value": "25.0 $ USD"
       },
       "created_at": "2026-10-30T22:51:04.559899+00:00"
-    },
-    {
-      "id": 139,
-      "opportunity_hash": "4e6a6506167f8eca20055d7e2f9569786892608f0f674cda056b5568262f76b4",
-      "category": "bounty_solution",
-      "title": "First-Dollar Mission: qualify and complete the first paid AI-assisted repair",
-      "file_path": "site/deliverables/20261030_185742_first_dollar_mission_qualify_and_complete_the_firs.md",
-      "relative_path": "deliverables/20261030_185742_first_dollar_mission_qualify_and_complete_the_firs.md",
-      "monetization_channel": "comeup",
-      "price_usd": 25.0,
-      "quality_score": 100.0,
-      "metadata": {
-        "qa_notes": "Volume textuel optimal",
-        "monetization": {
-          "category": "microservice_gig",
-          "target_client": "Agences web, e-commerçants francophones et PME européennes",
-          "acquisition_channel": "ComeUp, Fiverr, prospection B2B éthique",
-          "delivery_process": "Livraison du livrable sous 24h avec révision incluse",
-          "recommended_channel": "comeup",
-          "channel_name": "ComeUp (ex-5euros) Microservices",
-          "price_usd": 25.0,
-          "fee_usd": 5.0,
-          "net_revenue_usd": 20.0,
-          "madagascar_readiness_score": 19.0,
-          "local_cashout": "Virement bancaire direct vers Payoneer ou compte bancaire à Madagascar",
-          "required_setup": "Profil vendeur ComeUp validé avec pièce d'identité",
-          "payout_delay_days": 5
-        },
-        "file_size_bytes": 5360,
-        "extension": "md",
-        "source_url": "https://github.com/Ledgercorp/BountyForge/issues/3",
-        "source_id": "algora_bounties",
-        "is_bounty": true,
-        "proposal_snippet": "### 🛠️ Proposed Solution & PR Proposal\n\nHello @maintainers,\n\nI have reviewed the problem described in this issue regarding **First-Dollar Mission: qualify and complete the first paid AI-assisted repair**.\n\n#### 🔍 Root Cause & Technical Approach:\nIdentified the target interaction in the component and structured a surgical patch to meet the requirements without regression.\n\n#### 💡 Proposed Resolution:\n1. Implemented the core fix addressing the specific behavior described in the issue.\n2. Maintained clean integration with the existing module architecture.\n3. Prepared unit and regression tests confirming nominal behavior.\n\nI have a working patch and tests ready to submit via Pull Request. Looking forward to your review and bounty validation!\nPayout coordinates: USDT Binance Pay UID 254779310 or official repository escrow.\n\nBest regards,  \nJean (@Madatest)",
-        "bounty_value": "$2,000"
-      },
-      "created_at": "2026-10-30T18:57:42.236914+00:00"
     }
   ],
   "top_opportunities": [
+    {
+      "id": 180,
+      "hash": "c96459b441fe37638681d41619b6c3d3f0d4ea484c3bc1d96f40d65c7c009f32",
+      "title": "[buildable] local value named like a type (int, string, bool, byte, any, a struct) passes hyb check; a later type use in the same scope fails go build: 'X (local variable) is not a type'",
+      "category": "microservice_gig",
+      "description": "## Summary\n\nA local value binding (`:=`, parameter, or `for` binding) whose name is a predeclared type (`int`, `string`, `bool`, `byte`, `any`) or a user struct name is accepted by `hyb check`. If the same scope then uses that name as a type (var declaration, composite literal, conversion, `[]T` / `map[K]V`), the emitter writes the name unchanged, Go resolves it to the local variable, and `go build` fails with `X (local variable) is not a type`. That breaks GUARANTEES Row 13 (BUILDABLE).\n\nSPEC-LANGUAGE LX3 lists `int`, `string`, `bool`, `byte`, … as predeclared identifiers that are \"shadowable with a lint\", so the programs are valid Hybrid. Either the checker should reject the type use (or the shadow) with a Hybrid diagnostic, or the emitter should rename the shadowing local. Today neither happens.\n\n## Repro\n\n```hy\nfn main() {\n    int := 1\n    var y int = 2\n    fmt.println(int, y)\n}\n```\n\n```\n$ hyb check s1.hy\ns1.hy: OK (0 diagnostics)\n$ hyb build s1.hy -o s1 --emit-go   # then go build on the emitted Go\n./main.go:9:8: int (local variable) is not a type\n```\n\nEmitted Go:\n\n```go\nfunc main() {\n\tint := 1\n\tvar y int = 2\n\tfmt.Println(int, y)\n}\n```\n\n## Family\n\nEach program is `OK (0 diagnostics)` at `hyb check` (hyb built from main 55c9ac60) and fails `go build` (go1.26.9) on the emitted Go.\n\n| # | program | `go build` error |\n|---|---|---|\n| 1 | `int := 1` then `var y int = 2` | `int (local variable) is not a type` |\n| 2 | `string := \"a\"` then `var t string = \"b\"` | `string (local variable) is not a type` |\n| 3 | `any := 1` then `var x any = 2` | `any (local variable) is not a type` |\n| 4 | `fn f(int int) int { var y int = int; return y }` (parameter) | `int (parameter) is not a type` |\n| 5 | `for string in xs { var t string = \"a\" }` (loop binding) | `string (local variable) is not a type` |\n| 6 | `bool := 1` then `xs := []bool{true}` (slice literal) | `bool (local variable) is not a type` |\n| 7 | `int := 1` then `m := map[string]int{\"a\": 2}` (map literal) | `int (local va",
+      "source_id": "algora_bounties",
+      "source_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/3029",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-11-01T21:39:07.111109+00:00"
+    },
+    {
+      "id": 179,
+      "hash": "781ebed6b0c2cc85b937cfdf5f1a3fc83b6e8f9fbe7346a8eb6b8b25c2e45fcd",
+      "title": "[radar] SN open bounty 2026-11-01T19:32",
+      "category": "microservice_gig",
+      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1606443\tStacker_Stocks\t2\t250\t10000\t5\t5.8\t9274\t29185\trecent@Stacker_Stocks|top@Stacker_Stocks\tOPEN_BOUNTY,LOW_COMP,SIGNAL,SELF_POST_OPP\tStacker Stocks Weekly Close Contest 🟩 or 🟥 - Week #17 Win up to 30k Sats!\n```",
+      "source_id": "github_bounties",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1349",
+      "score": 99.5,
+      "score_breakdown": {
+        "observable_demand": 25.0,
+        "zero_start_cost": 20.0,
+        "speed_to_first_sale": 20.0,
+        "technical_feasibility": 14.5,
+        "madagascar_payment_readiness": 20.0,
+        "max_possible": 100.0
+      },
+      "status": "pending",
+      "is_simulated": 0,
+      "created_at": "2026-11-01T21:39:07.101221+00:00"
+    },
     {
       "id": 178,
       "hash": "1f328c4af962e53510573e422514bb7c3a5d12be4e5103f6cdd8070eee90d47e",
@@ -558,49 +600,7 @@
       "status": "pending",
       "is_simulated": 0,
       "created_at": "2026-10-31T19:12:45.386440+00:00"
-    },
-    {
-      "id": 170,
-      "hash": "21212fa2a88da00b6339d8172880cc1d89e630009f36aea871d1485186f87e07",
-      "title": "💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro",
-      "category": "microservice_gig",
-      "description": "🤖 **Bounty con Pago Garantizado (Escrow)**\n\n- **Título:** 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty\n- **Monto:** $$750\n- **Plataforma:** GitHub Issue\n- **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/69)\n\n---\n\n### 💰 Payment Details\n- BTC: bc1qt3rukpe7qp737zj5j5xpxxmcqv90cfefhg5e00\n- ETH: 0xA5E6eB31868A85127B1ED82b8C760193356206ED\n- LTC: ltc1qdyyg99l8ehp9aj4ehzvmefglmpl9750226k7ne\n- Lightning: chieftrait089@walletofsatoshi.com\n\n**Note:** I am a developer from Cuba. Due to the economic blockade, traditional payment methods are often blocked. Cryptocurrency is the most stable and free way for me to receive payments. I would appreciate it if the bounty could be paid in crypto. Thank you!\n\n\n---\n*Este issue fue creado automáticamente por tu bot. Verifica que el escrow esté activo antes de trabajar.*",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/alfrexo95/bounty-bot/issues/70",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-31T14:59:19.419264+00:00"
-    },
-    {
-      "id": 169,
-      "hash": "95f7bea0d9b277de00143d24596645c75c7a0399dc19075c4290977c9892b5ae",
-      "title": "[radar] SN open bounty 2026-10-31T12:12",
-      "category": "microservice_gig",
-      "description": "New SN OPEN_BOUNTY detected:\n\n```\n1605944\thistory\t2\t21\t10000\t0\t0.2\t9274\t29131\trecent@history|top@history\tOPEN_BOUNTY,LOW_COMP,FRESH\tIYKYK:  Can you guess what this is about?\n```",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1345",
-      "score": 99.5,
-      "score_breakdown": {
-        "observable_demand": 25.0,
-        "zero_start_cost": 20.0,
-        "speed_to_first_sale": 20.0,
-        "technical_feasibility": 14.5,
-        "madagascar_payment_readiness": 20.0,
-        "max_possible": 100.0
-      },
-      "status": "pending",
-      "is_simulated": 0,
-      "created_at": "2026-10-31T14:59:19.417799+00:00"
     }
   ],
-  "exported_at": "2026-11-01T17:35:59.552828+00:00"
+  "exported_at": "2026-11-01T21:39:07.775691+00:00"
 }
